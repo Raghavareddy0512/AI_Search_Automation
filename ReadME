@@ -1,0 +1,8 @@
+# pytest test_search.py // 
+
+# pytest -vv -s test_search.py // 
+
+
+# python3 file_name.py //c
+
+# pytest -k test_data0 -v  //Print the API response for one failing test.

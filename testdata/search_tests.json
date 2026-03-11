@@ -1,0 +1,288 @@
+{
+  "tests": [
+    {
+      "test_name": "0",
+      "prompt": "soccer",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "1",
+      "prompt": "La Liga ",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["alpfd99yd3lfv7bhjo0biuq7b"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "2",
+      "prompt": "serie a upcoming",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["scf9p4y91yjvqvg5jndxzhxj"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "3",
+      "prompt": "Juventus vs roma",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants" ,
+      "expect_guid": ["aseopdwryti5yhyt6wjgk2xrd"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "4",
+      "prompt": "Serie A highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["scf9p4y91yjvqvg5jndxzhxj", "1r097lpxe0xn03ihb7wi98kao"],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "5",
+      "prompt": "soccer on going events now",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "6",
+      "prompt": "Soccar",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "7",
+      "prompt": "What Serie A games are live now",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": ["19bajo019znum1tkhzn0qz6iy4"]
+    },
+    {
+      "test_name": "8",
+      "prompt": "Genoa vs. Atalanta",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["e75syeuawg3ql8nwpi3vr2btz", "buo8k6lab9ods1122bosv9obu"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "9",
+      "prompt": "Manchester united",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["7002y308u8g4jxm3pi6uuzr06"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "10",
+      "prompt": "american football",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "11",
+      "prompt": "Show me Ongoing NFL Matches",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "12",
+      "prompt": "kansas city chiefs vs buffalo bills",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["170ragzhd5k1e37x4bx7fp8xx","80cfzhmvjwrbxyl0coffwywpj"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "13",
+      "prompt": "boxing",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "14",
+      "prompt": "Soccer recent highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "15",
+      "prompt": "Premier League Games Coming Up",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "16",
+      "prompt": "Europa League",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "17",
+      "prompt": "betis v getafe",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["5xn94k565fy86mmednr7a505w","1n1j0wsl763lq7ee1k0c11c02"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "18",
+      "prompt": "live boxing events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "19",
+      "prompt": "Show me NFL Highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "20",
+      "prompt": "tennis",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "21",
+      "prompt": "Serie A Highlight events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "22",
+      "prompt": "Soccer matches coming up next week",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "23",
+      "prompt": "Laliga catchup games",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["alpfd99yd3lfv7bhjo0biuq7b"],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "24",
+      "prompt": "upcoming boxing events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"],
+      "expected_startDate" : [],
+      "expected_EndDate" : []
+    },
+    {
+      "test_name": "25",
+      "prompt": "Get Me NFL catchup events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "26",
+      "prompt": "etihad airways abu dhabi grand prix",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "27",
+      "prompt": "NCAA lowa @ Maryland match",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["3mjdgmj1085c0x81j38mbgct5","cu585857my6h8p8cu26jg61vu"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "28",
+      "prompt": "Juventus highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "29",
+      "prompt": "Bundesliga match on 20th Feb",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": [],
+      "expected_startDate" : [],
+      "expected_EndDate" : []
+    },
+    {
+      "test_name": "30",
+      "prompt": "Basketball highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "31",
+      "prompt": "Nfl Games on 21st December",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "32",
+      "prompt": "Novak Djokovic",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "33",
+      "prompt": "Formula 1",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "34",
+      "prompt": "world chess show | ep.9",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    }
+  ]
+}
