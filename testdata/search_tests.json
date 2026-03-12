@@ -58,11 +58,11 @@
     },
     {
       "test_name": "7",
-      "prompt": "What Serie A games are live now",
+      "prompt": "What are upcoming Serie A games",
       "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
       "expected_category": "competitions",
       "expect_guid": [],
-      "expected_article_type": ["19bajo019znum1tkhzn0qz6iy4"]
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
     },
     {
       "test_name": "8",
@@ -280,9 +280,459 @@
       "test_name": "34",
       "prompt": "world chess show | ep.9",
       "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "35",
+      "prompt": "Soccer catch up games",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "36",
+      "prompt": "Soccer upcoming events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "37",
+      "prompt": "Soccer live matches today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "38",
+      "prompt": "Manchuster",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "39",
+      "prompt": "Footy matches",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "40",
+      "prompt": "kansas city chiefs",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["170ragzhd5k1e37x4bx7fp8xx"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "41",
+      "prompt": "box",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "42",
+      "prompt": "Mortensen vs. Norek",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "43",
+      "prompt": "Soccer top saves",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "44",
+      "prompt": "kevin Lele Sadjo",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "45",
+      "prompt": "kansas vs buffalo",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "46",
+      "prompt": "tenis",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "47",
+      "prompt": "Derby live match",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
       "expected_category": "competitions",
       "expect_guid": [],
       "expected_article_type": []
+    },
+    {
+      "test_name": "48",
+      "prompt": "Mortensen vs. Norek live match",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "49",
+      "prompt": "Soccer highlights last week",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "50",
+      "prompt": "Dalas Cowboys",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "51",
+      "prompt": "Soccer catch up games last month",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "52",
+      "prompt": "best boxing highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "53",
+      "prompt": "Wintersport",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "54",
+      "prompt": "Show me Laliga matches live for today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["alpfd99yd3lfv7bhjo0biuq7b"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "55",
+      "prompt": "Sudjo",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "56",
+      "prompt": "Show me 20th dec soccer events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": [],
+      "expected_startDate": [],
+      "expected_EndDate": []
+    },
+    {
+      "test_name": "57",
+      "prompt": "Serrano vs. Tellez live match",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "58",
+      "prompt": "Show me Upcoming Nfl matches this month",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "59",
+      "prompt": "Tennis matches live on sunday",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "60",
+      "prompt": "Inter upcoming events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "61",
+      "prompt": "boxing fight replays",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "62",
+      "prompt": "bologna v juventus highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "63",
+      "prompt": "Laliga 2024/25 Season Review",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["alpfd99yd3lfv7bhjo0biuq7b"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "64",
+      "prompt": "Show me next weekend soccer games",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "65",
+      "prompt": "chargers on going match",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "66",
+      "prompt": "Raw Action Rally Saudi Arabia 2025",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "67",
+      "prompt": "NCAA Ohio vs Michgian (Michigan)",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "68",
+      "prompt": "Roma replays",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "69",
+      "prompt": "live boxing tonight",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "70",
+      "prompt": "Lions vs Vikings live today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "71",
+      "prompt": "picasso live today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "72",
+      "prompt": "basketball replays",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
+    },
+    {
+      "test_name": "73",
+      "prompt": "pisa vs juventus upcoming matches",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "74",
+      "prompt": "Top plays of week 13",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "75",
+      "prompt": "FC Getafe events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["1n1j0wsl763lq7ee1k0c11c02"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "76",
+      "prompt": "Find all the next month soccer matches",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "77",
+      "prompt": "Muratalla vs. Cruz upcoming fights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "78",
+      "prompt": "Find Live Basketaball Matches Today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "79",
+      "prompt": "bears recent highlights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "80",
+      "prompt": "Boxing documentaries",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["2x2oqzx60orpoeugkd754ga17"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "81",
+      "prompt": "etihad airways abu daabi grand prix",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "82",
+      "prompt": "Mildstone live match today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "83",
+      "prompt": "Serie A Highlight past week",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": ["scf9p4y91yjvqvg5jndxzhxj"],
+      "expected_article_type": ["1dpp4008gvoq81nbxq0iu9x2jv"]
+    },
+    {
+      "test_name": "84",
+      "prompt": "Riyadh Racing Season Race Night #12",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "85",
+      "prompt": "upcoming tennis games this weekend",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "86",
+      "prompt": "Kabayel coming up fights",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "87",
+      "prompt": "man united live matches today",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": ["7002y308u8g4jxm3pi6uuzr06"],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "88",
+      "prompt": "Soccer matches scheduled for next year",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "sports",
+      "expect_guid": ["289u5typ3vp4ifwh5thalohmq"],
+      "expected_article_type": ["1f2vso6mwht2x1x9hi3euru0fb"]
+    },
+    {
+      "test_name": "89",
+      "prompt": "Rally Tv live events",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "competitions",
+      "expect_guid": [],
+      "expected_article_type": []
+    },
+    {
+      "test_name": "90",
+      "prompt": "Dolphins previous games",
+      "expected_strategy": "LlmSearchStrategy - Primary LLM Response",
+      "expected_category": "contestants",
+      "expect_guid": [],
+      "expected_article_type": ["1k7t7oc0q1omt19gij7s3hc676"]
     }
   ]
 }

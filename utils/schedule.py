@@ -43,11 +43,22 @@ def extract_schedule_ids(schedule_json):
 
 def fetch_full_schedule(country="ca", languageCode="en", days_back=90, days_forward=90, timeZoneOffset=-300, brand="dazn"):
     """
-    Fetches the full EPG schedule data from -days_back to +days_forward days from today.
-    Since the API loads data in chunks (similar to how the page scrolls), this function
-    makes multiple API calls in 7-day increments to collect all the data.
-    The collected tiles are stored in a JSON file and returned as a list.
+    Loads the full EPG schedule data from full_schedule.json.
+    If the file doesn't exist, fetches from API in 7-day chunks and stores it.
     """
+    # Try to load from existing JSON file first
+    try:
+        with open("full_schedule.json", "r") as f:
+            data = json.load(f)
+            tiles = data.get("Tiles", [])
+            if tiles:
+                print(f"Loaded schedule data from full_schedule.json with {len(tiles)} tiles.")
+                return tiles
+    except FileNotFoundError:
+        pass
+    
+    # If file doesn't exist, fetch from API
+    print("full_schedule.json not found. Fetching from API...")
     today = datetime.date.today()
     start_date = today - datetime.timedelta(days=days_back)
     end_date = today + datetime.timedelta(days=days_forward)
@@ -69,9 +80,9 @@ def fetch_full_schedule(country="ca", languageCode="en", days_back=90, days_forw
         
         tiles = schedule_json.get("Tiles", [])
         for tile in tiles:
-            assertID = tile.get("AssetId") or tile.get("assetId")
+            assetID = tile.get("AssetId") or tile.get("assetId")
             # print("assetID: ", assertID)
-            all_tiles.append(assertID)
+            all_tiles.append(assetID)
         
         current_start = current_end + datetime.timedelta(days=1)
     
