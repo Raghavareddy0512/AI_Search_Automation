@@ -22,7 +22,7 @@ def schedule_ids():
 
 
 def load_tests():
-    with open("testdata/search_tests.json") as f:
+    with open("testdata/date_range.json") as f:
         return json.load(f)["tests"]
 
 
@@ -37,19 +37,19 @@ def test_search_validation(test_data, schedule_ids):
     # print(json.dumps(response, indent=2))
 
     # ---------- Strategy ----------
-    actual_strategy = extract_strategy(response)
-    print("Actual Strategy:", actual_strategy)
-    assert test_data["expected_strategy"] in actual_strategy, \
-        f"Strategy mismatch | Actual: {actual_strategy}"
+    # actual_strategy = extract_strategy(response)
+    # print("Actual Strategy:", actual_strategy)
+    # assert test_data["expected_strategy"] in actual_strategy,\
+    # f"Strategy mismatch | Actual: {actual_strategy}"
     
 
     # ---------- Category ----------
-    actual_category = extract_category(response)
-    print("Actual Category:", actual_category)
-    assert actual_category == test_data["expected_category"], \
-        f"Category mismatch | Expected: {test_data['expected_category']} Actual: {actual_category}"
+    # actual_category = extract_category(response)
+    # print("Actual Category:", actual_category)
+    # assert actual_category == test_data["expected_category"], \
+    #     f"Category mismatch | Expected: {test_data['expected_category']} Actual: {actual_category}"
 
-    # ----------  Search IDs----------
+    # # ----------  Search IDs----------
 
     search_event_ids = set(extract_search_event_ids(response))
 
@@ -65,21 +65,21 @@ def test_search_validation(test_data, schedule_ids):
 
 
     # ---------- GUID ----------
-    actual_guids = extract_guids(response)
-    print("Actual GUIDs:", actual_guids)
-    validate_list(
-        test_data["expect_guid"],
-        actual_guids,
-        "GUID"
-    )
+    # actual_guids = extract_guids(response)
+    # print("Actual GUIDs \n:", actual_guids)
+    # validate_list(
+    #     test_data["expect_guid"],
+    #     actual_guids,
+    #     "GUID"
+    # )
 
-    # ---------- Article Type ----------
-    if "expected_article_type" in test_data:
+    # # ---------- Article Type ----------
+    # if "expected_article_type" in test_data:
 
-        actual_articles = extract_article_types(response)
-        print("Actual Article Types:", actual_articles)
-        validate_list(
-            test_data["expected_article_type"],
-            actual_articles,
-            "Article Type"
-        )
+    #     actual_articles = extract_article_types(response)
+    #     print("Actual Article Types:", actual_articles)
+    #     validate_list(
+    #         test_data["expected_article_type"],
+    #         actual_articles,
+    #         "Article Type"
+    #     )

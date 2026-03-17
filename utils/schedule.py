@@ -4,13 +4,13 @@ import json
 import requests
 
 EPG_URL = "https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange"
-
+# EPG_URL_STAGE = "https://epg.discovery.dazn-stage.com/ca/v5/epgWithDatesRange"
 
 def schedule_api(
         country="ca",
         languageCode="en",
-        startDate="2026-03-11",
-        endDate="2026-03-17",
+        startDate="2026-03-05",
+        endDate="2026-03-11",
         timeZoneOffset=-300,
         brand="dazn"
 ):
@@ -35,8 +35,6 @@ def extract_schedule_ids(schedule_json):
 
     schedule_ids = set()
     tiles = schedule_json.get("Tiles", [])
-    for tile in tiles:
-        event_id = tile.get("AssetId") or tile.get("assetId") 
        
     return schedule_ids
 

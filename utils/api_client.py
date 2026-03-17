@@ -1,8 +1,8 @@
 import requests
 import time
 
-SEARCH_URL = "https://search.discovery.indazn.com/v1/search"
-# SEARCH_URL = "https://search-alb-use1.discovery.dazn-stage.com/v7/search/"
+# SEARCH_URL = "https://search.discovery.indazn.com/v1/search"
+SEARCH_URL = "https://search-alb-use1.discovery.dazn-stage.com/v7/search/"
 
 
 def search_api(prompt):
@@ -16,7 +16,7 @@ def search_api(prompt):
         "country": "ca",
         "searchTerm": prompt,
         "version": "v7",
-        "ragEnabled": "false"
+        "ragEnabled": "true"
     }
     start_time = time.time()
     response = requests.get(
