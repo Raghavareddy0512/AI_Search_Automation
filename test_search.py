@@ -23,7 +23,7 @@ def schedule_ids():
 
 
 def load_tests():
-    with open("testdata/date_range.json") as f:
+    with open("testdata/search_tests.json") as f:
         return json.load(f)["tests"]
 
 
@@ -38,13 +38,13 @@ def test_search_validation(test_data, schedule_ids):
     # print(json.dumps(response, indent=2))
 
     # ---------- Strategy ----------
-    # actual_strategy = extract_strategy(response)
-    # print("Actual Strategy:", actual_strategy)
-    # assert test_data["expected_strategy"] in actual_strategy,\
-    # f"Strategy mismatch | Actual: {actual_strategy}"
+    actual_strategy = extract_strategy(response)
+    print("Actual Strategy:", actual_strategy)
+    assert test_data["expected_strategy"] in actual_strategy,\
+    f"Strategy mismatch | Actual: {actual_strategy}"
     
 
-    # ---------- Category ----------
+    # # ---------- Category ----------
     # actual_category = extract_category(response)
     # print("Actual Category:", actual_category)
     # assert actual_category == test_data["expected_category"], \
