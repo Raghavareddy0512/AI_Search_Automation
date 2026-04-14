@@ -34,8 +34,34 @@ def schedule_api(
 def extract_schedule_ids(schedule_json):
 
     schedule_ids = set()
-    tiles = schedule_json.get("Tiles", [])
-       
+
+    # schedule_json may already be a list of tiles or a dict containing "Tiles"
+    if isinstance(schedule_json, list):
+        tiles = schedule_json
+    elif isinstance(schedule_json, dict):
+        tiles = schedule_json.get("Tiles", [])
+    else:
+        return schedule_ids
+
+    for tile in tiles:
+        if not isinstance(tile, dict):
+            continue
+
+        asset_id = tile.get("AssetId") or tile.get("assetId") or tile.get("assetID")
+        if asset_id:
+            schedule_ids.add(asset_id)
+
+        # include related IDs for broader matching
+        related_ids = tile.get("RelatedIds") or tile.get("relatedids") or tile.get("Related", [])
+        if isinstance(related_ids, list):
+            for rid in related_ids:
+                if isinstance(rid, dict):
+                    rid_val = rid.get("AssetId") or rid.get("assetId") or rid.get("assetID")
+                    if rid_val:
+                        schedule_ids.add(rid_val)
+                elif rid:
+                    schedule_ids.add(rid)
+
     return schedule_ids
 
 
@@ -79,8 +105,17 @@ def fetch_full_schedule(country="ca", languageCode="en", days_back=90, days_forw
         tiles = schedule_json.get("Tiles", [])
         for tile in tiles:
             assetID = tile.get("AssetId") or tile.get("assetId")
-            # print("assetID: ", assertID)
-            all_tiles.append(assetID)
+            related_tiles = tile.get("Related", [])
+            relatedIDs = []
+            for related in related_tiles:
+                rel_id = related.get("AssetId") or related.get("assetId")
+                if rel_id:
+                   relatedIDs.append(rel_id)
+            if assetID:
+              all_tiles.append({
+                "assetId": assetID,
+                "RelatedIds": relatedIDs
+              })
         
         current_start = current_end + datetime.timedelta(days=1)
     

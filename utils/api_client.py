@@ -1,8 +1,8 @@
 import requests
 import time
 
-# SEARCH_URL = "https://search.discovery.indazn.com/v1/search"
-SEARCH_URL = "https://search-alb-use1.discovery.dazn-stage.com/v7/search/"
+SEARCH_URL = "https://search.discovery.indazn.com/v1/search"
+# SEARCH_URL = "https://search-alb-use1.discovery.dazn-stage.com/v7/search/"
 
 
 def search_api(prompt):

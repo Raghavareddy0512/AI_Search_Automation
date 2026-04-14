@@ -51,8 +51,8 @@
     {"test_name": "48", "prompt": "Soccer matches in december 2025"},
     {"test_name": "49", "prompt": "boxing events in dec"},
     {"test_name": "50", "prompt": "serie a matches in the christmas month"},
-    {"test_name": "51", "prompt": "soccer matches on 15th december"},
-    {"test_name": "52", "prompt": "matches on 15 dec"},
+    {"test_name": "51", "prompt": "soccer matches on 15th december 2025"},
+    {"test_name": "52", "prompt": "matches on 15 dec 2025"},
     {"test_name": "53", "prompt": "highlights on 15th dec"},
     {"test_name": "54", "prompt": "NFL highlights of 2024"},
     {"test_name": "55", "prompt": "2025 FIFA CWC finals"},
@@ -99,7 +99,7 @@
     {"test_name": "96", "prompt": "napoli matches from the previous year"},
     {"test_name": "97", "prompt": "serie a matches a year ago"},
     {"test_name": "98", "prompt": "soccer games year prior"},
-    {"test_name": "99", "prompt": "Next 10days soccer matches"},
+    {"test_name": "99", "prompt": "Next 10 days soccer matches"},
     {"test_name": "100", "prompt": "Soccer events right now"},
     {"test_name": "101", "prompt": "Soccer live matches today"}
   ]

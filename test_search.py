@@ -14,7 +14,8 @@ def schedule_ids():
 
     print("\nFetching EPG Schedule...")
 
-    schedule_ids = set(fetch_full_schedule())
+    full_schedule = fetch_full_schedule()
+    schedule_ids = extract_schedule_ids(full_schedule)
 
     print(f"Total Schedule Events: {len(schedule_ids)}")
 
@@ -58,8 +59,8 @@ def test_search_validation(test_data, schedule_ids):
 
     matched = search_event_ids & schedule_ids
     missing = search_event_ids - schedule_ids
-    print("Matched Schedule Events:", matched)
-    print("Events not in schedule:", missing)
+    # print("Matched Schedule Events:", matched)
+    # print("Events not in schedule:", missing)
 
     assert matched, "No search events matched with schedule"
 
