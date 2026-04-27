@@ -1,10 +1,12 @@
 import datetime
+from email import utils
 import json
-
+import re
 import requests
+from utils.generator import generate_title_prompts
 
 EPG_URL = "https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange"
-# EPG_URL_STAGE = "https://epg.discovery.dazn-stage.com/ca/v5/epgWithDatesRange"
+
 
 def schedule_api(
         country="ca",
@@ -35,7 +37,6 @@ def extract_schedule_ids(schedule_json):
 
     schedule_ids = set()
 
-    # schedule_json may already be a list of tiles or a dict containing "Tiles"
     if isinstance(schedule_json, list):
         tiles = schedule_json
     elif isinstance(schedule_json, dict):
@@ -51,12 +52,11 @@ def extract_schedule_ids(schedule_json):
         if asset_id:
             schedule_ids.add(asset_id)
 
-        # include related IDs for broader matching
-        related_ids = tile.get("RelatedIds") or tile.get("relatedids") or tile.get("Related", [])
+        related_ids = tile.get("RelatedIds") or tile.get("Related", [])
         if isinstance(related_ids, list):
             for rid in related_ids:
                 if isinstance(rid, dict):
-                    rid_val = rid.get("AssetId") or rid.get("assetId") or rid.get("assetID")
+                    rid_val = rid.get("AssetId") or rid.get("assetId")
                     if rid_val:
                         schedule_ids.add(rid_val)
                 elif rid:
@@ -65,66 +65,102 @@ def extract_schedule_ids(schedule_json):
     return schedule_ids
 
 
-def fetch_full_schedule(country="ca", languageCode="en", days_back=90, days_forward=90, timeZoneOffset=-300, brand="dazn"):
-    """
-    Loads the full EPG schedule data from full_schedule.json.
-    If the file doesn't exist, fetches from API in 7-day chunks and stores it.
-    """
-    # Try to load from existing JSON file first
-    try:
-        with open("full_schedule.json", "r") as f:
-            data = json.load(f)
-            tiles = data.get("Tiles", [])
-            if tiles:
-                print(f"Loaded schedule data from full_schedule.json with {len(tiles)} tiles.")
-                return tiles
-    except FileNotFoundError:
-        pass
-    
-    # If file doesn't exist, fetch from API
-    print("full_schedule.json not found. Fetching from API...")
+#  UPDATED: returns title + guid (CRITICAL)
+def extract_schedule_two_days(
+        country="ca",
+        languageCode="en",
+        days_back=2,
+        days_forward=2,
+        timeZoneOffset=-300,
+        brand="dazn"
+):
+
     today = datetime.date.today()
     start_date = today - datetime.timedelta(days=days_back)
     end_date = today + datetime.timedelta(days=days_forward)
-    
-    all_tiles = []
-    current_start = start_date
-    
-    while current_start < end_date:
-        current_end = min(current_start + datetime.timedelta(days=6), end_date)
-        
-        schedule_json = schedule_api(
-            country=country,
-            languageCode=languageCode,
-            startDate=current_start.isoformat(),
-            endDate=current_end.isoformat(),
-            timeZoneOffset=timeZoneOffset,
-            brand=brand
+
+    schedule_json = schedule_api(
+        country=country,
+        languageCode=languageCode,
+        startDate=start_date.isoformat(),
+        endDate=end_date.isoformat(),
+        timeZoneOffset=timeZoneOffset,
+        brand=brand
+    )
+
+    events = []
+    tiles = schedule_json.get("Tiles", [])
+
+    for tile in tiles:
+        if not isinstance(tile, dict):
+            continue
+
+        title = (
+            tile.get("Title")
+            or tile.get("title")
+            or tile.get("Name")
+            or tile.get("name")
         )
-        
-        tiles = schedule_json.get("Tiles", [])
-        for tile in tiles:
-            assetID = tile.get("AssetId") or tile.get("assetId")
-            related_tiles = tile.get("Related", [])
-            relatedIDs = []
-            for related in related_tiles:
-                rel_id = related.get("AssetId") or related.get("assetId")
-                if rel_id:
-                   relatedIDs.append(rel_id)
-            if assetID:
-              all_tiles.append({
-                "assetId": assetID,
-                "RelatedIds": relatedIDs
-              })
-        
-        current_start = current_end + datetime.timedelta(days=1)
-    
-    # Store the full schedule data to a JSON file
-    full_schedule_data = {"Tiles": all_tiles}
-    with open("full_schedule.json", "w") as f:
-        json.dump(full_schedule_data, f, indent=4)
-    
-    print(f"Full schedule data fetched and stored in full_schedule.json with {len(all_tiles)} tiles.")
-    return all_tiles
+
+        asset_id = tile.get("AssetId") or tile.get("assetId")
+
+        if title and asset_id:
+            events.append({
+                "title": title.strip(),
+                "guid": asset_id
+            })
+
+    print(f"Fetched {len(events)} events from API.")
+    try:
+        with open("testdata/epg_events.json", "w") as f:
+            json.dump({"events": events}, f, indent=4)
+        print("EPG events saved to testdata/epg_events.json")
+    except Exception as e:
+        print(f"Failed to write JSON: {e}")
+
+    return events
 
 
+
+# def fetch_full_schedule(
+#         country="ca",
+#         languageCode="en",
+#         days_back=90,
+#         days_forward=90,
+#         timeZoneOffset=-300,
+#         brand="dazn"
+# ):
+
+#     try:
+#         with open("full_schedule.json", "r") as f:
+#             data = json.load(f)
+#             tiles = data.get("Tiles", [])
+#             if tiles:
+#                 print(f"Loaded schedule data from file ({len(tiles)} tiles).")
+#                 return tiles
+#     except FileNotFoundError:
+#         pass
+
+#     print("Fetching full schedule from API...")
+
+#     today = datetime.date.today()
+#     start_date = today - datetime.timedelta(days=days_back)
+#     end_date = today + datetime.timedelta(days=days_forward)
+
+#     schedule_json = schedule_api(
+#         country=country,
+#         languageCode=languageCode,
+#         startDate=start_date.isoformat(),
+#         endDate=end_date.isoformat(),
+#         timeZoneOffset=timeZoneOffset,
+#         brand=brand
+#     )
+
+#     tiles = schedule_json.get("Tiles", [])
+
+#     with open("full_schedule.json", "w") as f:
+#         json.dump({"Tiles": tiles}, f, indent=4)
+
+#     print(f"Saved schedule ({len(tiles)} tiles)")
+
+#     return tiles

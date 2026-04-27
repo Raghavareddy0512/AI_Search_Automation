@@ -1,0 +1,640 @@
+{
+    "events": [
+        {
+            "title": "DAZN Combat",
+            "guid": "174qulc11iwl81eoi31yxjw2zd"
+        },
+        {
+            "title": "MLB Network",
+            "guid": "6wwi0y10ztxd12c2vg296aeho"
+        },
+        {
+            "title": "NFL Network",
+            "guid": "o5rzhf12mpyb1dk07c9pl9ulf"
+        },
+        {
+            "title": "Red Bull TV",
+            "guid": "myhtc4bhd1wv13shvtb70nryf"
+        },
+        {
+            "title": "Rally TV",
+            "guid": "jgkpaz643rkh1efwle6e47nht"
+        },
+        {
+            "title": "Unbeaten: 24/7 Global Sports Channel",
+            "guid": "i48tppum0lzy1k4og8fq90c34"
+        },
+        {
+            "title": "New Caledonia vs. Indonesia",
+            "guid": "hqkq21zjmsnhyvfomdd2khsl"
+        },
+        {
+            "title": "Stuttgart Open - Day 3",
+            "guid": "5m00jmhvqhygl1cydygwv68qn"
+        },
+        {
+            "title": "India vs. Malawi",
+            "guid": "36w7hw1yld9zhxdo7y9ix2m42"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "16nfs5crefqa11a1ryko7xfbly"
+        },
+        {
+            "title": "Thailand vs. Congo DR",
+            "guid": "eoib6a7lffropw9wbw2955olb"
+        },
+        {
+            "title": "Kenya vs. Australia",
+            "guid": "b6ifptjbhydm6sfp55l3073nt"
+        },
+        {
+            "title": "AEK vs. Joventut",
+            "guid": "18zv5flxvuymy1mapzrx2o9cam"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
+            "guid": "2ejifs5zb3y01h6q7olslgdjk"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid",
+            "guid": "22d0faecj5g88c54f683tbo9w"
+        },
+        {
+            "title": "Arsenal vs. Sporting CP",
+            "guid": "640w98ksxpnuoicyx8e0malr7"
+        },
+        {
+            "title": "Tenerife vs. Galatasaray",
+            "guid": "1oqw75r4thlor1e4spdpl3h4f1"
+        },
+        {
+            "title": "Path to the Draft",
+            "guid": "13k8ry5dudnl71q926ol1lmjnt"
+        },
+        {
+            "title": "NFL Insiders",
+            "guid": "o6s67kve7ujr1ra4u79e7zicp"
+        },
+        {
+            "title": "Rouen Open - Day 4",
+            "guid": "21cf05sv9y8a6whv09iv0cs4j"
+        },
+        {
+            "title": "Stuttgart Open - Day 4",
+            "guid": "733esqztdk94pgxc3rg7hmhr3"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "1cq78pn0u31vu138a716s7xs75"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Turks and Caicos Islands vs. Mauritania",
+            "guid": "7nqj0cmsirzxulfejkahotjqh"
+        },
+        {
+            "title": "Celta Vigo vs. Freiburg",
+            "guid": "bvaopa9aeqb42o6fz0ovtkac"
+        },
+        {
+            "title": "AZ vs. Shakhtar Donetsk",
+            "guid": "6pog8q43k3swxevxd3izu9fqu"
+        },
+        {
+            "title": "Nottingham Forest vs. Porto",
+            "guid": "3f37jxd65tleqjjz90sfw97ee"
+        },
+        {
+            "title": "Real Betis vs. Braga",
+            "guid": "athph68n3mm1w1k3gey6jygnk"
+        },
+        {
+            "title": "Aston Villa vs. Bologna",
+            "guid": "4feskl75lurpw2u8domidrqj9"
+        },
+        {
+            "title": "Bromley vs. Cambridge",
+            "guid": "1vb0gippwen37mhp3ws5qw7mx"
+        },
+        {
+            "title": "Strasbourg vs. Mainz",
+            "guid": "cyozrhm9qptv5jsjs8q14oaew"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 1",
+            "guid": "1q1hx24fu959b11fsrqa0ujhwx"
+        },
+        {
+            "title": "Fiorentina vs. Crystal Palace",
+            "guid": "6cqvj0mcnd2rjy23udxv1aiis"
+        },
+        {
+            "title": "AEK Athens vs. Rayo Vallecano",
+            "guid": "anrs4zexymchibjfa8xkfmpc7"
+        },
+        {
+            "title": "Cote d'Ivoire vs. Pakistan",
+            "guid": "1uzyvltho0aq9mw9e4nu0i1jb"
+        },
+        {
+            "title": "Path to the Draft",
+            "guid": "12ruc13pxqs3j1d1k086d9k9sf"
+        },
+        {
+            "title": "The Insiders",
+            "guid": "12bgwixbicb6e1057t14xh1bvg"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "Stuttgart Open - Day 5",
+            "guid": "4q0jj01chq0i2nwi6kw6pverj"
+        },
+        {
+            "title": "Rouen Open - Day 5",
+            "guid": "cgj0rm4i9hg0b7b7a0vod12ao"
+        },
+        {
+            "title": "Benfica U19 vs. Club Brugge U19",
+            "guid": "30md0irqq67lbwk34punvnqo7"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Freestyle Friday #5",
+            "guid": "2d86netpnbe8qztgc5njae7d4"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Sassuolo vs. Como",
+            "guid": "en391vxt9c5uosuizjm57zf3v"
+        },
+        {
+            "title": "Real Madrid U19 vs. PSG U19",
+            "guid": "8qtrupkeny61col5hstjp0eql"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 2",
+            "guid": "yf3tr9tiiypf1l5xijq4w9qxo"
+        },
+        {
+            "title": "Collins vs. Lorente 2",
+            "guid": "15a6hr04xt1be1fakisgdjlwwa"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "St. Pauli vs. Koln",
+            "guid": "528jp88g1h4kgigk17qzx4lvj"
+        },
+        {
+            "title": "Leicester Riders vs. Manchester Basketball",
+            "guid": "bwcuqpf4f1il7j2vgn665pifb"
+        },
+        {
+            "title": "Newcastle Eagles vs. Sheffield Sharks",
+            "guid": "8kvfdln96fa8vgtqi9tyjcjqz"
+        },
+        {
+            "title": "Surrey 89ers vs. Caledonia Gladiators",
+            "guid": "23cggo5daun5givq53g9bnz88"
+        },
+        {
+            "title": "London Lions vs. Cheshire Phoenix",
+            "guid": "8ztoefwrry6o6mz79bdtdk3ru"
+        },
+        {
+            "title": "Inter vs. Cagliari",
+            "guid": "qgqbbih3rj36rz34w9jcyjcp"
+        },
+        {
+            "title": "Blackburn vs. Coventry",
+            "guid": "4nmqig9dhqemg6u8sfiyobt1u"
+        },
+        {
+            "title": "Mexico City - GCL Round 1",
+            "guid": "4jvdpb78bclko96bdiiofrlcq"
+        },
+        {
+            "title": "Club Nacional vs. Franca",
+            "guid": "4ocmpr72dhbi64tdjj8qjpgl8"
+        },
+        {
+            "title": "Mexico City - GCL Round 2",
+            "guid": "9c9xpdommjw1xn1qbtxxyupf3"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez",
+            "guid": "5q5t74jk4zk91l6kltg2qh05k"
+        },
+        {
+            "title": "Boca Juniors vs. Flamengo",
+            "guid": "1w3iodgt3vmuohaopr3rnp45"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 1",
+            "guid": "1iuj4e76gh64otb86oc2f6feo"
+        },
+        {
+            "title": "GP Spain - Qualifying",
+            "guid": "eckk9p82rpdr6wd8udfr372va"
+        },
+        {
+            "title": "Hepi vs. Wisniewski",
+            "guid": "13bbhd215yipi15ztnbr1ectiz"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "Brentford vs. Fulham",
+            "guid": "3wzast3etmbijsaod0taranu3"
+        },
+        {
+            "title": "Portsmouth vs. Leicester",
+            "guid": "lcv62wpwsitrjf12do83h356"
+        },
+        {
+            "title": "FC Halifax Town vs. Southend",
+            "guid": "1re2wsuvm30rw1nnz141aucui9"
+        },
+        {
+            "title": "GP Spain - Pro Race 1",
+            "guid": "cpj3ghwk7fpyzpr3b42nn3lkf"
+        },
+        {
+            "title": "Stuttgart Open - Day 6",
+            "guid": "ao2r3kj8hfcgxyx20tbhgwjqk"
+        },
+        {
+            "title": "RWS April Inferno: Rodriguez vs. Hercules",
+            "guid": "ae131f70n6n6xzox56pp2ed6e"
+        },
+        {
+            "title": "Udinese vs. Parma",
+            "guid": "9hdo3309cdksnxrp13d3ypkqb"
+        },
+        {
+            "title": "Rouen Open - Day 6",
+            "guid": "4xzansl8oqtjl2mkzhdtt7p5t"
+        },
+        {
+            "title": "Leverkusen vs. Augsburg",
+            "guid": "9919kp3ms0xst24xswy86qai6"
+        },
+        {
+            "title": "Werder Bremen vs. Hamburg",
+            "guid": "8hkrodz3fydfky8235bbsnp9r"
+        },
+        {
+            "title": "Union Berlin vs. Wolfsburg",
+            "guid": "881lgox9n9w13xvob5dvx2v3s"
+        },
+        {
+            "title": "Hoffenheim vs. Dortmund",
+            "guid": "7l4f39fa60vc37pk0dr4ody19"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "Leeds vs. Wolves",
+            "guid": "ekvmpi61jxp5ppnqt2agz2jv8"
+        },
+        {
+            "title": "Newcastle vs. Bournemouth",
+            "guid": "dv2fx7y1084twv59oricw8m21"
+        },
+        {
+            "title": "Hull vs. Birmingham",
+            "guid": "5s9ehrz76wxl2qg3937zy8su0"
+        },
+        {
+            "title": "Solihull Moors vs. Boston",
+            "guid": "rru4mv86qn9f1m9wk6600qq2y"
+        },
+        {
+            "title": "Gateshead vs. Woking",
+            "guid": "35uebtf10p0q1iupm105jyok6"
+        },
+        {
+            "title": "Hartlepool vs. Forest Green",
+            "guid": "1hp5lq8etqsj61osifvbwednbv"
+        },
+        {
+            "title": "Morecambe vs. Boreham Wood",
+            "guid": "1ff2kv2t9sad914he6ymuh51ti"
+        },
+        {
+            "title": "Wealdstone vs. Scunthorpe",
+            "guid": "g9vntn79npcs1qtn3yroerwtv"
+        },
+        {
+            "title": "Eastleigh vs. Tamworth",
+            "guid": "dmydpoc4bpyk11iwunajsbgxs"
+        },
+        {
+            "title": "Dagenham & Redbridge vs. Weston-super-Mare",
+            "guid": "19plwsaaf3wwuzluhbvici6gc"
+        },
+        {
+            "title": "Sutton vs. Altrincham",
+            "guid": "c0sz13oih1um1m89719k5h3w2"
+        },
+        {
+            "title": "Brackley vs. Aldershot",
+            "guid": "8e8uowzezsef1qvk3xrgde2ef"
+        },
+        {
+            "title": "Truro vs. Carlisle",
+            "guid": "ccyfi1mvlv571olbxnpgijh0n"
+        },
+        {
+            "title": "GP Spain - Open Race 1",
+            "guid": "4zheyqsktjm2vwezg7peg09wv"
+        },
+        {
+            "title": "Spa - Race 1",
+            "guid": "ds1l5cfg8bvtkhtldg6xtnyng"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "Imola - Race 1",
+            "guid": "emmxh3d4thlx39eqpupqc1j6e"
+        },
+        {
+            "title": "Napoli vs. Lazio",
+            "guid": "3y8ergs3vrhg66fj3nxnct1qu"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Spurs vs. Brighton",
+            "guid": "8bnkr9u94tqzr5v5pfvjvmf8g"
+        },
+        {
+            "title": "Frankfurt vs. Leipzig",
+            "guid": "448h3stc8j21jfealephdfhe1"
+        },
+        {
+            "title": "Braintree vs. Rochdale",
+            "guid": "15ldzy14knb41shh7ithrg4m9"
+        },
+        {
+            "title": "York vs. Yeovil",
+            "guid": "avvemh11sp2c171g9tjaubhq5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 3",
+            "guid": "gc8mtj0yg2991fa040b25fzlt"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 4",
+            "guid": "x5ni21tdgsd71k2h4tpeihuty"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3",
+            "guid": "12ndkzbkyqrna1ky6uw9cp1hr9"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 1",
+            "guid": "1fgznndkgp1cd15qqk78nw10tw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 2",
+            "guid": "t2u344ssdbor1tmn1q9kuiipk"
+        },
+        {
+            "title": "Joventut vs. Baskonia",
+            "guid": "arhcujnljodgmxkwrqnsa0wl8"
+        },
+        {
+            "title": "Whittaker vs. Suarez",
+            "guid": "1ivyxg20lbr3n18s6rn0djvinv"
+        },
+        {
+            "title": "Hannover vs. Paderborn",
+            "guid": "40owwlzlzpyaased7yd5f0q3z"
+        },
+        {
+            "title": "Roma vs. Atalanta",
+            "guid": "8711m5hgun4zfksu2oe073qiw"
+        },
+        {
+            "title": "Mechelen vs. Anderlecht",
+            "guid": "8bn50reuw1but2cqmxjwesel9"
+        },
+        {
+            "title": "Chelsea vs. Man United",
+            "guid": "erqtw0qtpxqpxgv6ws22qztmq"
+        },
+        {
+            "title": "Korea Republic vs. Zambia",
+            "guid": "dv961d3y3ok7113w9hg8qoq5g"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "Spa - Race 2",
+            "guid": "1uwkfk5mcsqbmem3hwe55e390"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 2",
+            "guid": "byeploa9f4lcv1au94k5gstp7"
+        },
+        {
+            "title": "Imola - Race 2",
+            "guid": "2jfx42zervd1t64f8lbmse57d"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "GP Spain - Pro Race 2",
+            "guid": "5dionquegj8s0mr5ivfaab1zf"
+        },
+        {
+            "title": "Cremonese vs. Torino",
+            "guid": "1ihefx1oqfi6x8sigc9fq7007"
+        },
+        {
+            "title": "Stuttgart Open - Final",
+            "guid": "2msugb0yjfq816znowvwzomyn"
+        },
+        {
+            "title": "Ipswich vs. Middlesbrough",
+            "guid": "cmfa9vysevjcblxbpbhw7wapo"
+        },
+        {
+            "title": "Gent vs. Sint-Truiden",
+            "guid": "1dtu11eov292rgu9oylvrr0r5"
+        },
+        {
+            "title": "Schalke vs. Munster",
+            "guid": "3glaj2ov9f0657yla8o8e6f1k"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "GP Spain - Open Race 2",
+            "guid": "87k490ykhg0lxf58tu2i3b090"
+        },
+        {
+            "title": "Nottingham Forest vs. Burnley",
+            "guid": "3eocdvo89vlbiu0oyn8tvhbse"
+        },
+        {
+            "title": "Aston Villa vs. Sunderland",
+            "guid": "321q689c6b8rtn6a5d5d6fy6x"
+        },
+        {
+            "title": "Hellas Verona vs. Milan",
+            "guid": "2nsywlidssije0eqv0tvr1pib"
+        },
+        {
+            "title": "Everton vs. Liverpool",
+            "guid": "epxhzbuaw4cu8p2uwr2075kgi"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "Rouen Open - Final",
+            "guid": "2pneazvn5jtwzvf449hyp3fm8"
+        },
+        {
+            "title": "Freiburg vs. Heidenheim",
+            "guid": "oxcoc24y6vycgiyua7apxr6o"
+        },
+        {
+            "title": "Bristol Flyers vs. Surrey 89ers",
+            "guid": "9090v4ap9zmxwo9b46dp1l1gk"
+        },
+        {
+            "title": "Manchester Basketball vs. London Lions",
+            "guid": "ckzrrv7827vsyg1taqrcdsb2c"
+        },
+        {
+            "title": "Sheffield Sharks vs. Leicester Riders",
+            "guid": "c1rm71po3w5zjx6h480wwinjz"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "Man City vs. Arsenal",
+            "guid": "i9ppetq0u5x9ulkovy21gi3l"
+        },
+        {
+            "title": "Bayern Munich vs. Stuttgart",
+            "guid": "cmmb5vcvdc1o1oqq4hcsjdwcv"
+        },
+        {
+            "title": "Pisa vs. Genoa",
+            "guid": "8toqij90rh8c5tnps7ml9nze8"
+        },
+        {
+            "title": "Cheshire Phoenix vs. Caledonia Gladiators",
+            "guid": "3u2qorwnbw9l2awuxa45b2uvn"
+        },
+        {
+            "title": "Union Saint-Gilloise vs. Club Brugge",
+            "guid": "4sg0rndpcpd50v5iax04ffemd"
+        },
+        {
+            "title": "Real Madrid vs. Tenerife",
+            "guid": "9b35zttruyiie5vir8f5sns2x"
+        },
+        {
+            "title": "Monchengladbach vs. Mainz",
+            "guid": "we7qqvs5of7lko0ck7x49tdw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 2",
+            "guid": "67outaiziodn1031i01rjpb80"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 3",
+            "guid": "ggm7xmhvrph31avtmuayfmmhg"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4",
+            "guid": "4nykp3ti3byt1ejbbelx37kx7"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 1",
+            "guid": "d955965w7gup1hbt0nsj3tz05"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 4",
+            "guid": "1pdw72d1k0arh1suii9ow0qjrj"
+        },
+        {
+            "title": "Juventus vs. Bologna",
+            "guid": "9fj2ttzzky9z9sbwvasuzgn1c"
+        },
+        {
+            "title": "Mexico City \u2013 Longines Global Champions Tour Grand Prix",
+            "guid": "exkw1zflubl7e6ekq06mqgwyi"
+        },
+        {
+            "title": "Silk City Animals vs. Paterson U",
+            "guid": "9ol9hrkytkja1onxva9mekuci"
+        }
+    ]
+}

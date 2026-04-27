@@ -18,15 +18,9 @@ def search_api(prompt):
         "version": "v7",
         "ragEnabled": "true"
     }
-    start_time = time.time()
     response = requests.get(
         SEARCH_URL,
         params=params
     )
-    end_time = time.time()
-
     response.raise_for_status()
-    response_time = end_time - start_time
-    print(f"Search API response time: {response_time:.2f} seconds")
-    # print(f"API Response : {response.json()}")
     return response.json()

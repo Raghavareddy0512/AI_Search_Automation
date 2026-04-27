@@ -1,0 +1,2469 @@
+{
+    "prompts": [
+        {
+            "title": "DAZN Combat",
+            "prompt": "DAZN Combat",
+            "expected_guid": "174qulc11iwl81eoi31yxjw2zd"
+        },
+        {
+            "title": "MLB Network",
+            "prompt": "MLB Network",
+            "expected_guid": "6wwi0y10ztxd12c2vg296aeho"
+        },
+        {
+            "title": "NFL Network",
+            "prompt": "NFL Network",
+            "expected_guid": "o5rzhf12mpyb1dk07c9pl9ulf"
+        },
+        {
+            "title": "Red Bull TV",
+            "prompt": "Red Bull TV",
+            "expected_guid": "myhtc4bhd1wv13shvtb70nryf"
+        },
+        {
+            "title": "Rally TV",
+            "prompt": "Rally TV",
+            "expected_guid": "jgkpaz643rkh1efwle6e47nht"
+        },
+        {
+            "title": "Unbeaten: 24/7 Global Sports Channel",
+            "prompt": "Unbeaten: 24/7 Global Sports Channel",
+            "expected_guid": "i48tppum0lzy1k4og8fq90c34"
+        },
+        {
+            "title": "Unbeaten: 24/7 Global Sports Channel",
+            "prompt": "Unbeaten",
+            "expected_guid": "i48tppum0lzy1k4og8fq90c34"
+        },
+        {
+            "title": "Unbeaten: 24/7 Global Sports Channel",
+            "prompt": "24/7 Global Sports Channel",
+            "expected_guid": "i48tppum0lzy1k4og8fq90c34"
+        },
+        {
+            "title": "New Caledonia vs. Indonesia",
+            "prompt": "New Caledonia vs. Indonesia",
+            "expected_guid": "hqkq21zjmsnhyvfomdd2khsl"
+        },
+        {
+            "title": "New Caledonia vs. Indonesia",
+            "prompt": "New Caledonia",
+            "expected_guid": "hqkq21zjmsnhyvfomdd2khsl"
+        },
+        {
+            "title": "New Caledonia vs. Indonesia",
+            "prompt": "Indonesia",
+            "expected_guid": "hqkq21zjmsnhyvfomdd2khsl"
+        },
+        {
+            "title": "Stuttgart Open - Day 3",
+            "prompt": "Stuttgart Open - Day 3",
+            "expected_guid": "5m00jmhvqhygl1cydygwv68qn"
+        },
+        {
+            "title": "Stuttgart Open - Day 3",
+            "prompt": "Stuttgart Open",
+            "expected_guid": "5m00jmhvqhygl1cydygwv68qn"
+        },
+        {
+            "title": "Stuttgart Open - Day 3",
+            "prompt": "Day 3",
+            "expected_guid": "5m00jmhvqhygl1cydygwv68qn"
+        },
+        {
+            "title": "India vs. Malawi",
+            "prompt": "India vs. Malawi",
+            "expected_guid": "36w7hw1yld9zhxdo7y9ix2m42"
+        },
+        {
+            "title": "India vs. Malawi",
+            "prompt": "India",
+            "expected_guid": "36w7hw1yld9zhxdo7y9ix2m42"
+        },
+        {
+            "title": "India vs. Malawi",
+            "prompt": "Malawi",
+            "expected_guid": "36w7hw1yld9zhxdo7y9ix2m42"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "prompt": "Collins vs. Lorente 2: Press Conference",
+            "expected_guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "prompt": "Collins vs. Lorente 2",
+            "expected_guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "prompt": "Press Conference",
+            "expected_guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "prompt": "Collins",
+            "expected_guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Press Conference",
+            "prompt": "Lorente 2",
+            "expected_guid": "j1do8fym7ui19h2c0ddrywch"
+        },
+        {
+            "title": "Good Morning Football",
+            "prompt": "Good Morning Football",
+            "expected_guid": "16nfs5crefqa11a1ryko7xfbly"
+        },
+        {
+            "title": "Thailand vs. Congo DR",
+            "prompt": "Thailand vs. Congo DR",
+            "expected_guid": "eoib6a7lffropw9wbw2955olb"
+        },
+        {
+            "title": "Thailand vs. Congo DR",
+            "prompt": "Thailand",
+            "expected_guid": "eoib6a7lffropw9wbw2955olb"
+        },
+        {
+            "title": "Thailand vs. Congo DR",
+            "prompt": "Congo DR",
+            "expected_guid": "eoib6a7lffropw9wbw2955olb"
+        },
+        {
+            "title": "Kenya vs. Australia",
+            "prompt": "Kenya vs. Australia",
+            "expected_guid": "b6ifptjbhydm6sfp55l3073nt"
+        },
+        {
+            "title": "Kenya vs. Australia",
+            "prompt": "Kenya",
+            "expected_guid": "b6ifptjbhydm6sfp55l3073nt"
+        },
+        {
+            "title": "Kenya vs. Australia",
+            "prompt": "Australia",
+            "expected_guid": "b6ifptjbhydm6sfp55l3073nt"
+        },
+        {
+            "title": "AEK vs. Joventut",
+            "prompt": "AEK vs. Joventut",
+            "expected_guid": "18zv5flxvuymy1mapzrx2o9cam"
+        },
+        {
+            "title": "AEK vs. Joventut",
+            "prompt": "AEK",
+            "expected_guid": "18zv5flxvuymy1mapzrx2o9cam"
+        },
+        {
+            "title": "AEK vs. Joventut",
+            "prompt": "Joventut",
+            "expected_guid": "18zv5flxvuymy1mapzrx2o9cam"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
+            "prompt": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
+            "expected_guid": "2ejifs5zb3y01h6q7olslgdjk"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
+            "prompt": "Bayern Munich",
+            "expected_guid": "2ejifs5zb3y01h6q7olslgdjk"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
+            "prompt": "Real Madrid (Commentaires en Fran\u00e7ais)",
+            "expected_guid": "2ejifs5zb3y01h6q7olslgdjk"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid",
+            "prompt": "Bayern Munich vs. Real Madrid",
+            "expected_guid": "22d0faecj5g88c54f683tbo9w"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid",
+            "prompt": "Bayern Munich",
+            "expected_guid": "22d0faecj5g88c54f683tbo9w"
+        },
+        {
+            "title": "Bayern Munich vs. Real Madrid",
+            "prompt": "Real Madrid",
+            "expected_guid": "22d0faecj5g88c54f683tbo9w"
+        },
+        {
+            "title": "Arsenal vs. Sporting CP",
+            "prompt": "Arsenal vs. Sporting CP",
+            "expected_guid": "640w98ksxpnuoicyx8e0malr7"
+        },
+        {
+            "title": "Arsenal vs. Sporting CP",
+            "prompt": "Arsenal",
+            "expected_guid": "640w98ksxpnuoicyx8e0malr7"
+        },
+        {
+            "title": "Arsenal vs. Sporting CP",
+            "prompt": "Sporting CP",
+            "expected_guid": "640w98ksxpnuoicyx8e0malr7"
+        },
+        {
+            "title": "Tenerife vs. Galatasaray",
+            "prompt": "Tenerife vs. Galatasaray",
+            "expected_guid": "1oqw75r4thlor1e4spdpl3h4f1"
+        },
+        {
+            "title": "Tenerife vs. Galatasaray",
+            "prompt": "Tenerife",
+            "expected_guid": "1oqw75r4thlor1e4spdpl3h4f1"
+        },
+        {
+            "title": "Tenerife vs. Galatasaray",
+            "prompt": "Galatasaray",
+            "expected_guid": "1oqw75r4thlor1e4spdpl3h4f1"
+        },
+        {
+            "title": "Path to the Draft",
+            "prompt": "Path to the Draft",
+            "expected_guid": "13k8ry5dudnl71q926ol1lmjnt"
+        },
+        {
+            "title": "NFL Insiders",
+            "prompt": "NFL Insiders",
+            "expected_guid": "o6s67kve7ujr1ra4u79e7zicp"
+        },
+        {
+            "title": "Rouen Open - Day 4",
+            "prompt": "Rouen Open - Day 4",
+            "expected_guid": "21cf05sv9y8a6whv09iv0cs4j"
+        },
+        {
+            "title": "Rouen Open - Day 4",
+            "prompt": "Rouen Open",
+            "expected_guid": "21cf05sv9y8a6whv09iv0cs4j"
+        },
+        {
+            "title": "Rouen Open - Day 4",
+            "prompt": "Day 4",
+            "expected_guid": "21cf05sv9y8a6whv09iv0cs4j"
+        },
+        {
+            "title": "Stuttgart Open - Day 4",
+            "prompt": "Stuttgart Open - Day 4",
+            "expected_guid": "733esqztdk94pgxc3rg7hmhr3"
+        },
+        {
+            "title": "Stuttgart Open - Day 4",
+            "prompt": "Stuttgart Open",
+            "expected_guid": "733esqztdk94pgxc3rg7hmhr3"
+        },
+        {
+            "title": "Stuttgart Open - Day 4",
+            "prompt": "Day 4",
+            "expected_guid": "733esqztdk94pgxc3rg7hmhr3"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "prompt": "Collins vs. Lorente 2: Weigh-In",
+            "expected_guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "prompt": "Collins vs. Lorente 2",
+            "expected_guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "prompt": "Weigh-In",
+            "expected_guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "prompt": "Collins",
+            "expected_guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Weigh-In",
+            "prompt": "Lorente 2",
+            "expected_guid": "1lnfqbtqr4z8u12kq9g398d8no"
+        },
+        {
+            "title": "Good Morning Football",
+            "prompt": "Good Morning Football",
+            "expected_guid": "1cq78pn0u31vu138a716s7xs75"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "prompt": "Whittaker vs. Suarez: Press Conference",
+            "expected_guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "prompt": "Whittaker vs. Suarez",
+            "expected_guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "prompt": "Press Conference",
+            "expected_guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "prompt": "Whittaker",
+            "expected_guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Press Conference",
+            "prompt": "Suarez",
+            "expected_guid": "1keqatkzopnpg13g26o2x1omhm"
+        },
+        {
+            "title": "Turks and Caicos Islands vs. Mauritania",
+            "prompt": "Turks and Caicos Islands vs. Mauritania",
+            "expected_guid": "7nqj0cmsirzxulfejkahotjqh"
+        },
+        {
+            "title": "Turks and Caicos Islands vs. Mauritania",
+            "prompt": "Turks and Caicos Islands",
+            "expected_guid": "7nqj0cmsirzxulfejkahotjqh"
+        },
+        {
+            "title": "Turks and Caicos Islands vs. Mauritania",
+            "prompt": "Mauritania",
+            "expected_guid": "7nqj0cmsirzxulfejkahotjqh"
+        },
+        {
+            "title": "Celta Vigo vs. Freiburg",
+            "prompt": "Celta Vigo vs. Freiburg",
+            "expected_guid": "bvaopa9aeqb42o6fz0ovtkac"
+        },
+        {
+            "title": "Celta Vigo vs. Freiburg",
+            "prompt": "Celta Vigo",
+            "expected_guid": "bvaopa9aeqb42o6fz0ovtkac"
+        },
+        {
+            "title": "Celta Vigo vs. Freiburg",
+            "prompt": "Freiburg",
+            "expected_guid": "bvaopa9aeqb42o6fz0ovtkac"
+        },
+        {
+            "title": "AZ vs. Shakhtar Donetsk",
+            "prompt": "AZ vs. Shakhtar Donetsk",
+            "expected_guid": "6pog8q43k3swxevxd3izu9fqu"
+        },
+        {
+            "title": "AZ vs. Shakhtar Donetsk",
+            "prompt": "AZ",
+            "expected_guid": "6pog8q43k3swxevxd3izu9fqu"
+        },
+        {
+            "title": "AZ vs. Shakhtar Donetsk",
+            "prompt": "Shakhtar Donetsk",
+            "expected_guid": "6pog8q43k3swxevxd3izu9fqu"
+        },
+        {
+            "title": "Nottingham Forest vs. Porto",
+            "prompt": "Nottingham Forest vs. Porto",
+            "expected_guid": "3f37jxd65tleqjjz90sfw97ee"
+        },
+        {
+            "title": "Nottingham Forest vs. Porto",
+            "prompt": "Nottingham Forest",
+            "expected_guid": "3f37jxd65tleqjjz90sfw97ee"
+        },
+        {
+            "title": "Nottingham Forest vs. Porto",
+            "prompt": "Porto",
+            "expected_guid": "3f37jxd65tleqjjz90sfw97ee"
+        },
+        {
+            "title": "Real Betis vs. Braga",
+            "prompt": "Real Betis vs. Braga",
+            "expected_guid": "athph68n3mm1w1k3gey6jygnk"
+        },
+        {
+            "title": "Real Betis vs. Braga",
+            "prompt": "Real Betis",
+            "expected_guid": "athph68n3mm1w1k3gey6jygnk"
+        },
+        {
+            "title": "Real Betis vs. Braga",
+            "prompt": "Braga",
+            "expected_guid": "athph68n3mm1w1k3gey6jygnk"
+        },
+        {
+            "title": "Aston Villa vs. Bologna",
+            "prompt": "Aston Villa vs. Bologna",
+            "expected_guid": "4feskl75lurpw2u8domidrqj9"
+        },
+        {
+            "title": "Aston Villa vs. Bologna",
+            "prompt": "Aston Villa",
+            "expected_guid": "4feskl75lurpw2u8domidrqj9"
+        },
+        {
+            "title": "Aston Villa vs. Bologna",
+            "prompt": "Bologna",
+            "expected_guid": "4feskl75lurpw2u8domidrqj9"
+        },
+        {
+            "title": "Bromley vs. Cambridge",
+            "prompt": "Bromley vs. Cambridge",
+            "expected_guid": "1vb0gippwen37mhp3ws5qw7mx"
+        },
+        {
+            "title": "Bromley vs. Cambridge",
+            "prompt": "Bromley",
+            "expected_guid": "1vb0gippwen37mhp3ws5qw7mx"
+        },
+        {
+            "title": "Bromley vs. Cambridge",
+            "prompt": "Cambridge",
+            "expected_guid": "1vb0gippwen37mhp3ws5qw7mx"
+        },
+        {
+            "title": "Strasbourg vs. Mainz",
+            "prompt": "Strasbourg vs. Mainz",
+            "expected_guid": "cyozrhm9qptv5jsjs8q14oaew"
+        },
+        {
+            "title": "Strasbourg vs. Mainz",
+            "prompt": "Strasbourg",
+            "expected_guid": "cyozrhm9qptv5jsjs8q14oaew"
+        },
+        {
+            "title": "Strasbourg vs. Mainz",
+            "prompt": "Mainz",
+            "expected_guid": "cyozrhm9qptv5jsjs8q14oaew"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 1",
+            "prompt": "LIV Golf Mexico City - Day 1",
+            "expected_guid": "1q1hx24fu959b11fsrqa0ujhwx"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 1",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "1q1hx24fu959b11fsrqa0ujhwx"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 1",
+            "prompt": "Day 1",
+            "expected_guid": "1q1hx24fu959b11fsrqa0ujhwx"
+        },
+        {
+            "title": "Fiorentina vs. Crystal Palace",
+            "prompt": "Fiorentina vs. Crystal Palace",
+            "expected_guid": "6cqvj0mcnd2rjy23udxv1aiis"
+        },
+        {
+            "title": "Fiorentina vs. Crystal Palace",
+            "prompt": "Fiorentina",
+            "expected_guid": "6cqvj0mcnd2rjy23udxv1aiis"
+        },
+        {
+            "title": "Fiorentina vs. Crystal Palace",
+            "prompt": "Crystal Palace",
+            "expected_guid": "6cqvj0mcnd2rjy23udxv1aiis"
+        },
+        {
+            "title": "AEK Athens vs. Rayo Vallecano",
+            "prompt": "AEK Athens vs. Rayo Vallecano",
+            "expected_guid": "anrs4zexymchibjfa8xkfmpc7"
+        },
+        {
+            "title": "AEK Athens vs. Rayo Vallecano",
+            "prompt": "AEK Athens",
+            "expected_guid": "anrs4zexymchibjfa8xkfmpc7"
+        },
+        {
+            "title": "AEK Athens vs. Rayo Vallecano",
+            "prompt": "Rayo Vallecano",
+            "expected_guid": "anrs4zexymchibjfa8xkfmpc7"
+        },
+        {
+            "title": "Cote d'Ivoire vs. Pakistan",
+            "prompt": "Cote d'Ivoire vs. Pakistan",
+            "expected_guid": "1uzyvltho0aq9mw9e4nu0i1jb"
+        },
+        {
+            "title": "Cote d'Ivoire vs. Pakistan",
+            "prompt": "Cote d'Ivoire",
+            "expected_guid": "1uzyvltho0aq9mw9e4nu0i1jb"
+        },
+        {
+            "title": "Cote d'Ivoire vs. Pakistan",
+            "prompt": "Pakistan",
+            "expected_guid": "1uzyvltho0aq9mw9e4nu0i1jb"
+        },
+        {
+            "title": "Path to the Draft",
+            "prompt": "Path to the Draft",
+            "expected_guid": "12ruc13pxqs3j1d1k086d9k9sf"
+        },
+        {
+            "title": "The Insiders",
+            "prompt": "The Insiders",
+            "expected_guid": "12bgwixbicb6e1057t14xh1bvg"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "prompt": "Camozzi vs. Rodriguez: Weigh-In",
+            "expected_guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "prompt": "Camozzi vs. Rodriguez",
+            "expected_guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "prompt": "Weigh-In",
+            "expected_guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "prompt": "Camozzi",
+            "expected_guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez: Weigh-In",
+            "prompt": "Rodriguez",
+            "expected_guid": "4i8t0jgmyayl1dtll4w2sg39b"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "expected_guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "prompt": "Qualifying Stage",
+            "expected_guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
+            "prompt": "Sierra Morena",
+            "expected_guid": "12xi25cihpe1m127xx1itgkfco"
+        },
+        {
+            "title": "Stuttgart Open - Day 5",
+            "prompt": "Stuttgart Open - Day 5",
+            "expected_guid": "4q0jj01chq0i2nwi6kw6pverj"
+        },
+        {
+            "title": "Stuttgart Open - Day 5",
+            "prompt": "Stuttgart Open",
+            "expected_guid": "4q0jj01chq0i2nwi6kw6pverj"
+        },
+        {
+            "title": "Stuttgart Open - Day 5",
+            "prompt": "Day 5",
+            "expected_guid": "4q0jj01chq0i2nwi6kw6pverj"
+        },
+        {
+            "title": "Rouen Open - Day 5",
+            "prompt": "Rouen Open - Day 5",
+            "expected_guid": "cgj0rm4i9hg0b7b7a0vod12ao"
+        },
+        {
+            "title": "Rouen Open - Day 5",
+            "prompt": "Rouen Open",
+            "expected_guid": "cgj0rm4i9hg0b7b7a0vod12ao"
+        },
+        {
+            "title": "Rouen Open - Day 5",
+            "prompt": "Day 5",
+            "expected_guid": "cgj0rm4i9hg0b7b7a0vod12ao"
+        },
+        {
+            "title": "Benfica U19 vs. Club Brugge U19",
+            "prompt": "Benfica U19 vs. Club Brugge U19",
+            "expected_guid": "30md0irqq67lbwk34punvnqo7"
+        },
+        {
+            "title": "Benfica U19 vs. Club Brugge U19",
+            "prompt": "Benfica U19",
+            "expected_guid": "30md0irqq67lbwk34punvnqo7"
+        },
+        {
+            "title": "Benfica U19 vs. Club Brugge U19",
+            "prompt": "Club Brugge U19",
+            "expected_guid": "30md0irqq67lbwk34punvnqo7"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "prompt": "Whittaker vs. Suarez: Weigh-In",
+            "expected_guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "prompt": "Whittaker vs. Suarez",
+            "expected_guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "prompt": "Weigh-In",
+            "expected_guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "prompt": "Whittaker",
+            "expected_guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Weigh-In",
+            "prompt": "Suarez",
+            "expected_guid": "1lkh8wkz8pbhy1tve017ldaevh"
+        },
+        {
+            "title": "Freestyle Friday #5",
+            "prompt": "Freestyle Friday #5",
+            "expected_guid": "2d86netpnbe8qztgc5njae7d4"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "prompt": "Collins vs. Lorente 2: Prelims",
+            "expected_guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "prompt": "Collins vs. Lorente 2",
+            "expected_guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "prompt": "Prelims",
+            "expected_guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "prompt": "Collins",
+            "expected_guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Collins vs. Lorente 2: Prelims",
+            "prompt": "Lorente 2",
+            "expected_guid": "mntw6108sad31aqoxubphkadh"
+        },
+        {
+            "title": "Sassuolo vs. Como",
+            "prompt": "Sassuolo vs. Como",
+            "expected_guid": "en391vxt9c5uosuizjm57zf3v"
+        },
+        {
+            "title": "Sassuolo vs. Como",
+            "prompt": "Sassuolo",
+            "expected_guid": "en391vxt9c5uosuizjm57zf3v"
+        },
+        {
+            "title": "Sassuolo vs. Como",
+            "prompt": "Como",
+            "expected_guid": "en391vxt9c5uosuizjm57zf3v"
+        },
+        {
+            "title": "Real Madrid U19 vs. PSG U19",
+            "prompt": "Real Madrid U19 vs. PSG U19",
+            "expected_guid": "8qtrupkeny61col5hstjp0eql"
+        },
+        {
+            "title": "Real Madrid U19 vs. PSG U19",
+            "prompt": "Real Madrid U19",
+            "expected_guid": "8qtrupkeny61col5hstjp0eql"
+        },
+        {
+            "title": "Real Madrid U19 vs. PSG U19",
+            "prompt": "PSG U19",
+            "expected_guid": "8qtrupkeny61col5hstjp0eql"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 2",
+            "prompt": "LIV Golf Mexico City - Day 2",
+            "expected_guid": "yf3tr9tiiypf1l5xijq4w9qxo"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 2",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "yf3tr9tiiypf1l5xijq4w9qxo"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 2",
+            "prompt": "Day 2",
+            "expected_guid": "yf3tr9tiiypf1l5xijq4w9qxo"
+        },
+        {
+            "title": "Collins vs. Lorente 2",
+            "prompt": "Collins vs. Lorente 2",
+            "expected_guid": "15a6hr04xt1be1fakisgdjlwwa"
+        },
+        {
+            "title": "Collins vs. Lorente 2",
+            "prompt": "Collins",
+            "expected_guid": "15a6hr04xt1be1fakisgdjlwwa"
+        },
+        {
+            "title": "Collins vs. Lorente 2",
+            "prompt": "Lorente 2",
+            "expected_guid": "15a6hr04xt1be1fakisgdjlwwa"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "expected_guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "prompt": "Stage 1",
+            "expected_guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
+            "prompt": "Sierra Morena",
+            "expected_guid": "teyyfll80a5k1t1ysbxezrkyq"
+        },
+        {
+            "title": "St. Pauli vs. Koln",
+            "prompt": "St. Pauli vs. Koln",
+            "expected_guid": "528jp88g1h4kgigk17qzx4lvj"
+        },
+        {
+            "title": "St. Pauli vs. Koln",
+            "prompt": "St. Pauli",
+            "expected_guid": "528jp88g1h4kgigk17qzx4lvj"
+        },
+        {
+            "title": "St. Pauli vs. Koln",
+            "prompt": "Koln",
+            "expected_guid": "528jp88g1h4kgigk17qzx4lvj"
+        },
+        {
+            "title": "Leicester Riders vs. Manchester Basketball",
+            "prompt": "Leicester Riders vs. Manchester Basketball",
+            "expected_guid": "bwcuqpf4f1il7j2vgn665pifb"
+        },
+        {
+            "title": "Leicester Riders vs. Manchester Basketball",
+            "prompt": "Leicester Riders",
+            "expected_guid": "bwcuqpf4f1il7j2vgn665pifb"
+        },
+        {
+            "title": "Leicester Riders vs. Manchester Basketball",
+            "prompt": "Manchester Basketball",
+            "expected_guid": "bwcuqpf4f1il7j2vgn665pifb"
+        },
+        {
+            "title": "Newcastle Eagles vs. Sheffield Sharks",
+            "prompt": "Newcastle Eagles vs. Sheffield Sharks",
+            "expected_guid": "8kvfdln96fa8vgtqi9tyjcjqz"
+        },
+        {
+            "title": "Newcastle Eagles vs. Sheffield Sharks",
+            "prompt": "Newcastle Eagles",
+            "expected_guid": "8kvfdln96fa8vgtqi9tyjcjqz"
+        },
+        {
+            "title": "Newcastle Eagles vs. Sheffield Sharks",
+            "prompt": "Sheffield Sharks",
+            "expected_guid": "8kvfdln96fa8vgtqi9tyjcjqz"
+        },
+        {
+            "title": "Surrey 89ers vs. Caledonia Gladiators",
+            "prompt": "Surrey 89ers vs. Caledonia Gladiators",
+            "expected_guid": "23cggo5daun5givq53g9bnz88"
+        },
+        {
+            "title": "Surrey 89ers vs. Caledonia Gladiators",
+            "prompt": "Surrey 89ers",
+            "expected_guid": "23cggo5daun5givq53g9bnz88"
+        },
+        {
+            "title": "Surrey 89ers vs. Caledonia Gladiators",
+            "prompt": "Caledonia Gladiators",
+            "expected_guid": "23cggo5daun5givq53g9bnz88"
+        },
+        {
+            "title": "London Lions vs. Cheshire Phoenix",
+            "prompt": "London Lions vs. Cheshire Phoenix",
+            "expected_guid": "8ztoefwrry6o6mz79bdtdk3ru"
+        },
+        {
+            "title": "London Lions vs. Cheshire Phoenix",
+            "prompt": "London Lions",
+            "expected_guid": "8ztoefwrry6o6mz79bdtdk3ru"
+        },
+        {
+            "title": "London Lions vs. Cheshire Phoenix",
+            "prompt": "Cheshire Phoenix",
+            "expected_guid": "8ztoefwrry6o6mz79bdtdk3ru"
+        },
+        {
+            "title": "Inter vs. Cagliari",
+            "prompt": "Inter vs. Cagliari",
+            "expected_guid": "qgqbbih3rj36rz34w9jcyjcp"
+        },
+        {
+            "title": "Inter vs. Cagliari",
+            "prompt": "Inter",
+            "expected_guid": "qgqbbih3rj36rz34w9jcyjcp"
+        },
+        {
+            "title": "Inter vs. Cagliari",
+            "prompt": "Cagliari",
+            "expected_guid": "qgqbbih3rj36rz34w9jcyjcp"
+        },
+        {
+            "title": "Blackburn vs. Coventry",
+            "prompt": "Blackburn vs. Coventry",
+            "expected_guid": "4nmqig9dhqemg6u8sfiyobt1u"
+        },
+        {
+            "title": "Blackburn vs. Coventry",
+            "prompt": "Blackburn",
+            "expected_guid": "4nmqig9dhqemg6u8sfiyobt1u"
+        },
+        {
+            "title": "Blackburn vs. Coventry",
+            "prompt": "Coventry",
+            "expected_guid": "4nmqig9dhqemg6u8sfiyobt1u"
+        },
+        {
+            "title": "Mexico City - GCL Round 1",
+            "prompt": "Mexico City - GCL Round 1",
+            "expected_guid": "4jvdpb78bclko96bdiiofrlcq"
+        },
+        {
+            "title": "Mexico City - GCL Round 1",
+            "prompt": "Mexico City",
+            "expected_guid": "4jvdpb78bclko96bdiiofrlcq"
+        },
+        {
+            "title": "Mexico City - GCL Round 1",
+            "prompt": "GCL Round 1",
+            "expected_guid": "4jvdpb78bclko96bdiiofrlcq"
+        },
+        {
+            "title": "Club Nacional vs. Franca",
+            "prompt": "Club Nacional vs. Franca",
+            "expected_guid": "4ocmpr72dhbi64tdjj8qjpgl8"
+        },
+        {
+            "title": "Club Nacional vs. Franca",
+            "prompt": "Club Nacional",
+            "expected_guid": "4ocmpr72dhbi64tdjj8qjpgl8"
+        },
+        {
+            "title": "Club Nacional vs. Franca",
+            "prompt": "Franca",
+            "expected_guid": "4ocmpr72dhbi64tdjj8qjpgl8"
+        },
+        {
+            "title": "Mexico City - GCL Round 2",
+            "prompt": "Mexico City - GCL Round 2",
+            "expected_guid": "9c9xpdommjw1xn1qbtxxyupf3"
+        },
+        {
+            "title": "Mexico City - GCL Round 2",
+            "prompt": "Mexico City",
+            "expected_guid": "9c9xpdommjw1xn1qbtxxyupf3"
+        },
+        {
+            "title": "Mexico City - GCL Round 2",
+            "prompt": "GCL Round 2",
+            "expected_guid": "9c9xpdommjw1xn1qbtxxyupf3"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez",
+            "prompt": "Camozzi vs. Rodriguez",
+            "expected_guid": "5q5t74jk4zk91l6kltg2qh05k"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez",
+            "prompt": "Camozzi",
+            "expected_guid": "5q5t74jk4zk91l6kltg2qh05k"
+        },
+        {
+            "title": "Camozzi vs. Rodriguez",
+            "prompt": "Rodriguez",
+            "expected_guid": "5q5t74jk4zk91l6kltg2qh05k"
+        },
+        {
+            "title": "Boca Juniors vs. Flamengo",
+            "prompt": "Boca Juniors vs. Flamengo",
+            "expected_guid": "1w3iodgt3vmuohaopr3rnp45"
+        },
+        {
+            "title": "Boca Juniors vs. Flamengo",
+            "prompt": "Boca Juniors",
+            "expected_guid": "1w3iodgt3vmuohaopr3rnp45"
+        },
+        {
+            "title": "Boca Juniors vs. Flamengo",
+            "prompt": "Flamengo",
+            "expected_guid": "1w3iodgt3vmuohaopr3rnp45"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "expected_guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "prompt": "Stage 2",
+            "expected_guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
+            "prompt": "Sierra Morena",
+            "expected_guid": "3s7quw6c7ki911666ewlcbjt5"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 1",
+            "prompt": "Goodwood Members' Meeting - Day 1",
+            "expected_guid": "1iuj4e76gh64otb86oc2f6feo"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 1",
+            "prompt": "Goodwood Members' Meeting",
+            "expected_guid": "1iuj4e76gh64otb86oc2f6feo"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 1",
+            "prompt": "Day 1",
+            "expected_guid": "1iuj4e76gh64otb86oc2f6feo"
+        },
+        {
+            "title": "GP Spain - Qualifying",
+            "prompt": "GP Spain - Qualifying",
+            "expected_guid": "eckk9p82rpdr6wd8udfr372va"
+        },
+        {
+            "title": "GP Spain - Qualifying",
+            "prompt": "GP Spain",
+            "expected_guid": "eckk9p82rpdr6wd8udfr372va"
+        },
+        {
+            "title": "GP Spain - Qualifying",
+            "prompt": "Qualifying",
+            "expected_guid": "eckk9p82rpdr6wd8udfr372va"
+        },
+        {
+            "title": "Hepi vs. Wisniewski",
+            "prompt": "Hepi vs. Wisniewski",
+            "expected_guid": "13bbhd215yipi15ztnbr1ectiz"
+        },
+        {
+            "title": "Hepi vs. Wisniewski",
+            "prompt": "Hepi",
+            "expected_guid": "13bbhd215yipi15ztnbr1ectiz"
+        },
+        {
+            "title": "Hepi vs. Wisniewski",
+            "prompt": "Wisniewski",
+            "expected_guid": "13bbhd215yipi15ztnbr1ectiz"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "expected_guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "prompt": "Stage 3",
+            "expected_guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1hn9qe68i4sax1u1n8t0s1c650"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "expected_guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "prompt": "Stage 4",
+            "expected_guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+        },
+        {
+            "title": "Brentford vs. Fulham",
+            "prompt": "Brentford vs. Fulham",
+            "expected_guid": "3wzast3etmbijsaod0taranu3"
+        },
+        {
+            "title": "Brentford vs. Fulham",
+            "prompt": "Brentford",
+            "expected_guid": "3wzast3etmbijsaod0taranu3"
+        },
+        {
+            "title": "Brentford vs. Fulham",
+            "prompt": "Fulham",
+            "expected_guid": "3wzast3etmbijsaod0taranu3"
+        },
+        {
+            "title": "Portsmouth vs. Leicester",
+            "prompt": "Portsmouth vs. Leicester",
+            "expected_guid": "lcv62wpwsitrjf12do83h356"
+        },
+        {
+            "title": "Portsmouth vs. Leicester",
+            "prompt": "Portsmouth",
+            "expected_guid": "lcv62wpwsitrjf12do83h356"
+        },
+        {
+            "title": "Portsmouth vs. Leicester",
+            "prompt": "Leicester",
+            "expected_guid": "lcv62wpwsitrjf12do83h356"
+        },
+        {
+            "title": "FC Halifax Town vs. Southend",
+            "prompt": "FC Halifax Town vs. Southend",
+            "expected_guid": "1re2wsuvm30rw1nnz141aucui9"
+        },
+        {
+            "title": "FC Halifax Town vs. Southend",
+            "prompt": "FC Halifax Town",
+            "expected_guid": "1re2wsuvm30rw1nnz141aucui9"
+        },
+        {
+            "title": "FC Halifax Town vs. Southend",
+            "prompt": "Southend",
+            "expected_guid": "1re2wsuvm30rw1nnz141aucui9"
+        },
+        {
+            "title": "GP Spain - Pro Race 1",
+            "prompt": "GP Spain - Pro Race 1",
+            "expected_guid": "cpj3ghwk7fpyzpr3b42nn3lkf"
+        },
+        {
+            "title": "GP Spain - Pro Race 1",
+            "prompt": "GP Spain",
+            "expected_guid": "cpj3ghwk7fpyzpr3b42nn3lkf"
+        },
+        {
+            "title": "GP Spain - Pro Race 1",
+            "prompt": "Pro Race 1",
+            "expected_guid": "cpj3ghwk7fpyzpr3b42nn3lkf"
+        },
+        {
+            "title": "Stuttgart Open - Day 6",
+            "prompt": "Stuttgart Open - Day 6",
+            "expected_guid": "ao2r3kj8hfcgxyx20tbhgwjqk"
+        },
+        {
+            "title": "Stuttgart Open - Day 6",
+            "prompt": "Stuttgart Open",
+            "expected_guid": "ao2r3kj8hfcgxyx20tbhgwjqk"
+        },
+        {
+            "title": "Stuttgart Open - Day 6",
+            "prompt": "Day 6",
+            "expected_guid": "ao2r3kj8hfcgxyx20tbhgwjqk"
+        },
+        {
+            "title": "RWS April Inferno: Rodriguez vs. Hercules",
+            "prompt": "RWS April Inferno: Rodriguez vs. Hercules",
+            "expected_guid": "ae131f70n6n6xzox56pp2ed6e"
+        },
+        {
+            "title": "RWS April Inferno: Rodriguez vs. Hercules",
+            "prompt": "RWS April Inferno",
+            "expected_guid": "ae131f70n6n6xzox56pp2ed6e"
+        },
+        {
+            "title": "RWS April Inferno: Rodriguez vs. Hercules",
+            "prompt": "Rodriguez vs. Hercules",
+            "expected_guid": "ae131f70n6n6xzox56pp2ed6e"
+        },
+        {
+            "title": "Udinese vs. Parma",
+            "prompt": "Udinese vs. Parma",
+            "expected_guid": "9hdo3309cdksnxrp13d3ypkqb"
+        },
+        {
+            "title": "Udinese vs. Parma",
+            "prompt": "Udinese",
+            "expected_guid": "9hdo3309cdksnxrp13d3ypkqb"
+        },
+        {
+            "title": "Udinese vs. Parma",
+            "prompt": "Parma",
+            "expected_guid": "9hdo3309cdksnxrp13d3ypkqb"
+        },
+        {
+            "title": "Rouen Open - Day 6",
+            "prompt": "Rouen Open - Day 6",
+            "expected_guid": "4xzansl8oqtjl2mkzhdtt7p5t"
+        },
+        {
+            "title": "Rouen Open - Day 6",
+            "prompt": "Rouen Open",
+            "expected_guid": "4xzansl8oqtjl2mkzhdtt7p5t"
+        },
+        {
+            "title": "Rouen Open - Day 6",
+            "prompt": "Day 6",
+            "expected_guid": "4xzansl8oqtjl2mkzhdtt7p5t"
+        },
+        {
+            "title": "Leverkusen vs. Augsburg",
+            "prompt": "Leverkusen vs. Augsburg",
+            "expected_guid": "9919kp3ms0xst24xswy86qai6"
+        },
+        {
+            "title": "Leverkusen vs. Augsburg",
+            "prompt": "Leverkusen",
+            "expected_guid": "9919kp3ms0xst24xswy86qai6"
+        },
+        {
+            "title": "Leverkusen vs. Augsburg",
+            "prompt": "Augsburg",
+            "expected_guid": "9919kp3ms0xst24xswy86qai6"
+        },
+        {
+            "title": "Werder Bremen vs. Hamburg",
+            "prompt": "Werder Bremen vs. Hamburg",
+            "expected_guid": "8hkrodz3fydfky8235bbsnp9r"
+        },
+        {
+            "title": "Werder Bremen vs. Hamburg",
+            "prompt": "Werder Bremen",
+            "expected_guid": "8hkrodz3fydfky8235bbsnp9r"
+        },
+        {
+            "title": "Werder Bremen vs. Hamburg",
+            "prompt": "Hamburg",
+            "expected_guid": "8hkrodz3fydfky8235bbsnp9r"
+        },
+        {
+            "title": "Union Berlin vs. Wolfsburg",
+            "prompt": "Union Berlin vs. Wolfsburg",
+            "expected_guid": "881lgox9n9w13xvob5dvx2v3s"
+        },
+        {
+            "title": "Union Berlin vs. Wolfsburg",
+            "prompt": "Union Berlin",
+            "expected_guid": "881lgox9n9w13xvob5dvx2v3s"
+        },
+        {
+            "title": "Union Berlin vs. Wolfsburg",
+            "prompt": "Wolfsburg",
+            "expected_guid": "881lgox9n9w13xvob5dvx2v3s"
+        },
+        {
+            "title": "Hoffenheim vs. Dortmund",
+            "prompt": "Hoffenheim vs. Dortmund",
+            "expected_guid": "7l4f39fa60vc37pk0dr4ody19"
+        },
+        {
+            "title": "Hoffenheim vs. Dortmund",
+            "prompt": "Hoffenheim",
+            "expected_guid": "7l4f39fa60vc37pk0dr4ody19"
+        },
+        {
+            "title": "Hoffenheim vs. Dortmund",
+            "prompt": "Dortmund",
+            "expected_guid": "7l4f39fa60vc37pk0dr4ody19"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "expected_guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "prompt": "Stage 5",
+            "expected_guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1ksym2u3nalh61asge0iaiop8w"
+        },
+        {
+            "title": "Leeds vs. Wolves",
+            "prompt": "Leeds vs. Wolves",
+            "expected_guid": "ekvmpi61jxp5ppnqt2agz2jv8"
+        },
+        {
+            "title": "Leeds vs. Wolves",
+            "prompt": "Leeds",
+            "expected_guid": "ekvmpi61jxp5ppnqt2agz2jv8"
+        },
+        {
+            "title": "Leeds vs. Wolves",
+            "prompt": "Wolves",
+            "expected_guid": "ekvmpi61jxp5ppnqt2agz2jv8"
+        },
+        {
+            "title": "Newcastle vs. Bournemouth",
+            "prompt": "Newcastle vs. Bournemouth",
+            "expected_guid": "dv2fx7y1084twv59oricw8m21"
+        },
+        {
+            "title": "Newcastle vs. Bournemouth",
+            "prompt": "Newcastle",
+            "expected_guid": "dv2fx7y1084twv59oricw8m21"
+        },
+        {
+            "title": "Newcastle vs. Bournemouth",
+            "prompt": "Bournemouth",
+            "expected_guid": "dv2fx7y1084twv59oricw8m21"
+        },
+        {
+            "title": "Hull vs. Birmingham",
+            "prompt": "Hull vs. Birmingham",
+            "expected_guid": "5s9ehrz76wxl2qg3937zy8su0"
+        },
+        {
+            "title": "Hull vs. Birmingham",
+            "prompt": "Hull",
+            "expected_guid": "5s9ehrz76wxl2qg3937zy8su0"
+        },
+        {
+            "title": "Hull vs. Birmingham",
+            "prompt": "Birmingham",
+            "expected_guid": "5s9ehrz76wxl2qg3937zy8su0"
+        },
+        {
+            "title": "Solihull Moors vs. Boston",
+            "prompt": "Solihull Moors vs. Boston",
+            "expected_guid": "rru4mv86qn9f1m9wk6600qq2y"
+        },
+        {
+            "title": "Solihull Moors vs. Boston",
+            "prompt": "Solihull Moors",
+            "expected_guid": "rru4mv86qn9f1m9wk6600qq2y"
+        },
+        {
+            "title": "Solihull Moors vs. Boston",
+            "prompt": "Boston",
+            "expected_guid": "rru4mv86qn9f1m9wk6600qq2y"
+        },
+        {
+            "title": "Gateshead vs. Woking",
+            "prompt": "Gateshead vs. Woking",
+            "expected_guid": "35uebtf10p0q1iupm105jyok6"
+        },
+        {
+            "title": "Gateshead vs. Woking",
+            "prompt": "Gateshead",
+            "expected_guid": "35uebtf10p0q1iupm105jyok6"
+        },
+        {
+            "title": "Gateshead vs. Woking",
+            "prompt": "Woking",
+            "expected_guid": "35uebtf10p0q1iupm105jyok6"
+        },
+        {
+            "title": "Hartlepool vs. Forest Green",
+            "prompt": "Hartlepool vs. Forest Green",
+            "expected_guid": "1hp5lq8etqsj61osifvbwednbv"
+        },
+        {
+            "title": "Hartlepool vs. Forest Green",
+            "prompt": "Hartlepool",
+            "expected_guid": "1hp5lq8etqsj61osifvbwednbv"
+        },
+        {
+            "title": "Hartlepool vs. Forest Green",
+            "prompt": "Forest Green",
+            "expected_guid": "1hp5lq8etqsj61osifvbwednbv"
+        },
+        {
+            "title": "Morecambe vs. Boreham Wood",
+            "prompt": "Morecambe vs. Boreham Wood",
+            "expected_guid": "1ff2kv2t9sad914he6ymuh51ti"
+        },
+        {
+            "title": "Morecambe vs. Boreham Wood",
+            "prompt": "Morecambe",
+            "expected_guid": "1ff2kv2t9sad914he6ymuh51ti"
+        },
+        {
+            "title": "Morecambe vs. Boreham Wood",
+            "prompt": "Boreham Wood",
+            "expected_guid": "1ff2kv2t9sad914he6ymuh51ti"
+        },
+        {
+            "title": "Wealdstone vs. Scunthorpe",
+            "prompt": "Wealdstone vs. Scunthorpe",
+            "expected_guid": "g9vntn79npcs1qtn3yroerwtv"
+        },
+        {
+            "title": "Wealdstone vs. Scunthorpe",
+            "prompt": "Wealdstone",
+            "expected_guid": "g9vntn79npcs1qtn3yroerwtv"
+        },
+        {
+            "title": "Wealdstone vs. Scunthorpe",
+            "prompt": "Scunthorpe",
+            "expected_guid": "g9vntn79npcs1qtn3yroerwtv"
+        },
+        {
+            "title": "Eastleigh vs. Tamworth",
+            "prompt": "Eastleigh vs. Tamworth",
+            "expected_guid": "dmydpoc4bpyk11iwunajsbgxs"
+        },
+        {
+            "title": "Eastleigh vs. Tamworth",
+            "prompt": "Eastleigh",
+            "expected_guid": "dmydpoc4bpyk11iwunajsbgxs"
+        },
+        {
+            "title": "Eastleigh vs. Tamworth",
+            "prompt": "Tamworth",
+            "expected_guid": "dmydpoc4bpyk11iwunajsbgxs"
+        },
+        {
+            "title": "Dagenham & Redbridge vs. Weston-super-Mare",
+            "prompt": "Dagenham & Redbridge vs. Weston-super-Mare",
+            "expected_guid": "19plwsaaf3wwuzluhbvici6gc"
+        },
+        {
+            "title": "Dagenham & Redbridge vs. Weston-super-Mare",
+            "prompt": "Dagenham & Redbridge",
+            "expected_guid": "19plwsaaf3wwuzluhbvici6gc"
+        },
+        {
+            "title": "Dagenham & Redbridge vs. Weston-super-Mare",
+            "prompt": "Weston-super-Mare",
+            "expected_guid": "19plwsaaf3wwuzluhbvici6gc"
+        },
+        {
+            "title": "Sutton vs. Altrincham",
+            "prompt": "Sutton vs. Altrincham",
+            "expected_guid": "c0sz13oih1um1m89719k5h3w2"
+        },
+        {
+            "title": "Sutton vs. Altrincham",
+            "prompt": "Sutton",
+            "expected_guid": "c0sz13oih1um1m89719k5h3w2"
+        },
+        {
+            "title": "Sutton vs. Altrincham",
+            "prompt": "Altrincham",
+            "expected_guid": "c0sz13oih1um1m89719k5h3w2"
+        },
+        {
+            "title": "Brackley vs. Aldershot",
+            "prompt": "Brackley vs. Aldershot",
+            "expected_guid": "8e8uowzezsef1qvk3xrgde2ef"
+        },
+        {
+            "title": "Brackley vs. Aldershot",
+            "prompt": "Brackley",
+            "expected_guid": "8e8uowzezsef1qvk3xrgde2ef"
+        },
+        {
+            "title": "Brackley vs. Aldershot",
+            "prompt": "Aldershot",
+            "expected_guid": "8e8uowzezsef1qvk3xrgde2ef"
+        },
+        {
+            "title": "Truro vs. Carlisle",
+            "prompt": "Truro vs. Carlisle",
+            "expected_guid": "ccyfi1mvlv571olbxnpgijh0n"
+        },
+        {
+            "title": "Truro vs. Carlisle",
+            "prompt": "Truro",
+            "expected_guid": "ccyfi1mvlv571olbxnpgijh0n"
+        },
+        {
+            "title": "Truro vs. Carlisle",
+            "prompt": "Carlisle",
+            "expected_guid": "ccyfi1mvlv571olbxnpgijh0n"
+        },
+        {
+            "title": "GP Spain - Open Race 1",
+            "prompt": "GP Spain - Open Race 1",
+            "expected_guid": "4zheyqsktjm2vwezg7peg09wv"
+        },
+        {
+            "title": "GP Spain - Open Race 1",
+            "prompt": "GP Spain",
+            "expected_guid": "4zheyqsktjm2vwezg7peg09wv"
+        },
+        {
+            "title": "GP Spain - Open Race 1",
+            "prompt": "Open Race 1",
+            "expected_guid": "4zheyqsktjm2vwezg7peg09wv"
+        },
+        {
+            "title": "Spa - Race 1",
+            "prompt": "Spa - Race 1",
+            "expected_guid": "ds1l5cfg8bvtkhtldg6xtnyng"
+        },
+        {
+            "title": "Spa - Race 1",
+            "prompt": "Spa",
+            "expected_guid": "ds1l5cfg8bvtkhtldg6xtnyng"
+        },
+        {
+            "title": "Spa - Race 1",
+            "prompt": "Race 1",
+            "expected_guid": "ds1l5cfg8bvtkhtldg6xtnyng"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "prompt": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "expected_guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "prompt": "45th Andalusia Rally - Sierra Morena",
+            "expected_guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "prompt": "Stage 6",
+            "expected_guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "prompt": "45th Andalusia Rally",
+            "expected_guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
+            "prompt": "Sierra Morena",
+            "expected_guid": "aqzt5zalbioj14u9447uft1yn"
+        },
+        {
+            "title": "Imola - Race 1",
+            "prompt": "Imola - Race 1",
+            "expected_guid": "emmxh3d4thlx39eqpupqc1j6e"
+        },
+        {
+            "title": "Imola - Race 1",
+            "prompt": "Imola",
+            "expected_guid": "emmxh3d4thlx39eqpupqc1j6e"
+        },
+        {
+            "title": "Imola - Race 1",
+            "prompt": "Race 1",
+            "expected_guid": "emmxh3d4thlx39eqpupqc1j6e"
+        },
+        {
+            "title": "Napoli vs. Lazio",
+            "prompt": "Napoli vs. Lazio",
+            "expected_guid": "3y8ergs3vrhg66fj3nxnct1qu"
+        },
+        {
+            "title": "Napoli vs. Lazio",
+            "prompt": "Napoli",
+            "expected_guid": "3y8ergs3vrhg66fj3nxnct1qu"
+        },
+        {
+            "title": "Napoli vs. Lazio",
+            "prompt": "Lazio",
+            "expected_guid": "3y8ergs3vrhg66fj3nxnct1qu"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "prompt": "Whittaker vs. Suarez: Prelims",
+            "expected_guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "prompt": "Whittaker vs. Suarez",
+            "expected_guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "prompt": "Prelims",
+            "expected_guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "prompt": "Whittaker",
+            "expected_guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Whittaker vs. Suarez: Prelims",
+            "prompt": "Suarez",
+            "expected_guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+        },
+        {
+            "title": "Spurs vs. Brighton",
+            "prompt": "Spurs vs. Brighton",
+            "expected_guid": "8bnkr9u94tqzr5v5pfvjvmf8g"
+        },
+        {
+            "title": "Spurs vs. Brighton",
+            "prompt": "Spurs",
+            "expected_guid": "8bnkr9u94tqzr5v5pfvjvmf8g"
+        },
+        {
+            "title": "Spurs vs. Brighton",
+            "prompt": "Brighton",
+            "expected_guid": "8bnkr9u94tqzr5v5pfvjvmf8g"
+        },
+        {
+            "title": "Frankfurt vs. Leipzig",
+            "prompt": "Frankfurt vs. Leipzig",
+            "expected_guid": "448h3stc8j21jfealephdfhe1"
+        },
+        {
+            "title": "Frankfurt vs. Leipzig",
+            "prompt": "Frankfurt",
+            "expected_guid": "448h3stc8j21jfealephdfhe1"
+        },
+        {
+            "title": "Frankfurt vs. Leipzig",
+            "prompt": "Leipzig",
+            "expected_guid": "448h3stc8j21jfealephdfhe1"
+        },
+        {
+            "title": "Braintree vs. Rochdale",
+            "prompt": "Braintree vs. Rochdale",
+            "expected_guid": "15ldzy14knb41shh7ithrg4m9"
+        },
+        {
+            "title": "Braintree vs. Rochdale",
+            "prompt": "Braintree",
+            "expected_guid": "15ldzy14knb41shh7ithrg4m9"
+        },
+        {
+            "title": "Braintree vs. Rochdale",
+            "prompt": "Rochdale",
+            "expected_guid": "15ldzy14knb41shh7ithrg4m9"
+        },
+        {
+            "title": "York vs. Yeovil",
+            "prompt": "York vs. Yeovil",
+            "expected_guid": "avvemh11sp2c171g9tjaubhq5"
+        },
+        {
+            "title": "York vs. Yeovil",
+            "prompt": "York",
+            "expected_guid": "avvemh11sp2c171g9tjaubhq5"
+        },
+        {
+            "title": "York vs. Yeovil",
+            "prompt": "Yeovil",
+            "expected_guid": "avvemh11sp2c171g9tjaubhq5"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "expected_guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "prompt": "Stage 7",
+            "expected_guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1ffcmtqayucvm1b0yeag9g46so"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 3",
+            "prompt": "LIV Golf Mexico City - Day 3 Featured Group 3",
+            "expected_guid": "gc8mtj0yg2991fa040b25fzlt"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 3",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "gc8mtj0yg2991fa040b25fzlt"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 3",
+            "prompt": "Day 3 Featured Group 3",
+            "expected_guid": "gc8mtj0yg2991fa040b25fzlt"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 4",
+            "prompt": "LIV Golf Mexico City - Day 3 Featured Group 4",
+            "expected_guid": "x5ni21tdgsd71k2h4tpeihuty"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 4",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "x5ni21tdgsd71k2h4tpeihuty"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 4",
+            "prompt": "Day 3 Featured Group 4",
+            "expected_guid": "x5ni21tdgsd71k2h4tpeihuty"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3",
+            "prompt": "LIV Golf Mexico City - Day 3",
+            "expected_guid": "12ndkzbkyqrna1ky6uw9cp1hr9"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "12ndkzbkyqrna1ky6uw9cp1hr9"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3",
+            "prompt": "Day 3",
+            "expected_guid": "12ndkzbkyqrna1ky6uw9cp1hr9"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 1",
+            "prompt": "LIV Golf Mexico City - Day 3 Featured Group 1",
+            "expected_guid": "1fgznndkgp1cd15qqk78nw10tw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 1",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "1fgznndkgp1cd15qqk78nw10tw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 1",
+            "prompt": "Day 3 Featured Group 1",
+            "expected_guid": "1fgznndkgp1cd15qqk78nw10tw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 2",
+            "prompt": "LIV Golf Mexico City - Day 3 Featured Group 2",
+            "expected_guid": "t2u344ssdbor1tmn1q9kuiipk"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 2",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "t2u344ssdbor1tmn1q9kuiipk"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 3 Featured Group 2",
+            "prompt": "Day 3 Featured Group 2",
+            "expected_guid": "t2u344ssdbor1tmn1q9kuiipk"
+        },
+        {
+            "title": "Joventut vs. Baskonia",
+            "prompt": "Joventut vs. Baskonia",
+            "expected_guid": "arhcujnljodgmxkwrqnsa0wl8"
+        },
+        {
+            "title": "Joventut vs. Baskonia",
+            "prompt": "Joventut",
+            "expected_guid": "arhcujnljodgmxkwrqnsa0wl8"
+        },
+        {
+            "title": "Joventut vs. Baskonia",
+            "prompt": "Baskonia",
+            "expected_guid": "arhcujnljodgmxkwrqnsa0wl8"
+        },
+        {
+            "title": "Whittaker vs. Suarez",
+            "prompt": "Whittaker vs. Suarez",
+            "expected_guid": "1ivyxg20lbr3n18s6rn0djvinv"
+        },
+        {
+            "title": "Whittaker vs. Suarez",
+            "prompt": "Whittaker",
+            "expected_guid": "1ivyxg20lbr3n18s6rn0djvinv"
+        },
+        {
+            "title": "Whittaker vs. Suarez",
+            "prompt": "Suarez",
+            "expected_guid": "1ivyxg20lbr3n18s6rn0djvinv"
+        },
+        {
+            "title": "Hannover vs. Paderborn",
+            "prompt": "Hannover vs. Paderborn",
+            "expected_guid": "40owwlzlzpyaased7yd5f0q3z"
+        },
+        {
+            "title": "Hannover vs. Paderborn",
+            "prompt": "Hannover",
+            "expected_guid": "40owwlzlzpyaased7yd5f0q3z"
+        },
+        {
+            "title": "Hannover vs. Paderborn",
+            "prompt": "Paderborn",
+            "expected_guid": "40owwlzlzpyaased7yd5f0q3z"
+        },
+        {
+            "title": "Roma vs. Atalanta",
+            "prompt": "Roma vs. Atalanta",
+            "expected_guid": "8711m5hgun4zfksu2oe073qiw"
+        },
+        {
+            "title": "Roma vs. Atalanta",
+            "prompt": "Roma",
+            "expected_guid": "8711m5hgun4zfksu2oe073qiw"
+        },
+        {
+            "title": "Roma vs. Atalanta",
+            "prompt": "Atalanta",
+            "expected_guid": "8711m5hgun4zfksu2oe073qiw"
+        },
+        {
+            "title": "Mechelen vs. Anderlecht",
+            "prompt": "Mechelen vs. Anderlecht",
+            "expected_guid": "8bn50reuw1but2cqmxjwesel9"
+        },
+        {
+            "title": "Mechelen vs. Anderlecht",
+            "prompt": "Mechelen",
+            "expected_guid": "8bn50reuw1but2cqmxjwesel9"
+        },
+        {
+            "title": "Mechelen vs. Anderlecht",
+            "prompt": "Anderlecht",
+            "expected_guid": "8bn50reuw1but2cqmxjwesel9"
+        },
+        {
+            "title": "Chelsea vs. Man United",
+            "prompt": "Chelsea vs. Man United",
+            "expected_guid": "erqtw0qtpxqpxgv6ws22qztmq"
+        },
+        {
+            "title": "Chelsea vs. Man United",
+            "prompt": "Chelsea",
+            "expected_guid": "erqtw0qtpxqpxgv6ws22qztmq"
+        },
+        {
+            "title": "Chelsea vs. Man United",
+            "prompt": "Man United",
+            "expected_guid": "erqtw0qtpxqpxgv6ws22qztmq"
+        },
+        {
+            "title": "Korea Republic vs. Zambia",
+            "prompt": "Korea Republic vs. Zambia",
+            "expected_guid": "dv961d3y3ok7113w9hg8qoq5g"
+        },
+        {
+            "title": "Korea Republic vs. Zambia",
+            "prompt": "Korea Republic",
+            "expected_guid": "dv961d3y3ok7113w9hg8qoq5g"
+        },
+        {
+            "title": "Korea Republic vs. Zambia",
+            "prompt": "Zambia",
+            "expected_guid": "dv961d3y3ok7113w9hg8qoq5g"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "expected_guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "prompt": "Stage 8",
+            "expected_guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
+            "prompt": "Sierra Morena",
+            "expected_guid": "27864j1wsjxf1xajm6h2nber7"
+        },
+        {
+            "title": "Spa - Race 2",
+            "prompt": "Spa - Race 2",
+            "expected_guid": "1uwkfk5mcsqbmem3hwe55e390"
+        },
+        {
+            "title": "Spa - Race 2",
+            "prompt": "Spa",
+            "expected_guid": "1uwkfk5mcsqbmem3hwe55e390"
+        },
+        {
+            "title": "Spa - Race 2",
+            "prompt": "Race 2",
+            "expected_guid": "1uwkfk5mcsqbmem3hwe55e390"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "expected_guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "prompt": "Stage 9",
+            "expected_guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1prv2ndv08uc21ew14h5p6obw7"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 2",
+            "prompt": "Goodwood Members' Meeting - Day 2",
+            "expected_guid": "byeploa9f4lcv1au94k5gstp7"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 2",
+            "prompt": "Goodwood Members' Meeting",
+            "expected_guid": "byeploa9f4lcv1au94k5gstp7"
+        },
+        {
+            "title": "Goodwood Members' Meeting - Day 2",
+            "prompt": "Day 2",
+            "expected_guid": "byeploa9f4lcv1au94k5gstp7"
+        },
+        {
+            "title": "Imola - Race 2",
+            "prompt": "Imola - Race 2",
+            "expected_guid": "2jfx42zervd1t64f8lbmse57d"
+        },
+        {
+            "title": "Imola - Race 2",
+            "prompt": "Imola",
+            "expected_guid": "2jfx42zervd1t64f8lbmse57d"
+        },
+        {
+            "title": "Imola - Race 2",
+            "prompt": "Race 2",
+            "expected_guid": "2jfx42zervd1t64f8lbmse57d"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "expected_guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "prompt": "Stage 10",
+            "expected_guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
+            "prompt": "Sierra Morena",
+            "expected_guid": "1rgqch18yss4m1m9drbut9run1"
+        },
+        {
+            "title": "GP Spain - Pro Race 2",
+            "prompt": "GP Spain - Pro Race 2",
+            "expected_guid": "5dionquegj8s0mr5ivfaab1zf"
+        },
+        {
+            "title": "GP Spain - Pro Race 2",
+            "prompt": "GP Spain",
+            "expected_guid": "5dionquegj8s0mr5ivfaab1zf"
+        },
+        {
+            "title": "GP Spain - Pro Race 2",
+            "prompt": "Pro Race 2",
+            "expected_guid": "5dionquegj8s0mr5ivfaab1zf"
+        },
+        {
+            "title": "Cremonese vs. Torino",
+            "prompt": "Cremonese vs. Torino",
+            "expected_guid": "1ihefx1oqfi6x8sigc9fq7007"
+        },
+        {
+            "title": "Cremonese vs. Torino",
+            "prompt": "Cremonese",
+            "expected_guid": "1ihefx1oqfi6x8sigc9fq7007"
+        },
+        {
+            "title": "Cremonese vs. Torino",
+            "prompt": "Torino",
+            "expected_guid": "1ihefx1oqfi6x8sigc9fq7007"
+        },
+        {
+            "title": "Stuttgart Open - Final",
+            "prompt": "Stuttgart Open - Final",
+            "expected_guid": "2msugb0yjfq816znowvwzomyn"
+        },
+        {
+            "title": "Stuttgart Open - Final",
+            "prompt": "Stuttgart Open",
+            "expected_guid": "2msugb0yjfq816znowvwzomyn"
+        },
+        {
+            "title": "Stuttgart Open - Final",
+            "prompt": "Final",
+            "expected_guid": "2msugb0yjfq816znowvwzomyn"
+        },
+        {
+            "title": "Ipswich vs. Middlesbrough",
+            "prompt": "Ipswich vs. Middlesbrough",
+            "expected_guid": "cmfa9vysevjcblxbpbhw7wapo"
+        },
+        {
+            "title": "Ipswich vs. Middlesbrough",
+            "prompt": "Ipswich",
+            "expected_guid": "cmfa9vysevjcblxbpbhw7wapo"
+        },
+        {
+            "title": "Ipswich vs. Middlesbrough",
+            "prompt": "Middlesbrough",
+            "expected_guid": "cmfa9vysevjcblxbpbhw7wapo"
+        },
+        {
+            "title": "Gent vs. Sint-Truiden",
+            "prompt": "Gent vs. Sint-Truiden",
+            "expected_guid": "1dtu11eov292rgu9oylvrr0r5"
+        },
+        {
+            "title": "Gent vs. Sint-Truiden",
+            "prompt": "Gent",
+            "expected_guid": "1dtu11eov292rgu9oylvrr0r5"
+        },
+        {
+            "title": "Gent vs. Sint-Truiden",
+            "prompt": "Sint-Truiden",
+            "expected_guid": "1dtu11eov292rgu9oylvrr0r5"
+        },
+        {
+            "title": "Schalke vs. Munster",
+            "prompt": "Schalke vs. Munster",
+            "expected_guid": "3glaj2ov9f0657yla8o8e6f1k"
+        },
+        {
+            "title": "Schalke vs. Munster",
+            "prompt": "Schalke",
+            "expected_guid": "3glaj2ov9f0657yla8o8e6f1k"
+        },
+        {
+            "title": "Schalke vs. Munster",
+            "prompt": "Munster",
+            "expected_guid": "3glaj2ov9f0657yla8o8e6f1k"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "expected_guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "prompt": "Stage 11",
+            "expected_guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
+            "prompt": "Sierra Morena",
+            "expected_guid": "u65aeexcgd061fcn2j7y8nixk"
+        },
+        {
+            "title": "GP Spain - Open Race 2",
+            "prompt": "GP Spain - Open Race 2",
+            "expected_guid": "87k490ykhg0lxf58tu2i3b090"
+        },
+        {
+            "title": "GP Spain - Open Race 2",
+            "prompt": "GP Spain",
+            "expected_guid": "87k490ykhg0lxf58tu2i3b090"
+        },
+        {
+            "title": "GP Spain - Open Race 2",
+            "prompt": "Open Race 2",
+            "expected_guid": "87k490ykhg0lxf58tu2i3b090"
+        },
+        {
+            "title": "Nottingham Forest vs. Burnley",
+            "prompt": "Nottingham Forest vs. Burnley",
+            "expected_guid": "3eocdvo89vlbiu0oyn8tvhbse"
+        },
+        {
+            "title": "Nottingham Forest vs. Burnley",
+            "prompt": "Nottingham Forest",
+            "expected_guid": "3eocdvo89vlbiu0oyn8tvhbse"
+        },
+        {
+            "title": "Nottingham Forest vs. Burnley",
+            "prompt": "Burnley",
+            "expected_guid": "3eocdvo89vlbiu0oyn8tvhbse"
+        },
+        {
+            "title": "Aston Villa vs. Sunderland",
+            "prompt": "Aston Villa vs. Sunderland",
+            "expected_guid": "321q689c6b8rtn6a5d5d6fy6x"
+        },
+        {
+            "title": "Aston Villa vs. Sunderland",
+            "prompt": "Aston Villa",
+            "expected_guid": "321q689c6b8rtn6a5d5d6fy6x"
+        },
+        {
+            "title": "Aston Villa vs. Sunderland",
+            "prompt": "Sunderland",
+            "expected_guid": "321q689c6b8rtn6a5d5d6fy6x"
+        },
+        {
+            "title": "Hellas Verona vs. Milan",
+            "prompt": "Hellas Verona vs. Milan",
+            "expected_guid": "2nsywlidssije0eqv0tvr1pib"
+        },
+        {
+            "title": "Hellas Verona vs. Milan",
+            "prompt": "Hellas Verona",
+            "expected_guid": "2nsywlidssije0eqv0tvr1pib"
+        },
+        {
+            "title": "Hellas Verona vs. Milan",
+            "prompt": "Milan",
+            "expected_guid": "2nsywlidssije0eqv0tvr1pib"
+        },
+        {
+            "title": "Everton vs. Liverpool",
+            "prompt": "Everton vs. Liverpool",
+            "expected_guid": "epxhzbuaw4cu8p2uwr2075kgi"
+        },
+        {
+            "title": "Everton vs. Liverpool",
+            "prompt": "Everton",
+            "expected_guid": "epxhzbuaw4cu8p2uwr2075kgi"
+        },
+        {
+            "title": "Everton vs. Liverpool",
+            "prompt": "Liverpool",
+            "expected_guid": "epxhzbuaw4cu8p2uwr2075kgi"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "expected_guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "prompt": "Stage 12",
+            "expected_guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
+            "prompt": "Sierra Morena",
+            "expected_guid": "tjga94sw1m3w1gr3wjy787zcn"
+        },
+        {
+            "title": "Rouen Open - Final",
+            "prompt": "Rouen Open - Final",
+            "expected_guid": "2pneazvn5jtwzvf449hyp3fm8"
+        },
+        {
+            "title": "Rouen Open - Final",
+            "prompt": "Rouen Open",
+            "expected_guid": "2pneazvn5jtwzvf449hyp3fm8"
+        },
+        {
+            "title": "Rouen Open - Final",
+            "prompt": "Final",
+            "expected_guid": "2pneazvn5jtwzvf449hyp3fm8"
+        },
+        {
+            "title": "Freiburg vs. Heidenheim",
+            "prompt": "Freiburg vs. Heidenheim",
+            "expected_guid": "oxcoc24y6vycgiyua7apxr6o"
+        },
+        {
+            "title": "Freiburg vs. Heidenheim",
+            "prompt": "Freiburg",
+            "expected_guid": "oxcoc24y6vycgiyua7apxr6o"
+        },
+        {
+            "title": "Freiburg vs. Heidenheim",
+            "prompt": "Heidenheim",
+            "expected_guid": "oxcoc24y6vycgiyua7apxr6o"
+        },
+        {
+            "title": "Bristol Flyers vs. Surrey 89ers",
+            "prompt": "Bristol Flyers vs. Surrey 89ers",
+            "expected_guid": "9090v4ap9zmxwo9b46dp1l1gk"
+        },
+        {
+            "title": "Bristol Flyers vs. Surrey 89ers",
+            "prompt": "Bristol Flyers",
+            "expected_guid": "9090v4ap9zmxwo9b46dp1l1gk"
+        },
+        {
+            "title": "Bristol Flyers vs. Surrey 89ers",
+            "prompt": "Surrey 89ers",
+            "expected_guid": "9090v4ap9zmxwo9b46dp1l1gk"
+        },
+        {
+            "title": "Manchester Basketball vs. London Lions",
+            "prompt": "Manchester Basketball vs. London Lions",
+            "expected_guid": "ckzrrv7827vsyg1taqrcdsb2c"
+        },
+        {
+            "title": "Manchester Basketball vs. London Lions",
+            "prompt": "Manchester Basketball",
+            "expected_guid": "ckzrrv7827vsyg1taqrcdsb2c"
+        },
+        {
+            "title": "Manchester Basketball vs. London Lions",
+            "prompt": "London Lions",
+            "expected_guid": "ckzrrv7827vsyg1taqrcdsb2c"
+        },
+        {
+            "title": "Sheffield Sharks vs. Leicester Riders",
+            "prompt": "Sheffield Sharks vs. Leicester Riders",
+            "expected_guid": "c1rm71po3w5zjx6h480wwinjz"
+        },
+        {
+            "title": "Sheffield Sharks vs. Leicester Riders",
+            "prompt": "Sheffield Sharks",
+            "expected_guid": "c1rm71po3w5zjx6h480wwinjz"
+        },
+        {
+            "title": "Sheffield Sharks vs. Leicester Riders",
+            "prompt": "Leicester Riders",
+            "expected_guid": "c1rm71po3w5zjx6h480wwinjz"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "prompt": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "expected_guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "prompt": "43rd Andalusia Rally - Sierra Morena",
+            "expected_guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "prompt": "Stage 13",
+            "expected_guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "prompt": "43rd Andalusia Rally",
+            "expected_guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
+            "prompt": "Sierra Morena",
+            "expected_guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+        },
+        {
+            "title": "Man City vs. Arsenal",
+            "prompt": "Man City vs. Arsenal",
+            "expected_guid": "i9ppetq0u5x9ulkovy21gi3l"
+        },
+        {
+            "title": "Man City vs. Arsenal",
+            "prompt": "Man City",
+            "expected_guid": "i9ppetq0u5x9ulkovy21gi3l"
+        },
+        {
+            "title": "Man City vs. Arsenal",
+            "prompt": "Arsenal",
+            "expected_guid": "i9ppetq0u5x9ulkovy21gi3l"
+        },
+        {
+            "title": "Bayern Munich vs. Stuttgart",
+            "prompt": "Bayern Munich vs. Stuttgart",
+            "expected_guid": "cmmb5vcvdc1o1oqq4hcsjdwcv"
+        },
+        {
+            "title": "Bayern Munich vs. Stuttgart",
+            "prompt": "Bayern Munich",
+            "expected_guid": "cmmb5vcvdc1o1oqq4hcsjdwcv"
+        },
+        {
+            "title": "Bayern Munich vs. Stuttgart",
+            "prompt": "Stuttgart",
+            "expected_guid": "cmmb5vcvdc1o1oqq4hcsjdwcv"
+        },
+        {
+            "title": "Pisa vs. Genoa",
+            "prompt": "Pisa vs. Genoa",
+            "expected_guid": "8toqij90rh8c5tnps7ml9nze8"
+        },
+        {
+            "title": "Pisa vs. Genoa",
+            "prompt": "Pisa",
+            "expected_guid": "8toqij90rh8c5tnps7ml9nze8"
+        },
+        {
+            "title": "Pisa vs. Genoa",
+            "prompt": "Genoa",
+            "expected_guid": "8toqij90rh8c5tnps7ml9nze8"
+        },
+        {
+            "title": "Cheshire Phoenix vs. Caledonia Gladiators",
+            "prompt": "Cheshire Phoenix vs. Caledonia Gladiators",
+            "expected_guid": "3u2qorwnbw9l2awuxa45b2uvn"
+        },
+        {
+            "title": "Cheshire Phoenix vs. Caledonia Gladiators",
+            "prompt": "Cheshire Phoenix",
+            "expected_guid": "3u2qorwnbw9l2awuxa45b2uvn"
+        },
+        {
+            "title": "Cheshire Phoenix vs. Caledonia Gladiators",
+            "prompt": "Caledonia Gladiators",
+            "expected_guid": "3u2qorwnbw9l2awuxa45b2uvn"
+        },
+        {
+            "title": "Union Saint-Gilloise vs. Club Brugge",
+            "prompt": "Union Saint-Gilloise vs. Club Brugge",
+            "expected_guid": "4sg0rndpcpd50v5iax04ffemd"
+        },
+        {
+            "title": "Union Saint-Gilloise vs. Club Brugge",
+            "prompt": "Union Saint-Gilloise",
+            "expected_guid": "4sg0rndpcpd50v5iax04ffemd"
+        },
+        {
+            "title": "Union Saint-Gilloise vs. Club Brugge",
+            "prompt": "Club Brugge",
+            "expected_guid": "4sg0rndpcpd50v5iax04ffemd"
+        },
+        {
+            "title": "Real Madrid vs. Tenerife",
+            "prompt": "Real Madrid vs. Tenerife",
+            "expected_guid": "9b35zttruyiie5vir8f5sns2x"
+        },
+        {
+            "title": "Real Madrid vs. Tenerife",
+            "prompt": "Real Madrid",
+            "expected_guid": "9b35zttruyiie5vir8f5sns2x"
+        },
+        {
+            "title": "Real Madrid vs. Tenerife",
+            "prompt": "Tenerife",
+            "expected_guid": "9b35zttruyiie5vir8f5sns2x"
+        },
+        {
+            "title": "Monchengladbach vs. Mainz",
+            "prompt": "Monchengladbach vs. Mainz",
+            "expected_guid": "we7qqvs5of7lko0ck7x49tdw"
+        },
+        {
+            "title": "Monchengladbach vs. Mainz",
+            "prompt": "Monchengladbach",
+            "expected_guid": "we7qqvs5of7lko0ck7x49tdw"
+        },
+        {
+            "title": "Monchengladbach vs. Mainz",
+            "prompt": "Mainz",
+            "expected_guid": "we7qqvs5of7lko0ck7x49tdw"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 2",
+            "prompt": "LIV Golf Mexico City - Day 4 Featured Group 2",
+            "expected_guid": "67outaiziodn1031i01rjpb80"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 2",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "67outaiziodn1031i01rjpb80"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 2",
+            "prompt": "Day 4 Featured Group 2",
+            "expected_guid": "67outaiziodn1031i01rjpb80"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 3",
+            "prompt": "LIV Golf Mexico City - Day 4 Featured Group 3",
+            "expected_guid": "ggm7xmhvrph31avtmuayfmmhg"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 3",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "ggm7xmhvrph31avtmuayfmmhg"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 3",
+            "prompt": "Day 4 Featured Group 3",
+            "expected_guid": "ggm7xmhvrph31avtmuayfmmhg"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4",
+            "prompt": "LIV Golf Mexico City - Day 4",
+            "expected_guid": "4nykp3ti3byt1ejbbelx37kx7"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "4nykp3ti3byt1ejbbelx37kx7"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4",
+            "prompt": "Day 4",
+            "expected_guid": "4nykp3ti3byt1ejbbelx37kx7"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 1",
+            "prompt": "LIV Golf Mexico City - Day 4 Featured Group 1",
+            "expected_guid": "d955965w7gup1hbt0nsj3tz05"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 1",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "d955965w7gup1hbt0nsj3tz05"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 1",
+            "prompt": "Day 4 Featured Group 1",
+            "expected_guid": "d955965w7gup1hbt0nsj3tz05"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 4",
+            "prompt": "LIV Golf Mexico City - Day 4 Featured Group 4",
+            "expected_guid": "1pdw72d1k0arh1suii9ow0qjrj"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 4",
+            "prompt": "LIV Golf Mexico City",
+            "expected_guid": "1pdw72d1k0arh1suii9ow0qjrj"
+        },
+        {
+            "title": "LIV Golf Mexico City - Day 4 Featured Group 4",
+            "prompt": "Day 4 Featured Group 4",
+            "expected_guid": "1pdw72d1k0arh1suii9ow0qjrj"
+        },
+        {
+            "title": "Juventus vs. Bologna",
+            "prompt": "Juventus vs. Bologna",
+            "expected_guid": "9fj2ttzzky9z9sbwvasuzgn1c"
+        },
+        {
+            "title": "Juventus vs. Bologna",
+            "prompt": "Juventus",
+            "expected_guid": "9fj2ttzzky9z9sbwvasuzgn1c"
+        },
+        {
+            "title": "Juventus vs. Bologna",
+            "prompt": "Bologna",
+            "expected_guid": "9fj2ttzzky9z9sbwvasuzgn1c"
+        },
+        {
+            "title": "Mexico City \u2013 Longines Global Champions Tour Grand Prix",
+            "prompt": "Mexico City \u2013 Longines Global Champions Tour Grand Prix",
+            "expected_guid": "exkw1zflubl7e6ekq06mqgwyi"
+        },
+        {
+            "title": "Silk City Animals vs. Paterson U",
+            "prompt": "Silk City Animals vs. Paterson U",
+            "expected_guid": "9ol9hrkytkja1onxva9mekuci"
+        },
+        {
+            "title": "Silk City Animals vs. Paterson U",
+            "prompt": "Silk City Animals",
+            "expected_guid": "9ol9hrkytkja1onxva9mekuci"
+        },
+        {
+            "title": "Silk City Animals vs. Paterson U",
+            "prompt": "Paterson U",
+            "expected_guid": "9ol9hrkytkja1onxva9mekuci"
+        }
+    ]
+}

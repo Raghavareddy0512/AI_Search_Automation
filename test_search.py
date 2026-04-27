@@ -1,86 +1,125 @@
-import json
-from urllib import response
 import pytest
+import json
+import time
 
 from utils.api_client import search_api
-from utils.extractor import extract_article_types, extract_guids, extract_strategy
-from utils.extractor import extract_category
-from utils.schedule import schedule_api, extract_schedule_ids, fetch_full_schedule
 from utils.extractor import extract_search_event_ids
-from utils.validator import validate_list
+from utils.schedule import (
+    extract_schedule_two_days,
+)
+from utils.generator import generate_title_prompts
+# ------------------ OPTIONAL / NOT NEEDED FOR NOW ------------------
 
-@pytest.fixture(scope="session")
-def schedule_ids():
+# import json
+# from utils.extractor import extract_article_types, extract_guids, extract_strategy, extract_category
+# from utils.schedule import schedule_api, extract_schedule_ids
+# from utils.validator import validate_list
 
-    print("\nFetching EPG Schedule...")
+# @pytest.fixture(scope="session")
+# def schedule_ids():
+#     # ❌ Not needed anymore (we validate directly with GUID)
+#     pass
 
-    full_schedule = fetch_full_schedule()
-    schedule_ids = extract_schedule_ids(full_schedule)
-
-    print(f"Total Schedule Events: {len(schedule_ids)}")
-
-    return schedule_ids
-
-
-def load_tests():
-    with open("testdata/search_tests.json") as f:
-        return json.load(f)["tests"]
+# def load_tests():
+#     # ❌ Static JSON-based tests not needed for dynamic flow
+#     pass
 
 
-@pytest.mark.parametrize("test_data", load_tests())
-def test_search_validation(test_data, schedule_ids):
+# ------------------ DYNAMIC DATA GENERATION ------------------
 
-    print(f"\nRunning Test: {test_data['test_name']}")
-    print(f"Prompt: {test_data['prompt']}")
+def load_schedule_title_prompts():
+    """
+    EPG → title + GUID → generate prompts
+    """
+    data = []
+    generated_prompts = []
 
-    response = search_api(test_data["prompt"])
-    # print("\nFull API Response:")
-    # print(json.dumps(response, indent=2))
+    events = extract_schedule_two_days()
 
-    # ---------- Strategy ----------
-    actual_strategy = extract_strategy(response)
-    print("Actual Strategy:", actual_strategy)
-    assert test_data["expected_strategy"] in actual_strategy,\
-    f"Strategy mismatch | Actual: {actual_strategy}"
+    for event in events:
+        title = event["title"]
+        guid = event["guid"]
+
+        prompts = generate_title_prompts(title)
+
+        for prompt in prompts:
+            record = {
+                "title": title,
+                "prompt": prompt,
+                "expected_guid": guid
+            }
+            
+            data.append(record)
+            generated_prompts.append(record)
+    try:
+        with open("testdata/generated_prompts.json", "w") as f:
+            json.dump({"prompts": generated_prompts}, f, indent=4)
+        print(f"Saved {len(generated_prompts)} prompts to testdata/generated_prompts.json")
+    except Exception as e:
+        print(f"Failed to write prompts JSON: {e}")
+    return data
+
+
+# ------------------ MAIN TEST (DYNAMIC + STRONG VALIDATION ) ------------------
+
+# @pytest.mark.parametrize("data", load_schedule_title_prompts())
+# def test_search_with_schedule_title_prompts(data):
+
+#     print(f"\nTesting Title: {data['title']}")
+#     print(f"Prompt: {data['prompt']}")
+#     start_time = time.time()
+#     response = search_api(data["prompt"])
+#     response_time = round(time.time() - start_time, 2)
+#     search_event_ids = set(extract_search_event_ids(response))
+
+#     # print("Search Event IDs:", search_event_ids)
+#     # print("Total Search Events:", len(search_event_ids))
+
+#     #  STRONG VALIDATION (exact GUID match)
+#     assert data["expected_guid"] in search_event_ids, \
+#         f"FAILED | Title: {data['title']} | Prompt: {data['prompt']} | Time: {response_time}s"
+
     
+# ------------------ MAIN TEST (DYNAMIC + STRONG VALIDATION ) ------------------
+file_path = "testdata/test_results.txt"
 
-    # # ---------- Category ----------
-    # actual_category = extract_category(response)
-    # print("Actual Category:", actual_category)
-    # assert actual_category == test_data["expected_category"], \
-    #     f"Category mismatch | Expected: {test_data['expected_category']} Actual: {actual_category}"
 
-    # # ----------  Search IDs----------
+@pytest.mark.parametrize("data", load_schedule_title_prompts())
+def test_search_with_schedule_title_prompts(data):
+
+    title = data["title"]
+    prompt = data["prompt"]
+    expected_guid = data["expected_guid"]
+
+    print(f"\nTesting Title: {title}")
+    print(f"Prompt: {prompt}")
+
+    start_time = time.time()
+    response = search_api(prompt)
+    response_time = round(time.time() - start_time, 2)
 
     search_event_ids = set(extract_search_event_ids(response))
 
-    print("Search Event IDs:", search_event_ids)
-    print("Total Search Events:", len(search_event_ids))
+    try:
+        #  actual validation
+        assert expected_guid in search_event_ids
 
-    matched = search_event_ids & schedule_ids
-    missing = search_event_ids - schedule_ids
-    # print("Matched Schedule Events:", matched)
-    # print("Events not in schedule:", missing)
+        result = "PASS"
+        error_message = ""
 
-    assert matched, "No search events matched with schedule"
+    except AssertionError as e:
+        result = "FAIL"
+        error_message = str(e)
 
-
-    # ---------- GUID ----------
-    # actual_guids = extract_guids(response)
-    # print("Actual GUIDs \n:", actual_guids)
-    # validate_list(
-    #     test_data["expect_guid"],
-    #     actual_guids,
-    #     "GUID"
-    # )
-
-    # # ---------- Article Type ----------
-    # if "expected_article_type" in test_data:
-
-    #     actual_articles = extract_article_types(response)
-    #     print("Actual Article Types:", actual_articles)
-    #     validate_list(
-    #         test_data["expected_article_type"],
-    #         actual_articles,
-    #         "Article Type"
-    #     )
+    #  ALWAYS log result (PASS or FAIL)
+    with open(file_path, "a") as f:
+        f.write(
+            # f"TITLE: {title} | "
+            f"PROMPT: {prompt} | "
+            f"TIME: {response_time}s | "
+            f"RESULT: {result}\n"
+            # f"{error_message}\n"
+        )
+    #  re-raise failure so pytest still marks it FAILED
+    if result == "FAIL":
+        pytest.fail(error_message)
