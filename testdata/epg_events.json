@@ -1,640 +1,2731 @@
 {
     "events": [
         {
-            "title": "DAZN Combat",
-            "guid": "174qulc11iwl81eoi31yxjw2zd"
-        },
-        {
-            "title": "MLB Network",
-            "guid": "6wwi0y10ztxd12c2vg296aeho"
-        },
-        {
-            "title": "NFL Network",
-            "guid": "o5rzhf12mpyb1dk07c9pl9ulf"
-        },
-        {
-            "title": "Red Bull TV",
-            "guid": "myhtc4bhd1wv13shvtb70nryf"
-        },
-        {
-            "title": "Rally TV",
-            "guid": "jgkpaz643rkh1efwle6e47nht"
-        },
-        {
-            "title": "Unbeaten: 24/7 Global Sports Channel",
-            "guid": "i48tppum0lzy1k4og8fq90c34"
-        },
-        {
-            "title": "New Caledonia vs. Indonesia",
-            "guid": "hqkq21zjmsnhyvfomdd2khsl"
-        },
-        {
-            "title": "Stuttgart Open - Day 3",
-            "guid": "5m00jmhvqhygl1cydygwv68qn"
-        },
-        {
-            "title": "India vs. Malawi",
-            "guid": "36w7hw1yld9zhxdo7y9ix2m42"
-        },
-        {
-            "title": "Collins vs. Lorente 2: Press Conference",
-            "guid": "j1do8fym7ui19h2c0ddrywch"
-        },
-        {
-            "title": "Good Morning Football",
-            "guid": "16nfs5crefqa11a1ryko7xfbly"
-        },
-        {
-            "title": "Thailand vs. Congo DR",
-            "guid": "eoib6a7lffropw9wbw2955olb"
-        },
-        {
-            "title": "Kenya vs. Australia",
-            "guid": "b6ifptjbhydm6sfp55l3073nt"
-        },
-        {
-            "title": "AEK vs. Joventut",
-            "guid": "18zv5flxvuymy1mapzrx2o9cam"
-        },
-        {
-            "title": "Bayern Munich vs. Real Madrid (Commentaires en Fran\u00e7ais)",
-            "guid": "2ejifs5zb3y01h6q7olslgdjk"
-        },
-        {
-            "title": "Bayern Munich vs. Real Madrid",
-            "guid": "22d0faecj5g88c54f683tbo9w"
-        },
-        {
-            "title": "Arsenal vs. Sporting CP",
-            "guid": "640w98ksxpnuoicyx8e0malr7"
-        },
-        {
-            "title": "Tenerife vs. Galatasaray",
-            "guid": "1oqw75r4thlor1e4spdpl3h4f1"
-        },
-        {
-            "title": "Path to the Draft",
-            "guid": "13k8ry5dudnl71q926ol1lmjnt"
-        },
-        {
-            "title": "NFL Insiders",
-            "guid": "o6s67kve7ujr1ra4u79e7zicp"
-        },
-        {
-            "title": "Rouen Open - Day 4",
-            "guid": "21cf05sv9y8a6whv09iv0cs4j"
-        },
-        {
-            "title": "Stuttgart Open - Day 4",
-            "guid": "733esqztdk94pgxc3rg7hmhr3"
-        },
-        {
             "title": "Collins vs. Lorente 2: Weigh-In",
-            "guid": "1lnfqbtqr4z8u12kq9g398d8no"
-        },
-        {
-            "title": "Good Morning Football",
-            "guid": "1cq78pn0u31vu138a716s7xs75"
+            "guid": "1lnfqbtqr4z8u12kq9g398d8no",
+            "event_id": "tbowapdhkj6l1wu371lgnl1go",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-16T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Whittaker vs. Suarez: Press Conference",
-            "guid": "1keqatkzopnpg13g26o2x1omhm"
-        },
-        {
-            "title": "Turks and Caicos Islands vs. Mauritania",
-            "guid": "7nqj0cmsirzxulfejkahotjqh"
+            "guid": "1keqatkzopnpg13g26o2x1omhm",
+            "event_id": "i90811v8v1tg11agzly8ae68y",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-16T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Celta Vigo vs. Freiburg",
-            "guid": "bvaopa9aeqb42o6fz0ovtkac"
+            "guid": "bvaopa9aeqb42o6fz0ovtkac",
+            "event_id": "1remjfmhztllu1n5u1716ee6rh",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T16:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "AZ vs. Shakhtar Donetsk",
-            "guid": "6pog8q43k3swxevxd3izu9fqu"
+            "guid": "6pog8q43k3swxevxd3izu9fqu",
+            "event_id": "17iltc15bffxib1cfi2funz7m0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T16:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Nottingham Forest vs. Porto",
-            "guid": "3f37jxd65tleqjjz90sfw97ee"
+            "guid": "3f37jxd65tleqjjz90sfw97ee",
+            "event_id": "1nc7he6koslre1x3q2xkrkkhgq",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Real Betis vs. Braga",
-            "guid": "athph68n3mm1w1k3gey6jygnk"
+            "guid": "athph68n3mm1w1k3gey6jygnk",
+            "event_id": "abrqtse58eeu0w5nvk1n9kf2c0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Aston Villa vs. Bologna",
-            "guid": "4feskl75lurpw2u8domidrqj9"
-        },
-        {
-            "title": "Bromley vs. Cambridge",
-            "guid": "1vb0gippwen37mhp3ws5qw7mx"
+            "guid": "4feskl75lurpw2u8domidrqj9",
+            "event_id": "oqniozsd2nji01irxaklt1k64s",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Strasbourg vs. Mainz",
-            "guid": "cyozrhm9qptv5jsjs8q14oaew"
+            "guid": "cyozrhm9qptv5jsjs8q14oaew",
+            "event_id": "1ufldwbncli5x1b51ktx8d14fh",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 1",
-            "guid": "1q1hx24fu959b11fsrqa0ujhwx"
+            "guid": "4jtfxauwojf51bnyns3qavvkq",
+            "event_id": "34ul0clq306l16w8r03nt7313",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Fiorentina vs. Crystal Palace",
-            "guid": "6cqvj0mcnd2rjy23udxv1aiis"
+            "guid": "6cqvj0mcnd2rjy23udxv1aiis",
+            "event_id": "k7vzmpob83an0ivnuwzyp3jvy0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "AEK Athens vs. Rayo Vallecano",
-            "guid": "anrs4zexymchibjfa8xkfmpc7"
-        },
-        {
-            "title": "Cote d'Ivoire vs. Pakistan",
-            "guid": "1uzyvltho0aq9mw9e4nu0i1jb"
-        },
-        {
-            "title": "Path to the Draft",
-            "guid": "12ruc13pxqs3j1d1k086d9k9sf"
-        },
-        {
-            "title": "The Insiders",
-            "guid": "12bgwixbicb6e1057t14xh1bvg"
+            "guid": "anrs4zexymchibjfa8xkfmpc7",
+            "event_id": "qv4g787dck5o0t2x1j336atel0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-16T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Camozzi vs. Rodriguez: Weigh-In",
-            "guid": "4i8t0jgmyayl1dtll4w2sg39b"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Qualifying Stage",
-            "guid": "12xi25cihpe1m127xx1itgkfco"
-        },
-        {
-            "title": "Stuttgart Open - Day 5",
-            "guid": "4q0jj01chq0i2nwi6kw6pverj"
-        },
-        {
-            "title": "Rouen Open - Day 5",
-            "guid": "cgj0rm4i9hg0b7b7a0vod12ao"
-        },
-        {
-            "title": "Benfica U19 vs. Club Brugge U19",
-            "guid": "30md0irqq67lbwk34punvnqo7"
+            "guid": "4i8t0jgmyayl1dtll4w2sg39b",
+            "event_id": "gjncr5u0l1l713bxb2urfrumx",
+            "sport_id": "480inac3luslpgfy8cjfxdfkz",
+            "sport": "BKFC",
+            "start_date": "2026-04-17T01:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Whittaker vs. Suarez: Weigh-In",
-            "guid": "1lkh8wkz8pbhy1tve017ldaevh"
+            "guid": "1rejrwg2wo9yu18e3axl81eq00",
+            "event_id": "m9g58qyi8enn10ms0ypge5vr9",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-17T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Freestyle Friday #5",
-            "guid": "2d86netpnbe8qztgc5njae7d4"
+            "guid": "ecb8otv85vjbkjjuxw192tzof",
+            "event_id": "vh17ragh3f0m1pmrj4nphv7bo",
+            "sport_id": "2vdee2dgp7oubyjwoyxp9v4k2",
+            "sport": "Chess",
+            "start_date": "2026-04-17T14:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Collins vs. Lorente 2: Prelims",
-            "guid": "mntw6108sad31aqoxubphkadh"
+            "guid": "1vnh0hrearfu91y2gesd4tda79",
+            "event_id": "1pjfab54lvjg91amja6lrdm46x",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-17T15:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Sassuolo vs. Como",
-            "guid": "en391vxt9c5uosuizjm57zf3v"
+            "guid": "z2zc49wpr976xig6urf7pgzb",
+            "event_id": "xahimur1chlb01nbhefp0fhcda",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-17T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "Real Madrid U19 vs. PSG U19",
-            "guid": "8qtrupkeny61col5hstjp0eql"
+            "title": "Collins vs. Lorente 2: Full Event Replay",
+            "guid": "ps4wdq89uyttzj3yvi0ovp5x",
+            "event_id": "1kp8j40981alx1qsgve0cyz3sr",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-17T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 2",
-            "guid": "yf3tr9tiiypf1l5xijq4w9qxo"
-        },
-        {
-            "title": "Collins vs. Lorente 2",
-            "guid": "15a6hr04xt1be1fakisgdjlwwa"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 1",
-            "guid": "teyyfll80a5k1t1ysbxezrkyq"
+            "guid": "5d3rsky0nh5w1opitrht1ne4l",
+            "event_id": "spidz9r4jv1p1nkivkpf0bvd1",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-17T18:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "St. Pauli vs. Koln",
-            "guid": "528jp88g1h4kgigk17qzx4lvj"
+            "guid": "9zm96lkyjyu3fu8u8bc2bb703",
+            "event_id": "nwf29q4zuasdvlj6zn0gyg44",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-17T18:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Leicester Riders vs. Manchester Basketball",
-            "guid": "bwcuqpf4f1il7j2vgn665pifb"
+            "guid": "96exlcsb9ggdljw10in7m10lz",
+            "event_id": "13cnbufxc1vplpug1sruas1df0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-17T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Newcastle Eagles vs. Sheffield Sharks",
-            "guid": "8kvfdln96fa8vgtqi9tyjcjqz"
+            "guid": "dfkjqvxpaylhj215kdgtuzhhh",
+            "event_id": "13rws05sslfvw14bls56kjqux0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-17T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Surrey 89ers vs. Caledonia Gladiators",
-            "guid": "23cggo5daun5givq53g9bnz88"
+            "guid": "401z2zcmu0el9a7vy7e3hma22",
+            "event_id": "1pksju3a5g8jl1qzg0qb00wu49",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-17T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "London Lions vs. Cheshire Phoenix",
-            "guid": "8ztoefwrry6o6mz79bdtdk3ru"
+            "guid": "ecvuxbwybkhdu9oezsof3jmt9",
+            "event_id": "1vxaindhbk3jv14yg58mxaewhk",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-17T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Inter vs. Cagliari",
-            "guid": "qgqbbih3rj36rz34w9jcyjcp"
+            "guid": "bh69murgpijr6ubfshm2f87rr",
+            "event_id": "17a5thske6dgz901poqwfluf50",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-17T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Blackburn vs. Coventry",
-            "guid": "4nmqig9dhqemg6u8sfiyobt1u"
+            "guid": "e7k2kmdatpwo851r929mcxbin",
+            "event_id": "c8ixhlqd6bvg013rz8x8lcnzb0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-17T19:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Mexico City - GCL Round 1",
-            "guid": "4jvdpb78bclko96bdiiofrlcq"
+            "guid": "as2de8jbhys81c8ycm2tmsiv5",
+            "event_id": "zl61n9qcavsd1dz0xeykn6igd",
+            "sport_id": "66knmupkttgz1j51y4d5oogtk",
+            "sport": "Equestrian",
+            "start_date": "2026-04-17T20:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Club Nacional vs. Franca",
-            "guid": "4ocmpr72dhbi64tdjj8qjpgl8"
+            "guid": "37rheaok37ethuu189urkc7fg",
+            "event_id": "1v9826j9m5cgh1tgs8t535oau5",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-17T20:40:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Mexico City - GCL Round 2",
-            "guid": "9c9xpdommjw1xn1qbtxxyupf3"
+            "guid": "anoar8hmicsbrwq06gve8mcjg",
+            "event_id": "1cfukbzdhjbsd1vpy04j41bq7o",
+            "sport_id": "66knmupkttgz1j51y4d5oogtk",
+            "sport": "Equestrian",
+            "start_date": "2026-04-17T23:05:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "Camozzi vs. Rodriguez",
-            "guid": "5q5t74jk4zk91l6kltg2qh05k"
+            "title": "BKFC 88: Camozzi vs. Rodriguez - Full Event Replay",
+            "guid": "o6638zomrxfk1b1yop5vcc9d9",
+            "event_id": "31z4ssj393sx1tp5lt922a7ea",
+            "sport_id": "480inac3luslpgfy8cjfxdfkz",
+            "sport": "BKFC",
+            "start_date": "2026-04-18T00:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Boca Juniors vs. Flamengo",
-            "guid": "1w3iodgt3vmuohaopr3rnp45"
+            "guid": "4h0fnwd9g9a5edf37ukzmngn1",
+            "event_id": "1fde1pne6hrzn17dcju6kpgi60",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-18T00:40:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 2",
-            "guid": "3s7quw6c7ki911666ewlcbjt5"
-        },
-        {
-            "title": "Goodwood Members' Meeting - Day 1",
-            "guid": "1iuj4e76gh64otb86oc2f6feo"
-        },
-        {
-            "title": "GP Spain - Qualifying",
-            "guid": "eckk9p82rpdr6wd8udfr372va"
-        },
-        {
-            "title": "Hepi vs. Wisniewski",
-            "guid": "13bbhd215yipi15ztnbr1ectiz"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 3",
-            "guid": "1hn9qe68i4sax1u1n8t0s1c650"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 4",
-            "guid": "1gkfy1wkad4rh1l7l5c2t33pen"
+            "title": "Hepi vs. Wisniewski: Full Event Replay",
+            "guid": "71l4vncs5baq1gobiyxrzxyjz",
+            "event_id": "1krulok32r2lr1r88h76ie6i1t",
+            "sport_id": "480inac3luslpgfy8cjfxdfkz",
+            "sport": "BKFC",
+            "start_date": "2026-04-18T09:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Brentford vs. Fulham",
-            "guid": "3wzast3etmbijsaod0taranu3"
+            "guid": "6lwp6iajn4lglsrz59kwuht50",
+            "event_id": "1hfp3lnkhzqhq18r5jw31u9gy5",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Portsmouth vs. Leicester",
-            "guid": "lcv62wpwsitrjf12do83h356"
+            "guid": "8iwtupf3f3ez8zbc5muiiiz6g",
+            "event_id": "1jkh9wmkjwzg2rhdy3fdevk700",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T11:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "FC Halifax Town vs. Southend",
-            "guid": "1re2wsuvm30rw1nnz141aucui9"
-        },
-        {
-            "title": "GP Spain - Pro Race 1",
-            "guid": "cpj3ghwk7fpyzpr3b42nn3lkf"
-        },
-        {
-            "title": "Stuttgart Open - Day 6",
-            "guid": "ao2r3kj8hfcgxyx20tbhgwjqk"
-        },
-        {
-            "title": "RWS April Inferno: Rodriguez vs. Hercules",
-            "guid": "ae131f70n6n6xzox56pp2ed6e"
+            "guid": "1duehoxegq6wt1arf2mrabbiq7",
+            "event_id": "30k3h3hqjkz101hlqx73wkztvl",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Udinese vs. Parma",
-            "guid": "9hdo3309cdksnxrp13d3ypkqb"
-        },
-        {
-            "title": "Rouen Open - Day 6",
-            "guid": "4xzansl8oqtjl2mkzhdtt7p5t"
+            "guid": "dmvuq184ijjv2ow5krzt7sm8",
+            "event_id": "81iev8sokwtu0vqwmdhxvrv3t0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Leverkusen vs. Augsburg",
-            "guid": "9919kp3ms0xst24xswy86qai6"
+            "guid": "8n6g511b467m6k4u41wegsgqp",
+            "event_id": "lg07kzqpid4pwyxwiwdwi0b8",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Werder Bremen vs. Hamburg",
-            "guid": "8hkrodz3fydfky8235bbsnp9r"
+            "guid": "6ab8odxsr2rit6gm9kf5jvqiz",
+            "event_id": "mmkbdhus44bo4g4c4ytz9wyc",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Union Berlin vs. Wolfsburg",
-            "guid": "881lgox9n9w13xvob5dvx2v3s"
+            "guid": "b7fb51p5ow9fnygd3hw2a1fdh",
+            "event_id": "nia3hmwa7nax7x35ruriltec",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Hoffenheim vs. Dortmund",
-            "guid": "7l4f39fa60vc37pk0dr4ody19"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 5",
-            "guid": "1ksym2u3nalh61asge0iaiop8w"
+            "guid": "ehb4rhhyo057vjcf953ef8r6t",
+            "event_id": "oav1ohsgn89qcpi3r93qscus",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Leeds vs. Wolves",
-            "guid": "ekvmpi61jxp5ppnqt2agz2jv8"
+            "guid": "39hzdwu0zfemg3cansyt2iqut",
+            "event_id": "1a7do798zn6qj15d6ahqsoggci",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Newcastle vs. Bournemouth",
-            "guid": "dv2fx7y1084twv59oricw8m21"
+            "guid": "bmg1j7l3w85awpd5yomb1gh8c",
+            "event_id": "1alfz2yzykluo1ffucawqq2zm2",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Hull vs. Birmingham",
-            "guid": "5s9ehrz76wxl2qg3937zy8su0"
+            "guid": "7f5vbw9xkaleppl9leh53nuh9",
+            "event_id": "1tr0simqf8lrntn0cdgd3p9uh0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Solihull Moors vs. Boston",
-            "guid": "rru4mv86qn9f1m9wk6600qq2y"
+            "guid": "1g8fqcaa5768p10qc7ww2tzuhw",
+            "event_id": "146ha20wk7vxo4aneiqvch42y0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Gateshead vs. Woking",
-            "guid": "35uebtf10p0q1iupm105jyok6"
+            "guid": "1dbpnnf1t1nta1nhrh4qf6z4ns",
+            "event_id": "196huz8f6scm0fot6w2anx8ng0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Hartlepool vs. Forest Green",
-            "guid": "1hp5lq8etqsj61osifvbwednbv"
+            "guid": "j5mujoodaguo1d4q14so72jbu",
+            "event_id": "1rwox4eds2o6q17lm27kdcdxke",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Morecambe vs. Boreham Wood",
-            "guid": "1ff2kv2t9sad914he6ymuh51ti"
+            "guid": "13e9wtcxwycti1xom3x2j4iqth",
+            "event_id": "1wobp0eenpdrvscb6yws9wb9o0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Wealdstone vs. Scunthorpe",
-            "guid": "g9vntn79npcs1qtn3yroerwtv"
+            "guid": "1a6lhm9mjvrnx1p7poy9xybz73",
+            "event_id": "1wugprflisa9msqihm0ph4hp40",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Eastleigh vs. Tamworth",
-            "guid": "dmydpoc4bpyk11iwunajsbgxs"
+            "guid": "1kq6054rp5w5x1hb4m54zx4yx1",
+            "event_id": "22hk95bo73rd03h6aleenpdnr0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Dagenham & Redbridge vs. Weston-super-Mare",
-            "guid": "19plwsaaf3wwuzluhbvici6gc"
+            "guid": "1tyd13ndihifw14h0192t842oy",
+            "event_id": "dbdx52d4am5a3tzviourq0cno",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Sutton vs. Altrincham",
-            "guid": "c0sz13oih1um1m89719k5h3w2"
+            "guid": "fn1x6kqtqruw1l3ogyboxioha",
+            "event_id": "ib3nds6xu9ep01a6g34zosm6q6",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Brackley vs. Aldershot",
-            "guid": "8e8uowzezsef1qvk3xrgde2ef"
+            "guid": "yuc4g4rcqyus1ioy86ei8bzdh",
+            "event_id": "wojbyst9zg780124abwm7zvxvm",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Truro vs. Carlisle",
-            "guid": "ccyfi1mvlv571olbxnpgijh0n"
-        },
-        {
-            "title": "GP Spain - Open Race 1",
-            "guid": "4zheyqsktjm2vwezg7peg09wv"
-        },
-        {
-            "title": "Spa - Race 1",
-            "guid": "ds1l5cfg8bvtkhtldg6xtnyng"
-        },
-        {
-            "title": "45th Andalusia Rally - Sierra Morena: Stage 6",
-            "guid": "aqzt5zalbioj14u9447uft1yn"
-        },
-        {
-            "title": "Imola - Race 1",
-            "guid": "emmxh3d4thlx39eqpupqc1j6e"
+            "guid": "8npl2yyw5vi21kth7rlvp1ecv",
+            "event_id": "ywf4fnxe230x0vpud8k8kjapm0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Napoli vs. Lazio",
-            "guid": "3y8ergs3vrhg66fj3nxnct1qu"
+            "guid": "8zae8ihs88yg0py3ogxitczux",
+            "event_id": "16bvrfc9jqz4zc28111gnahnh0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Whittaker vs. Suarez: Prelims",
-            "guid": "1m6l7rvjybbtv1cpflw3fwgpnf"
+            "guid": "1591ga3rjr67v1fgkmtwtygt8a",
+            "event_id": "yd7em1k6w41wyjcvy9tg5t4",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-18T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Spurs vs. Brighton",
-            "guid": "8bnkr9u94tqzr5v5pfvjvmf8g"
+            "guid": "36h7m2nuyco1jntnzrr2u6n6b",
+            "event_id": "1kbyx99t1h5wjtmxaq603mhb10",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Frankfurt vs. Leipzig",
-            "guid": "448h3stc8j21jfealephdfhe1"
+            "guid": "3q8d8bvxgfd5vw2sck1horjf",
+            "event_id": "lu8298fxxegjsnz5wlmlbgno",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T16:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Braintree vs. Rochdale",
-            "guid": "15ldzy14knb41shh7ithrg4m9"
+            "guid": "y0ucx7quvmegzbsgigg9v2vc",
+            "event_id": "b7jw8b25xdhk0154w9y0mmt6nh",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "York vs. Yeovil",
-            "guid": "avvemh11sp2c171g9tjaubhq5"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 7",
-            "guid": "1ffcmtqayucvm1b0yeag9g46so"
-        },
-        {
-            "title": "LIV Golf Mexico City - Day 3 Featured Group 3",
-            "guid": "gc8mtj0yg2991fa040b25fzlt"
-        },
-        {
-            "title": "LIV Golf Mexico City - Day 3 Featured Group 4",
-            "guid": "x5ni21tdgsd71k2h4tpeihuty"
+            "guid": "6huuk7i9l8a7zhd043huw9n6",
+            "event_id": "v210mbakoy1q01cejsgssqrkk4",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 3",
-            "guid": "12ndkzbkyqrna1ky6uw9cp1hr9"
-        },
-        {
-            "title": "LIV Golf Mexico City - Day 3 Featured Group 1",
-            "guid": "1fgznndkgp1cd15qqk78nw10tw"
-        },
-        {
-            "title": "LIV Golf Mexico City - Day 3 Featured Group 2",
-            "guid": "t2u344ssdbor1tmn1q9kuiipk"
+            "guid": "o7bj5tyjbylw1hpuw02jr0j9p",
+            "event_id": "76ddty7pl8v91d7zpf2s5j78u",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-18T17:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Joventut vs. Baskonia",
-            "guid": "arhcujnljodgmxkwrqnsa0wl8"
+            "guid": "7kolu5bzrro9tvhzauf0e7d99",
+            "event_id": "6oj874cdvmft01g4avdgklzcjm",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-18T17:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "Whittaker vs. Suarez",
-            "guid": "1ivyxg20lbr3n18s6rn0djvinv"
-        },
-        {
-            "title": "Hannover vs. Paderborn",
-            "guid": "40owwlzlzpyaased7yd5f0q3z"
+            "title": "Whittaker vs. Suarez: Full Event Replay",
+            "guid": "4xpplzp6jql513u78izcg0281",
+            "event_id": "1dzdg7elgv55417j07iabeermy",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-18T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Roma vs. Atalanta",
-            "guid": "8711m5hgun4zfksu2oe073qiw"
+            "guid": "aiinog0jsg5heb13u0uokvlyr",
+            "event_id": "15nq9l8e3c55974s03u13o80h0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Mechelen vs. Anderlecht",
-            "guid": "8bn50reuw1but2cqmxjwesel9"
+            "guid": "1itxndx4q1fc6gl5sop0cockj",
+            "event_id": "5idzsrx03jid0als3dlbkcljh0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Chelsea vs. Man United",
-            "guid": "erqtw0qtpxqpxgv6ws22qztmq"
+            "guid": "6livrpflx4dgozwvpvwpz3k7r",
+            "event_id": "2udsogjwv6rt02o2c1t5v4bhr0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-18T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "Korea Republic vs. Zambia",
-            "guid": "dv961d3y3ok7113w9hg8qoq5g"
+            "title": "Club Nacional vs. Flamengo",
+            "guid": "7psrf49oetdec4ncih2eonw2a",
+            "event_id": "1842szpqkm8c3c9ilwjy685ne0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-18T20:40:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 8",
-            "guid": "27864j1wsjxf1xajm6h2nber7"
-        },
-        {
-            "title": "Spa - Race 2",
-            "guid": "1uwkfk5mcsqbmem3hwe55e390"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 9",
-            "guid": "1prv2ndv08uc21ew14h5p6obw7"
-        },
-        {
-            "title": "Goodwood Members' Meeting - Day 2",
-            "guid": "byeploa9f4lcv1au94k5gstp7"
-        },
-        {
-            "title": "Imola - Race 2",
-            "guid": "2jfx42zervd1t64f8lbmse57d"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 10",
-            "guid": "1rgqch18yss4m1m9drbut9run1"
-        },
-        {
-            "title": "GP Spain - Pro Race 2",
-            "guid": "5dionquegj8s0mr5ivfaab1zf"
+            "title": "Franca vs. Boca Juniors",
+            "guid": "7q7cdqv0iu9dc7gggp3kzlmow",
+            "event_id": "11ztcak821rve1nm3ekxjjo76r",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T00:40:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Cremonese vs. Torino",
-            "guid": "1ihefx1oqfi6x8sigc9fq7007"
+            "guid": "5cyrpdm9txg5c0mg1rspfjcv1",
+            "event_id": "1vih3hx109wk0wiaw9m6a3c1u0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T10:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "Stuttgart Open - Final",
-            "guid": "2msugb0yjfq816znowvwzomyn"
+            "title": "Stuttgart Open - Final: Rybakina vs. Muchova",
+            "guid": "85cyzy2sdl3mqzk8bi5erb7xi",
+            "event_id": "6ez1ifi3ypfka70h2af1artmi",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-19T11:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Ipswich vs. Middlesbrough",
-            "guid": "cmfa9vysevjcblxbpbhw7wapo"
+            "guid": "1gfohmbvwx2ucn4x4axrfqr9i",
+            "event_id": "sp5mft1te5lc0168og2bux6ro2",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T11:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Gent vs. Sint-Truiden",
-            "guid": "1dtu11eov292rgu9oylvrr0r5"
-        },
-        {
-            "title": "Schalke vs. Munster",
-            "guid": "3glaj2ov9f0657yla8o8e6f1k"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 11",
-            "guid": "u65aeexcgd061fcn2j7y8nixk"
-        },
-        {
-            "title": "GP Spain - Open Race 2",
-            "guid": "87k490ykhg0lxf58tu2i3b090"
+            "guid": "a0rkz8t3xmmsnsky6wxvnef8",
+            "event_id": "vps9kmnxhrkp01rmnq9zgflrld",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Nottingham Forest vs. Burnley",
-            "guid": "3eocdvo89vlbiu0oyn8tvhbse"
+            "guid": "arv6e26ihh1ixv1imndfxsd9g",
+            "event_id": "1pab7iq80s3bftjb38ufe667m0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Aston Villa vs. Sunderland",
-            "guid": "321q689c6b8rtn6a5d5d6fy6x"
+            "guid": "6oy7t6z0in3jo3qat5ld61d89",
+            "event_id": "1pqcihw18bdzg147ldfa455we1",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Hellas Verona vs. Milan",
-            "guid": "2nsywlidssije0eqv0tvr1pib"
+            "guid": "e0n4djd609mavbnlhv9ozfnh9",
+            "event_id": "limmv6vl1p600k75n3wrb88eu0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Everton vs. Liverpool",
-            "guid": "epxhzbuaw4cu8p2uwr2075kgi"
+            "guid": "88c6rssm0k6230ruknq7vuzsh",
+            "event_id": "r81510t16mrl016kwqf2htw2hb",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 12",
-            "guid": "tjga94sw1m3w1gr3wjy787zcn"
-        },
-        {
-            "title": "Rouen Open - Final",
-            "guid": "2pneazvn5jtwzvf449hyp3fm8"
+            "title": "Rouen Open - Final: Kostyuk vs. Podrez",
+            "guid": "17c4k8zgvq3uwm5qyi5f00gnd",
+            "event_id": "53pfigysxxdfory3ryowx7c1r",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-19T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Freiburg vs. Heidenheim",
-            "guid": "oxcoc24y6vycgiyua7apxr6o"
+            "guid": "9wlkz1go6a6070up7p2o20s9",
+            "event_id": "m8e1thtcqeuy54l3zyouar6c",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T13:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
         },
         {
             "title": "Bristol Flyers vs. Surrey 89ers",
-            "guid": "9090v4ap9zmxwo9b46dp1l1gk"
+            "guid": "cx4jogeaix36kbrlwqikt2pea",
+            "event_id": "17pql3kfir78q1qgq759q08owu",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Manchester Basketball vs. London Lions",
-            "guid": "ckzrrv7827vsyg1taqrcdsb2c"
+            "guid": "dkitqxseomsex4k1ikqt8nla",
+            "event_id": "1mqo0u35r5k6j14awz0xtdxy7g",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Sheffield Sharks vs. Leicester Riders",
-            "guid": "c1rm71po3w5zjx6h480wwinjz"
-        },
-        {
-            "title": "43rd Andalusia Rally - Sierra Morena: Stage 13",
-            "guid": "5ypdrlzmvhjd1pa08y3nfszmr"
+            "guid": "cjhz5keaqknhn87ttmdmg71mx",
+            "event_id": "1hl60zg2id4jiaekdo525vud40",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T15:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Man City vs. Arsenal",
-            "guid": "i9ppetq0u5x9ulkovy21gi3l"
+            "guid": "a5b0e18l60dnilfbcgvgenh2y",
+            "event_id": "5ufcx6w6gn4p014mnzcigyq7z7",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T15:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Bayern Munich vs. Stuttgart",
-            "guid": "cmmb5vcvdc1o1oqq4hcsjdwcv"
+            "guid": "2tgal0qzblsood8c29gou3ef2",
+            "event_id": "l1unx7afl9hhfzuu40gzx0yc",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T15:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Pisa vs. Genoa",
-            "guid": "8toqij90rh8c5tnps7ml9nze8"
+            "guid": "7kbhbyovgw7hhtp3x7has31v9",
+            "event_id": "u53rf8bj4a1q0uli0zu5gc12b0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Cheshire Phoenix vs. Caledonia Gladiators",
-            "guid": "3u2qorwnbw9l2awuxa45b2uvn"
+            "guid": "9ybxj9im38aprvxhisybgx38h",
+            "event_id": "12optvnoqz4rl1s873q46ehdlf",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Union Saint-Gilloise vs. Club Brugge",
-            "guid": "4sg0rndpcpd50v5iax04ffemd"
+            "guid": "2s0mkrl8sxs45ytsr6qb7gkk",
+            "event_id": "a0oa093mlo6v0r9750lb94hl60",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Real Madrid vs. Tenerife",
-            "guid": "9b35zttruyiie5vir8f5sns2x"
+            "guid": "4fx1q2l2gj7y9t7w3v1a3q3wx",
+            "event_id": "1iaqcuhloqjpx1vp8bzcve4a9s",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-19T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Monchengladbach vs. Mainz",
-            "guid": "we7qqvs5of7lko0ck7x49tdw"
+            "guid": "axx1yt8wgowbxqs2yldtm3ket",
+            "event_id": "n0pifg6rklbeuban7j8tsr9w",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T17:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 4 Featured Group 2",
-            "guid": "67outaiziodn1031i01rjpb80"
+            "guid": "fj0ujqc9ntxq1bqrgzsb2kjdc",
+            "event_id": "14csjddbsamab19yllevj99is5",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-19T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 4 Featured Group 3",
-            "guid": "ggm7xmhvrph31avtmuayfmmhg"
+            "guid": "ybbugbzxg1qt1a5vrk6kx709g",
+            "event_id": "1cbdxe95i6ld51virgasmkbbtd",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-19T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 4",
-            "guid": "4nykp3ti3byt1ejbbelx37kx7"
+            "guid": "61rgopn2hvjq1rjzqru8or2e2",
+            "event_id": "1w2jnwmtcytfy1f2e6kfmz37v3",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-19T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 4 Featured Group 1",
-            "guid": "d955965w7gup1hbt0nsj3tz05"
+            "guid": "ad5gvm8sr9101l2dkrgov1cld",
+            "event_id": "54qink734qsg1uf0p4noc72ra",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-19T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "LIV Golf Mexico City - Day 4 Featured Group 4",
-            "guid": "1pdw72d1k0arh1suii9ow0qjrj"
+            "guid": "14t5zdovjvvz11fanulyidkxox",
+            "event_id": "zmrc948qeg2f1szits212c2yq",
+            "sport_id": "4wu920rstf6x1kx2h0171qf3n",
+            "sport": "Golf",
+            "start_date": "2026-04-19T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Juventus vs. Bologna",
-            "guid": "9fj2ttzzky9z9sbwvasuzgn1c"
+            "guid": "deq3hyzpvqjgzp5cgun4in5zj",
+            "event_id": "1v33wp5erbnjcen4xsv2tnkck0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Mexico City \u2013 Longines Global Champions Tour Grand Prix",
-            "guid": "exkw1zflubl7e6ekq06mqgwyi"
+            "guid": "dweu2yuyqyqsnzmwu6kbld8p0",
+            "event_id": "1qvx0i8p2epb9101yja31txvz8",
+            "sport_id": "66knmupkttgz1j51y4d5oogtk",
+            "sport": "Equestrian",
+            "start_date": "2026-04-19T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
         },
         {
             "title": "Silk City Animals vs. Paterson U",
-            "guid": "9ol9hrkytkja1onxva9mekuci"
+            "guid": "4f3j9t0150k991n7tixsh3x6b",
+            "event_id": "11obuhmdwxysk121ag0w9ajs8x",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-19T20:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Dallas Trinity vs. Carolina Ascent",
+            "guid": "a0z4zlci8igy4kdls7myvusm4",
+            "event_id": "3u0bgwc6jr7sbiq28vxg8m0wk",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-19T21:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "amilaojnwgf41lxhx4e15w3in",
+            "event_id": "3c0h49jx5cdu12js3fjw200ac",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-20T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Club Brugge U19 vs. Real Madrid U19",
+            "guid": "9agpozk9704ifiqmfihzppnjs",
+            "event_id": "1cgo44s2pj2fbjgf56oqap30q0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-20T16:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Inside The Ring - Apr 20",
+            "guid": "1jnkxg7yy5r8m1m2wb4xckdbhy",
+            "event_id": "1ih6xm5hnjt5h1ww7cimbdut0d",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-20T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lecce vs. Fiorentina",
+            "guid": "4ng3v5wmrayitlxku8rp15fob",
+            "event_id": "byvkeyhbkanu02zrrlbcz42n80",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-20T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Crystal Palace vs. West Ham",
+            "guid": "46hqvtffgn3fb8iir74h8788t",
+            "event_id": "2lpd8xy8zf3f0yrw7sto8jj4u0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-20T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Path to the Draft",
+            "guid": "1lbsyu2gzdu9i15tk2twwjrjo3",
+            "event_id": "pilbfgw9nly11jrv3wadbf7t3",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-20T22:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "The Insiders",
+            "guid": "14lu75v3oak5fzfdd5j6r32t1",
+            "event_id": "1d5ug00vah1ao1pa1phoz830om",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-20T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "7d2vjo5lfi6v1feiwwfypuzep",
+            "event_id": "ffv4f20a5rf01ri1bovm88bz1",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-21T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "FIBA Women's Basketball World Cup 2026 - Draw Show",
+            "guid": "rolukmayq39p1g0ht2ff3o7qz",
+            "event_id": "ptal0m46nv7a1w205bc0236n8",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-21T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Mallorca vs. Valencia",
+            "guid": "11czhejbedphj14jzuu0c8rm83",
+            "event_id": "1sggkiori7veo1urwmsfaet53t",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T17:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Athletic Club vs. Osasuna",
+            "guid": "139tjuzxin9151nktnjk059akj",
+            "event_id": "2g84oxyi0zv406j5l2db1b2kl0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T17:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "FIBA Hall of Fame - Class of 2026",
+            "guid": "5ddkod3ctc26xpo1ggzkqmahm",
+            "event_id": "19lwzr9hsoiad1r9i325bawaba",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-21T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Leicester Riders vs. Sheffield Sharks",
+            "guid": "9fizif1000gyqmcmc0oj25o15",
+            "event_id": "1wdbm9es1bpz7137ahbb8zgxri",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-21T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Leicester vs. Hull",
+            "guid": "cn6fzw959nxrrxz8dpfmqk1pr",
+            "event_id": "3g70asdakgm301s01b905j549r",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Hartlepool United vs. Southend",
+            "guid": "8pxr4w3nk43711zn1ijsbzvgm",
+            "event_id": "1fjy9z61u7hp3s56qgpk3hhca0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Inter vs. Como",
+            "guid": "d2zdyxnttpulo4m8498co30g1",
+            "event_id": "14cxji5gygmw374rps2480ul10",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Brighton vs. Chelsea",
+            "guid": "8wjfvzcwa4iq0ccwg5x6po7kx",
+            "event_id": "1wf6rbtrkq7381duapqle17a0e",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Real Madrid vs. Alaves",
+            "guid": "1tw4ce7bzq9ct1h79sz2yf2rs5",
+            "event_id": "1b4ovdyu3af7sjkk69f2xy1180",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T19:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Girona vs. Real Betis",
+            "guid": "668755i3d0zj106lfnmkxfkos",
+            "event_id": "gq0k0dqbfm4x01km2c1f7yn2hq",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-21T19:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Path to the Draft",
+            "guid": "12qtbws0vx0cr104vigy8q2dc1",
+            "event_id": "b3bawqfxowq41obel47e253um",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-21T22:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "The Insiders",
+            "guid": "1x82d33zd10681hppw1jdd1ijs",
+            "event_id": "umq44u4qydfo1kypwcbctbr2p",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-21T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open - Day 2",
+            "guid": "7axn9occbm8i0qglljafl3ciu",
+            "event_id": "8ex09b43luidllxjpsjswdoz1",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-22T09:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Garner vs. Magnesi: Launch Press Conference",
+            "guid": "d50hp29rx3vh1f0ij0avmgmyl",
+            "event_id": "oicyub9bllwo1qgiolsm6pzwe",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-22T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "ori1lmm11c281ei2foeslzpqw",
+            "event_id": "y0y3skve9lar1c20kxzpyin4a",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-22T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Werder Bremen vs. Wolfsburg",
+            "guid": "431py7mj8ccqn6wcrwvwt961x",
+            "event_id": "102g410mb7xm81wyg4rzvlxrv2",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Union Berlin vs. Bayern Munich",
+            "guid": "aa4bhfk92eb2gxrmw61hzu27p",
+            "event_id": "19oo2lyq7kn8t18aiobqt621ek",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Espanyol vs. Barcelona",
+            "guid": "3vdx03u615znr81lr8wteou2d",
+            "event_id": "1maf7wtbh9mla1d1idb69yde99",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Elche vs. Atletico Madrid",
+            "guid": "1wpiikkfegbsw1l2g0wqh3df3o",
+            "event_id": "1ecv7zdks9fw41vqpm7qju75fq",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T17:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Real Sociedad vs. Getafe",
+            "guid": "10l6p7ghtem231e3myyneolw7r",
+            "event_id": "188wwufe9ag383pmy7fza3vh10",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T18:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Club Brugge vs. Mechelen",
+            "guid": "84vx5p8qjhj7wrnw1sfrvx3c3",
+            "event_id": "17ua068gr4oeb127kcwwkvjjit",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Union Saint-Gilloise vs. Gent",
+            "guid": "cmes4xsd60h4gjccyf0tfcmq8",
+            "event_id": "dypt1ydszdal03f1wx3c2anbo0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Charlton vs. Ipswich",
+            "guid": "chwla7pun5df9b7pj7mug1uci",
+            "event_id": "e52zbzssdlpc0e79t28i58gqx0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Leverkusen vs. Bayern Munich",
+            "guid": "aj2a1tgfd3rfjk147d0ngx3kg",
+            "event_id": "l0hmk8k119yh0oeh3ely5xbch0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Burnley vs. Man City",
+            "guid": "c0hv0g6brtogzouzd4wj1oxe0",
+            "event_id": "18i3yk95q8wgk11iy7ao7o8s58",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Bournemouth vs. Leeds",
+            "guid": "aggauuc091nq0zlv2u9qab034",
+            "event_id": "1h17bhsgdwgplwk13yva6h4pb0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Atalanta vs. Lazio",
+            "guid": "er3u8k9o1urn04cvjz1fr3mw0",
+            "event_id": "lvdn8ib3xjn80piq243j3l37w0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Barcelona vs. Celta Vigo",
+            "guid": "1uq8dc7xqwsfa1h0u8o5re09db",
+            "event_id": "40a53yefupbv09m98pldk036a0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T19:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Path to the Draft",
+            "guid": "1m4cf49uo9mcs1x1cs5yiskl1w",
+            "event_id": "1j1pqd5gzfc2c10o3qig1ofcn7",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-22T22:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "NFL Insiders",
+            "guid": "8iwmd9jxzump1t1udpum3ixvj",
+            "event_id": "1uqnwjkvh085t1t09p5z28ydvy",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-22T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "DC Power vs. Fort Lauderdale United",
+            "guid": "49l8aasulk9chy91kg3chuwfg",
+            "event_id": "3utmuge6hdl4um1ms5qfjbpqs",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-22T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Daniel Jeremiah\u2019s Final 2026 NFL Mock Draft",
+            "guid": "3bobcmh4byf11qwy1k1iykj68",
+            "event_id": "ni2a2yf1k8f118i2ki66ccxcl",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-23T00:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "DAZN Combat",
+            "guid": "174qulc11iwl81eoi31yxjw2zd",
+            "event_id": "2csdjol3mr5e8bcdl7vy2g4kt",
+            "sport_id": "9kn3pow0we2r8hna2p0k4m2ff",
+            "sport": "Live TV",
+            "start_date": "2024-05-18T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "MLB Network",
+            "guid": "6wwi0y10ztxd12c2vg296aeho",
+            "event_id": "38lqk6msdf3pobjfnixynak8j",
+            "sport_id": "e2n4bo41sw91dx98if05lse25",
+            "sport": "Baseball",
+            "start_date": "2024-05-23T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "NFL Network",
+            "guid": "o5rzhf12mpyb1dk07c9pl9ulf",
+            "event_id": "86wy4j1zq7l2vyyq3w6m96fdl",
+            "sport_id": "9kn3pow0we2r8hna2p0k4m2ff",
+            "sport": "Live TV",
+            "start_date": "2024-05-23T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Red Bull TV",
+            "guid": "myhtc4bhd1wv13shvtb70nryf",
+            "event_id": "57edcadqrcnal4gp0ckt4l9sx",
+            "sport_id": "9kn3pow0we2r8hna2p0k4m2ff",
+            "sport": "Live TV",
+            "start_date": "2024-05-23T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Rally TV",
+            "guid": "jgkpaz643rkh1efwle6e47nht",
+            "event_id": "b0rtivfn7188ufjf2f2oopsoz",
+            "sport_id": "9kn3pow0we2r8hna2p0k4m2ff",
+            "sport": "Live TV",
+            "start_date": "2024-11-12T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Unbeaten: 24/7 Global Sports Channel",
+            "guid": "i48tppum0lzy1k4og8fq90c34",
+            "event_id": "a1poanwe3ptn3f7y2s7scgaem",
+            "sport_id": "9kn3pow0we2r8hna2p0k4m2ff",
+            "sport": "Live TV",
+            "start_date": "2025-01-01T10:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Madrid Open - Day 3",
+            "guid": "837fkfnvojmlv6oshgc4lzx0q",
+            "event_id": "94753og5knc1btschhcdeye32",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-23T09:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Shakedown - Santa Brigada",
+            "guid": "3hnjf7xt10gb1ntdd2k6xnf8k",
+            "event_id": "dbnbthgfy54yd365gyl5qj1pb",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-23T10:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "sd0rzkotz9mn123ivnxa7bjxz",
+            "event_id": "1vtwehwpdcdx11hq414ag7hs33",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-23T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Chess.com Open 2026 Play-offs Day 1",
+            "guid": "3rtuoaw75bzyxuirofkzsoptq",
+            "event_id": "1dt2bfi74689q13nbt0by2mmh8",
+            "sport_id": "2vdee2dgp7oubyjwoyxp9v4k2",
+            "sport": "Chess",
+            "start_date": "2026-04-23T14:55:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Welcome Rally Fans - Pre Show from Service Park",
+            "guid": "1x6464en6iqd318cs8h7lc7u7h",
+            "event_id": "a070efejq5j03klfoba61ukgv",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-23T16:15:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 1",
+            "guid": "1qqxzhsd5bjwf15bbhu1ftb0rm",
+            "event_id": "7fgxmulq9qrbozuim0rkauuo8",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-23T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Levante vs. Sevilla",
+            "guid": "1314iq74emfd01a25g1moyjdkp",
+            "event_id": "1bes3vqanwbruv5agnobrjjkm0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T17:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Rayo Vallecano vs. Espanyol",
+            "guid": "zvow6683u1lv1m0vhzrf8x246",
+            "event_id": "1lc2saydhsth01na3yxsc5h2vl",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T18:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Stuttgart vs. Freiburg",
+            "guid": "59iupjk4ucbhc89kyhg9skdjp",
+            "event_id": "4530de7qiha401v7cdhlz6mmwg",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Sint-Truiden vs. Anderlecht",
+            "guid": "48c61b0ajl42b9h5b1utzyvp7",
+            "event_id": "y2yrgcegc4pz0msmbdtc2vo8i0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Salford vs. Bromley",
+            "guid": "6b3j2bhpnm7fdzvylyjcqnpgr",
+            "event_id": "9tojykmn7gp80es1i8hmdwsfs0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Real Oviedo vs. Villarreal",
+            "guid": "twsy55g8w4td1awwvov60ykq6",
+            "event_id": "1bomg8pnwyqcv81hd3p6ahsb20",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-23T19:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Gaskins vs. Guymon: Weigh-In",
+            "guid": "1hwoj2lqk4j8u1hy0six59iku2",
+            "event_id": "1eznmnxz4s2yl152xs3sxjl5ff",
+            "sport_id": "480inac3luslpgfy8cjfxdfkz",
+            "sport": "BKFC",
+            "start_date": "2026-04-23T22:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rodriguez vs. Vargas: Launch Press Conference",
+            "guid": "13bw7dszyepxhzmaakk8y98kh",
+            "event_id": "1mn93gbckxf64zyy8e5gffhsn",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-23T22:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Miller vs. Pero: Press Conference",
+            "guid": "ndh3gdcz9mc10ym5lvexy1u2",
+            "event_id": "1o0vo1b5zalix18cddclqcv1cv",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-23T22:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "2026 NFL Draft: Day 1",
+            "guid": "1bcbideymn8bw1wwmd7a0jmiro",
+            "event_id": "ggjw18n575lk1kqklcb10x4bt",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-24T00:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "NFL GameDay Final: Day 1 Recap",
+            "guid": "vratqod9lgir1ax03vk3ertm9",
+            "event_id": "f9hx5mf4nv1b1l4skrogvgc79",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-24T03:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 2",
+            "guid": "1cu7dch9ssgvr10pj3o2gpahj2",
+            "event_id": "4hnzxlposu0evl05ivtdui6lu",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T07:25:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 3",
+            "guid": "1metddxstfssp14rzwy1kk4ore",
+            "event_id": "8f8n3tu5zqybmcwt3s4mkounr",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T08:23:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lake Como - Qualifying Races",
+            "guid": "1mjhm4bidh9t51g0ybncrb7e5s",
+            "event_id": "vnk1po2hfr4qgulngzyc85as",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T08:55:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open: Day 4 - Session 1",
+            "guid": "7hb54c6cpdrwf9pxz0cdv43e9",
+            "event_id": "1iienbkxmiistcbhufljlbj25",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-24T09:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 4",
+            "guid": "oujr2jfsmyym1dd4lnqgv4bcj",
+            "event_id": "27yy112jbe46ursatqmisevxo",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T10:15:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lake Como - Qualifying Time Trials",
+            "guid": "r126r2coorda184w3u6limeyk",
+            "event_id": "2n2oafomb2v5v9dcfv5terdze",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T11:55:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Good Morning Football",
+            "guid": "16krx9bt5syqy18alnlcdb281m",
+            "event_id": "1hcuuot9mmw3c1a7t98zepbups",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-24T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 5",
+            "guid": "f8805xbtl8tt1ufoquqbftvil",
+            "event_id": "c68568jo5qrpjlensba7x70b0",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T14:01:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Chess.com Open 2026 Play-offs Day 2",
+            "guid": "bl4z8drxv4lnr9izqq9m1vsdh",
+            "event_id": "6anmwcdt1djb16908zxldtlc4",
+            "sport_id": "2vdee2dgp7oubyjwoyxp9v4k2",
+            "sport": "Chess",
+            "start_date": "2026-04-24T14:55:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 6",
+            "guid": "1x5m4kptt4po41itu470x92g0l",
+            "event_id": "3vp5ozwd6xaa4nol2drtdutdk",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T14:59:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "ASCVD vs. Club Africain",
+            "guid": "axfezjwpj27k1d9ixfgxbfgx7",
+            "event_id": "aylqz36t6h9n03f6x1vhde6mw0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-24T15:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Kaiserslautern vs. Braunschweig",
+            "guid": "a654m2bvcscim7lftgxeda3s",
+            "event_id": "1hd50wsnfwvdv1f12ncbke2k1k",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 7",
+            "guid": "1lskcotm2zxea1bbu61y4fdwr4",
+            "event_id": "d1tfyda2s30i8pgnn0qgywjdv",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T16:52:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open: Day 4 - Session 2",
+            "guid": "5ygf1coyvj0p37b8nlagm3swt",
+            "event_id": "789dfms502jv1js0w3b5tv2qp",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-24T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Jeunesse Kings vs. FUS de Rabat",
+            "guid": "1iahaq8riy4712tlvhys6n36d",
+            "event_id": "kzptxt6j0e0t0p9nm6sibopyu0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-24T18:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Leipzig vs. Union Berlin",
+            "guid": "6xs57ur1rwviktwslb0jzny6l",
+            "event_id": "phiswocmpm6dcqizfflflclw",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Caledonia Gladiators vs. Bristol Flyers",
+            "guid": "5wb8is95qirlxv1c3mtgnibpp",
+            "event_id": "1vqwl6seqelo31dyo2yosrcxx2",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-24T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Newcastle Eagles vs. Leicester Riders",
+            "guid": "8l3tmnnw0b1e0v7ir5m4gzr6f",
+            "event_id": "5jbj6qrshcqy07d6w3g777tuq0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-24T18:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Napoli vs. Cremonese",
+            "guid": "cfs97gyppjmznkm3mwqyrulqo",
+            "event_id": "gbld69ngl2610182cai4plwyyh",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Leicester vs. Millwall",
+            "guid": "bxzwmi0ahshjdibypv8oq05et",
+            "event_id": "1lnup99xq73kkdqlsxzem20xv0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Sunderland vs. Nottingham Forest",
+            "guid": "5jqkbhwits4l7hdkz29q7wzei",
+            "event_id": "9pgfuuu4lp9m0qwev8gz5z4pg0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Foster vs. Ford: Launch Press Conference",
+            "guid": "1nzug4n0hdhxc1w3v2vjwewvdr",
+            "event_id": "bty3dmzqcgwe1o3tt0go6r1j8",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-24T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Real Betis vs. Real Madrid",
+            "guid": "ifa68na6kn2c17tq111ybw153",
+            "event_id": "k1kr1nx9o47501q5db40zq8uiu",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-24T19:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 8",
+            "guid": "yfrhd6bkhirc1iinusk647gq4",
+            "event_id": "7v4z5luji4sfncwa8gz1l45c2",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-24T19:25:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Miller vs. Pero: Weigh-In",
+            "guid": "5bz7s6vilbzp1jni2trx6o7rd",
+            "event_id": "7usd1e6qs1nh1lu8uuhawfw9o",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-24T20:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "2026 NFL Draft: Day 2",
+            "guid": "1btr9twdqjbwy1mclpsa7eem4h",
+            "event_id": "1f8qevt494x451uu2llm2f0yss",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-24T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Gaskins vs. Guymon: Full Event Replay",
+            "guid": "4zy6rnj7g75h1u0acv8kn86fz",
+            "event_id": "10cxe58zycvxe16pv9v4g0j5bn",
+            "sport_id": "480inac3luslpgfy8cjfxdfkz",
+            "sport": "BKFC",
+            "start_date": "2026-04-25T00:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "NFL GameDay Final: Day 2 Recap",
+            "guid": "wkvxnhqps8uv1u8it5kxuia1b",
+            "event_id": "mnqi7vxk9mdi1o6hym8ugyniy",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-25T03:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Okayama - Trofeo Pirelli Race 1",
+            "guid": "dsk4c5hngwbtx7vpw69un5xco",
+            "event_id": "16g3itr8ztsh51x94mcgrcee44",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T03:50:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Okayama - Coppa Shell AM Race 1",
+            "guid": "e9i4otiatt6i45s7h0y9v4nve",
+            "event_id": "t8hwtmgghql1pvg493yk8mnx",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T05:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Singapore T100",
+            "guid": "edcm44tgbzzukzonw2qc9rzv",
+            "event_id": "5xvzx4by9hqu152tnaxcsurct",
+            "sport_id": "2pk0vbfiff8pj5qm1od4a44sp",
+            "sport": "Triathlon",
+            "start_date": "2026-04-25T06:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 9",
+            "guid": "dg5dbmyabc0w1y29g8q2ou8v4",
+            "event_id": "7xwzmaj9duhjgckqc493dmh91",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T07:20:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 10",
+            "guid": "12x35hvznfpbn1vaxi4j47k776",
+            "event_id": "ecu54qa4zujo5347l62fjbto2",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T08:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open - Day 5, Session 1",
+            "guid": "7lp0zup7411k0g9m2tgav09v4",
+            "event_id": "6a57yikr7rzo3o7f4lszmfcn4",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-25T09:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Red Bull Ring - Race 1",
+            "guid": "9bzrs4mpj5f9f1k813b5z544n",
+            "event_id": "1woda6htjpir31pzn52f78vlkl",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T09:25:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lake Como - Group Stages",
+            "guid": "1mdui7zd2a5e41kecpto8slbwv",
+            "event_id": "eqliaqop0wtfh1vgegn694y7p",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T09:50:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 11",
+            "guid": "1tyzln8ethzdn1gh8h9vzyk3cr",
+            "event_id": "4057ihvfto9em8odpsyh6vd16",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T09:51:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Juventus vs. Roma",
+            "guid": "1ksmymojg5ypw9acrx1ot2l5o",
+            "event_id": "n0vxpnslsp5o0liif44t7mx230",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T10:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "West Brom vs. Ipswich",
+            "guid": "d27pxwb3to70z2vhmio9gxr5m",
+            "event_id": "11acc3c8kubey3zefurhm4fzb0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Fulham vs. Aston Villa",
+            "guid": "c5hm03e9tq8ddcdsfqq41qnd4",
+            "event_id": "1lkloextimp6t1y1ldys8vwmvz",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Woking vs. FC Halifax Town",
+            "guid": "7aefojcnw79511orl6rvyyqmg",
+            "event_id": "12ucy0dryznxobvshbw5q9vsf0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Tamworth vs. Braintree",
+            "guid": "wlv53j9df6t71ttvg2bfglfnw",
+            "event_id": "17kss0hr07bc51su8fv9ea18dj",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Forest Green vs. Morecambe",
+            "guid": "10snwn5s5juwv11xscqjyuzyws",
+            "event_id": "19vj23utcu8uh1holruvfooqlk",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Southend vs. Wealdstone",
+            "guid": "1oomwdm0dz0yv1h9enzove4nz8",
+            "event_id": "1gqm80g0adknj1nrz82so5d9b1",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Boston vs. Hartlepool",
+            "guid": "a9t3z8ml59cy1us90b2y7uggh",
+            "event_id": "1rrnf0gt355501l7ggmu1to7q4",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Scunthorpe vs. Eastleigh",
+            "guid": "1c4x4k7om04hb1rus3ys0kgc39",
+            "event_id": "1sp9wnaim202hneqgqfzggjs80",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Altrincham vs. Gateshead",
+            "guid": "1dx5f9aesjgkx1sikcs8ooka25",
+            "event_id": "1tr6681o6w06q1uiad7jj7a46m",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Merthyr vs. AFC Fylde",
+            "guid": "nxko7u9tgzuo1khrijr6danid",
+            "event_id": "4ls3h89wbs2c43bjbdjlohyqc",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Boreham Wood vs. Sutton",
+            "guid": "i1pyrhib49od1izy6sfnkzz91",
+            "event_id": "9y1qocglfqm101v1r3gxggzcp1",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Aldershot vs. Truro",
+            "guid": "19tpiwhvq3fgj1t0w7qmp99ivt",
+            "event_id": "bnohtpm9cqjs0xonje4agxaan0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Slough vs. Dagenham & Redbridge",
+            "guid": "1tleaqn8zorhz1xzfbzw6mqj53",
+            "event_id": "di0gc1vva0mwlxdgbtuuh3uhg",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Worthing vs. Ebbsfleet",
+            "guid": "1czwxo5rkambf11cinmhjznf5f",
+            "event_id": "dj6ig4beyf23ctsh2733yrfo4",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Carlisle vs. Brackley",
+            "guid": "1t879imj08sb61t4xtkly3bk0o",
+            "event_id": "mcxwyb7qanr30e3ilhywfjkc20",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rochdale vs. York",
+            "guid": "7xg7x8gpb7ew17lkorpp1eauw",
+            "event_id": "soqob3eed4dz0plfoeaan8nqm0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Yeovil vs. Solihull Moors",
+            "guid": "1o4ucigw1ynck1fz180cos3ry5",
+            "event_id": "wr1r0gyyv2uh01u7uoepi0k37i",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Leipzig vs. Werder Bremen",
+            "guid": "6cl0g6xlelp1c3n833is9s2l9",
+            "event_id": "1rzm3r8camror537x776i90vm0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Alav\u00e9s vs. Mallorca",
+            "guid": "1dju8h99qt7bj15lzcjcdxi5l8",
+            "event_id": "1mumy32j4okdtz4y4ut062pet0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T12:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "RWS April Inferno: Petchmorakot vs. Salimkhan",
+            "guid": "5lbspfawe7tb55uki848vfb11",
+            "event_id": "6uvvkcn94bmj8oo8tr6ycss30",
+            "sport_id": "53wethrd3bk01jif9w7xvong6",
+            "sport": "MMA",
+            "start_date": "2026-04-25T12:10:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lake Como - Race Off",
+            "guid": "1ws5air6dzt5k1jczurl2s8pyq",
+            "event_id": "eqj3bwt5tpy5rxlg0mq85uclt",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T12:40:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Parma vs. Pisa",
+            "guid": "7s5rmyui6ef2u6sdwtgthcjcq",
+            "event_id": "1m2lh2lh55hfy1wo5rvbt2zn0k",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Milan vs. Napoli",
+            "guid": "esp2gexu9feq9yiyzxkz51ysa",
+            "event_id": "j0yngujhf8zl01b8z5ov4ymubs",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Mainz vs. Bayern Munich",
+            "guid": "18bp722vdbop4t6emm0hjktd8",
+            "event_id": "p3gv18y11i6zm4hawkwhvdas",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Wolfsburg vs. Monchengladbach",
+            "guid": "34hfyh1ntsyrdsdupkiot25j9",
+            "event_id": "q9ps6xhss4cxqwcnyxzbw4k4",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Augsburg vs. Frankfurt",
+            "guid": "2ijay6wzunyp4h61i4jrli5yw",
+            "event_id": "qnngahn68t3kurgzsl1zxfys",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Heidenheim vs. St. Pauli",
+            "guid": "a3q2ai2nkw3ys44mok0axl0mg",
+            "event_id": "r1lhelx6hqeex0h9l15zsftg",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Koln vs. Leverkusen",
+            "guid": "9gbtj3j23zigailzack2i4c6w",
+            "event_id": "rfl9p8tt2voneb9dypb9b8r8",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T13:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Stage 12",
+            "guid": "zt2xj66ez01h1w8d2vzzq73f1",
+            "event_id": "5j0zgzk5n3o1orw44wisy2m57",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T13:50:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "QPR vs. Derby",
+            "guid": "9v1g1dank0z8v26u2cf0pkek7",
+            "event_id": "10iyn4iqexb1v13bppfpbzzwd1",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Lake Como - Finals",
+            "guid": "1ss6ukovsfwn71hluamnmzq1z6",
+            "event_id": "8x8ufk9mctwqtnelgod5q4ffc",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "West Ham vs. Everton",
+            "guid": "cr86vh98qu7py1g3a11hdpea7",
+            "event_id": "c17kutdsi9cj018i3wra9zoazi",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Wolves vs. Spurs",
+            "guid": "2lthdxw6d693v5tye1rrge401",
+            "event_id": "k5eqxkgcjsnp012889z14sczer",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Liverpool vs. Crystal Palace",
+            "guid": "dyqfqv1npljnk4u37piqizbap",
+            "event_id": "wrdt54nqq70901f75mcttwkqoz",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Red Bull Rookies Cup 2026 - Jerez - Race 1",
+            "guid": "7ze19mvenrd2gvrjn1egq1ndk",
+            "event_id": "uxbgz9ditzl118u5twaf334fi",
+            "sport_id": "2n04ntth4y3591y4sh02i8q3n",
+            "sport": "Extreme Sports",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Maktown Flyers vs. Jeunesse Kings",
+            "guid": "1gp3gyjp7uef514us75ahgpk0t",
+            "event_id": "10ftgj1xp1km11dii49m3s4wx0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-25T14:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Chess.com Open 2026 Play-offs Day 3",
+            "guid": "7xsrbs21553umu7s39y1yovau",
+            "event_id": "1mqspa1jva9z1od59u29e4nu5",
+            "sport_id": "2vdee2dgp7oubyjwoyxp9v4k2",
+            "sport": "Chess",
+            "start_date": "2026-04-25T14:55:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 13",
+            "guid": "1mfer687qdvy31vxkzdur1hrlr",
+            "event_id": "8ahif4pd8rj5xn9l7yqufzyq",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T15:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Bologna vs. Roma",
+            "guid": "4proojuxpgxg0spon4uj5wq87",
+            "event_id": "1lgdtgc72kym1ohztuxcz96zk0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Genoa vs. Inter",
+            "guid": "a9qodmh3kmxelpgb4gz5dcr2m",
+            "event_id": "1m05p5zr86tz51rz4p705ays66",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "2026 NFL Draft: Day 3",
+            "guid": "13f76cpf1uszk140gbm79itw2x",
+            "event_id": "1x819xl4wgx6nzvzwfcwi1mda",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-25T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "GLORY 107: Prelims (Free to Watch)",
+            "guid": "dhrf1suyp41n81av0qkvk54dp",
+            "event_id": "w7hqv5czuubd1uaallswjcyvl",
+            "sport_id": "5rocwbb1fbfub9yh4yrff8khj",
+            "sport": "Kickboxing",
+            "start_date": "2026-04-25T16:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 14",
+            "guid": "64t1o39u5fzy1elw2y9r0mmsr",
+            "event_id": "2wobqtblw34yxe3ptdvya7git",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T16:21:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Arsenal vs. Newcastle",
+            "guid": "163f3i8jnwczajfb2ie8iili8",
+            "event_id": "1luj32fdbb63818fss4saavs28",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Hamburg vs. Hoffenheim",
+            "guid": "5y55ap6g8t800ak7cgkz5gswb",
+            "event_id": "rtmuxrphhcgy945hywsqp9g4",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T16:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Valencia vs. Girona",
+            "guid": "bef7pk3qmdho1j4h6acl8dud1",
+            "event_id": "jvhw9jhm38zz01g7aoc6dtwzai",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T16:30:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "Bank vs. Ndjolonimu: Full Event Replay",
+            "guid": "1pj2y6g2x81tpz2lvkcaa7n33",
+            "event_id": "1ktbgggicvsx51eueap04iwoxj",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-25T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Surrey 89ers vs. London Lions",
+            "guid": "4i9z7v2hs861vc2gzcgcb5k7e",
+            "event_id": "u2t8ourrqv5a019i8yp4bvsab0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-25T17:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open - Day 5, Session 2",
+            "guid": "cb31rdqc7msqkdw1vaqwb8203",
+            "event_id": "5kpo0iplhev6190ngcp0hdanu",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-25T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Glory 107: Wisse v Kwasi",
+            "guid": "1t104enqgbadzcj28rzywjavs",
+            "event_id": "wzv2p2o0b6mw1tfueja2f9xvf",
+            "sport_id": "5rocwbb1fbfub9yh4yrff8khj",
+            "sport": "Kickboxing",
+            "start_date": "2026-04-25T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias: Studio from Service F - Gran Canaria Stadium",
+            "guid": "1u2eaqef4ee491j9srakfcmz28",
+            "event_id": "1o72p5wrevdgv2extwiz2753q",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-25T18:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Hellas Verona vs. Lecce",
+            "guid": "8cujv77a2ya6t7wc4zs18zciz",
+            "event_id": "1hl33d39i82v41b1iery77aj9g",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T18:45:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Valencia vs. Real Madrid",
+            "guid": "9zd1k4ctowy59l40eb9n3x3y2",
+            "event_id": "jvm9szfxvma70lbivhsht4i0b0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-25T19:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Atl\u00e9tico Madrid vs. Athletic Club",
+            "guid": "fzxna29z7ic41pa9o9bl0guj9",
+            "event_id": "wdhmco4k9s740hym8l8x7k5qz0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-25T19:00:00Z",
+            "article_type": "1dpp4008gvoq81nbxq0iu9x2jv"
+        },
+        {
+            "title": "NFL GameDay Final: Day 3 Recap",
+            "guid": "b5osxkt5u6y41qt71edu2ct54",
+            "event_id": "15bb94la4s5eu184btbmn8zulh",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-25T23:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Miller vs. Pero: Full Event Replay",
+            "guid": "16fq8uida0vh11f2hmvamcrd4",
+            "event_id": "tg4ioa82tx0x125ibn1t0ene6",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-26T00:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "WFL - Los Angeles",
+            "guid": "3qndtmqiw3djqfrolnua5jmbv",
+            "event_id": "1i4b7qfiwx86p19889smuuwshm",
+            "sport_id": "4ww06vy1cu5jx94h2ns4a9sd2",
+            "sport": "Fencing",
+            "start_date": "2026-04-26T00:15:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Okayama - Coppa Shell AM Race 2",
+            "guid": "ka3mk5rfbfmjy6npltez0csg",
+            "event_id": "1lcbn6p9wk5ga1gz2crmwq2k5v",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T03:50:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Okayama - Trofeo Pirelli Race 2",
+            "guid": "brov1e8eravvfntarqkqdk4dz",
+            "event_id": "5ct4088637y017oj7zyx5flns",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T05:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Marathon",
+            "guid": "3csvza5zjkbst228zkec8jt0j",
+            "event_id": "1t2r44hx72bc31u23ybu1zy3wm",
+            "sport_id": "73oujdmc9za6tt5gy4rr02n1p",
+            "sport": "Athletics",
+            "start_date": "2026-04-26T06:15:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Red Bull Rookies Cup 2026 - Jerez - Race 2",
+            "guid": "4l606mtm24p2r3lcpy4n1aqmd",
+            "event_id": "1djv0k8khm1i3114vr9q3u72zq",
+            "sport_id": "2n04ntth4y3591y4sh02i8q3n",
+            "sport": "Extreme Sports",
+            "start_date": "2026-04-26T06:35:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 15",
+            "guid": "1v730hme5b7541lkgg5si6o6x3",
+            "event_id": "dtvl9zyc48onsuj2ywid8apuf",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T06:35:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 16",
+            "guid": "1pggkrk7laosp1485bpf14t7gv",
+            "event_id": "3jf2hgv9ls39fi3405hbj53op",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T08:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Madrid Open - Day 6, Session 1",
+            "guid": "71x69nuzhxh36aa6p1be3a4uf",
+            "event_id": "bf59gt7syjlllcgstf8w9hjy2",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-26T09:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Red Bull Ring - Race 2",
+            "guid": "dtai7ge1948tsrah52fli78uq",
+            "event_id": "6d9g23f6q9j1v2xnndiet58t",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T09:35:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 17",
+            "guid": "1gajsngvtdv7c1jj0bsoyli1ow",
+            "event_id": "wz9y6nm3eygm1ewxwev9aih6",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T09:50:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Baskonia vs. Barcelona",
+            "guid": "15izagiqc0698jg61xynfi93w",
+            "event_id": "1x0cjie0gb68vk0fez88agtvw0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-26T10:15:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Fiorentina vs. Sassuolo",
+            "guid": "d3f9xmq2ph4csh2br2bw5kfbd",
+            "event_id": "1hnksbfp0ezr0fz7rb00wsqs10",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T10:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Coventry vs. Wrexham",
+            "guid": "dlrxqvcjl3iaj5xs0fc6bcm3r",
+            "event_id": "1gy4gymcxpr8q134aye0ru66qm",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T11:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Paderborn vs. Schalke",
+            "guid": "77o1wj24o8q0pzjwcgxruxa8m",
+            "event_id": "gnhsrqdadhq70k2yee4m0927w0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Gent vs. Club Brugge",
+            "guid": "8veuba9ur6f9ojr6wtrg59bfy",
+            "event_id": "1duo4ulg12x8oydivns1gqphn0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T11:30:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Frankfurt vs. Wolfsburg",
+            "guid": "3st7u4kcyvdtq7scnkybs3pwx",
+            "event_id": "1gdtve62dzk0vjdhbfd1jfr0e0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Rally Islas Canarias : Stage 18",
+            "guid": "1hfff84kwju9n1bw4862o8msfx",
+            "event_id": "aifc46behgs0x22pn9b0e2yms",
+            "sport_id": "133bpwlb1r12vgyqtkruxq0z7",
+            "sport": "Motorsport",
+            "start_date": "2026-04-26T12:00:00Z",
+            "article_type": "1k7t7oc0q1omt19gij7s3hc676"
+        },
+        {
+            "title": "Genoa vs. Como",
+            "guid": "46jky8j75x4mg63q8htm1mcp6",
+            "event_id": "1x4x4v4bel99x4e8ra7vm5sy30",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T13:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Stuttgart vs. Werder Bremen",
+            "guid": "32d65spk50wnqemyxe0fyqpwp",
+            "event_id": "pvqdwp6agipteqvpv06bd0d0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T13:30:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Bristol Flyers vs. Newcastle Eagles",
+            "guid": "ey1tcpgkjg8rsk75zv5hobg38",
+            "event_id": "1y24xnbbcecdl127vmh6me3t10",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-26T14:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Mechelen vs. Sint-Truiden",
+            "guid": "9johxdtu61tlo2lrho2aadmqa",
+            "event_id": "acf0kw4swh9x01f6mxdryfc1ml",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T14:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Chess.com Open 2026 Play-offs Day 4",
+            "guid": "17leyefh1qpyv7dfnzto912k3",
+            "event_id": "5o3el3yrpz0j13z8rs94j8ssf",
+            "sport_id": "2vdee2dgp7oubyjwoyxp9v4k2",
+            "sport": "Chess",
+            "start_date": "2026-04-26T14:55:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Sheffield Sharks vs. Manchester Basketball",
+            "guid": "2eww8xko7hxsa4ox3lfr7qpo0",
+            "event_id": "ukx9dklseie102hxqgyrk7e0i0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-26T15:00:00Z",
+            "article_type": "19bajo019znum1tkhzn0qz6iy4"
+        },
+        {
+            "title": "Real Sociedad vs. Madrid CFF",
+            "guid": "f3j8s0jdp88178ezs1oubpa30",
+            "event_id": "1bhukkb0gu2rv17jv88uvz4jkz",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T15:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Dortmund vs. Freiburg",
+            "guid": "78i5xdoje4rta3sv7na9aypou",
+            "event_id": "opeabpi1vy53fxn3l5zfwt1w",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T15:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Torino vs. Inter",
+            "guid": "7xpirp7h96xc3rwgbik75ommf",
+            "event_id": "5n40ozbvzde201d3w5e29mwht1",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T16:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Ternana vs. Fiorentina",
+            "guid": "64jccsz6enadmll8wtzpko1w",
+            "event_id": "v3qsgagizh8y0jrhbejrb840d0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T16:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Cheshire Phoenix vs. Leicester Riders",
+            "guid": "bivsqcka1474gc6e7y5q5w225",
+            "event_id": "gbz2wcz2iywv0vt2axue8x60n0",
+            "sport_id": "ayp4nebmprfbvzdsisazcw74y",
+            "sport": "Basketball",
+            "start_date": "2026-04-26T16:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Anderlecht vs. Union Saint-Gilloise",
+            "guid": "ds2ef253prmy66iwookgwo5eh",
+            "event_id": "xws4ipts88xl07e9nmb2zqrsf0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T16:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Lexington Phantoms v East Orange Renegades",
+            "guid": "baz6q6irvoepk6nap8g2u6bfj",
+            "event_id": "dudd3nbzuyc61aiiydzvkqgvn",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-26T17:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Real Madrid vs. Logrono",
+            "guid": "190c5mphpe9yuj59inyb7agge",
+            "event_id": "9h3k4hev4x0g0h3n1zq1l20e00",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T17:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Madrid Open - Day 6, Session 2",
+            "guid": "afl68px4jkgf2wq0vbrbejhqg",
+            "event_id": "9ev9sdo6f45q1ha3aix9ecl53",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-26T18:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Milan vs. Juventus",
+            "guid": "5qr93wqz5groiyfoezx2tbhtj",
+            "event_id": "95a03fkj9rc20utwvv31uugin0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-26T18:45:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Trenton BIC v Virginia Heathens",
+            "guid": "ll6mcbyjpcgq06glp4nau9d4",
+            "event_id": "7pfvb8dyd26e1tr8uwl3f3v9l",
+            "sport_id": "9ita1e50vxttzd1xll3iyaulu",
+            "sport": "Football",
+            "start_date": "2026-04-26T20:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Nicolson vs. Turner: Press Conference",
+            "guid": "1k0fdj9nw760z1lfg3ty6x6i60",
+            "event_id": "wcndrejr8c1t1bfyiv3qwlprb",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-27T03:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Madrid Open: Day 7 - Session 1",
+            "guid": "b8p0c1hfg7k8nifybr7qgu5l1",
+            "event_id": "f4mhqsjp4dovw9po8kzkzgvwn",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-27T09:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Hoffenheim vs. Koln",
+            "guid": "6qhp58x7hdierziggwijg3vn0",
+            "event_id": "1re27n86ji1h217pmfrbx1nx1g",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-27T16:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Cagliari vs. Atalanta",
+            "guid": "9rd4krgyz4e9w5tofvdgpgint",
+            "event_id": "e9q95l0vof1h02z4tx0s57z550",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-27T16:30:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Madrid Open: Day 7 - Session 2",
+            "guid": "5e0ftkcmfbb46z2j42cktwhwz",
+            "event_id": "qcl9manoocey14scgvx2cvh1u",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-27T18:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Inside The Ring - Apr 27",
+            "guid": "1a90b4zzvkhk61tnaqon5uhqnd",
+            "event_id": "1ls3fq0jkmhs31vjvn6r21y9nm",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-27T18:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Lazio vs. Udinese",
+            "guid": "af4qxzf9m3qc5eihujgh9s3ai",
+            "event_id": "m5qyqdgte55s01pi6ez7e410j8",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-27T18:45:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Man United vs. Brentford",
+            "guid": "5g5ckef9kolakoafx03czpxts",
+            "event_id": "oonxwbff7v8l0fud12o0waj3o0",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-27T19:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Nicolson vs. Turner: Weigh-In",
+            "guid": "1mv3i4ytjx8c9zmpv20x8qw6e",
+            "event_id": "uhcof69wilb215y9xybc598lr",
+            "sport_id": "2x2oqzx60orpoeugkd754ga17",
+            "sport": "Boxing",
+            "start_date": "2026-04-28T07:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Madrid Open - Day 8, Session 1",
+            "guid": "a5ff1d4ie3qrenxwoce31b32l",
+            "event_id": "6vcofjc0wndadq1d3z5gn5w1l",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-28T11:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Madrid Open - Day 8, Session 2",
+            "guid": "7oe8mi7b5w1s8ijszp0idf6wq",
+            "event_id": "1hejfmjr2fgpv1nhfemom4bfdp",
+            "sport_id": "4rheplujt9zryv3fqvtu1jpah",
+            "sport": "Tennis",
+            "start_date": "2026-04-28T18:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Southampton vs. Ipswich",
+            "guid": "8meqj36e5rz74k7co3zsilcwr",
+            "event_id": "1agsv7zhvimrh1fj67ebyzjc0b",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-28T18:45:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Hemel Hempstead vs. Weston-super-Mare",
+            "guid": "5ojizpyer82t1d7un4z7ho7k9",
+            "event_id": "10xo2lkoxv6a415qnp5nzwrlbb",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-28T18:45:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "Buxton vs. Scarborough",
+            "guid": "t3is3n19nkas19mv9wxhy1x0k",
+            "event_id": "1fveg051in5km1m8trpv9no52h",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-28T18:45:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "PSG vs. Bayern Munich (Commentaires en Fran\u00e7ais)",
+            "guid": "dbv3th23rczjm3124w4fdwabm",
+            "event_id": "17so46y32p5e21lxr2na1qpt06",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-28T19:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
+        },
+        {
+            "title": "PSG vs. Bayern Munich",
+            "guid": "9y2z0dtcn5be6oltvntfc7pcr",
+            "event_id": "i4n7ig16plso0102njfuflkius",
+            "sport_id": "289u5typ3vp4ifwh5thalohmq",
+            "sport": "Soccer",
+            "start_date": "2026-04-28T19:00:00Z",
+            "article_type": "1f2vso6mwht2x1x9hi3euru0fb"
         }
     ]
 }

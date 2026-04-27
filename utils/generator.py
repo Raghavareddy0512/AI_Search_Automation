@@ -1,4 +1,6 @@
 import re
+from urllib import response
+from collections import defaultdict
 
 def generate_title_prompts(title):
     title = title.strip()
@@ -54,3 +56,49 @@ def generate_title_prompts(title):
             final_prompts.append(p)
 
     return final_prompts
+
+
+def generate_sport_prompts_with_expected(tiles):
+    sport_map = defaultdict(lambda: {
+        "sport_titles": set(),
+        "sport_event_ids": set()
+    })
+
+    print(f"DEBUG → Tiles count: {len(tiles)}")
+
+    for i, tile in enumerate(tiles):
+        sport = tile.get("Sport") or tile.get("sport") or {}
+        sport_id = sport.get("Id")
+        sport_title = sport.get("Title")
+        event_id = tile.get("EventId")
+
+        if not sport_id or not sport_title:
+            print(f"[{i}] Skipped → Missing sport_id/title")
+            continue
+
+        clean_title = sport_title.strip()
+
+        if clean_title:
+            sport_map[sport_id]["sport_titles"].add(clean_title)
+
+        if event_id:
+            sport_map[sport_id]["sport_event_ids"].add(event_id)
+
+    print(f"DEBUG → sports found: {len(sport_map)}")
+
+    prompts_data = []
+
+    for sport_id, data in sport_map.items():
+        print(f"Sport ID: {sport_id}, Titles: {data['sport_titles']}")
+
+        for title in data["sport_titles"]:
+            prompts_data.append({
+                "sport_id": sport_id,
+                "sport_title": title,
+                "prompt": f"show me {title} events",
+                "expected_event_ids": list(data["sport_event_ids"])
+            })
+
+    print(f"DEBUG → prompts generated: {len(prompts_data)}")
+
+    return prompts_data

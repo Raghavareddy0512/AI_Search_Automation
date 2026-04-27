@@ -1,8 +1,247 @@
-# pytest test_search.py // 
+# # 🔍 AI Search Automation Framework (DAZN)
 
-# pytest -vv -s test_search.py // 
+# ## 📌 Overview
 
+# This project is an **end-to-end automation framework** designed to validate **AI-powered search results** for DAZN.
 
-# python3 file_name.py //c
+# It combines:
 
-# pytest -k test_data0 -v  //Print the API response for one failing test.
+# * 📡 API Testing (Search + EPG)
+# * 🧠 AI Response Validation
+# * ⚙️ Dynamic Test Generation
+# * 🧪 Pytest-based execution
+# * 🎭 Optional UI validation using Playwright
+
+# ---
+
+# ## 🎯 Objective
+
+# To ensure that:
+
+# * Search results return the **correct content (GUID validation)**
+# * AI search does **not apply incorrect filters (e.g., dates)**
+# * Edge cases like `"Day 1"`, `"Stage 7"` are handled correctly
+# * Response time and behavior are monitored
+
+# ---
+
+# ## 🏗️ Project Structure
+
+# ```
+# AI_Search_Automation/
+# │
+# ├── tests/
+# │   └── test_search.py              # Main test suite
+# │
+# ├── utils/
+# │   ├── api_client.py               # Search API calls
+# │   ├── schedule.py                 # EPG data extraction
+# │   ├── generator.py                # Prompt generation logic
+# │   ├── extractor.py                # Response parsing (GUID, dates)
+# │   └── validator.py                # Validation rules
+# │
+# ├── testdata/
+# │   ├── epg_events.json             # Cached EPG data
+# │   ├── generated_prompts.json      # Generated prompts
+# │   └── test_results.txt            # Execution results
+# │
+# ├── UI/
+# │   ├── login.py                    # Playwright login
+# │   └── test_ui.spec.ts             # UI automation
+# │
+# ├── requirements.txt
+# └── README.md
+# ```
+
+# ---
+
+# ## 🔄 End-to-End Flow
+
+# ### 1️⃣ Fetch EPG Data
+
+# * Extract schedule data using:
+
+# ```python
+# extract_schedule_two_days()
+# ```
+
+# * Supports:
+
+# ```text
+# - Past days (e.g., -10)
+# - Future days (e.g., +2)
+# - Chunked API calls to avoid failures
+# ```
+
+# ---
+
+# ### 2 Generate Prompts
+
+# From title:
+
+# ```text
+# "Usyk vs Rico: Press Conference"
+# ```
+
+# Generated prompts:
+
+# ```text
+# Usyk vs Rico: Press Conference
+# Usyk vs Rico
+# Press Conference
+# Usyk
+# Rico
+# ```
+
+# ---
+
+# ### 3️⃣ Call Search API
+
+# ```python
+# search_api(prompt)
+# ```
+
+# Validates:
+
+# * LLM response
+# * Search results
+# * Metadata
+
+# ---
+
+# ### 4️⃣ Extract Data
+
+# From response:
+
+# * ✅ GUIDs → `extract_search_event_ids()`
+# * 📅 Dates → `extract_dates()`
+
+# ---
+
+# ### 5️⃣ Apply Validations
+
+# #### ✔ Primary Validation
+
+# ```python
+# expected_guid in search_event_ids
+# ```
+
+# #### ✔ AI Validation
+
+# ```python
+# has_date_intent(prompt)
+# is_day_stage_pattern(prompt)
+# ```
+
+# ---
+
+# ### 6️⃣ Intelligent Failure Classification
+
+# | Scenario                      | Failure Reason           |
+# | ----------------------------- | ------------------------ |
+# | Date present but not expected | ❌ Unexpected date filter |
+# | "Day 1" treated as date       | ❌ Misinterpretation      |
+# | No results                    | ❌ Empty response         |
+# | GUID mismatch                 | ❌ Incorrect result       |
+
+# ---
+
+# ### 7️⃣ Logging
+
+# Results saved in:
+
+# ```
+# testdata/test_results.txt
+# ```
+
+# Example:
+
+# ```text
+# PROMPT: Stage 7 | TIME: 2.34s | RESULT: FAIL | REASON: Day/Stage misinterpreted as date
+# ```
+
+# ---
+
+# ## 🧪 How to Run Tests
+
+# ```bash
+# pytest -v -s test_search.py
+# ```
+
+# ---
+
+# ## ⚠️ Known Issues & Fixes
+
+# ### ❌ SSL Error
+
+# ```
+# CERTIFICATE_VERIFY_FAILED
+# ```
+
+# ### ✅ Temporary Fix
+
+# ```python
+# requests.get(..., verify=False)
+# ```
+
+# > ⚠️ Use only for testing. Replace with valid domain later.
+
+# ---
+
+# ## 🎭 UI Automation (Optional)
+
+# Playwright support included for UI validation.
+
+# ### Run recorder:
+
+# ```bash
+# npx playwright codegen https://beta.dazn.com
+# ```
+
+# ---
+
+# ## 🧠 Key Features
+
+# * ✅ Dynamic test generation (no static test data)
+# * ✅ AI response validation
+# * ✅ Smart failure analysis
+# * ✅ Scalable EPG extraction (chunked API calls)
+# * ✅ Duplicate handling
+# * ✅ Logging for debugging
+
+# ---
+
+# ## 🚀 Future Improvements
+
+# * 🔄 Retry mechanism for API failures
+# * ⚡ Caching layer for faster execution
+# * 📊 Dashboard for results visualization
+# * 🧪 Parallel execution support
+# * 🌐 Environment-based configs (dev/beta/prod)
+
+# ---
+
+# ## 👨‍💻 Author
+
+# **Raghava Reddy**
+# Automation QA Engineer | AI Search Testing | OTT Domain
+
+# ---
+
+# ## 💡 Interview Highlight
+
+# > Built an AI search validation framework that dynamically generates test cases from live EPG data, validates LLM behavior, and detects incorrect query interpretations like date misclassification.
+
+# ---
+
+# ## ⭐ Summary
+
+# This framework ensures:
+
+# * **Accuracy of AI search results**
+# * **Robust validation of edge cases**
+# * **Scalable and maintainable automation**
+
+# ---
+
+# 🔥 Ready for production-level AI testing.

@@ -3,11 +3,13 @@ import json
 import time
 
 from utils.api_client import search_api
-from utils.extractor import extract_search_event_ids
+from utils.extractor import extract_dates, extract_search_event_ids, extract_dates
 from utils.schedule import (
     extract_schedule_two_days,
+    fetch_full_schedule
 )
-from utils.generator import generate_title_prompts
+from utils.generator import generate_title_prompts, generate_sport_prompts_with_expected
+from utils.validator import has_date_intent, is_day_stage_pattern
 # ------------------ OPTIONAL / NOT NEEDED FOR NOW ------------------
 
 # import json
@@ -33,12 +35,13 @@ def load_schedule_title_prompts():
     """
     data = []
     generated_prompts = []
-
-    events = extract_schedule_two_days()
+    events = extract_schedule_two_days(days_back=10, days_forward=2)
+    full_Events = fetch_full_schedule(days_back=10, days_forward=2)
 
     for event in events:
         title = event["title"]
         guid = event["guid"]
+        event_id = event["event_id"]
 
         prompts = generate_title_prompts(title)
 
@@ -46,7 +49,10 @@ def load_schedule_title_prompts():
             record = {
                 "title": title,
                 "prompt": prompt,
-                "expected_guid": guid
+                "expected_guid": guid,
+                "expected_event_id": event_id
+                # "expectedStartDate": event.get("startDate"), # type: ignore
+                # "expectedEndDate": event.get("endDate")
             }
             
             data.append(record)
@@ -60,66 +66,155 @@ def load_schedule_title_prompts():
     return data
 
 
+def load_schedule_sport_prompts():
+    """
+    EPG → sport titles → generate prompts + expected event_ids
+    """
+    sports_data = []
+    sports_generated_prompts = []
+
+    schedule_json = fetch_full_schedule(days_back=10, days_forward=2)
+    tiles = schedule_json.get("Tiles", [])
+
+    prompts_data = generate_sport_prompts_with_expected(tiles)
+
+    for item in prompts_data:
+        record = {
+            "sport_id": item["sport_id"],
+            "sport_title": item["sport_title"],
+            "prompt": item["prompt"],
+            "expected_event_ids": item["expected_event_ids"]
+        }
+
+        sports_data.append(record)
+        sports_generated_prompts.append(record)
+
+    # Write to JSON
+    try:
+        with open("testdata/generated_sport_prompts.json", "w") as f:
+            json.dump({"prompts": sports_generated_prompts}, f, indent=4)
+        print(f"Saved {len(sports_generated_prompts)} sport prompts to testdata/generated_sport_prompts.json")
+    except Exception as e:
+        print(f"Failed to write sport prompts JSON: {e}")
+
+    return sports_data
+
 # ------------------ MAIN TEST (DYNAMIC + STRONG VALIDATION ) ------------------
+file_path = "testdata/test_results.txt"
+file_Path2 = "testdata/test_results_sports.txt"
 
 # @pytest.mark.parametrize("data", load_schedule_title_prompts())
 # def test_search_with_schedule_title_prompts(data):
 
-#     print(f"\nTesting Title: {data['title']}")
-#     print(f"Prompt: {data['prompt']}")
+#     title = data["title"]
+#     prompt = data["prompt"]
+#     expected_guid = data["expected_guid"]
+#     expected_event_id = data["expected_event_id"]
+
+#     print(f"\nTesting Title: {title}")
+#     print(f"Prompt: {prompt}")
+
 #     start_time = time.time()
-#     response = search_api(data["prompt"])
+#     response = search_api(prompt)
 #     response_time = round(time.time() - start_time, 2)
-#     search_event_ids = set(extract_search_event_ids(response))
-
-#     # print("Search Event IDs:", search_event_ids)
-#     # print("Total Search Events:", len(search_event_ids))
-
-#     #  STRONG VALIDATION (exact GUID match)
-#     assert data["expected_guid"] in search_event_ids, \
-#         f"FAILED | Title: {data['title']} | Prompt: {data['prompt']} | Time: {response_time}s"
-
+#     search_data = extract_search_event_ids(response)
+#     search_event_ids = set(
+#     search_data["live_ids"]
+#     + search_data["upcoming_ids"]
+#     + search_data["catchup_ids"]
+#     + search_data["highlight_ids"]
+#     )
     
-# ------------------ MAIN TEST (DYNAMIC + STRONG VALIDATION ) ------------------
-file_path = "testdata/test_results.txt"
+#     dates = extract_dates(response)
+#     print(f"DEBUG → Dates: {dates}")
+
+#     try:
+#         #  Primary validation
+#         assert expected_event_id in search_event_ids
+
+#         result = "PASS"
+#         error_message = ""
+
+#     except AssertionError:
+
+#         result = "FAIL"
+
+#         #  Intelligent failure classification (ORDER MATTERS)
+#         if is_day_stage_pattern(prompt) and dates:
+#             error_message = f"Day/Stage misinterpreted as date: {dates}"
+
+#         elif not has_date_intent(prompt) and dates:
+#             error_message = f"Unexpected date filter applied: {dates}"
+
+#         elif not search_event_ids:
+#             error_message = "No results returned"
+
+#         else:
+#             error_message = f"Expected GUID not found. Found IDs: {search_event_ids}"
+
+#     #  Logging
+#     if result == "FAIL":
+#         with open(file_path, "a") as f:
+#             f.write(
+#             f"PROMPT: {prompt} | "
+#             f"TIME: {response_time}s | "
+#             f"RESULT: {result} | "
+#             f"REASON: {error_message}\n"
+#         )
 
 
-@pytest.mark.parametrize("data", load_schedule_title_prompts())
-def test_search_with_schedule_title_prompts(data):
+#     #  Keep pytest failure behavior
+#     if result == "FAIL":
+#         pytest.fail(error_message)
 
-    title = data["title"]
+
+
+@pytest.mark.parametrize("data", load_schedule_sport_prompts())
+def test_search_with_schedule_sport_prompts(data):
+    
+    sport_title = data["sport_title"]
     prompt = data["prompt"]
-    expected_guid = data["expected_guid"]
+    expected_event_ids = set(data["expected_event_ids"])
 
-    print(f"\nTesting Title: {title}")
+    print(f"\nTesting Sport: {sport_title}")
     print(f"Prompt: {prompt}")
 
     start_time = time.time()
     response = search_api(prompt)
     response_time = round(time.time() - start_time, 2)
 
-    search_event_ids = set(extract_search_event_ids(response))
+    search_data = extract_search_event_ids(response)
+    search_event_ids = set(
+        search_data["live_ids"]
+        + search_data["upcoming_ids"]
+        + search_data["catchup_ids"]
+        + search_data["highlight_ids"]
+    )
 
     try:
-        #  actual validation
-        assert expected_guid in search_event_ids
+        assert expected_event_ids.issubset(search_event_ids)
 
         result = "PASS"
         error_message = ""
 
-    except AssertionError as e:
-        result = "FAIL"
-        error_message = str(e)
+    except AssertionError:
 
-    #  ALWAYS log result (PASS or FAIL)
-    with open(file_path, "a") as f:
-        f.write(
-            # f"TITLE: {title} | "
-            f"PROMPT: {prompt} | "
-            f"TIME: {response_time}s | "
-            f"RESULT: {result}\n"
-            # f"{error_message}\n"
-        )
-    #  re-raise failure so pytest still marks it FAILED
+        result = "FAIL"
+
+        if not search_event_ids:
+            error_message = "No results returned"
+
+        else:
+            error_message = f"Expected event IDs not found. Found IDs: {search_event_ids}"
+
+    if result == "FAIL":
+        with open(file_Path2, "a") as f:
+            f.write(
+                f"PROMPT: {prompt} | "
+                f"TIME: {response_time}s | "
+                f"RESULT: {result} | "
+                f"REASON: {error_message}\n"
+            )
+
     if result == "FAIL":
         pytest.fail(error_message)

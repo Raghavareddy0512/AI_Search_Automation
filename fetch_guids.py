@@ -4,7 +4,7 @@ from utils.extractor import extract_guids
 
 def fetch_and_print_guids():
     
-    with open("testdata/competition.json") as f:
+    with open("testdata/Synonyms.json") as f:
         tests = json.load(f)["tests"]
     
     results = []
