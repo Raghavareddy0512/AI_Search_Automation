@@ -85,7 +85,6 @@ def extract_schedule_two_days(
 
     events = []
     seen_guids = set()
-    seen_eventIds = set()
     seen_sportIds = set()
     seen_competitionIds = set()
     seen_contestantIds = set()
@@ -136,7 +135,6 @@ def extract_schedule_two_days(
             article_type = tile.get ("AssetTypeId") or tile.get("assetTypeId")
             if title and asset_id and asset_id not in seen_guids:
                 seen_guids.add(asset_id)
-                seen_eventIds.add(event_id)
                 seen_sportIds.add(sport_id)
                 seen_competitionIds.add(tile.get("CompetitionId"))
                 seen_contestantIds.update(tile.get("ContestantIds", []))
@@ -319,25 +317,7 @@ def fetch_full_schedule(
     brand="dazn"
 ):
 
-    EPG_ASSET_TYPES = {
-        "LIVE": "19bajo019znum1tkhzn0qz6iy4",
-        "UPCOMING": "1f2vso6mwht2x1x9hi3euru0fb",
-        "CATCHUP": "1k7t7oc0q1omt19gij7s3hc676",
-        "HIGHLIGHT": "1dpp4008gvoq81nbxq0iu9x2jv"
-    }
-
-    grouped = {
-        "live": set(),
-        "upcoming": set(),
-        "catchup": set(),
-        "highlight": set(),
-        "all_assets": set(),
-        "all_events": set(),
-        "all_sports": set(),
-        "all_sport_names": set()
-    }
-
-    all_tiles = []  # ✅ IMPORTANT FIX
+    all_tiles = []
 
     today = datetime.date.today()
     start_date = today - datetime.timedelta(days=days_back)
@@ -366,56 +346,106 @@ def fetch_full_schedule(
 
         tiles = schedule_json.get("Tiles", [])
 
-        for tile in tiles:
-            all_tiles.append(tile)  # ✅ STORE RAW TILE
-
-            asset_id = tile.get("AssetId") or tile.get("assetId")
-            epg_event_id = tile.get("EventId") or tile.get("eventId")
-            epg_sport_obj = tile.get("Sport") or tile.get("sport") or {}
-            epg_sport_id = epg_sport_obj.get("Id")
-            epg_sport_name = epg_sport_obj.get("Title") or epg_sport_obj.get("Name")
-            asset_type = tile.get("AssetTypeId") or tile.get("assetTypeId")
-
-            if not asset_id or not asset_type:
-                continue
-
-            grouped["all_assets"].add(asset_id)
-            if epg_event_id:
-                grouped["all_events"].add(epg_event_id)
-            if epg_sport_id:
-                grouped["all_sports"].add(epg_sport_id)
-            if epg_sport_name:
-                grouped["all_sport_names"].add(epg_sport_name)
-
-            # classify
-            if asset_type == EPG_ASSET_TYPES["LIVE"]:
-                grouped["live"].add(asset_id)
-
-            elif asset_type == EPG_ASSET_TYPES["UPCOMING"]:
-                grouped["upcoming"].add(asset_id)
-
-            elif asset_type == EPG_ASSET_TYPES["CATCHUP"]:
-                grouped["catchup"].add(asset_id)
-
-            elif asset_type == EPG_ASSET_TYPES["HIGHLIGHT"]:
-                grouped["highlight"].add(asset_id)
+        # ✅ ONLY store raw tiles
+        all_tiles.extend(tiles)
 
         current_start = current_end + datetime.timedelta(days=1)
 
-    # Debug summary
-    print("\n===== EPG CLASSIFICATION =====")
-    print(f"Total Tiles: {len(all_tiles)}")  # ✅ NEW
-    print(f"Total Assets: {len(grouped['all_assets'])}")
-    print(f"Total Events: {len(grouped['all_events'])}")
-    print(f"Total Sports: {len(grouped['all_sports'])}")
-    print(f"Total Sport Names: {len(grouped['all_sport_names'])}")
-    print(f"Live: {len(grouped['live'])}")
-    print(f"Upcoming: {len(grouped['upcoming'])}")
-    print(f"Catchup: {len(grouped['catchup'])}")
-    print(f"Highlight: {len(grouped['highlight'])}")
+    print(f"\nFetched total tiles: {len(all_tiles)}")
 
-    # ✅ FINAL RETURN FIX
-    return {
-        "Tiles": all_tiles,
-        **{k: list(v) for k, v in grouped.items()}
+    return all_tiles
+
+
+
+def process_epg_tiles(tiles):
+
+    processed = []
+
+    for tile in tiles:
+
+        event_id = tile.get("EventId") or tile.get("eventId")
+        article_id = tile.get("AssetId") or tile.get("assetId")
+        sport_obj = tile.get("Sport") or tile.get("sport") or {}
+
+        processed.append({
+            "event_id": event_id,
+            "article_id": article_id,
+            "asset_type": tile.get("AssetTypeId") or tile.get("assetTypeId"),
+            "sport_id": sport_obj.get("Id"),
+            "sport_name": sport_obj.get("Title") or sport_obj.get("Name"),
+            "start_date": tile.get("Start") or tile.get("start"),
+            "title": tile.get("Title") or tile.get("title")
+        })
+
+    return processed
+
+
+def build_expected_events(events, sport_id=None, limit=50):
+
+    EPG_ASSET_TYPES = {
+        "UPCOMING": "1f2vso6mwht2x1x9hi3euru0fb",
+        "CATCHUP": "1k7t7oc0q1omt19gij7s3hc676",
+        "HIGHLIGHT": "1dpp4008gvoq81nbxq0iu9x2jv"
     }
+
+    # 1️⃣ Filter by sport
+    if sport_id:
+        events = [e for e in events if e["sport_id"] == sport_id]
+
+    upcoming = []
+    catchup = []
+    highlight = []
+
+    # 2️⃣ Split by type
+    for e in events:
+        if not e["article_id"] or not e["asset_type"]:
+            continue
+
+        if e["asset_type"] == EPG_ASSET_TYPES["UPCOMING"]:
+            upcoming.append(e)
+
+        elif e["asset_type"] == EPG_ASSET_TYPES["CATCHUP"]:
+            catchup.append(e)
+
+        elif e["asset_type"] == EPG_ASSET_TYPES["HIGHLIGHT"]:
+            highlight.append(e)
+
+    # 3️⃣ Sort by latest
+    upcoming.sort(key=lambda x: x["start_date"] or "", reverse=True)
+    catchup.sort(key=lambda x: x["start_date"] or "", reverse=True)
+    highlight.sort(key=lambda x: x["start_date"] or "", reverse=True)
+
+    # 4️⃣ Apply search logic
+    expected = []
+
+    # Upcoming first
+    expected.extend(upcoming[:limit])
+    remaining = limit - len(expected)
+
+    # Catchup next
+    if remaining > 0:
+        expected.extend(catchup[:remaining])
+        remaining = limit - len(expected)
+
+    # Highlights last
+    if remaining > 0:
+        expected.extend(highlight[:remaining])
+
+    return {
+        "article_ids": [e["article_id"] for e in expected],
+        "upcoming_ids": [
+            e["article_id"] for e in expected
+            if e["asset_type"] == EPG_ASSET_TYPES["UPCOMING"]
+        ],
+
+        "catchup_ids": [
+            e["article_id"] for e in expected
+            if e["asset_type"] == EPG_ASSET_TYPES["CATCHUP"]
+        ],
+
+        "highlight_ids": [
+            e["article_id"] for e in expected
+            if e["asset_type"] == EPG_ASSET_TYPES["HIGHLIGHT"]
+        ],
+    }
+

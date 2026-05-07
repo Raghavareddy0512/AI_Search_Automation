@@ -129,63 +129,54 @@ def extract_dates(response):
 
 def extract_search_event_ids(response):
 
-    # ASSET_TYPES = {
-    #     "LIVE": "19bajo019znum1tkhzn0qz6iy4",
-    #     "UPCOMING": "1f2vso6mwht2x1x9hi3euru0fb",
-    #     "CATCHUP": "1k7t7oc0q1omt19gij7s3hc676",
-    #     "HIGHLIGHT": "1dpp4008gvoq81nbxq0iu9x2jv"
-    # }
+    ASSET_TYPES = {
+        "LIVE": "19bajo019znum1tkhzn0qz6iy4",
+        "UPCOMING": "1f2vso6mwht2x1x9hi3euru0fb",
+        "CATCHUP": "1k7t7oc0q1omt19gij7s3hc676",
+        "HIGHLIGHT": "1dpp4008gvoq81nbxq0iu9x2jv"
+    }
 
-    search_event_ids = []
-    live = []
-    upcoming = []
-    catchup = []
-    highlights = []
+    event_ids = set()
+    article_ids = set()
+    live = set()
+    upcoming = set()
+    catchup = set()
+    highlight = set()
 
     results = response.get("Results", [])
 
     for category in results:
-        if category.get("Id") == "searchCategory_events":
-            for tile in category.get("Tiles", []):
+        if category.get("Id") != "searchCategory_events":
+            continue
 
-                search_guid = tile.get("Id") or tile.get("AssetId")
-                search_event_id = tile.get("EventId") or tile.get("eventId")
-                search_sport_obj = tile.get("Sport") or tile.get("sport") or {}
-                search_sport_id = search_sport_obj.get("Id")
-                search_sport_name = search_sport_obj.get("Title")
-                asset_type = tile.get("AssetTypeId") or tile.get("assetTypeId")
+        for tile in category.get("Tiles", []):
+            article_id = tile.get("AssetId") or tile.get("assetId")
+            event_id = tile.get("EventId") or tile.get("eventId")
+            asset_type = tile.get("AssetTypeId") or tile.get("assetTypeId")
 
-                if not search_event_id or not asset_type:
-                    continue
+            if not article_id or not asset_type:
+                continue
 
-                search_event_ids.append(search_event_id)
-                # print(f"DEBUG → Found event: {search_event_id} (Sport: {search_sport_name}, AssetType: {asset_type})")
+            event_ids.add(event_id)
+            article_ids.add(article_id)
 
-                if asset_type == ASSET_TYPES["LIVE"]:
-                    live.append(search_event_id)
+            if asset_type == ASSET_TYPES["LIVE"]:
+                live.add(article_id)
 
-                elif asset_type == ASSET_TYPES["UPCOMING"]:
-                    upcoming.append(search_event_id)
+            elif asset_type == ASSET_TYPES["UPCOMING"]:
+                upcoming.add(article_id)
 
-                elif asset_type == ASSET_TYPES["CATCHUP"]:
-                    catchup.append(search_event_id)
+            elif asset_type == ASSET_TYPES["CATCHUP"]:
+                catchup.add(article_id)
 
-                elif asset_type == ASSET_TYPES["HIGHLIGHT"]:
-                    highlights.append(search_event_id)
+            elif asset_type == ASSET_TYPES["HIGHLIGHT"]:
+                highlight.add(article_id)
 
     return {
-        "total": len(search_event_ids),
-
-        "live_count": len(live),
-        "upcoming_count": len(upcoming),
-        "catchup_count": len(catchup),
-        "highlight_count": len(highlights),
-
-        "live_ids": live,
-        "upcoming_ids": upcoming,
-        "catchup_ids": catchup,
-        "highlight_ids": highlights
+        "article_ids": list(article_ids),
+        "event_ids": list(event_ids),
+        "live_ids": list(live),
+        "upcoming_ids": list(upcoming),
+        "catchup_ids": list(catchup),
+        "highlight_ids": list(highlight),
     }
-
-
-

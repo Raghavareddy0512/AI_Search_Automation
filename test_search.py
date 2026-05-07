@@ -1,220 +1,223 @@
 import pytest
-import json
 import time
+import os
+import json
 
 from utils.api_client import search_api
-from utils.extractor import extract_dates, extract_search_event_ids, extract_dates
-from utils.schedule import (
-    extract_schedule_two_days,
-    fetch_full_schedule
-)
-from utils.generator import generate_title_prompts, generate_sport_prompts_with_expected
-from utils.validator import has_date_intent, is_day_stage_pattern
-# ------------------ OPTIONAL / NOT NEEDED FOR NOW ------------------
-
-# import json
-# from utils.extractor import extract_article_types, extract_guids, extract_strategy, extract_category
-# from utils.schedule import schedule_api, extract_schedule_ids
-# from utils.validator import validate_list
-
-# @pytest.fixture(scope="session")
-# def schedule_ids():
-#     # ❌ Not needed anymore (we validate directly with GUID)
-#     pass
-
-# def load_tests():
-#     # ❌ Static JSON-based tests not needed for dynamic flow
-#     pass
+from utils.extractor import extract_search_event_ids
+from utils.schedule import fetch_full_schedule, process_epg_tiles, build_expected_events
+from utils.generator import generate_sport_prompts_with_expected, generate_competition_prompts_with_expected
 
 
-# ------------------ DYNAMIC DATA GENERATION ------------------
-
-def load_schedule_title_prompts():
-    """
-    EPG → title + GUID → generate prompts
-    """
-    data = []
-    generated_prompts = []
-    events = extract_schedule_two_days(days_back=10, days_forward=2)
-    full_Events = fetch_full_schedule(days_back=10, days_forward=2)
-
-    for event in events:
-        title = event["title"]
-        guid = event["guid"]
-        event_id = event["event_id"]
-
-        prompts = generate_title_prompts(title)
-
-        for prompt in prompts:
-            record = {
-                "title": title,
-                "prompt": prompt,
-                "expected_guid": guid,
-                "expected_event_id": event_id
-                # "expectedStartDate": event.get("startDate"), # type: ignore
-                # "expectedEndDate": event.get("endDate")
-            }
-            
-            data.append(record)
-            generated_prompts.append(record)
-    try:
-        with open("testdata/generated_prompts.json", "w") as f:
-            json.dump({"prompts": generated_prompts}, f, indent=4)
-        print(f"Saved {len(generated_prompts)} prompts to testdata/generated_prompts.json")
-    except Exception as e:
-        print(f"Failed to write prompts JSON: {e}")
-    return data
+file_Path2 = "testdata/test_results_sports.txt"
+os.makedirs("testdata", exist_ok=True)
 
 
-def load_schedule_sport_prompts():
-    """
-    EPG → sport titles → generate prompts + expected event_ids
-    """
-    sports_data = []
-    sports_generated_prompts = []
+# ---------------------------------------
+# 🔹 Fetch tiles ONCE (not fixture)
+# ---------------------------------------
+tiles = fetch_full_schedule(days_back=10, days_forward=2)
+events = process_epg_tiles(tiles)
+sport_prompts = generate_sport_prompts_with_expected(tiles)
+competition_prompts = generate_competition_prompts_with_expected(tiles)
 
-    schedule_json = fetch_full_schedule(days_back=10, days_forward=2)
-    tiles = schedule_json.get("Tiles", [])
+# Save both prompts to JSON files
+os.makedirs("testdata", exist_ok=True)
+with open("testdata/generated_sport_prompts.json", "w") as f:
+    json.dump({"prompts": sport_prompts}, f, indent=4)
+print(f"Saved {len(sport_prompts)} sport prompts to testdata/generated_sport_prompts.json")
+
+with open("testdata/generated_competition_prompts.json", "w") as f:
+    json.dump({"prompts": competition_prompts}, f, indent=4)
+print(f"Saved {len(competition_prompts)} competition prompts to testdata/generated_competition_prompts.json")
+
+def load_schedule_sport_prompts(tiles):
+
+    print(" GENERATING SPORT PROMPTS...")
 
     prompts_data = generate_sport_prompts_with_expected(tiles)
 
-    for item in prompts_data:
-        record = {
-            "sport_id": item["sport_id"],
-            "sport_title": item["sport_title"],
-            "prompt": item["prompt"],
-            "expected_event_ids": item["expected_event_ids"]
-        }
-
-        sports_data.append(record)
-        sports_generated_prompts.append(record)
-
-    # Write to JSON
+    os.makedirs("testdata", exist_ok=True)
     try:
         with open("testdata/generated_sport_prompts.json", "w") as f:
-            json.dump({"prompts": sports_generated_prompts}, f, indent=4)
-        print(f"Saved {len(sports_generated_prompts)} sport prompts to testdata/generated_sport_prompts.json")
+            json.dump({"prompts": prompts_data}, f, indent=4)
+
+        print(f" Saved {len(prompts_data)} sport prompts to JSON")
+
     except Exception as e:
-        print(f"Failed to write sport prompts JSON: {e}")
+        print(f" Failed to write JSON: {e}")
 
-    return sports_data
+    return prompts_data
 
-# ------------------ MAIN TEST (DYNAMIC + STRONG VALIDATION ) ------------------
-file_path = "testdata/test_results.txt"
-file_Path2 = "testdata/test_results_sports.txt"
+def load_schedule_competition_prompts(tiles):
 
-# @pytest.mark.parametrize("data", load_schedule_title_prompts())
-# def test_search_with_schedule_title_prompts(data):
+    print(" GENERATING COMPETITION PROMPTS...")
 
-#     title = data["title"]
-#     prompt = data["prompt"]
-#     expected_guid = data["expected_guid"]
-#     expected_event_id = data["expected_event_id"]
+    prompts_data = generate_competition_prompts_with_expected(tiles)
 
-#     print(f"\nTesting Title: {title}")
-#     print(f"Prompt: {prompt}")
+    os.makedirs("testdata", exist_ok=True)
+    try:
+        with open("testdata/generated_competition_prompts.json", "w") as f:
+            json.dump({"prompts": prompts_data}, f, indent=4)
 
-#     start_time = time.time()
-#     response = search_api(prompt)
-#     response_time = round(time.time() - start_time, 2)
-#     search_data = extract_search_event_ids(response)
-#     search_event_ids = set(
-#     search_data["live_ids"]
-#     + search_data["upcoming_ids"]
-#     + search_data["catchup_ids"]
-#     + search_data["highlight_ids"]
-#     )
-    
-#     dates = extract_dates(response)
-#     print(f"DEBUG → Dates: {dates}")
+        print(f" Saved {len(prompts_data)} competition prompts to JSON")
 
-#     try:
-#         #  Primary validation
-#         assert expected_event_id in search_event_ids
+    except Exception as e:
+        print(f" Failed to write JSON: {e}")
 
-#         result = "PASS"
-#         error_message = ""
-
-#     except AssertionError:
-
-#         result = "FAIL"
-
-#         #  Intelligent failure classification (ORDER MATTERS)
-#         if is_day_stage_pattern(prompt) and dates:
-#             error_message = f"Day/Stage misinterpreted as date: {dates}"
-
-#         elif not has_date_intent(prompt) and dates:
-#             error_message = f"Unexpected date filter applied: {dates}"
-
-#         elif not search_event_ids:
-#             error_message = "No results returned"
-
-#         else:
-#             error_message = f"Expected GUID not found. Found IDs: {search_event_ids}"
-
-#     #  Logging
-#     if result == "FAIL":
-#         with open(file_path, "a") as f:
-#             f.write(
-#             f"PROMPT: {prompt} | "
-#             f"TIME: {response_time}s | "
-#             f"RESULT: {result} | "
-#             f"REASON: {error_message}\n"
-#         )
-
-
-#     #  Keep pytest failure behavior
-#     if result == "FAIL":
-#         pytest.fail(error_message)
-
-
-
-@pytest.mark.parametrize("data", load_schedule_sport_prompts())
+    return prompts_data
+# ---------------------------------------
+# 🔹 TEST SPORTS (parametrize)
+# ---------------------------------------
+@pytest.mark.parametrize("data", sport_prompts)
 def test_search_with_schedule_sport_prompts(data):
-    
+
+    sport_id = data["sport_id"]
     sport_title = data["sport_title"]
     prompt = data["prompt"]
-    expected_event_ids = set(data["expected_event_ids"])
 
-    print(f"\nTesting Sport: {sport_title}")
+    print(f"\n==============================")
+    print(f"Testing Sport: {sport_title}")
     print(f"Prompt: {prompt}")
 
+    # -----------------------------------
+    # 1️⃣ Call Search API
+    # -----------------------------------
     start_time = time.time()
     response = search_api(prompt)
     response_time = round(time.time() - start_time, 2)
 
     search_data = extract_search_event_ids(response)
-    search_event_ids = set(
-        search_data["live_ids"]
-        + search_data["upcoming_ids"]
-        + search_data["catchup_ids"]
-        + search_data["highlight_ids"]
-    )
+    search_article_ids = set(search_data["article_ids"])
 
+    print(f"Search returned: {len(search_article_ids)} events")
+
+    # -----------------------------------
+    # 2️⃣ Build Expected
+    # -----------------------------------
+    expected_data = build_expected_events(events, sport_id=sport_id)
+    expected_article_ids = set(expected_data["article_ids"])
+
+    print(f"Expected events: {len(expected_article_ids)}")
+
+    # -----------------------------------
+    # 3️⃣ Compare
+    # -----------------------------------
+    missing = expected_article_ids - search_article_ids
+    extra = search_article_ids - expected_article_ids
+    print(f"Missing: {len(missing)}")
+    print(f"Extra: {len(extra)}")
+
+    if missing:
+        print("Missing:", list(missing))
+
+    if extra:
+        print("Sample Extra:", list(extra)[:5])
+
+    # -----------------------------------
+    # 4️⃣ Assertion
+    # -----------------------------------
     try:
-        assert expected_event_ids.issubset(search_event_ids)
+        assert not missing, f"Missing events: {list(missing)}"
 
         result = "PASS"
         error_message = ""
 
-    except AssertionError:
-
+    except AssertionError as e:
         result = "FAIL"
+        error_message = str(e)
 
-        if not search_event_ids:
-            error_message = "No results returned"
-
-        else:
-            error_message = f"Expected event IDs not found. Found IDs: {search_event_ids}"
-
+   
+    #Logging
+    # -----------------------------------
     if result == "FAIL":
-        with open(file_Path2, "a") as f:
+     with open(file_Path2, "a") as f:
+        f.write(
+            f"\n==============================\n"
+            f"SPORT: {sport_title}\n"
+            f"PROMPT: {prompt}\n"
+            f"TIME: {response_time}s\n"
+            f"RESULT: {result}\n"
+            f"MISSING COUNT: {len(missing)} events\n"
+            f"MISSING EVENTS: {list(missing)}\n"
+            f"EXTRA: {list(extra)}\n"
+        )
+        pytest.fail(error_message)
+
+
+# =======================================
+# 🔹 TEST COMPETITIONS (parametrize)
+# =======================================
+@pytest.mark.parametrize("data", competition_prompts)
+def test_search_with_schedule_competition_prompts(data):
+
+    competition_id = data["competition_id"]
+    competition_title = data["competition_title"]
+    prompt = data["prompt"]
+
+    print(f"\n==============================")
+    print(f"Testing Competition: {competition_title}")
+    print(f"Prompt: {prompt}")
+
+    # -----------------------------------
+    # 1️⃣ Call Search API
+    # -----------------------------------
+    start_time = time.time()
+    response = search_api(prompt)
+    response_time = round(time.time() - start_time, 2)
+
+    search_data = extract_search_event_ids(response)
+    search_article_ids = set(search_data["article_ids"])
+
+    print(f"Search returned: {len(search_article_ids)} events")
+
+    # -----------------------------------
+    # 2️⃣ Get expected from the data
+    # -----------------------------------
+    expected_article_ids = set(data["expected_article_ids"])
+
+    print(f"Expected events: {len(expected_article_ids)}")
+
+    # -----------------------------------
+    # 3️⃣ Compare
+    # -----------------------------------
+    missing = expected_article_ids - search_article_ids
+    extra = search_article_ids - expected_article_ids
+    print(f"Missing: {len(missing)}")
+    print(f"Extra: {len(extra)}")
+
+    if missing:
+        print("Missing:", list(missing))
+
+    if extra:
+        print("Sample Extra:", list(extra)[:5])
+
+    # -----------------------------------
+    # 4️⃣ Assertion
+    # -----------------------------------
+    try:
+        assert not missing, f"Missing events: {list(missing)}"
+
+        result = "PASS"
+        error_message = ""
+
+    except AssertionError as e:
+        result = "FAIL"
+        error_message = str(e)
+
+    # Logging
+    # -----------------------------------
+    file_path_competitions = "testdata/test_results_competitions.txt"
+    if result == "FAIL":
+        with open(file_path_competitions, "a") as f:
             f.write(
-                f"PROMPT: {prompt} | "
-                f"TIME: {response_time}s | "
-                f"RESULT: {result} | "
-                f"REASON: {error_message}\n"
+                f"\n==============================\n"
+                f"COMPETITION: {competition_title}\n"
+                f"PROMPT: {prompt}\n"
+                f"TIME: {response_time}s\n"
+                f"RESULT: {result}\n"
+                f"MISSING COUNT: {len(missing)} events\n"
+                f"MISSING EVENTS: {list(missing)}\n"
+                f"EXTRA: {list(extra)}\n"
             )
-
-    if result == "FAIL":
         pytest.fail(error_message)
