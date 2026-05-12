@@ -8,7 +8,8 @@ import requests
 from utils.generator import generate_title_prompts
 from utils.extractor import ASSET_TYPES
 
-EPG_URL = "https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange"
+# EPG_URL = "https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange"
+EPG_URL = "https://epg.discovery.dazn-stage.com/ca/v5/epgWithDatesRange"
 
 
 def schedule_api(
@@ -16,7 +17,7 @@ def schedule_api(
         languageCode="en",
         startDate="2026-03-05",
         endDate="2026-03-11",
-        timeZoneOffset=-300,
+        timeZoneOffset=330,
         brand="dazn"
 ):
 
@@ -73,7 +74,7 @@ def extract_schedule_two_days(
         languageCode="en",
         days_back=2,
         days_forward=2,
-        timeZoneOffset=-300,
+        timeZoneOffset=330,
         brand="dazn"
 ):
 
@@ -280,7 +281,7 @@ import datetime
 import json
 import requests
 
-EPG_URL = "https://epg.discovery.indazn.com/eu/v5/epgWithDatesRange"
+EPG_URL = "https://epg.discovery.dazn-stage.com/ca/v5/epgWithDatesRange"
 
 
 def schedule_api(
@@ -288,7 +289,7 @@ def schedule_api(
         languageCode="en",
         startDate="2026-03-05",
         endDate="2026-03-11",
-        timeZoneOffset=-300,
+        timeZoneOffset=330,
         brand="dazn"
 ):
 
@@ -313,7 +314,7 @@ def fetch_full_schedule(
     languageCode="en",
     days_back=10,
     days_forward=2,
-    timeZoneOffset=-300,
+    timeZoneOffset=330,
     brand="dazn"
 ):
 

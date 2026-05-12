@@ -312,3 +312,119 @@ def generate_competition_prompts_with_expected(tiles):
     print(f"DEBUG → competition prompts generated: {len(prompts_data)}")
 
     return prompts_data
+
+
+def generate_contestant_prompts_with_expected(tiles):
+    EPG_ASSET_TYPES = {
+        "UPCOMING": "1f2vso6mwht2x1x9hi3euru0fb",
+        "CATCHUP": "1k7t7oc0q1omt19gij7s3hc676",
+        "HIGHLIGHT": "1dpp4008gvoq81nbxq0iu9x2jv"
+    }
+
+    contestant_map = defaultdict(lambda: {
+        "contestant_titles": set(),
+        "upcoming": [],
+        "catchup": [],
+        "highlight": []
+    })
+
+    print(f"DEBUG → Tiles count: {len(tiles)}")
+
+    # -----------------------------------
+    # 1️⃣ Group by contestant + asset type
+    # -----------------------------------
+    for tile in tiles:
+        contestants = tile.get("Contestants") or tile.get("contestants") or []
+        if not isinstance(contestants, list):
+            continue
+
+        article_id = tile.get("AssetId") or tile.get("assetId")
+        event_id = tile.get("EventId") or tile.get("eventId")
+        asset_type = tile.get("AssetTypeId") or tile.get("assetTypeId")
+        start_date = tile.get("Start") or tile.get("start")
+
+        if not article_id or not contestants:
+            continue
+
+        for contestant in contestants:
+            if not isinstance(contestant, dict):
+                continue
+
+            contestant_id = contestant.get("Id")
+            contestant_title = contestant.get("Title") or contestant.get("Name")
+
+            if not contestant_id or not contestant_title:
+                continue
+
+            clean_title = contestant_title.strip()
+            contestant_map[contestant_id]["contestant_titles"].add(clean_title)
+
+            event_obj = {
+                "article_id": article_id,
+                "event_id": event_id,
+                "start_date": start_date
+            }
+
+            if asset_type == EPG_ASSET_TYPES["UPCOMING"]:
+                contestant_map[contestant_id]["upcoming"].append(event_obj)
+
+            elif asset_type == EPG_ASSET_TYPES["CATCHUP"]:
+                contestant_map[contestant_id]["catchup"].append(event_obj)
+
+            elif asset_type == EPG_ASSET_TYPES["HIGHLIGHT"]:
+                contestant_map[contestant_id]["highlight"].append(event_obj)
+
+    print(f"DEBUG → contestants found: {len(contestant_map)}")
+
+    prompts_data = []
+
+    # -----------------------------------
+    # 2️⃣ Build expected per contestant
+    # -----------------------------------
+    for contestant_id, data in contestant_map.items():
+
+        data["upcoming"].sort(key=lambda x: x["start_date"] or "", reverse=True)
+        data["catchup"].sort(key=lambda x: x["start_date"] or "", reverse=True)
+        data["highlight"].sort(key=lambda x: x["start_date"] or "", reverse=True)
+
+        limit = 50
+
+        expected_upcoming = [
+            e["article_id"] for e in data["upcoming"][:limit]
+        ]
+
+        remaining = limit - len(expected_upcoming)
+
+        expected_catchup = []
+        if remaining > 0:
+            expected_catchup = [
+                e["article_id"] for e in data["catchup"][:remaining]
+            ]
+            remaining -= len(expected_catchup)
+
+        expected_highlight = []
+        if remaining > 0:
+            expected_highlight = [
+                e["article_id"] for e in data["highlight"][:remaining]
+            ]
+
+        expected_article_ids = (
+            expected_upcoming
+            + expected_catchup
+            + expected_highlight
+        )
+
+        for title in data["contestant_titles"]:
+            prompts_data.append({
+                "contestant_id": contestant_id,
+                "contestant_title": title,
+                "prompt": f"show me {title} events",
+                "expected_article_ids": expected_article_ids,
+                "expected_upcoming": expected_upcoming,
+                "expected_catchup": expected_catchup,
+                "expected_highlight": expected_highlight
+            })
+
+    print(f"DEBUG → contestant prompts generated: {len(prompts_data)}")
+
+    return prompts_data

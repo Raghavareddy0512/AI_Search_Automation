@@ -1,171 +1,171 @@
 
 ==============================
-COMPETITION: Lega Serie A
-PROMPT: show me Lega Serie A events
-TIME: 2.8s
+COMPETITION: DFA Premier League
+PROMPT: show me DFA Premier League events
+TIME: 1.72s
 RESULT: FAIL
-MISSING COUNT: 2 events
-MISSING EVENTS: ['94at7gmwtstmz3eogmcc20axg', 'ep0ftoxtvhg8e4hnxm4y13jgf']
-EXTRA: ['dmvuq184ijjv2ow5krzt7sm8', 'd3f9xmq2ph4csh2br2bw5kfbd', '4suffh8jp8y7bt2ira0obn8rq', 'z2zc49wpr976xig6urf7pgzb', '9usxso5uydu7wipvg247qtumb', '4f7dkgs5wappfgaaj60vbywhz', '8zae8ihs88yg0py3ogxitczux', '2gykx3kubkoi8yv44txskbq0b', '7s5rmyui6ef2u6sdwtgthcjcq', '4ng3v5wmrayitlxku8rp15fob', 'elxamrjw8lgm8xzmjcj2h05my', '4rrxonmbgtivjlr1y5tni8be4', 'bhcxpg1llewkk44fxdj4oay39', '236woh0vutyimpcbeld1jtglg', '137kich1caicbnmb9k73igovx', '58rx3b50tlb35483rkunubvez', '5cyrpdm9txg5c0mg1rspfjcv1', '3m6uvnyf497vsp5payls2d54a', 'djw9ukzletkjrmx8tboqkef5f', 'ce37y39vta647od1q1ixyhb39', 'd9i9zerbv8yun3ucxpo4tnzqf', 'e0n4djd609mavbnlhv9ozfnh9', 'aiinog0jsg5heb13u0uokvlyr', '1150jzrjqi63xd97qzv3m8l8z', '6wign4vhyzig4ojfgfnr44q1w', '8enmbdt7n2gvwfv04gl4mo4o6', '8aiy22z98upjpfspvogoas2l', '7kbhbyovgw7hhtp3x7has31v9', 'cfs97gyppjmznkm3mwqyrulqo', '4proojuxpgxg0spon4uj5wq87', '8cujv77a2ya6t7wc4zs18zciz', 'cwlj8qndxrfg8fs90okhbeesp', 'deq3hyzpvqjgzp5cgun4in5zj', '4gr4mziiyn8ut8m13wtzxqz7k', 'az389nylz97vy1wnwt2o8ifjj', 'bh69murgpijr6ubfshm2f87rr']
+MISSING COUNT: 1 events
+MISSING EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs']
+EXTRA: ['183xf7lfqc8xk1p72echjz1tj4', '1vgwvhn2j14b91cas5vhmgbnxj']
+
+==============================
+COMPETITION: DFA Premier League
+PROMPT: show me DFA Premier League events
+TIME: 1.83s
+RESULT: FAIL
+MISSING COUNT: 1 events
+MISSING EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs']
+EXTRA: ['1vgwvhn2j14b91cas5vhmgbnxj', '183xf7lfqc8xk1p72echjz1tj4']
+
+==============================
+COMPETITION: Serie A TIM
+PROMPT: show me Serie A TIM events
+TIME: 2.99s
+RESULT: FAIL
+MISSING COUNT: 17 events
+MISSING EVENTS: ['tl8arezc2ie2uy3xi9jezdg', 'blasd8u7lbreb1v2kpd2quk5h', '3ccqc9yic68yl2gzofj0xeff4', '9yvovngn51xljmu73cnb9x12', '2m3ljwe5mzkq951s43k6d8elj', 'eknx733tptjnp06ac05f8omgb', 'abzf95m3y4hnggbp5cpucerxw', 'ao4ycrarmu58skzod0zdcvzvo', 'c9mne2q85t2bx5kpdy4ikpnyh', 'amxppnhs099fxq4nojqp1m1z3', 'eu9nfjdiyp96ml2xfx2yj2g6y', '1a1fyk6w54bmgpjhyfsigvkrn', 'bt1dou71ytwmwu3paqkls3fm6', '15kgyxnzfpvmi0mrniacfbr8d', '6kzfnpjddqgzxtxp72zookk0p', 'bsnup1euuzl1015kfls0gu19m', '4sdaz0si2zsuryucpz25razet']
+EXTRA: []
+
+==============================
+COMPETITION: Benavidez v Zurdo
+PROMPT: show me Benavidez v Zurdo events
+TIME: 1.95s
+RESULT: FAIL
+MISSING COUNT: 1 events
+MISSING EVENTS: ['bkcnu9th6x901lhwe1thsxgyq']
+EXTRA: []
+
+==============================
+COMPETITION: National League
+PROMPT: show me National League events
+TIME: 3.02s
+RESULT: FAIL
+MISSING COUNT: 4 events
+MISSING EVENTS: ['5kulmol9h32c1j5qkh2flr4cn', 'hn21i8emn3o81d065pigxuh0w', '1xii66ibns9qo1wq2rdkbwovlh', '1nr35lkxeva6313fmwe9k4okje']
+EXTRA: ['hsrgdth5q75y12nckl4rjl7yi', '1b8j3hevyd4jf1crxfvm2epn6z', 'p2i2km18bk871ozbj3qsual1o']
 
 ==============================
 COMPETITION: Premier League
 PROMPT: show me Premier League events
-TIME: 2.3s
+TIME: 2.45s
 RESULT: FAIL
-MISSING COUNT: 4 events
-MISSING EVENTS: ['877f1zjn10nxf4bhhxvu8o3sf', 'm9og8slig4fhvy1u2e8xj1f6', 'dmbd7q2txjuesskczzr83rvyn', 'e15jvyleek3hx4kv9a689h9ek']
-EXTRA: ['c0hv0g6brtogzouzd4wj1oxe0', '36h7m2nuyco1jntnzrr2u6n6b', '5virpzi875yv5zxsd7788btzz', 'e2i4jygouwuqjjymjy9140qfw', 'ap6ftx8kvpi6kn6m1b8co8dgn', 'cdiwrwd1dbjof30l82gsh09l1', 'bttq1pc0oi6liln7s3g40rjyy', '6livrpflx4dgozwvpvwpz3k7r', '5mcuerd3zjxv907r3h3217af6', '1h7kmvazrmjx0mvdnsghtiyuy', 'bmg1j7l3w85awpd5yomb1gh8c', '2lthdxw6d693v5tye1rrge401', 'dyqfqv1npljnk4u37piqizbap', '6qh0sejtloh69ik4pfxknke9s', '9aq8msk75v7l2sifw67qyf76h', '88c6rssm0k6230ruknq7vuzsh', 'c5hm03e9tq8ddcdsfqq41qnd4', 'a9y6mr7aha0i44hkwo3n5qw0t', 'c6f2bym96r6xewrrjzh7g5rzw', '6oy7t6z0in3jo3qat5ld61d89', 'arv6e26ihh1ixv1imndfxsd9g', 'axeg6lmg1c3jtgj87prerkcz0', 'l7ipusn6ytro4g2icffr2w2k', 'd7d3ajgmed5apdtx7jods4jih', '9kfvt3f7sng3te7bk4mp0zzwb', 'cr86vh98qu7py1g3a11hdpea7', '94pn30zf9q5zcglredet77h5c', 'aggauuc091nq0zlv2u9qab034', '39hzdwu0zfemg3cansyt2iqut', 'b9nefhuqb16m9uwsutyki4g1o', '163f3i8jnwczajfb2ie8iili8', 'cil7erlocox4imb5r8wd2w76z', '620jo4bxr3oi9sjko8ouqi6hh', '8wjfvzcwa4iq0ccwg5x6po7kx', '6lwp6iajn4lglsrz59kwuht50', '5jqkbhwits4l7hdkz29q7wzei', '46hqvtffgn3fb8iir74h8788t', 'a5b0e18l60dnilfbcgvgenh2y']
+MISSING COUNT: 15 events
+MISSING EVENTS: ['5wfpepoc8wz6adb2tbjx7rq7d', 'htt7hlk79hpfi5y8jazkdcik', '1ogq49bphhmdrckjv3sawdj3g', '27hcmz3skkkijughjqvzie6hw', 'akymtnsipy9qcgib3q63r2q4a', '4032poivapw61cipv1bo608pa', 'dx2npphipztovw4xhe6r9apeb', 'dcmyp3a0hj89kt6usfs3974xb', 'du8mszw2w6fj8nkc6qcmn2sjw', '8u7i4u842z6r9wo9amkv2vq66', 'avz5wtj8nk8k82c4vzcrn2q42', '5y9cnj8u1e2jvehmg36pse6xn', '9c0oflj2wlg88h17gd9mfucin', '7nid08k9eoo4as15ztjqofagl', 'bn6dduokrajrimulhyndk6fe3']
+EXTRA: ['1vgwvhn2j14b91cas5vhmgbnxj', '183xf7lfqc8xk1p72echjz1tj4']
 
 ==============================
-COMPETITION: Enterprise National League North & South
-PROMPT: show me Enterprise National League North & South events
-TIME: 3.11s
+COMPETITION: Super League Basketball
+PROMPT: show me Super League Basketball events
+TIME: 3.36s
 RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['n4k77sjzjp571t24twujtrorh']
-EXTRA: ['1qqj7bbf7ce23195vvbza2ho0s', '1lb9tze7150pi1flp11vo2a5hd', 's0e1clnsjpx51gp3pqw3iu5z8', 'u286gnl8tzkh1gqsyvdecem08', '2kkd3evcdmet1ow0h17fte8se', 'ga8gusn1x8yp1qec3leqc3efz', '1lteg6gy1p0c2zx5ftzjrvtzp', 'lfynh4t6vgvd1f7v3to24ickk', '19z0zd7kirck41uw3zddcy8k9t', 'fufuwencrhsb1tpvm5muijcww', '15jmndqp76ysuzn52pjuo7vgr', '11hhv23shnvbu1soe3dgbna2mh', '1tleaqn8zorhz1xzfbzw6mqj53', '1r3amm4s6dssv1kmk8wmr63uus', '1a6g4icy1c4r01maolfz8okbap', '1w4lvgzx7esib1baxj2o9sl7bl', '1tyd13ndihifw14h0192t842oy', '1j1em9isrbtbj15otfo6npvvlk', '1ii6y8vfww051k80zkabagw9u', 'luxiwgyh3zib1gv4krqqkmjbg', '14vgv9gdizmju1qf9wlt62w2sl', '2c4dd9jtcp9b11bjb5x7zib3v', '1tcuacdfvxfe81hfrsjgds5siw', 'gtebtu4xa9711v7854gtugcca', 'km0r3e8exc5l1regcdp81g9rs', 'p1z2jpr6r4p91kx8524de7ag9', '1atm6m84kamnb1my7rcbsxhcdm', '1a6rdvxb816yk130d5ke3btjx7', '84ip1jp3658u1l08fbp0r0qr2', '1mg7ha4iizav1k1dm5imzpoxj', '1w9b39s1r9d3e1acec0479l0id', '1czwxo5rkambf11cinmhjznf5f', 'nxko7u9tgzuo1khrijr6danid', 'y9neday406ek1ktmltjgv2vfv', 'd0y2f41i3vim1hq879ge05gxd', '1pc3u4n8qr71i1th0orc7t209y', '1uqvxxrkjdg9i1xxplol8s420h', '10xaljew147ht18j1pecxjy9t1', 'qozrqo9m5tmd185siic2ttpvo', '1ocytbelsmjor1u7t1tk4yitv4', '13nzsb5mfmmwt1iquuu968fz4r']
-
-==============================
-COMPETITION: Enterprise National League
-PROMPT: show me Enterprise National League events
-TIME: 3.52s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['aomadxht37vc15us0ltnfvfse']
-EXTRA: ['1prb15hjexntt1ah338nwvxzxi', 'fn1x6kqtqruw1l3ogyboxioha', 's653lf0bjvk21p7cit2pmo04m', '1o4ucigw1ynck1fz180cos3ry5', '1duehoxegq6wt1arf2mrabbiq7', '7aefojcnw79511orl6rvyyqmg', 'vv2283g45a4j1gswvgwgdg94m', 'kn2ovtulgi94z6gvjqn2bdjo', 'vlkjrr7t78881tfr87oemkalu', 'tsxvj397sd7719exig014ml1g', '8pxr4w3nk43711zn1ijsbzvgm', '1lg5qh6zfxgkb1q3b4hfz0x0ix', 'i1pyrhib49od1izy6sfnkzz91', 'a9t3z8ml59cy1us90b2y7uggh', '8npl2yyw5vi21kth7rlvp1ecv', 'pb9slwono55l1j28t09gkbnzy', '7sxdtd5ru4gr10javkj8rzeh1', '7xg7x8gpb7ew17lkorpp1eauw', '6huuk7i9l8a7zhd043huw9n6', '1oomwdm0dz0yv1h9enzove4nz8', 'aza1jqg3pkad137pidziv6dzh', '1dbpnnf1t1nta1nhrh4qf6z4ns', '6scdnt00qwkc195nckwlj9i5v', 'wlv53j9df6t71ttvg2bfglfnw', '1w4avk597lou1sxohcimxesme', '1kq6054rp5w5x1hb4m54zx4yx1', 'xsb2c0kihnfd1a5gv9yugbas4', '1dx5f9aesjgkx1sikcs8ooka25', '17031l3pw3u7z1bos572ox9h9e', 'n0sv2qql4mqu1rvw0z60bgnhq', 'lvjxopufficw1o42t2naob57b', '1xnpsczf9w0q21tc0vl9tve9sr', '11bow2tt7mexr1hxkhg4u0f7ul', '1str0k57o5dqa14iwpuos2650d', '1qjzsa3u0m7nd1jadl1kv0q2m2', '1xxblf06hs1ty1dr8k9d0ungiy', '1c4x4k7om04hb1rus3ys0kgc39', 'neswjjnnc1vl1qtc8iiv3fvgq', '1fd319351thx61xi63oftr7oe5', '5l49kj0sw68t1rokzuqos54m9', 'y0ucx7quvmegzbsgigg9v2vc', '1wc5qussaccuc1l17tajqxmde4', '19tpiwhvq3fgj1t0w7qmp99ivt', 'v5w3ho21z6d516e3kcrpr6ccw', '1g8fqcaa5768p10qc7ww2tzuhw', 'yuc4g4rcqyus1ioy86ei8bzdh', '15kmdc8u2y4p515176bgfuvv74']
-
-==============================
-COMPETITION: UEFA Champions League
-PROMPT: show me UEFA Champions League events
-TIME: 2.34s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['16sluxcvy9deg3mk3gxrqyln8']
-EXTRA: ['7pznmb3f90sy5lbywkt8le2dw', 'a2ntde98d4hqrz24kcr9e0n85', '6ipxe91euvnb94a27vgavj7xg', '1rch75xplc0elonurzw42wa49', 'biy5crpny9bv5njrrfih4efla', '3yzelj0nm2t7ev5s8mi7nujct', '4vpz7uouz4h6myen9lkjhvf65', '220jyqschcrpvprcsjb20waq5', 'ai9ccxyhot0a2lbceb839guxs', 'ejwhlwv3n9fos634jk0k8eylf', '22d0faecj5g88c54f683tbo9w', 'c9et8vxw3lrhxzwktq90zelu2', '82vfv0egeafv2csu6j7ukl374', '1xuutlin4v9d6g29hvgpu1rt3', 'vujat2p37dr2svoqjopkm26d', 'ct4rfho4p2k7r9rk1qzifx0gr', '9wnow2d6z6pwhtbx27tk93s8f', '2ijat6uhf85ioxi4k5elnk8n5', '9zmwz3u5zh1h326z9fvcar3yh', '640w98ksxpnuoicyx8e0malr7', '3k688ok5s0sgxegyb7etbm8ok', 'd6tw9e9utzuk3enmca3e2cnfh', '69ez8rwmm9iw2uw55ytmpmqf4', 'cth1etoq6uy4hu63zh49wmzil', '6picvrjgx0jvxnmpnn4mq1r2v', '8la3pbd85xzlccma5kedxldf3', '3scqmu42e322ptjbm4gcc0f4t', 'b46l2hqffe8oz7x08tszu5m2', 'dhasvuxnkqh1nzk4qrdpowe0f', '2c7jzr8aj19egruf24nlh035b', 'd9jm4x2fs1edzv87e8ewnqrm2', '3hthas5hcu3otp43z4z7mu3l8', '8fmmeeftyjz4d2p8zxjrs32fb', '3glp6jxetvyw211jw6wohb0op', 'blin7eg0vygo7qiml8ae92a5k', '5cmncp5u14of35o22autnjihi', 'f4gzqf9jqfh2vlz60igv8arad', '5w18h80aeumuivgvmxc9h569c', '1ag3d4xf8bkj3p6hefsz8ukh', '5svbxyp70okdvb6dd6wrbr862', '5fjr51smgr6iuhxijrguy37bt', '2oumhqazw7jsl89q5zaoyhmd', 'c0fxfibshuf9d2seaywx6bjh9', 'bd7t4zheewqkhdrf23gg9vfou']
-
-==============================
-COMPETITION: WTA Madrid Open
-PROMPT: show me WTA Madrid Open events
-TIME: 2.34s
-RESULT: FAIL
-MISSING COUNT: 2 events
-MISSING EVENTS: ['5vj28miwjmdbg1zabfy28dn6y', '3lrkwx9m5due8ktarh82u6sni']
+MISSING COUNT: 8 events
+MISSING EVENTS: ['5enzogw1sb5z8p7xr0iimrsic', '88kzaqc7499ss9flfwvty4ve', 'evfiirvtbimoeebm7qkw9ev91', '2b19sao6yz9lx11ysn7so2ibb', 'esuov6eohift40uvoijsuyl7p', '3cn3adzbx8i2vrq96dal6um09', 'a75v03a2yxf4j2b39wiuyqt9', '2kefm7nhw746yaipqk5dki3gf']
 EXTRA: []
 
 ==============================
-COMPETITION: NFL Game Pass
-PROMPT: show me NFL Game Pass events
-TIME: 3.82s
+COMPETITION: Liga ACB
+PROMPT: show me Liga ACB events
+TIME: 2.65s
 RESULT: FAIL
-MISSING COUNT: 20 events
-MISSING EVENTS: ['1lt8j410bqba11gq0k8zzavj86', '9avwsquw83i118y0o46bfg3bw', '1ux3cztks11oj1sbn35wjdw70l', '1md9wkyjuetq415nzi0oymzvdp', 'zrn85x1q20ww17bdb0yi8e8qb', 'caefz351akyx15y9cwq4agtgk', '1nq86gbxtq6911phy1xjiaibcz', '11g7emxawhp4p18b82ve3vftv9', '1hv0sz2lb23l71755bk278z0ks', 'ymy4t6fcw7nb1qo2pc6l7ns1o', 'jq6h3zv4hf2m1podtnamr0sox', '1o37iwtxrd4cc14ikhwgtq1qtd', 'xt0ukoytuixl13sr3czmbb2z9', 'qs4fcq4dtymz189jc6oe7qu67', '1eyrhwlacrbyu17vdks39qx1wh', '1im036ffx44abzipi47rhbni3', 'clgc121rowmg114y7893v0kcr', '11pnxxt1crby91gq5rwoshty67', '1f2h7fq7dngw01edyeiyf9gsni', '1uaosrpk8cue4zv6x4cn38uk7']
-EXTRA: ['17l6ducz9irro12gm1q3zgtdbe', 'j7t1h7ho7ug1utlpf3rteswt', 'ug94zofabery11ebscehiullj', '1r8ukukc0po411outrab528ygi', '102za85pq5ow31o9i5zryd34p0', '1gg9uwjtrj0ty1hwap8xwwsgk0', '1a6oxyb5wlc8t12m6a80f3z7r1', 'wa2bxg4uoou01eo8delrcajjr', '5wptuvfpalbw17unmi6fc1hz7', 'ek9lkpwh94xx1kbcohkdisvju', '1o7yib8pl5yyg1el5z6n6lgpj0', '10bcisyoy5cyi1cw8tini0lhsb', '1xjwb6dsvl0cr1606k3nmaqruq', 'aqwom506uhhp1iblccuv6djxa', '15uidhxacyd7z1itqytnb5ocrh', '1bcbideymn8bw1wwmd7a0jmiro', 'x92h04z3h3mm1mri0n5trat0e', '13f76cpf1uszk140gbm79itw2x', 'qsrol45y4c21qyftgxl4c9qo', '1s3euro7n2vv81psyomril49ve', 'pp6slvzn7bvk1sz7rhanxnk8y', '1nucaufzilugt16e2eluf1pr8m', '19ggjk5iwvc9y1ri5sd8hf2och', 'cnmapk3k2dfv1u92htfu2ykgh', 'laj4ubdyhz581btk1i8u3fyzk', '1i3dgd03r4zeb1r6zhh4wktczd', 'vratqod9lgir1ax03vk3ertm9', '1cazhhjcbnfxm1cwl4pb05mulj', '3bobcmh4byf11qwy1k1iykj68', 'uudj2jsml4r1hcs6r6bggiqe', 'mblwksw5vcio19qqxcz6c7jb2', 'b5osxkt5u6y41qt71edu2ct54', '1eny3hzpz3ykb1dc7d3g4popyf', 'wkvxnhqps8uv1u8it5kxuia1b', '1hn75058tx4e617cobokb092xo', '3lgrzxc3i4pm140lqy3tzhw8k', '9kau0gtedvns1qsu2fssxtk6g', '1xlul51o3ath718sikdcomo2mz', 'ybmf6mbnp6c115ld343i5qkad', '1i3m0y3s0ndxm1f3el0oao9wt4', 'o5rzhf12mpyb1dk07c9pl9ulf', '4toppsic79kq1oc025ovwsern', 'd74x2t7wt7je1hnnreod8m7u6', 'wbb96sdeciyd1h8fo38dsn610', '1d2h6oy5fu8a81hygyjwjbagey', '1gdpkmqcikixg1ma91cb2qc4f8', '1w9jgu6a0g3ix1jsjpkbegp6h1', 'r3tozme96cv914dzib2ifslok', 'yn13iscbfarr12lnqxh0ltgk0', '1btr9twdqjbwy1mclpsa7eem4h']
+MISSING COUNT: 3 events
+MISSING EVENTS: ['21jutnoi6hcon3fe2l510eibu', 'e7pf6d3vy2oujnqgthhgzz40j', '6q6x5mmbf95o924l10ynhm5bo']
+EXTRA: ['3b1z3lq2i1pjoghlcgo2t34kd', '6hagxbnbfko8cpiy3kdxnqvx']
+
+==============================
+COMPETITION: Boxing Test
+PROMPT: show me Boxing Test events
+TIME: 2.63s
+RESULT: FAIL
+MISSING COUNT: 1 events
+MISSING EVENTS: ['1o581kfry8lx71kgwfgb4wrvy0']
+EXTRA: ['1eol957nk6neu18dwjfdz5vzwa', '1letrct2qw1xx1hqoqoq9mtprx']
 
 ==============================
 COMPETITION: Frauen Bundesliga
 PROMPT: show me Frauen Bundesliga events
-TIME: 1.15s
-RESULT: FAIL
-MISSING COUNT: 2 events
-MISSING EVENTS: ['a3q2t2qk5m5302dy04ajvojs5', '1p49xylc3ppqf1oaywng2vj342']
-EXTRA: []
-
-==============================
-COMPETITION: EHF Champions League
-PROMPT: show me EHF Champions League events
-TIME: 1.37s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['cqkknd7lul8vbubskmwnds86t']
-EXTRA: []
-
-==============================
-COMPETITION: Bundesliga
-PROMPT: show me Bundesliga events
-TIME: 1.41s
+TIME: 2.95s
 RESULT: FAIL
 MISSING COUNT: 5 events
-MISSING EVENTS: ['5fiipve4h44tg6tiib162qx99', '4scec3d3o480yefjov4fwf4kd', '801rhtdcjganqkug0ug2sjs85', 'blseu1k8dws8w66bd4mhqhtf8', '9bqp2iktsvpuvh7kb6xfo8ayz']
-EXTRA: ['8kvpbiuvn6jfgh7ef6xn8blhf', '9jdt2jboo9kejlvjtgq0ppnp9', 'cgxtcmppvn7eza1d6zybe4dp3', '2f7q5ccqy6jl97h60yu3kdxn2', 'bt2p5g4iqgqudv6x19gjghqr7', '367w3hcylj8fbt4l4gp4n69mn', '9wlkz1go6a6070up7p2o20s9', 'f26b2xjvgj5v9siez33t86oe1', '3mhkwa4ah6whgpzjyov2wnhj3', '2blsgtcjk8vfyr7t2ft6wa9yw', 'unrgzu8bqxpiwwtp35m4g52h', '7klgv7s8l1oa54sqp6sygsjl1', '560c7fkugal6408h3akpzq5za', 'eqpx91dtg9lcdmx4qnbvxp7kf', 'ehb4rhhyo057vjcf953ef8r6t', '9zm96lkyjyu3fu8u8bc2bb703', '25m8bgpfopc6k2ne87ym3m4rs', '6dvqwjgfhbn01vkkpi5ma870z', '4bhbl2x2ivxkbml3g8joc64vw', '6ab8odxsr2rit6gm9kf5jvqiz', '5gupljsaf6no9vrnlt03c6a01', 'f48tbhjfcioh44yv7wij5ln1k', '8n6g511b467m6k4u41wegsgqp', '711nq9869bymh282ck7309gk8', '4yrain1o8b6j1wbqxuitbnqzs', 'b9mbdfft8qgna7czunmzmveet', '8anbcrez5ebxw2rfyp242hykh', 'afum1v6a5sdnl4rydpp0vm9as', '43kc2porheskfdga0zw2gccpr', '5d8gz89vxdvp2v1o43mx3z49y', '3q8d8bvxgfd5vw2sck1horjf', 'b7fb51p5ow9fnygd3hw2a1fdh', 'aldmsff778bdtmsxm9kbemqu8', '25rowjv2faaqp2seg35plpxfi', 'e9mivdljvpll0cq7unfrxxohf', 'a5l3frq1kctlomva6s3bdagpe', 'akq3gd8x3iqgesg5eq0dhpue6', '28xwxnv8r9a6o5nsbhf8euf07', '13dr04cvt4gmtg8tvkcn2m7l6', '8qec6ew1r8flocu104xsbejjo']
+MISSING EVENTS: ['93skipkgsa6y7i6znm0kkdtmj', 'b88y3oiec0jxgl1w0g1h08x72', '7guel1q7doj6awosr4j2ne50p', '52bcdleds7icg9x6oht2mltti', '6s9wozphvcdqdberfep1n6hr5']
+EXTRA: ['8mq00p3ohz521nt98g9nisjda', '2be2sswkbyg6m7he6qo8wa9qw', 'acsvj8twg8bm25q6ciz6klqrl', 'bld3frgo5bqcu7mwvyb1jwksn']
 
 ==============================
-COMPETITION: EFL League One
-PROMPT: show me EFL League One events
-TIME: 1.54s
-RESULT: FAIL
-MISSING COUNT: 2 events
-MISSING EVENTS: ['2pkpnvknkew0bk1mfgb0myj7v', 'a16hthgveljhqcksiinc01se0']
-EXTRA: ['enzldpla83mb17384by22n74d', '6018rto4pw75kytcxryitdn9o', '74ofzyb5tdeudk6xduxetdi0q', 'b8a2pzqjz06ijzzm7tx5iwpmf', '21nrlb7a47li04z7du3u8cwtp', '8shi6a5c4qta0eonfs3ozwgk8', '8z65b42ur2b6bqt8nc8e8ja1j', '7ha3qz6qgx0iuhv1asnni07ap', 'eio4x61c5vekean44jcmthvuc', '66kuy1rha7umldem9hb387vm4', 'ampthc55ff7v4bmqhg21uyzoh', '33wjk3vna6uf1cba722v510r8', '9xzzc98aghrfedokh8q2u1bb3', '2n94l706p8vtlbfoy052cd6h', '3qyb54ne1lsj3l93oqnk64zy2', '3ca5vqbsfi4mfi4ydtergxiri', '7d7egty1axz93y57s3xtfs71k', 'bja0abr4c9gbjil422p499ltl', '9ds6hdn120h7kbeq43ldwwp4r', 'bopctqa8nlx8j572zju81xxuw', '5hganertouk0idkb7q6y3a08r', '65csk9pjz3csstormi2329r4j', '18cgb66ifpn9m5vehv3a2345k', 'ceb0ie8antdlua7tq91kahx1g', '357n7vhl9fjefdvpwriaka85p', 'a141dgnbgu3o54hgb2a3qkp8v', '7v89hst2cxk3azh73f007ty8o', 'd902skt3w8d7jmqo8tdddbvn5', 'a2zq83c9an6o4c9e2zw2fg1g8', '1h5x5m9krmlwoz7lu34zonq5q']
-
-==============================
-COMPETITION: Jupiler Pro League
-PROMPT: show me Jupiler Pro League events
-TIME: 2.44s
+COMPETITION: UEFA Champions League
+PROMPT: show me UEFA Champions League events
+TIME: 4.28s
 RESULT: FAIL
 MISSING COUNT: 1 events
-MISSING EVENTS: ['bb4sw26etshp8hbu1frka4k1']
-EXTRA: ['8nr4mgh7i05edi3lqx37x1da', '1wy82gc7sdn9vfl114i6j98wc', '84vx5p8qjhj7wrnw1sfrvx3c3', 'ezds7jiy1jjk0gaff9aeajo2x', '6e3aeqbo7purkujj1a1hsjome', '9f3m7pow710mi9h7odmcs6yew', 'boua027q35eexxzwka1b2m15b', '7zaiyikwg43156kb678zpcs8j', '1jgrp3d4s6wof1t0gkiqqlktw', '8veuba9ur6f9ojr6wtrg59bfy', '7aukmz4ryqn44972ss0m6dj0y', '7hsfk4jfucobx3pqhpspnvoid', 'f38fpqc40e9mwwa2gy1m45x3t', 'eovzrfpxxuc20rsj0drqwafgu', '9ocx2c7uxf6wh9nm6cczqmnii', '6f916xiak0uhw4pmgw4wg0m6p', 'cmes4xsd60h4gjccyf0tfcmq8', '1sxt6ao6udlh88eh51zkxwsx0', 'e5fczfs6rn61scqh4ud3648vv', 'dg9y098kv8syndyk7d22gpybb', '9nokubzkxjva39bpay7qu0e7x', '5lh9o71ql2pslz69jx51evxuo', 'cu388pfg823q3te8ycykftggk', '48j6ioo64uisqn6blf7ci6itj', 'bb7fz69d0xleinbnyqv0zc0w9', 'd6ashwsjb1ww28xa9w28kf67e', '2s0mkrl8sxs45ytsr6qb7gkk', '4xkz77tq22xj09objhhks8w99', 'a0rkz8t3xmmsnsky6wxvnef8', 'agrw2l42vhjw5elaa7afedgzd', 'esm5gw1bxcj586ty0lx20gq9b', '2bc7n51p98q33nhgcopvvatu4', 'bexajr9et4wlpeha5uszbe118', '255cidhmx7uq2cihfkugvzwgw', 'eouxjz0r3or1b4wa3nbrtr8tt', 'cofjnahy284rafkbij9qudgfu', '81aawdlxe0kaywd72nu0396n3', '2xh0kb3uyzt7yddls55yvd1al', '1itxndx4q1fc6gl5sop0cockj', 'a0qox2hq2kd2vexfd5yxmen1a', '2nop3fla3l6he64lvh4sbocq3', '7n8qqgc31misldtmtaiuxoo45', '5x7k34azmgkjcdicyxxv0lbyd', '48c61b0ajl42b9h5b1utzyvp7', '6eh3kftmmba3whzdc6l8wwk8s', 'eu4qvugjikyc3qh2c2xnxmgb7', '1hs6mt7hjv1zwsc0jxj6s73xl']
+MISSING EVENTS: ['atd6mtq5juql64se7f25drz5u']
+EXTRA: []
+
+==============================
+COMPETITION: UEFA Europa League
+PROMPT: show me UEFA Europa League events
+TIME: 3.24s
+RESULT: FAIL
+MISSING COUNT: 2 events
+MISSING EVENTS: ['36gc459p1381qprdgteyylawk', '4kf4grgznuipe2cvajkbj2i7q']
+EXTRA: ['18mxrfl9ktb7z1io7lf3tpq9mk']
 
 ==============================
 COMPETITION: 2. Bundesliga
 PROMPT: show me 2. Bundesliga events
-TIME: 2.27s
-RESULT: FAIL
-MISSING COUNT: 4 events
-MISSING EVENTS: ['2v5ul00x32u6f6349ibyqdxun', '7m7osih2acsgky2m8kc78wqu5', 'kvwa0ig2jfgqji3bvw8f9flk', '8w5l8bh951j5yskqpqfd5tgzb']
-EXTRA: ['v0nrlhkmowqg1mirtfidcsdbk', '186v26zudkl9o1d3l76vwhbvgh', '5gu83knipg8bqd9ttx7srthnc']
-
-==============================
-COMPETITION: Blood 4 Blood
-PROMPT: show me Blood 4 Blood events
-TIME: 2.05s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['1ntriqdomdo91113dq01ret3mu']
-EXTRA: ['1p1fi5uurit4v19rxf71u79aec', '5os4i8223x17tgewccfa2da', 'r3mlxmd6oqr4n6pyobbfxa6t', 'ekboo9a4qozeb53wkzew0hknm', 'o9aocsh5ydz11322nvgpv6ux2', '9vyavkl2g88m12ozgi4osd9xw', '1lcmwbwl8bx501bddo1c8d5g66', '19f6xny1ghthv1m4twf2xdo9na', '8sl0rxhxd99hn9k0y2lzth1bf', '1su7pm80eagi21018w4qjn8qht', 'f36ot7u5wkod8w1gl1yxxvn91', '1rpvpsdab0uky1hzkl0460mhvx', 'ajotffvzwcifpko4z2s2d5n0q', 'ofghylwmx2yu12ly63jkouix9']
-
-==============================
-COMPETITION: Queensberry Promotions
-PROMPT: show me Queensberry Promotions events
-TIME: 2.87s
+TIME: 2.88s
 RESULT: FAIL
 MISSING COUNT: 2 events
-MISSING EVENTS: ['1275mhnl77a7212geih4jb1841', 'hk3qsazavefb198igy4d38maq']
-EXTRA: ['3pl2rx9hka271jzvyp47ruq0l', '153lifbst9zu61gt8l77s0riwg', '1exzcz59x05lq11zu3f4l739qs', 'etlllym33by81s6jvs03qken1', '1uf5n8flgf7vx1u345fzliudkr', '682gei67rvb1ka4fxlpjoez6', '1lbl6fnu0f8xi1eb08gn90dndp', '1borifoa5tel91qkypdwbg3xan', '1ti46bn0a35lb1tv5eei2mq220', '1paazr50wlrt61e4qo4xcj75u0', 's3ljk0hmxq5t1ry1beqacruc1', '87x4qar8gkvr1cvbnq19o3rgk', 'ps4wdq89uyttzj3yvi0ovp5x', '5zzatvmg7itm1hn8tiasu9r4i', 'dn4uctikxdyx1pk06ujjnukfw', '1946ej547jz8k1qxq6vy4h27gs', '9ljdx28ghuod1g9r8f6th3s1j', 'xcdvc6kx0ijx1bv5rjqqfzcyo', 'ex41buthfzal1mqy6hijtbubp', '1vnh0hrearfu91y2gesd4tda79', '1m88owf6ki4up1j5lc2os418pd', 'sogd6i07efs118lf7b2mg8yk2', '1d7dsfc9bq0dy1o59g5lwhe69z', 'c8dkg3mvnte71k6njqqjrd3ct', '3rk08a1p8u1x19v5guqvsm74o', 'uviis23l0noj1e3ztzhvamsmj', '70kvbe9g5dxk13l4nl01rglcc', '1a5waw604pfv1ltg43tt3vu2s', '11003k9jmfo4813fi08dria8t1', '1soa877i9i31x1fg88ey863ffn', '7pxhmjh4jct10ptohw7iswgj', 'q48gtxhs6wdi12fw2klsl7p6b', '1e31krtqo6ylr1f8o8w71hbgou', '1lnfqbtqr4z8u12kq9g398d8no', '10vmtgu2ns9ap14pcouadmyld1', 'dmp21exnl22615luzl3whyrs4', 'd50hp29rx3vh1f0ij0avmgmyl', '1pl8cohaihk4n1wt9vyjsyb4fh', '1b94sz8b7l31p13h02czy796qt', '1m0vtksdkxsyezq05m8iq90nk', '1p4kt4p5jr8z1xxfmkwtly4wv', 'j1do8fym7ui19h2c0ddrywch', '1j9h27ld55w9917i0lz8p96mm3', '1fkmp78t9zehd1qbse088619uv', '1a3poez0hfax41g6wkq6aqwejj', 'ze3e8r0yrn5n17wc882xddao4', '1ad1orsrj0rwh1l1zia9c9wsn6', '13bpb1w3n0y0p10a3z4bw0amp0', '8du1mze0j6az17bb356330d6q']
+MISSING EVENTS: ['9o730rs1r3g25mm1gwep9vwop', 'c2alwaqvjyj59wnqhd4dhbp3d']
+EXTRA: ['16vmicfsqbcru194pg0tw3txa2']
 
 ==============================
-COMPETITION: WRC
-PROMPT: show me WRC events
-TIME: 1.66s
+COMPETITION: EFL Championship
+PROMPT: show me EFL Championship events
+TIME: 2.18s
 RESULT: FAIL
-MISSING COUNT: 5 events
-MISSING EVENTS: ['19472ruvw9yd01il9mhie7tzt0', 's1e6046j7c7q1kiquegmi4tga', '17o83szm4cisq1cnugo44oymbd', 's6p3gvk4l3911rs1mt1f9d8hy', '17p5fcea2awm31vjri246pe3g9']
-EXTRA: ['sha4xxosbk6qy1zltn8l1zkn', 'b8p3549vizfe1xen2xjwuec32', '8gwegt7c7ygxmhszlbqbj7lpu', 'u6qbehusi4zf1c8sfoacwcoq1', 'akpywda3zizve0u0pp3ikuura', 'asysrnz9zybdkctw858cz5loa', '4flogz3swh3cy8we516gp6rw6', 'dqpzcmtz8zti0uh0hz3zpkx6r', 'qqxoerj3y65clz6td8t0e6rh', '4plwxknnt67g6hxizcsjush7k', 'aaw1410sl8q02nk3phprqpqbn', 'b20boyjm8j7vkn3vmjza0msi5', '53ozbwbl7g1rezyi6yxyqoxvh', '1rsfy5jop4guy1cmllgcxg3pvx', '3hdryw9x9e8p1v7zj03sgunjp', '2yxkadvkzxbv79df55vaud4eo', 'ajci9ag9duewuxruhwjsusuh7', 'cl2cqaltnrvv5qgt94mrvj0az', '9ty16lly89ehtmnh3baly2zoh', 'eaxg253rv097o3tq6fcan6zhw', '7lg9pjpizmobntpv7q0mt9n2g', '1kr0g3d93e7okluwk2lsalm87', '3xzhywxtg04cjele15yvag5tc', '11ztepzb6l4cn1icipqnz4mpfp', '3e6iuz4wvixi8aud6i2xa7ra4', 'eko1wq9lfl631o2oyql80ieyo', 'pwh3gyobfp7neth0x4bkxmnb', '4s2c0e5bs8syz9b4s7d6o721j', '8sl0rxhxd99hn9k0y2lzth1bf', '9sdzmnqbw82ngti0zqmab8d4b', '9be5qfqql831l8wajdiwrv5eq', '69eq59k0dpy6ckt7q51a4nfzx', '7hdx1tewpao7pr6pzzqhc5vw7', '3lvypxcef9cxxyc9x5n4tajp1']
-
-==============================
-COMPETITION: LIV Golf
-PROMPT: show me LIV Golf events
-TIME: 3.05s
-RESULT: FAIL
-MISSING COUNT: 15 events
-MISSING EVENTS: ['15qs335np5agy10cawa5k2w3n5', '1cp5g2n625z3o1wybej4ccxmsd', '9vyavkl2g88m12ozgi4osd9xw', '1lcmwbwl8bx501bddo1c8d5g66', 'f96v69cxxzag1a9fx7o523r18', '1cbqqr9pcxi3r1isxl3mnpos6i', '19w9zr6e9g8611xc1indfsmfrr', '7gv8htuwxk7k1m0pvdwek9wk0', '1n1yxfvxkzw91hre04zbg1pxw', '1rpvpsdab0uky1hzkl0460mhvx', 'v0nrlhkmowqg1mirtfidcsdbk', '19w8oua4q7e5z1armzkdqh96nq', 'beynzxo544501l0z6qgh3xt3g', '1fndbf5u9oxmp1v5r5pvmva7u9', '1prrscv5077po1p9g58xt91ups']
+MISSING COUNT: 3 events
+MISSING EVENTS: ['3b62jp9xom74a8a30uqhx8mcb', 'e5fge90on4icxjaykzb3r5dqo', 'd2hthpt5sykgjuk0pov1sk8g8']
 EXTRA: []
 
 ==============================
-COMPETITION: UFC
-PROMPT: show me UFC events
-TIME: 1.88s
+COMPETITION: National League N / S
+PROMPT: show me National League N / S events
+TIME: 3.15s
 RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['9drbde4q9noiro1xoivos6edy']
+MISSING COUNT: 2 events
+MISSING EVENTS: ['1sk48qflo2gtp1d5rlk4e0q1e5', '15hl73pk3owc21pyvxxqfl0rnf']
+EXTRA: ['p2i2km18bk871ozbj3qsual1o', '1b8j3hevyd4jf1crxfvm2epn6z', 'hsrgdth5q75y12nckl4rjl7yi']
+
+==============================
+COMPETITION: Belgian Pro League
+PROMPT: show me Belgian Pro League events
+TIME: 3.07s
+RESULT: FAIL
+MISSING COUNT: 3 events
+MISSING EVENTS: ['bd0733y3wy0a67uukwaz6n2zs', 'bsqq362l27exocj7jlec0ml5k', 'd74i7kbvlvmrn4vahnsuhaqxm']
 EXTRA: []
 
 ==============================
-COMPETITION: Salita Promotions
-PROMPT: show me Salita Promotions events
-TIME: 2.35s
+COMPETITION: Curaçao Promé Divishon
+PROMPT: show me Curaçao Promé Divishon events
+TIME: 2.85s
+RESULT: FAIL
+MISSING COUNT: 3 events
+MISSING EVENTS: ['eriwjsnc7qkg1i0ru92np1ofy', 'wvoaaeswru1h1fgvw7ivgjqiv', 'p58vqrq0ybg13cjo1xc6331f']
+EXTRA: []
+
+==============================
+COMPETITION: DFA Premier League
+PROMPT: show me DFA Premier League events
+TIME: 2.17s
 RESULT: FAIL
 MISSING COUNT: 1 events
-MISSING EVENTS: ['19ev5ebxxszuk1aambxy95am9h']
-EXTRA: ['o55lyqncwpzs1drl427q18va9', '1oxxj5avfh0ay1lnhu2fq8jg67', 'tuk9f7n0hd5n17a61er0zhi19', '1ml6ovxj5q4ec1rmraz3mf3a9q', 'c4hzspbxqm4i1lfp9f820lc5g', '198vwry7dt6161eunes7c4kj6u', '183kgzfq25rm31l87ni511mfvq', '17jmhzt67sqre1mp4tuy1cy9s3']
+MISSING EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs']
+EXTRA: ['1vgwvhn2j14b91cas5vhmgbnxj', '183xf7lfqc8xk1p72echjz1tj4']
+
+==============================
+COMPETITION: National 1
+PROMPT: show me National 1 events
+TIME: 2.95s
+RESULT: FAIL
+MISSING COUNT: 1 events
+MISSING EVENTS: ['1mwm66cyrsfvo17sg85kjdhcgh']
+EXTRA: ['p2i2km18bk871ozbj3qsual1o', '1u266cinl5wfj1c78uyjet0pz8', '1b8j3hevyd4jf1crxfvm2epn6z', 'hsrgdth5q75y12nckl4rjl7yi']

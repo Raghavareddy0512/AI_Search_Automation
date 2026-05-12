@@ -1,0 +1,1532 @@
+{
+    "prompts": [
+        {
+            "contestant_id": "e75syeuawg3ql8nwpi3vr2btz",
+            "contestant_title": "Atalanta",
+            "prompt": "show me Atalanta events",
+            "expected_article_ids": [
+                "eu9nfjdiyp96ml2xfx2yj2g6y",
+                "tl8arezc2ie2uy3xi9jezdg"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "eu9nfjdiyp96ml2xfx2yj2g6y"
+            ],
+            "expected_highlight": [
+                "tl8arezc2ie2uy3xi9jezdg"
+            ]
+        },
+        {
+            "contestant_id": "4kumqzwifv478caxed8zywlh3",
+            "contestant_title": "Genoa",
+            "prompt": "show me Genoa events",
+            "expected_article_ids": [
+                "6kzfnpjddqgzxtxp72zookk0p",
+                "tl8arezc2ie2uy3xi9jezdg"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "6kzfnpjddqgzxtxp72zookk0p"
+            ],
+            "expected_highlight": [
+                "tl8arezc2ie2uy3xi9jezdg"
+            ]
+        },
+        {
+            "contestant_id": "1a9povxp21m4aljerac9uk3qx",
+            "contestant_title": "David Benavidez",
+            "prompt": "show me David Benavidez events",
+            "expected_article_ids": [
+                "bkcnu9th6x901lhwe1thsxgyq"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "bkcnu9th6x901lhwe1thsxgyq"
+            ]
+        },
+        {
+            "contestant_id": "7a09cugtwypal14r7w3mpdimn",
+            "contestant_title": "Gilberto 'Zurdo' Ramirez",
+            "prompt": "show me Gilberto 'Zurdo' Ramirez events",
+            "expected_article_ids": [
+                "bkcnu9th6x901lhwe1thsxgyq"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "bkcnu9th6x901lhwe1thsxgyq"
+            ]
+        },
+        {
+            "contestant_id": "ej5er0oyngdw138yuumwqbyqt",
+            "contestant_title": "Bologna",
+            "prompt": "show me Bologna events",
+            "expected_article_ids": [
+                "15kgyxnzfpvmi0mrniacfbr8d",
+                "abzf95m3y4hnggbp5cpucerxw"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "15kgyxnzfpvmi0mrniacfbr8d"
+            ],
+            "expected_highlight": [
+                "abzf95m3y4hnggbp5cpucerxw"
+            ]
+        },
+        {
+            "contestant_id": "5rwlg5cfv1hu7yf0ek1zxpzy3",
+            "contestant_title": "Cagliari",
+            "prompt": "show me Cagliari events",
+            "expected_article_ids": [
+                "1a1fyk6w54bmgpjhyfsigvkrn",
+                "abzf95m3y4hnggbp5cpucerxw"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1a1fyk6w54bmgpjhyfsigvkrn"
+            ],
+            "expected_highlight": [
+                "abzf95m3y4hnggbp5cpucerxw"
+            ]
+        },
+        {
+            "contestant_id": "4wqa3vdd3owvzbdpmh91uvvhp",
+            "contestant_title": "Carlisle United",
+            "prompt": "show me Carlisle United events",
+            "expected_article_ids": [
+                "5kulmol9h32c1j5qkh2flr4cn"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "5kulmol9h32c1j5qkh2flr4cn"
+            ]
+        },
+        {
+            "contestant_id": "445y92nkbkin98swvnc76k318",
+            "contestant_title": "Boreham Wood",
+            "prompt": "show me Boreham Wood events",
+            "expected_article_ids": [
+                "1xii66ibns9qo1wq2rdkbwovlh",
+                "1nr35lkxeva6313fmwe9k4okje",
+                "5kulmol9h32c1j5qkh2flr4cn"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1xii66ibns9qo1wq2rdkbwovlh",
+                "1nr35lkxeva6313fmwe9k4okje"
+            ],
+            "expected_highlight": [
+                "5kulmol9h32c1j5qkh2flr4cn"
+            ]
+        },
+        {
+            "contestant_id": "6tuibxq39fdryu8ou06wcm0q3",
+            "contestant_title": "Sassuolo",
+            "prompt": "show me Sassuolo events",
+            "expected_article_ids": [
+                "2m3ljwe5mzkq951s43k6d8elj",
+                "eknx733tptjnp06ac05f8omgb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "2m3ljwe5mzkq951s43k6d8elj"
+            ],
+            "expected_highlight": [
+                "eknx733tptjnp06ac05f8omgb"
+            ]
+        },
+        {
+            "contestant_id": "9dntj5dioj5ex52yrgwzxrq9l",
+            "contestant_title": "AC Milan",
+            "prompt": "show me AC Milan events",
+            "expected_article_ids": [
+                "eu9nfjdiyp96ml2xfx2yj2g6y",
+                "eknx733tptjnp06ac05f8omgb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "eu9nfjdiyp96ml2xfx2yj2g6y"
+            ],
+            "expected_highlight": [
+                "eknx733tptjnp06ac05f8omgb"
+            ]
+        },
+        {
+            "contestant_id": "1pse9ta7a45pi2w2grjim70ge",
+            "contestant_title": "Bournemouth",
+            "prompt": "show me Bournemouth events",
+            "expected_article_ids": [
+                "dx2npphipztovw4xhe6r9apeb",
+                "27hcmz3skkkijughjqvzie6hw"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "dx2npphipztovw4xhe6r9apeb"
+            ],
+            "expected_highlight": [
+                "27hcmz3skkkijughjqvzie6hw"
+            ]
+        },
+        {
+            "contestant_id": "1c8m2ko0wxq1asfkuykurdr0y",
+            "contestant_title": "Crystal Palace",
+            "prompt": "show me Crystal Palace events",
+            "expected_article_ids": [
+                "7r9tyxwef9zz4umqxmaua26z3",
+                "5y9cnj8u1e2jvehmg36pse6xn",
+                "27hcmz3skkkijughjqvzie6hw"
+            ],
+            "expected_upcoming": [
+                "7r9tyxwef9zz4umqxmaua26z3"
+            ],
+            "expected_catchup": [
+                "5y9cnj8u1e2jvehmg36pse6xn"
+            ],
+            "expected_highlight": [
+                "27hcmz3skkkijughjqvzie6hw"
+            ]
+        },
+        {
+            "contestant_id": "dqitrs0w52z0p9f4t07z0aqzw",
+            "contestant_title": "Rochdale",
+            "prompt": "show me Rochdale events",
+            "expected_article_ids": [
+                "1xii66ibns9qo1wq2rdkbwovlh",
+                "1nr35lkxeva6313fmwe9k4okje",
+                "hn21i8emn3o81d065pigxuh0w"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1xii66ibns9qo1wq2rdkbwovlh",
+                "1nr35lkxeva6313fmwe9k4okje"
+            ],
+            "expected_highlight": [
+                "hn21i8emn3o81d065pigxuh0w"
+            ]
+        },
+        {
+            "contestant_id": "8mgwfz9q3fsypynyeh0y3785e",
+            "contestant_title": "Scunthorpe United",
+            "prompt": "show me Scunthorpe United events",
+            "expected_article_ids": [
+                "hn21i8emn3o81d065pigxuh0w"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "hn21i8emn3o81d065pigxuh0w"
+            ]
+        },
+        {
+            "contestant_id": "f04vagc9g87l5nb0swujrm2td",
+            "contestant_title": "Bristol Flyers",
+            "prompt": "show me Bristol Flyers events",
+            "expected_article_ids": [
+                "3cn3adzbx8i2vrq96dal6um09"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "3cn3adzbx8i2vrq96dal6um09"
+            ]
+        },
+        {
+            "contestant_id": "132nupjodx3jrx09uhfk3dvys",
+            "contestant_title": "Manchester Basketball",
+            "prompt": "show me Manchester Basketball events",
+            "expected_article_ids": [
+                "2b19sao6yz9lx11ysn7so2ibb",
+                "evfiirvtbimoeebm7qkw9ev91",
+                "3cn3adzbx8i2vrq96dal6um09"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "2b19sao6yz9lx11ysn7so2ibb",
+                "evfiirvtbimoeebm7qkw9ev91"
+            ],
+            "expected_highlight": [
+                "3cn3adzbx8i2vrq96dal6um09"
+            ]
+        },
+        {
+            "contestant_id": "6eqit8ye8aomdsrrq0hk3v7gh",
+            "contestant_title": "Manchester United",
+            "prompt": "show me Manchester United events",
+            "expected_article_ids": [
+                "4032poivapw61cipv1bo608pa",
+                "avz5wtj8nk8k82c4vzcrn2q42"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4032poivapw61cipv1bo608pa"
+            ],
+            "expected_highlight": [
+                "avz5wtj8nk8k82c4vzcrn2q42"
+            ]
+        },
+        {
+            "contestant_id": "c8h9bw1l82s06h77xxrelzhur",
+            "contestant_title": "Liverpool",
+            "prompt": "show me Liverpool events",
+            "expected_article_ids": [
+                "akymtnsipy9qcgib3q63r2q4a",
+                "avz5wtj8nk8k82c4vzcrn2q42"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "akymtnsipy9qcgib3q63r2q4a"
+            ],
+            "expected_highlight": [
+                "avz5wtj8nk8k82c4vzcrn2q42"
+            ]
+        },
+        {
+            "contestant_id": "3e7op28t0737jfkdcf5xicxv2",
+            "contestant_title": "Sheffield Sharks",
+            "prompt": "show me Sheffield Sharks events",
+            "expected_article_ids": [
+                "esuov6eohift40uvoijsuyl7p"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "esuov6eohift40uvoijsuyl7p"
+            ]
+        },
+        {
+            "contestant_id": "erbhff7i50nwm38vf7pncag7d",
+            "contestant_title": "Leicester Riders",
+            "prompt": "show me Leicester Riders events",
+            "expected_article_ids": [
+                "2kefm7nhw746yaipqk5dki3gf",
+                "a75v03a2yxf4j2b39wiuyqt9",
+                "esuov6eohift40uvoijsuyl7p"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "2kefm7nhw746yaipqk5dki3gf",
+                "a75v03a2yxf4j2b39wiuyqt9"
+            ],
+            "expected_highlight": [
+                "esuov6eohift40uvoijsuyl7p"
+            ]
+        },
+        {
+            "contestant_id": "bqbbqm98ud8obe45ds9ohgyrd",
+            "contestant_title": "Juventus",
+            "prompt": "show me Juventus events",
+            "expected_article_ids": [
+                "amxppnhs099fxq4nojqp1m1z3",
+                "blasd8u7lbreb1v2kpd2quk5h"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "amxppnhs099fxq4nojqp1m1z3"
+            ],
+            "expected_highlight": [
+                "blasd8u7lbreb1v2kpd2quk5h"
+            ]
+        },
+        {
+            "contestant_id": "ap6blbxhq9elm62vw6tutzlwg",
+            "contestant_title": "Hellas Verona",
+            "prompt": "show me Hellas Verona events",
+            "expected_article_ids": [
+                "3ccqc9yic68yl2gzofj0xeff4",
+                "blasd8u7lbreb1v2kpd2quk5h"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "3ccqc9yic68yl2gzofj0xeff4"
+            ],
+            "expected_highlight": [
+                "blasd8u7lbreb1v2kpd2quk5h"
+            ]
+        },
+        {
+            "contestant_id": "eh0gfla88jpycajezi8xszbvl",
+            "contestant_title": "Cheshire Phoenix",
+            "prompt": "show me Cheshire Phoenix events",
+            "expected_article_ids": [
+                "2b19sao6yz9lx11ysn7so2ibb",
+                "evfiirvtbimoeebm7qkw9ev91",
+                "5enzogw1sb5z8p7xr0iimrsic"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "2b19sao6yz9lx11ysn7so2ibb",
+                "evfiirvtbimoeebm7qkw9ev91"
+            ],
+            "expected_highlight": [
+                "5enzogw1sb5z8p7xr0iimrsic"
+            ]
+        },
+        {
+            "contestant_id": "cljrffl3b7ytzmzels6w40jdg",
+            "contestant_title": "Surrey 89ers",
+            "prompt": "show me Surrey 89ers events",
+            "expected_article_ids": [
+                "5enzogw1sb5z8p7xr0iimrsic"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "5enzogw1sb5z8p7xr0iimrsic"
+            ]
+        },
+        {
+            "contestant_id": "1xzci0oxhmuwousx59js30793",
+            "contestant_title": "FC Barcelona B\u00e0squet",
+            "prompt": "show me FC Barcelona B\u00e0squet events",
+            "expected_article_ids": [
+                "6q6x5mmbf95o924l10ynhm5bo"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "6q6x5mmbf95o924l10ynhm5bo"
+            ]
+        },
+        {
+            "contestant_id": "1eyzajaa5fge5nevlkntgltd4",
+            "contestant_title": "Gran Canaria",
+            "prompt": "show me Gran Canaria events",
+            "expected_article_ids": [
+                "6q6x5mmbf95o924l10ynhm5bo"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "6q6x5mmbf95o924l10ynhm5bo"
+            ]
+        },
+        {
+            "contestant_id": "b496gs285it6bheuikox6z9mj",
+            "contestant_title": "Aston Villa",
+            "prompt": "show me Aston Villa events",
+            "expected_article_ids": [
+                "du8mszw2w6fj8nkc6qcmn2sjw",
+                "36gc459p1381qprdgteyylawk",
+                "1ogq49bphhmdrckjv3sawdj3g"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "du8mszw2w6fj8nkc6qcmn2sjw",
+                "36gc459p1381qprdgteyylawk"
+            ],
+            "expected_highlight": [
+                "1ogq49bphhmdrckjv3sawdj3g"
+            ]
+        },
+        {
+            "contestant_id": "22doj4sgsocqpxw45h607udje",
+            "contestant_title": "Tottenham Hotspur",
+            "prompt": "show me Tottenham Hotspur events",
+            "expected_article_ids": [
+                "7nid08k9eoo4as15ztjqofagl",
+                "1ogq49bphhmdrckjv3sawdj3g"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "7nid08k9eoo4as15ztjqofagl"
+            ],
+            "expected_highlight": [
+                "1ogq49bphhmdrckjv3sawdj3g"
+            ]
+        },
+        {
+            "contestant_id": "9jpmp40jf4l3tixcz77lq0gri",
+            "contestant_title": "Newcastle Eagles",
+            "prompt": "show me Newcastle Eagles events",
+            "expected_article_ids": [
+                "88kzaqc7499ss9flfwvty4ve"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [],
+            "expected_highlight": [
+                "88kzaqc7499ss9flfwvty4ve"
+            ]
+        },
+        {
+            "contestant_id": "3vo5mpj7catp66nrwwqiuhuup",
+            "contestant_title": "Inter",
+            "prompt": "show me Inter events",
+            "expected_article_ids": [
+                "c9mne2q85t2bx5kpdy4ikpnyh",
+                "9yvovngn51xljmu73cnb9x12"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "c9mne2q85t2bx5kpdy4ikpnyh"
+            ],
+            "expected_highlight": [
+                "9yvovngn51xljmu73cnb9x12"
+            ]
+        },
+        {
+            "contestant_id": "5aosfavi55p40c65lkriqnqnl",
+            "contestant_title": "Parma",
+            "prompt": "show me Parma events",
+            "expected_article_ids": [
+                "ao4ycrarmu58skzod0zdcvzvo",
+                "9yvovngn51xljmu73cnb9x12"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "ao4ycrarmu58skzod0zdcvzvo"
+            ],
+            "expected_highlight": [
+                "9yvovngn51xljmu73cnb9x12"
+            ]
+        },
+        {
+            "contestant_id": "9q0arba2kbnywth8bkxlhgmdr",
+            "contestant_title": "Chelsea FC",
+            "prompt": "show me Chelsea FC events",
+            "expected_article_ids": [
+                "akymtnsipy9qcgib3q63r2q4a",
+                "bn6dduokrajrimulhyndk6fe3"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "akymtnsipy9qcgib3q63r2q4a"
+            ],
+            "expected_highlight": [
+                "bn6dduokrajrimulhyndk6fe3"
+            ]
+        },
+        {
+            "contestant_id": "1qtaiy11gswx327s0vkibf70n",
+            "contestant_title": "Nottingham Forest",
+            "prompt": "show me Nottingham Forest events",
+            "expected_article_ids": [
+                "htt7hlk79hpfi5y8jazkdcik",
+                "36gc459p1381qprdgteyylawk",
+                "bn6dduokrajrimulhyndk6fe3"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "htt7hlk79hpfi5y8jazkdcik",
+                "36gc459p1381qprdgteyylawk"
+            ],
+            "expected_highlight": [
+                "bn6dduokrajrimulhyndk6fe3"
+            ]
+        },
+        {
+            "contestant_id": "af91jdcs6x0bqkmdb78rokod2",
+            "contestant_title": "Cremonese",
+            "prompt": "show me Cremonese events",
+            "expected_article_ids": [
+                "4sdaz0si2zsuryucpz25razet",
+                "bsnup1euuzl1015kfls0gu19m"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4sdaz0si2zsuryucpz25razet"
+            ],
+            "expected_highlight": [
+                "bsnup1euuzl1015kfls0gu19m"
+            ]
+        },
+        {
+            "contestant_id": "btcy9nra9ak4m22ovr2ia6m5v",
+            "contestant_title": "Lazio",
+            "prompt": "show me Lazio events",
+            "expected_article_ids": [
+                "c9mne2q85t2bx5kpdy4ikpnyh",
+                "bsnup1euuzl1015kfls0gu19m"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "c9mne2q85t2bx5kpdy4ikpnyh"
+            ],
+            "expected_highlight": [
+                "bsnup1euuzl1015kfls0gu19m"
+            ]
+        },
+        {
+            "contestant_id": "2tk2l9sgktwc9jhzqdd4mpdtb",
+            "contestant_title": "Roma",
+            "prompt": "show me Roma events",
+            "expected_article_ids": [
+                "ao4ycrarmu58skzod0zdcvzvo",
+                "bt1dou71ytwmwu3paqkls3fm6"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "ao4ycrarmu58skzod0zdcvzvo"
+            ],
+            "expected_highlight": [
+                "bt1dou71ytwmwu3paqkls3fm6"
+            ]
+        },
+        {
+            "contestant_id": "4raiad4l2j5lkfaz92pk4osb",
+            "contestant_title": "Fiorentina",
+            "prompt": "show me Fiorentina events",
+            "expected_article_ids": [
+                "6kzfnpjddqgzxtxp72zookk0p",
+                "bt1dou71ytwmwu3paqkls3fm6"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "6kzfnpjddqgzxtxp72zookk0p"
+            ],
+            "expected_highlight": [
+                "bt1dou71ytwmwu3paqkls3fm6"
+            ]
+        },
+        {
+            "contestant_id": "ehd2iemqmschhj2ec0vayztzz",
+            "contestant_title": "Everton",
+            "prompt": "show me Everton events",
+            "expected_article_ids": [
+                "5y9cnj8u1e2jvehmg36pse6xn",
+                "9c0oflj2wlg88h17gd9mfucin"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "5y9cnj8u1e2jvehmg36pse6xn"
+            ],
+            "expected_highlight": [
+                "9c0oflj2wlg88h17gd9mfucin"
+            ]
+        },
+        {
+            "contestant_id": "a3nyxabgsqlnqfkeg41m6tnpp",
+            "contestant_title": "Manchester City",
+            "prompt": "show me Manchester City events",
+            "expected_article_ids": [
+                "7r9tyxwef9zz4umqxmaua26z3",
+                "8u7i4u842z6r9wo9amkv2vq66",
+                "9c0oflj2wlg88h17gd9mfucin"
+            ],
+            "expected_upcoming": [
+                "7r9tyxwef9zz4umqxmaua26z3"
+            ],
+            "expected_catchup": [
+                "8u7i4u842z6r9wo9amkv2vq66"
+            ],
+            "expected_highlight": [
+                "9c0oflj2wlg88h17gd9mfucin"
+            ]
+        },
+        {
+            "contestant_id": "bpx4ib85d65u9oyhglkt36k1b",
+            "contestant_title": "Bayern Munich Women",
+            "prompt": "show me Bayern Munich Women events",
+            "expected_article_ids": [
+                "7guel1q7doj6awosr4j2ne50p",
+                "b88y3oiec0jxgl1w0g1h08x72"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "7guel1q7doj6awosr4j2ne50p",
+                "b88y3oiec0jxgl1w0g1h08x72"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "eyecbfb1ur2104bhhwazhvrf",
+            "contestant_title": "Hoffenheim Women",
+            "prompt": "show me Hoffenheim Women events",
+            "expected_article_ids": [
+                "6s9wozphvcdqdberfep1n6hr5",
+                "b88y3oiec0jxgl1w0g1h08x72"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "6s9wozphvcdqdberfep1n6hr5",
+                "b88y3oiec0jxgl1w0g1h08x72"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "apoawtpvac4zqlancmvw4nk4o",
+            "contestant_title": "FC Bayern M\u00fcnchen",
+            "prompt": "show me FC Bayern M\u00fcnchen events",
+            "expected_article_ids": [
+                "atd6mtq5juql64se7f25drz5u"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "atd6mtq5juql64se7f25drz5u"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "2b3mar72yy8d6uvat1ka6tn3r",
+            "contestant_title": "Paris Saint-Germain",
+            "prompt": "show me Paris Saint-Germain events",
+            "expected_article_ids": [
+                "atd6mtq5juql64se7f25drz5u"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "atd6mtq5juql64se7f25drz5u"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "6k5zscdm9ufw0tguvzyjlp5hq",
+            "contestant_title": "Freiburg",
+            "prompt": "show me Freiburg events",
+            "expected_article_ids": [
+                "4kf4grgznuipe2cvajkbj2i7q"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4kf4grgznuipe2cvajkbj2i7q"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "26t6lvlpql4w5wu1ih73qpy36",
+            "contestant_title": "Sporting Braga",
+            "prompt": "show me Sporting Braga events",
+            "expected_article_ids": [
+                "4kf4grgznuipe2cvajkbj2i7q"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4kf4grgznuipe2cvajkbj2i7q"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "62ljqd4za2a6svd9wgctg8b53",
+            "contestant_title": "Paderborn",
+            "prompt": "show me Paderborn events",
+            "expected_article_ids": [
+                "c2alwaqvjyj59wnqhd4dhbp3d"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "c2alwaqvjyj59wnqhd4dhbp3d"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "aojwbjr39s1w2mcd9l2bf2dhk",
+            "contestant_title": "Karlsruher SC",
+            "prompt": "show me Karlsruher SC events",
+            "expected_article_ids": [
+                "c2alwaqvjyj59wnqhd4dhbp3d"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "c2alwaqvjyj59wnqhd4dhbp3d"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "7gnly6999wao1xarwct4p8fe9",
+            "contestant_title": "Torino",
+            "prompt": "show me Torino events",
+            "expected_article_ids": [
+                "2m3ljwe5mzkq951s43k6d8elj"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "2m3ljwe5mzkq951s43k6d8elj"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "f0figafm2v9h8ofo6slajj7xf",
+            "contestant_title": "Hull City",
+            "prompt": "show me Hull City events",
+            "expected_article_ids": [
+                "3b62jp9xom74a8a30uqhx8mcb",
+                "d2hthpt5sykgjuk0pov1sk8g8"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "3b62jp9xom74a8a30uqhx8mcb",
+                "d2hthpt5sykgjuk0pov1sk8g8"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "40d2qd8lr1tgsvmg5l1fzaf4o",
+            "contestant_title": "Millwall",
+            "prompt": "show me Millwall events",
+            "expected_article_ids": [
+                "3b62jp9xom74a8a30uqhx8mcb",
+                "d2hthpt5sykgjuk0pov1sk8g8"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "3b62jp9xom74a8a30uqhx8mcb",
+                "d2hthpt5sykgjuk0pov1sk8g8"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "4e5523it4v7s6kkakelbj9si5",
+            "contestant_title": "K\u00f6ln",
+            "prompt": "show me K\u00f6ln events",
+            "expected_article_ids": [
+                "93skipkgsa6y7i6znm0kkdtmj"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "93skipkgsa6y7i6znm0kkdtmj"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "uanw2buce7utkaubr3sz2nxm",
+            "contestant_title": "Hamburger SV",
+            "prompt": "show me Hamburger SV events",
+            "expected_article_ids": [
+                "93skipkgsa6y7i6znm0kkdtmj"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "93skipkgsa6y7i6znm0kkdtmj"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "eq1oq6y61xnzq88zu0cnw131z",
+            "contestant_title": "Bochum",
+            "prompt": "show me Bochum events",
+            "expected_article_ids": [
+                "9o730rs1r3g25mm1gwep9vwop"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "9o730rs1r3g25mm1gwep9vwop"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "5lidfwkteyu9dj9ysmdq2v4tk",
+            "contestant_title": "Hannover 96",
+            "prompt": "show me Hannover 96 events",
+            "expected_article_ids": [
+                "9o730rs1r3g25mm1gwep9vwop"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "9o730rs1r3g25mm1gwep9vwop"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "cq0jd5ztepqjjeikk5trb15vr",
+            "contestant_title": "Middlesbrough",
+            "prompt": "show me Middlesbrough events",
+            "expected_article_ids": [
+                "6rk0ewnopcltxctjl5nqi9fne",
+                "e5fge90on4icxjaykzb3r5dqo"
+            ],
+            "expected_upcoming": [
+                "6rk0ewnopcltxctjl5nqi9fne"
+            ],
+            "expected_catchup": [
+                "e5fge90on4icxjaykzb3r5dqo"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "d5ydtvt96bv7fq04yqm2w2632",
+            "contestant_title": "Southampton",
+            "prompt": "show me Southampton events",
+            "expected_article_ids": [
+                "6rk0ewnopcltxctjl5nqi9fne",
+                "e5fge90on4icxjaykzb3r5dqo"
+            ],
+            "expected_upcoming": [
+                "6rk0ewnopcltxctjl5nqi9fne"
+            ],
+            "expected_catchup": [
+                "e5fge90on4icxjaykzb3r5dqo"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "adqm20gnlk6huuvgu96flnttv",
+            "contestant_title": "South Shields",
+            "prompt": "show me South Shields events",
+            "expected_article_ids": [
+                "15hl73pk3owc21pyvxxqfl0rnf"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "15hl73pk3owc21pyvxxqfl0rnf"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "bjstn1k84kjv9m2a6563f9ezt",
+            "contestant_title": "Kidderminster Harriers",
+            "prompt": "show me Kidderminster Harriers events",
+            "expected_article_ids": [
+                "15hl73pk3owc21pyvxxqfl0rnf"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "15hl73pk3owc21pyvxxqfl0rnf"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "dxq76zcvnokq07cszdx0i6kve",
+            "contestant_title": "Udinese",
+            "prompt": "show me Udinese events",
+            "expected_article_ids": [
+                "1a1fyk6w54bmgpjhyfsigvkrn"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1a1fyk6w54bmgpjhyfsigvkrn"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "e8os1xpomlperuedy2f9a9ttu",
+            "contestant_title": "Eintracht Frankfurt",
+            "prompt": "show me Eintracht Frankfurt events",
+            "expected_article_ids": [
+                "7guel1q7doj6awosr4j2ne50p"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "7guel1q7doj6awosr4j2ne50p"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "hzqh7z0mdl3v7gwete66syxp",
+            "contestant_title": "Fulham",
+            "prompt": "show me Fulham events",
+            "expected_article_ids": [
+                "dx2npphipztovw4xhe6r9apeb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "dx2npphipztovw4xhe6r9apeb"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "1r3545b2dzan8yqa80gtmcjch",
+            "contestant_title": "Sunderland",
+            "prompt": "show me Sunderland events",
+            "expected_article_ids": [
+                "4032poivapw61cipv1bo608pa"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4032poivapw61cipv1bo608pa"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "e5p0ehyguld7egzhiedpdnc3w",
+            "contestant_title": "Brighton and Hove Albion",
+            "prompt": "show me Brighton and Hove Albion events",
+            "expected_article_ids": [
+                "5wfpepoc8wz6adb2tbjx7rq7d"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "5wfpepoc8wz6adb2tbjx7rq7d"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "b9si1jn1lfxfund69e9ogcu2n",
+            "contestant_title": "Wolverhampton Wanderers",
+            "prompt": "show me Wolverhampton Wanderers events",
+            "expected_article_ids": [
+                "5wfpepoc8wz6adb2tbjx7rq7d"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "5wfpepoc8wz6adb2tbjx7rq7d"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "815xv6x834m9suw8suhioc0bd",
+            "contestant_title": "Hornchurch",
+            "prompt": "show me Hornchurch events",
+            "expected_article_ids": [
+                "1sk48qflo2gtp1d5rlk4e0q1e5"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1sk48qflo2gtp1d5rlk4e0q1e5"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "dqygd0fnj5oh5h9z537vgxmqe",
+            "contestant_title": "Torquay United",
+            "prompt": "show me Torquay United events",
+            "expected_article_ids": [
+                "1sk48qflo2gtp1d5rlk4e0q1e5"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "1sk48qflo2gtp1d5rlk4e0q1e5"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "6k07d5jhq6ebeiq55ndq7spkz",
+            "contestant_title": "UCAM Murcia",
+            "prompt": "show me UCAM Murcia events",
+            "expected_article_ids": [
+                "e7pf6d3vy2oujnqgthhgzz40j"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "e7pf6d3vy2oujnqgthhgzz40j"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "32c1rzi96nvee8ufn7tjptnqi",
+            "contestant_title": "Girona",
+            "prompt": "show me Girona events",
+            "expected_article_ids": [
+                "e7pf6d3vy2oujnqgthhgzz40j"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "e7pf6d3vy2oujnqgthhgzz40j"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "7yx5dqhhphyvfisohikodajhv",
+            "contestant_title": "Brentford",
+            "prompt": "show me Brentford events",
+            "expected_article_ids": [
+                "8u7i4u842z6r9wo9amkv2vq66"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "8u7i4u842z6r9wo9amkv2vq66"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "bi1fxjrncd0ram0oi7ja1jyuo",
+            "contestant_title": "Lecce",
+            "prompt": "show me Lecce events",
+            "expected_article_ids": [
+                "amxppnhs099fxq4nojqp1m1z3"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "amxppnhs099fxq4nojqp1m1z3"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "1oyb7oym5nwzny8vxf03szd2h",
+            "contestant_title": "Club Brugge",
+            "prompt": "show me Club Brugge events",
+            "expected_article_ids": [
+                "bd0733y3wy0a67uukwaz6n2zs"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "bd0733y3wy0a67uukwaz6n2zs"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "2989v3kho9h5jaboe1nr7lx21",
+            "contestant_title": "Sint-Truiden",
+            "prompt": "show me Sint-Truiden events",
+            "expected_article_ids": [
+                "bd0733y3wy0a67uukwaz6n2zs"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "bd0733y3wy0a67uukwaz6n2zs"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "6uzfw7ahyxg4wrrfxo5u7qt0n",
+            "contestant_title": "Como",
+            "prompt": "show me Como events",
+            "expected_article_ids": [
+                "3ccqc9yic68yl2gzofj0xeff4"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "3ccqc9yic68yl2gzofj0xeff4"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "8y3iucyxguipljcmf87a11bk9",
+            "contestant_title": "Gent",
+            "prompt": "show me Gent events",
+            "expected_article_ids": [
+                "d74i7kbvlvmrn4vahnsuhaqxm"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "d74i7kbvlvmrn4vahnsuhaqxm"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "6vyr13j6kbwdtxjwm1m4m8nu2",
+            "contestant_title": "Anderlecht",
+            "prompt": "show me Anderlecht events",
+            "expected_article_ids": [
+                "d74i7kbvlvmrn4vahnsuhaqxm"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "d74i7kbvlvmrn4vahnsuhaqxm"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "bfztlrr6176xsdt2bmp0u1d2d",
+            "contestant_title": "Pisa",
+            "prompt": "show me Pisa events",
+            "expected_article_ids": [
+                "4sdaz0si2zsuryucpz25razet"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "4sdaz0si2zsuryucpz25razet"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "7vn2i2kd35zuetw6b38gw9jsz",
+            "contestant_title": "Newcastle United",
+            "prompt": "show me Newcastle United events",
+            "expected_article_ids": [
+                "htt7hlk79hpfi5y8jazkdcik"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "htt7hlk79hpfi5y8jazkdcik"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "64bxxwu2mv2qqlv0monbkj1om",
+            "contestant_title": "Burnley",
+            "prompt": "show me Burnley events",
+            "expected_article_ids": [
+                "du8mszw2w6fj8nkc6qcmn2sjw"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "du8mszw2w6fj8nkc6qcmn2sjw"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "5fmbvybscnaqvhkh6jkv3mhwi",
+            "contestant_title": "Union Berlin",
+            "prompt": "show me Union Berlin events",
+            "expected_article_ids": [
+                "6s9wozphvcdqdberfep1n6hr5"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "6s9wozphvcdqdberfep1n6hr5"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "4txjdaqveermfryvbfrr4taf7",
+            "contestant_title": "West Ham United",
+            "prompt": "show me West Ham United events",
+            "expected_article_ids": [
+                "dcmyp3a0hj89kt6usfs3974xb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "dcmyp3a0hj89kt6usfs3974xb"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "4dsgumo7d4zupm2ugsvm4zm4d",
+            "contestant_title": "Arsenal",
+            "prompt": "show me Arsenal events",
+            "expected_article_ids": [
+                "dcmyp3a0hj89kt6usfs3974xb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "dcmyp3a0hj89kt6usfs3974xb"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "ecj1gmc7pqcjo4sc9hvghj5u3",
+            "contestant_title": "Union Saint-Gilloise",
+            "prompt": "show me Union Saint-Gilloise events",
+            "expected_article_ids": [
+                "bsqq362l27exocj7jlec0ml5k"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "bsqq362l27exocj7jlec0ml5k"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "b7jmo07lqav0wfe2mtlzyspak",
+            "contestant_title": "Mechelen",
+            "prompt": "show me Mechelen events",
+            "expected_article_ids": [
+                "bsqq362l27exocj7jlec0ml5k"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "bsqq362l27exocj7jlec0ml5k"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "c7dnk62idkd54j68xxz72wo1d",
+            "contestant_title": "Valencia",
+            "prompt": "show me Valencia events",
+            "expected_article_ids": [
+                "e4m9dn1obk2ggj9nlysqjmybg",
+                "21jutnoi6hcon3fe2l510eibu"
+            ],
+            "expected_upcoming": [
+                "e4m9dn1obk2ggj9nlysqjmybg"
+            ],
+            "expected_catchup": [
+                "21jutnoi6hcon3fe2l510eibu"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "dufh6ttewa7kamkbqtdl4pxjd",
+            "contestant_title": "Baskonia",
+            "prompt": "show me Baskonia events",
+            "expected_article_ids": [
+                "21jutnoi6hcon3fe2l510eibu"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "21jutnoi6hcon3fe2l510eibu"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "3jv3r7dd46nx6cnmpqq9d4x9m",
+            "contestant_title": "RB Leipzig",
+            "prompt": "show me RB Leipzig events",
+            "expected_article_ids": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "dpp6fex0mdxsxhdct2qf66x5n",
+            "contestant_title": "Bayer Leverkusen",
+            "prompt": "show me Bayer Leverkusen events",
+            "expected_article_ids": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "gi0l1habji5hpgar77dl5jqe",
+            "contestant_title": "Napoli",
+            "prompt": "show me Napoli events",
+            "expected_article_ids": [
+                "15kgyxnzfpvmi0mrniacfbr8d"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "15kgyxnzfpvmi0mrniacfbr8d"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "48gk2hpqtsl6p9sx9kjhaydq4",
+            "contestant_title": "Leeds United",
+            "prompt": "show me Leeds United events",
+            "expected_article_ids": [
+                "7nid08k9eoo4as15ztjqofagl"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "7nid08k9eoo4as15ztjqofagl"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "cbwwd0h3unyv15d11zwgszs5a",
+            "contestant_title": "S.V. Victory Boys",
+            "prompt": "show me S.V. Victory Boys events",
+            "expected_article_ids": [
+                "wvoaaeswru1h1fgvw7ivgjqiv"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "wvoaaeswru1h1fgvw7ivgjqiv"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "b3z08r3ps7kk81h2xybomtwq1",
+            "contestant_title": "Inter Willemstad",
+            "prompt": "show me Inter Willemstad events",
+            "expected_article_ids": [
+                "wvoaaeswru1h1fgvw7ivgjqiv"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "wvoaaeswru1h1fgvw7ivgjqiv"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "7x62o77fxqgghhd2hu3ytz3e1",
+            "contestant_title": "RKSV Scherpenheuvel",
+            "prompt": "show me RKSV Scherpenheuvel events",
+            "expected_article_ids": [
+                "eriwjsnc7qkg1i0ru92np1ofy"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "eriwjsnc7qkg1i0ru92np1ofy"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "51fvoea4lfdfrudrpwj4mjgcs",
+            "contestant_title": "C.R.K.S.V. Jong Colombia",
+            "prompt": "show me C.R.K.S.V. Jong Colombia events",
+            "expected_article_ids": [
+                "eriwjsnc7qkg1i0ru92np1ofy"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "eriwjsnc7qkg1i0ru92np1ofy"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "awja2tcbrkamxiphjrcokxn3r",
+            "contestant_title": "C.R.K.S.V. Jong Holland",
+            "prompt": "show me C.R.K.S.V. Jong Holland events",
+            "expected_article_ids": [
+                "p58vqrq0ybg13cjo1xc6331f"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "p58vqrq0ybg13cjo1xc6331f"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "dsmwr3y9g44rzob7w98js1nea",
+            "contestant_title": "R.K.S.V. Centro Dominguito",
+            "prompt": "show me R.K.S.V. Centro Dominguito events",
+            "expected_article_ids": [
+                "p58vqrq0ybg13cjo1xc6331f"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "p58vqrq0ybg13cjo1xc6331f"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "5a4q051v3rvq4s5z8itsuj6l0",
+            "contestant_title": "US Zilimadjou",
+            "prompt": "show me US Zilimadjou events",
+            "expected_article_ids": [
+                "1u266cinl5wfj1c78uyjet0pz8"
+            ],
+            "expected_upcoming": [
+                "1u266cinl5wfj1c78uyjet0pz8"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "0jbttyj28xe8o0dy0qut1v7zuj",
+            "contestant_title": "Atomic Ngom\u00e9",
+            "prompt": "show me Atomic Ngom\u00e9 events",
+            "expected_article_ids": [
+                "1u266cinl5wfj1c78uyjet0pz8"
+            ],
+            "expected_upcoming": [
+                "1u266cinl5wfj1c78uyjet0pz8"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "80w98a04tq1cwg3ucxsrxb6sm",
+            "contestant_title": "FC Dinamo City",
+            "prompt": "show me FC Dinamo City events",
+            "expected_article_ids": [
+                "1lqhhku3j45ft12hryw1ixesid"
+            ],
+            "expected_upcoming": [
+                "1lqhhku3j45ft12hryw1ixesid"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "che78z4iaseye3rm58s8rbhyx",
+            "contestant_title": "KF Egnatia",
+            "prompt": "show me KF Egnatia events",
+            "expected_article_ids": [
+                "1lqhhku3j45ft12hryw1ixesid"
+            ],
+            "expected_upcoming": [
+                "1lqhhku3j45ft12hryw1ixesid"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "9ifh260ozstfer1v3wcn6lb8e",
+            "contestant_title": "Zaragoza",
+            "prompt": "show me Zaragoza events",
+            "expected_article_ids": [
+                "e4m9dn1obk2ggj9nlysqjmybg"
+            ],
+            "expected_upcoming": [
+                "e4m9dn1obk2ggj9nlysqjmybg"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "afkoac99du7wyzg4ozd9ozbxb",
+            "contestant_title": "Bath Estate FC",
+            "prompt": "show me Bath Estate FC events",
+            "expected_article_ids": [
+                "18q2bntnxx8ax1xufx1zaqesrs"
+            ],
+            "expected_upcoming": [
+                "18q2bntnxx8ax1xufx1zaqesrs"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "3zvkzqettme2uiy3awl72dnh0",
+            "contestant_title": "We United FC",
+            "prompt": "show me We United FC events",
+            "expected_article_ids": [
+                "18q2bntnxx8ax1xufx1zaqesrs"
+            ],
+            "expected_upcoming": [
+                "18q2bntnxx8ax1xufx1zaqesrs"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "8wajr6px12q8fpx5nzhhzowbi",
+            "contestant_title": "Bilbao",
+            "prompt": "show me Bilbao events",
+            "expected_article_ids": [
+                "cxybsrp5kpout3e24vrq0mmq6"
+            ],
+            "expected_upcoming": [
+                "cxybsrp5kpout3e24vrq0mmq6"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "1h4vevagbjz0aurins8ra820x",
+            "contestant_title": "Real Madrid Baloncesto",
+            "prompt": "show me Real Madrid Baloncesto events",
+            "expected_article_ids": [
+                "cxybsrp5kpout3e24vrq0mmq6"
+            ],
+            "expected_upcoming": [
+                "cxybsrp5kpout3e24vrq0mmq6"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "36izgzdgodwuyok9ab5lncpm9",
+            "contestant_title": "Al Arabi",
+            "prompt": "show me Al Arabi events",
+            "expected_article_ids": [
+                "6sh20896jyzm1acs7afd8hx4v"
+            ],
+            "expected_upcoming": [
+                "6sh20896jyzm1acs7afd8hx4v"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "4mz05jxhfbyte73g9mqkyg36c",
+            "contestant_title": "Gulf United",
+            "prompt": "show me Gulf United events",
+            "expected_article_ids": [
+                "6sh20896jyzm1acs7afd8hx4v"
+            ],
+            "expected_upcoming": [
+                "6sh20896jyzm1acs7afd8hx4v"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "9az8hqkkijc34ol021425ixg5",
+            "contestant_title": "Boulogne",
+            "prompt": "show me Boulogne events",
+            "expected_article_ids": [
+                "1mwm66cyrsfvo17sg85kjdhcgh"
+            ],
+            "expected_upcoming": [
+                "1mwm66cyrsfvo17sg85kjdhcgh"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "contestant_id": "bizl0ptma24fjoafuqclu8k5b",
+            "contestant_title": "Bourg-P\u00e9ronnas",
+            "prompt": "show me Bourg-P\u00e9ronnas events",
+            "expected_article_ids": [
+                "1mwm66cyrsfvo17sg85kjdhcgh"
+            ],
+            "expected_upcoming": [
+                "1mwm66cyrsfvo17sg85kjdhcgh"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        }
+    ]
+}
