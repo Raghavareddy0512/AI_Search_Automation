@@ -10,7 +10,7 @@ from utils.generator import generate_sport_prompts_with_expected
 
 def main():
     print("Fetching full schedule...")
-    tiles = fetch_full_schedule(days_back=10, days_forward=2)
+    tiles = fetch_full_schedule(days_back=2, days_forward=2)
 
     print("Generating sport prompts with expected IDs...")
     prompts_data = generate_sport_prompts_with_expected(tiles)

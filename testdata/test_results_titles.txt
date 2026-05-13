@@ -1,0 +1,282 @@
+TITLE TEST RESULTS
+==================
+
+==============================
+ORIGINAL TITLE: AC Milan
+VARIATION: AC Milan
+PROMPT: show me AC Milan events
+TIME: 2.03s
+RETURNED COUNT: 45 events
+RETURNED EVENTS: ['em0ty1m78bdz5dkz4wp7azd6y', '7wxruilp573g7d80ugpjk1met', '4mrzwm1p6t68t39seq41q31ci', 'btt8lh9wmf1uofjm02de9ryuv', 'ep8rp7dk457xk3oxrxmn35yz8', 'dj42w07h7thickzy8am4972vv', '5l0j9m3m7coqk1fmbgourog3f', 'a1l0n0tq9e9ffjp3k21kpd5g4', '6zp6u3q6glapnb0cr79ygmiy5', '2liwhtu27jmntciuz0sqoumn2', 'emjafgnehr8gkrxngfuafrzae', '4k06m873f8azas2hfj4s1tjaa', 'cp2pdqz6r62hy6hyqc82ynajh', '8a18x6e2apqgs217d00qf8c54', 'ch9wqaqj0ttaq0iscukbnnnpl', '459erlqzew116zgkn8vkekp4n', '26thv5psuvo75yj9kwkolyknv', 'drk9kcl5lavy1ag2t6tttsiwa', 'bl50xl84uvj8lxmj66wjwnj6t', 'eu9nfjdiyp96ml2xfx2yj2g6y', '82fj74ngijoaj9f3aks9cwwyr', '4h5a7k9wmzp1rosl1fr04uw6s', 'xmobob72i92rf74cg6te3pv3', '1ux75jso19m6tfqbz3tapnwns', '3el58cpeml3ubwa5rl45kki64', '6zhmmipzkwrczgaj46qj8htnn', '3wh5fvufm963wca16d6mbi8ps', '7xqwzxlgqe4by2ryi41eo5tel', 'bj27s96ajoofza7nky017jblr', '5jl1isww4z3vu83m640t9m8bc', 'e0wpdia6j22noc1n2rbmge9zh', 'cr05wz3r7p9ifkyu6cuk8xe4c', 'az0dic3gvh881rgki7wtxfc7n', '5up92fyaab5ox430iwc6isv7h', 'eknx733tptjnp06ac05f8omgb', '8jjl4evlakve9q1qb6ponvpmu', '1rq5r6c5qw8n3jxbjxhq1fzu3', 'aca5zu3067t9n5t5890vncgq', 'ddim9szm55pbql1igcgbp5u65', 'e4yk6tdnzxi1ppuahhd983gsk', '2kuqpuwuhsrhlai1pjn8r0z32', '3qn6blufdl2ps7uqq4mf0v79s', '8y4ersosyckru4w481zhz5we5', 'damlxox3xcrj5a3jua8wrljxb', 'c2x8r87vwxllsgss1ovrgm9r8']
+
+==============================
+ORIGINAL TITLE: Al Arabi
+VARIATION: Al Arabi
+PROMPT: show me Al Arabi events
+TIME: 2.71s
+RETURNED COUNT: 0 events
+RETURNED EVENTS: []
+
+==============================
+ORIGINAL TITLE: Atalanta
+VARIATION: Atalanta
+PROMPT: show me Atalanta events
+TIME: 1.87s
+RETURNED COUNT: 44 events
+RETURNED EVENTS: ['7e472yj91v137xd5prgjezif3', 'a7qdpvazdcrg0dhow0n053r5i', '8mp01q2spxthf7kx6wxn0sys9', 's14qw6ywsvbzgxnows1mxw1b', '89wu73299sey1ffl247i38ak0', 'dlvtj7qymn51ksgqfgw3zivc8', 'eeqfs7fjq3kpscpgiwjg9qscp', 'cpz92gp6f956nzskju7rliz8u', '7xy7itm3h19a7rxqbvydpxqwk', 'n8ybjus5pcwhlv2cor0jh80w', 'a6nqh2oo16kpzwvy95kzyzyza', '7b3el1z8vmul4hkrrz2qgpqdx', 'gk1wbpikwtih2pvsre6ty63c', '6z0s8mw9lpv9azuct5oireo7r', 'eu9nfjdiyp96ml2xfx2yj2g6y', '8ake4tdr6nsk9o6s1dnj0ozvb', 'etqbcslmnsu3j1loxocyocxs5', '3a30apleno8sb8z4yttyiuxr5', 'c02d37r4ozvdq26o8xruw9cyh', 'b55whb5svxtxt0s6a47jsr9a', '88axe3hr59igp0o491t5ku3c1', '5mmdc2wcovwo6ezvtm5sdnfoy', '9vboq4v6bl6tfaxnan5ynp3jq', '8hsnczyrwsrd3emwx5v6sthd5', 'f1l07szbi4g2r8pvv2crgyzxc', '6yt70gfa59gi7i5bpwfj1o3w1', 'u9cqtof7p96tl0ks0nqgq914', 'ejvv09ghkovp50wn8wei4pxzl', '2fxkp4j42087jm1gd3lk1bho9', 'b7cnk9p1mis6upaipor6ihy04', '3m1ijydjv2znfx1r4cixe3t0q', '1t4uwy44x6pgbpsndjp94mscp', 'biamum0s5flavi4mgm06jxs3d', '34lnz7rbwghfwor11nupf89w8', '2i18qtgue9w6ky5m8wj71tb69', 'tl8arezc2ie2uy3xi9jezdg', 'd936cr3w0f05x7s9hjvuramie', 'aca5zu3067t9n5t5890vncgq', '2ttfepgh9t1jcv0qjgpec7exk', 'cfxt7ziney2ngh6c21jj0qjl4', '4rxifh821lb6vcwb3xroofl9p', 'ev8neqp2lgw18s82zcyshnelr', '4cweoxu729ae63hr4yojdoi22', 'f21bwdudecmbbqrwrz4zoudc9']
+
+==============================
+ORIGINAL TITLE: Atomic Ngomé
+VARIATION: Atomic Ngomé
+PROMPT: show me Atomic Ngomé events
+TIME: 2.12s
+RETURNED COUNT: 1 events
+RETURNED EVENTS: ['1u266cinl5wfj1c78uyjet0pz8']
+
+==============================
+ORIGINAL TITLE: BaseBall
+VARIATION: BaseBall
+PROMPT: show me BaseBall events
+TIME: 1.77s
+RETURNED COUNT: 2 events
+RETURNED EVENTS: ['189yhuq7d24xl1r503zshtcy76', '6wwi0y10ztxd12c2vg296aeho']
+
+==============================
+ORIGINAL TITLE: Basketball
+VARIATION: Basketball
+PROMPT: show me Basketball events
+TIME: 2.39s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['ee87skc8s4vggzip665jbpcao', 'evfiirvtbimoeebm7qkw9ev91', 'e7pf6d3vy2oujnqgthhgzz40j', '2b19sao6yz9lx11ysn7so2ibb', 'c9y8ma1apj983yq7lk467zeil', '88begullk0lbgeamulvcam2wc', '6a3v4o51idq5lp2i64s9jvrmm', '1t6act4dopwr3dqyzj4zf6poc', '8nzyloa9rmqzjt2oiuckaxrr', 'esuov6eohift40uvoijsuyl7p', '9i55vvr401c15n1qjrsm2k33x', '4yacjykx7acv4pieh4064cobb', 'eejmsit141opoqc4zy0p8ndif', '21jutnoi6hcon3fe2l510eibu', 'dp7c2nhyw9s0sly727v1drezg', '9i0jm4yd5sf97le3fkoa7do7p', '1c3m9m424owz3yv8c0r7r8gso', '6q6x5mmbf95o924l10ynhm5bo', '69id2pzw58z7p6dhzkcdst0ga', '7js93488s89j109r3yaxrvce9', 'eaeto3alpru52viyog0tpho5k', 'acylmnnjhobt1q6oublrggsnv', 'cxybsrp5kpout3e24vrq0mmq6', 'aputox34qtbpjv87s7lfh2uo3', '9nnxay6poscjucdrdk8tzdf20', '5hehimqbj5dyfueb1jjksqp56', 'b2z3pdm0fzghlg75utfg0p2kg', '98i7npypuid2f44ws9c8pus3b', 'a75v03a2yxf4j2b39wiuyqt9', '5enzogw1sb5z8p7xr0iimrsic', '89056q05klpo5gwfo85piz63p', '3jv3kr1nx0lxdhy3x5pok176n', '6ayl2g8zkqk3qpe0hqfml6spz', '88kzaqc7499ss9flfwvty4ve', 'lxwq10pw154s14lfdwjc4eon', '8keczknbgpoenb6glnskgids2', '3j7q8aft1wfl9ldov7m15yvf8', 'e4m9dn1obk2ggj9nlysqjmybg', 'czwzyry8y3ch63zecjg6o27bo', '5w1dl2jbka2g5pf1g57ks69f8', '2kefm7nhw746yaipqk5dki3gf', '4nepdqtmbau8bn9x3h0t311cx', '4olfmmsq8tns12218afb3014f', 'a0vpanp60t206cp7qtokir94l', '1cvnd0jn50vgts94s7uhctcxy', '7sv5nzi82rd8648fqgjqjeb5q', '3cn3adzbx8i2vrq96dal6um09', 'e0xie2pjmvvp0gdaps0fi8xb9', '5lq9ihkp702q6df4ra34e2pjz', '86f7ykokvm91bu0t34mwzq6ez']
+
+==============================
+ORIGINAL TITLE: Bath Estate FC
+VARIATION: Bath Estate FC
+PROMPT: show me Bath Estate FC events
+TIME: 2.24s
+RETURNED COUNT: 1 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs']
+
+==============================
+ORIGINAL TITLE: Bayer Leverkusen
+VARIATION: Bayer Leverkusen
+PROMPT: show me Bayer Leverkusen events
+TIME: 2.28s
+RETURNED COUNT: 12 events
+RETURNED EVENTS: ['60numrqppbzdi3knqbi96ih09', '52bcdleds7icg9x6oht2mltti', '1phoxav6hcddqd2u1io6u9wka', '6qmgi8aue5c59hcjuktmoalku', '95jspwb503aezw5cmbbwbqtnt', '1l6tfc8zhmie2r5u9zj77594c', 'c43019ngaaicoevid4imq647h', '4jhyutlv5bolh3cw7rxgnyvup', '98tkan4t27bfcirabpof8rf0y', '1wmiugjzgx6lu16jpwtmk2toi', '4k06m873f8azas2hfj4s1tjaa', '7hgtqra3x7q4jmg8fglpyluqd']
+
+==============================
+ORIGINAL TITLE: Bilbao
+VARIATION: Bilbao
+PROMPT: show me Bilbao events
+TIME: 2.15s
+RETURNED COUNT: 12 events
+RETURNED EVENTS: ['c1ajk6g6apdy2giq78wcqi6ir', '9ggspneanqo71qi8dcgrd738t', 'f4wpakw4zx82z2vj8s82ro884', '65pxpno0ju6i7sslg6psx6bgb', 'bcnbtpzm0wybjqmcba5b8p4lv', 'cls5sh3fp4zoowxwzpnkug6i9', 'c9u1g7tnqqp140llduee1uh6q', '61cfnwmozfio43rdfwqwyr4pc', '2n0kwqopprq69ea0apgbb1bu7', 'cxybsrp5kpout3e24vrq0mmq6', 'e92vxggmvetqpzf9bjikfbe0z', 'b1mlfe9hseh65fc6mpqbn63bn']
+
+==============================
+ORIGINAL TITLE: Bologna
+VARIATION: Bologna
+PROMPT: show me Bologna events
+TIME: 2.49s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['8du0v4lqi8t6nfsxr0l9r58h5', '7as3ej2voc9i1bstzmptxl17k', '3n64o0v6ke82n9d5uej7hnzvu', '2bn6km9lsu2he0gktfgq2n1cx', '9pw8smqm0qcvsbp56oa0oq63o', '635kaqvd57zl3s2x39882w79f', '2v0iczv11r9jyb6pbogc1q5kq', '86t7wo8gq1iq3kfd8osodfdye', 'abzf95m3y4hnggbp5cpucerxw', 'elik61384hv6lmgxdgtep7a4j', '60j47zgndh1rf65obgcrz53a2', '66qt00tfendzijdxpjihfs36c', 'cp2pdqz6r62hy6hyqc82ynajh', '7fs6v6j4ssizpdli6zq444sld', '91jua8hv5x7pk1duowwt1mxwz', '6t4riie3znj89ysvmf00ndpq9', '26thv5psuvo75yj9kwkolyknv', '15kgyxnzfpvmi0mrniacfbr8d', 'bji9k0zfdpklf6xjwajp04l6u', '15mfncemmd7tqkgr6fc3b8fy1', 'a63x73gfdym4uut61w7yi5e8l', '5nq5bm0po6qkrazt01bvravwk', '9z1h1l3b2n4k5kbldw4vxet9h', '6b8mcq0sj6k7l8nfqdr9vvxps', '6xos0ia03l9a1t9kdrrpiglm1', 'el958e1jgjwvrm4885busgtmn', '38yifi2lt8wh1cg7stlrltvcc', '37rn79heau6kpfrj3qkzmrajn', 'azh8unfedjo72wbywmx742rbq', 'duedcwsgnw0k0qfuzzys7j3ka', '64jg7l4mf35n3bpltqehnyzpr', '3xxvm1l8ldbkqlup0fshempso', '6ga6i07hba4vu33h9p3zuwhdq', '4c3hextcv2ahfv8ukq5d1c66r', '84rb63nrcmxjps7zt5f4q7xw9', 'ehywaagbasr0e2neokr824tl8', '7n9li6aijb8a2xmqo58e6pkrw', '69cvh6a4qvcwumkv5f6e9ys6j', 'e4uwcfc1oc3q0es2ymbuf0cit', 'biamum0s5flavi4mgm06jxs3d', 'a54lvglb2z999do4o7qi1x8i7', '7ut2sw09l3zxd4uyg0jwr0sat', 'd5u0anue7v85es1de9otgj7i9', '8zntt2j0c60jvc5udl9migfpn', '59t45cgyt4kxfxwocidmyr42l', '2ha8il7rphnpiw0zrn6iw2een', '8psgkdfs7u9nfc1aezjwwn0hz', '12rjy6367u7br8vhj9uzw2nbu', 'dsgcam93ytr76nyz72j97jm3l', '9p6i0ch6ywu1iz26h8apb8raf']
+
+==============================
+ORIGINAL TITLE: Boulogne
+VARIATION: Boulogne
+PROMPT: show me Boulogne events
+TIME: 2.5s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['8du0v4lqi8t6nfsxr0l9r58h5', '7as3ej2voc9i1bstzmptxl17k', '3n64o0v6ke82n9d5uej7hnzvu', '2bn6km9lsu2he0gktfgq2n1cx', '9pw8smqm0qcvsbp56oa0oq63o', '635kaqvd57zl3s2x39882w79f', '2v0iczv11r9jyb6pbogc1q5kq', '86t7wo8gq1iq3kfd8osodfdye', 'abzf95m3y4hnggbp5cpucerxw', 'elik61384hv6lmgxdgtep7a4j', '60j47zgndh1rf65obgcrz53a2', '66qt00tfendzijdxpjihfs36c', 'cp2pdqz6r62hy6hyqc82ynajh', '7fs6v6j4ssizpdli6zq444sld', '91jua8hv5x7pk1duowwt1mxwz', '6t4riie3znj89ysvmf00ndpq9', '26thv5psuvo75yj9kwkolyknv', '15kgyxnzfpvmi0mrniacfbr8d', 'bji9k0zfdpklf6xjwajp04l6u', '15mfncemmd7tqkgr6fc3b8fy1', 'a63x73gfdym4uut61w7yi5e8l', '5nq5bm0po6qkrazt01bvravwk', '9z1h1l3b2n4k5kbldw4vxet9h', '6b8mcq0sj6k7l8nfqdr9vvxps', 'el958e1jgjwvrm4885busgtmn', '38yifi2lt8wh1cg7stlrltvcc', '37rn79heau6kpfrj3qkzmrajn', 'azh8unfedjo72wbywmx742rbq', 'duedcwsgnw0k0qfuzzys7j3ka', '64jg7l4mf35n3bpltqehnyzpr', '3xxvm1l8ldbkqlup0fshempso', '6ga6i07hba4vu33h9p3zuwhdq', '4c3hextcv2ahfv8ukq5d1c66r', '84rb63nrcmxjps7zt5f4q7xw9', 'ehywaagbasr0e2neokr824tl8', '7n9li6aijb8a2xmqo58e6pkrw', '69cvh6a4qvcwumkv5f6e9ys6j', 'e4uwcfc1oc3q0es2ymbuf0cit', 'biamum0s5flavi4mgm06jxs3d', 'a54lvglb2z999do4o7qi1x8i7', '7ut2sw09l3zxd4uyg0jwr0sat', '1vkwcl797k8vh193ko1gxns761', 'd5u0anue7v85es1de9otgj7i9', '8zntt2j0c60jvc5udl9migfpn', '59t45cgyt4kxfxwocidmyr42l', '2ha8il7rphnpiw0zrn6iw2een', '8psgkdfs7u9nfc1aezjwwn0hz', '12rjy6367u7br8vhj9uzw2nbu', 'dsgcam93ytr76nyz72j97jm3l', '9p6i0ch6ywu1iz26h8apb8raf']
+
+==============================
+ORIGINAL TITLE: Bourg-Péronnas
+VARIATION: Bourg-Péronnas
+PROMPT: show me Bourg-Péronnas events
+TIME: 2.73s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', '1t3atehw54xk0118wvpealgdg8', '52bcdleds7icg9x6oht2mltti', 'hsrgdth5q75y12nckl4rjl7yi', '1fuv8f0ucrt1m1gzubvujp70r2', '74zhq2e6o5jjivx5cc83tz9vs', 'y01r5ydwb2n415e88ublgvnrz', '1eol957nk6neu18dwjfdz5vzwa', 'o3e8fh4v91la1lxzryb5t04iv', '7nid08k9eoo4as15ztjqofagl', '1lqhhku3j45ft12hryw1ixesid', 'wvoaaeswru1h1fgvw7ivgjqiv', '15kgyxnzfpvmi0mrniacfbr8d', '8k3j0hzpc7l05zqabveb7yily', 'r7y5q0ozkulk1cyo1ws82fo29', 'e85dubqbp9t1dl35blsbf3qgx', '3ok0r6r6rv795rddbhu5djp4d', '10eab4u4r391h1pe0mybbzwbmt', '4yx4lmkw1gmnd2eh2dpkd93le', 'b130dwpaauf217rm2u6gsrjdd', 'eu9nfjdiyp96ml2xfx2yj2g6y', '3b62jp9xom74a8a30uqhx8mcb', '1hao3u63f4787mlfbwbaxtwqc', '6fh7l29cb96o174zv6j2woyt4', '1u4eontfwxnxz168fjculm9qry', 'cxybsrp5kpout3e24vrq0mmq6', '1il49b6hsj63z1ovfd16yu98rh', '1g5tdz810bqxi1ksh34s1dbfgw', '18ij3vqkcswb01kvokzcxbg6z0', '1b8j3hevyd4jf1crxfvm2epn6z', '1lf5hktm3ssxfzdf1kj6lhsoq', '17htcxodq86c313x9fcxghnnv5', '1ak85z0a6u0vf1lho9i007bpw5', 'lskvdzkycqpq11b9ba147f4hg', '1u266cinl5wfj1c78uyjet0pz8', 'eriwjsnc7qkg1i0ru92np1ofy', '1tcg3rluq29sq1vcdbubw63mwe', '9auu98eywgej0bdyr07x4youy', 'e4m9dn1obk2ggj9nlysqjmybg', '1wtr78k6p3lfcwcbakk17rt2h', '35gxxdv5ul84i147dgg7xa3jk', '7r9tyxwef9zz4umqxmaua26z3', 'p2i2km18bk871ozbj3qsual1o', 'kp6e2etalovz5jusq1nzkllr', '1mgoyxo54nld61qwqaf3g8x5fc', '1gww4os7r0oov1h8kkdvs15d8j', 'p58vqrq0ybg13cjo1xc6331f', '7agxt2szhf3y147rjrdm742n2', '16lhvj2k63yac1ph7we0vnqv0d', 'kg4m2qzzj8uz1w4j6rsvl0pfk']
+
+==============================
+ORIGINAL TITLE: C.R.K.S.V. Jong Colombia
+VARIATION: C.R.K.S.V. Jong Colombia
+PROMPT: show me C.R.K.S.V. Jong Colombia events
+TIME: 3.3s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', '1t3atehw54xk0118wvpealgdg8', '52bcdleds7icg9x6oht2mltti', 'hsrgdth5q75y12nckl4rjl7yi', '1fuv8f0ucrt1m1gzubvujp70r2', '74zhq2e6o5jjivx5cc83tz9vs', 'y01r5ydwb2n415e88ublgvnrz', '1eol957nk6neu18dwjfdz5vzwa', 'o3e8fh4v91la1lxzryb5t04iv', '7nid08k9eoo4as15ztjqofagl', '1lqhhku3j45ft12hryw1ixesid', 'wvoaaeswru1h1fgvw7ivgjqiv', '15kgyxnzfpvmi0mrniacfbr8d', '8k3j0hzpc7l05zqabveb7yily', 'r7y5q0ozkulk1cyo1ws82fo29', 'e85dubqbp9t1dl35blsbf3qgx', '3ok0r6r6rv795rddbhu5djp4d', '10eab4u4r391h1pe0mybbzwbmt', '4yx4lmkw1gmnd2eh2dpkd93le', 'b130dwpaauf217rm2u6gsrjdd', 'eu9nfjdiyp96ml2xfx2yj2g6y', '3b62jp9xom74a8a30uqhx8mcb', '1hao3u63f4787mlfbwbaxtwqc', '6fh7l29cb96o174zv6j2woyt4', '1u4eontfwxnxz168fjculm9qry', 'cxybsrp5kpout3e24vrq0mmq6', '1il49b6hsj63z1ovfd16yu98rh', '1g5tdz810bqxi1ksh34s1dbfgw', '18ij3vqkcswb01kvokzcxbg6z0', '1b8j3hevyd4jf1crxfvm2epn6z', '1lf5hktm3ssxfzdf1kj6lhsoq', '17htcxodq86c313x9fcxghnnv5', '1ak85z0a6u0vf1lho9i007bpw5', 'lskvdzkycqpq11b9ba147f4hg', '1u266cinl5wfj1c78uyjet0pz8', 'eriwjsnc7qkg1i0ru92np1ofy', '1tcg3rluq29sq1vcdbubw63mwe', '9auu98eywgej0bdyr07x4youy', 'e4m9dn1obk2ggj9nlysqjmybg', '1wtr78k6p3lfcwcbakk17rt2h', '35gxxdv5ul84i147dgg7xa3jk', '7r9tyxwef9zz4umqxmaua26z3', 'p2i2km18bk871ozbj3qsual1o', 'kp6e2etalovz5jusq1nzkllr', '1mgoyxo54nld61qwqaf3g8x5fc', '1gww4os7r0oov1h8kkdvs15d8j', 'p58vqrq0ybg13cjo1xc6331f', '7agxt2szhf3y147rjrdm742n2', '16lhvj2k63yac1ph7we0vnqv0d', 'kg4m2qzzj8uz1w4j6rsvl0pfk']
+
+==============================
+ORIGINAL TITLE: C.R.K.S.V. Jong Holland
+VARIATION: C.R.K.S.V. Jong Holland
+PROMPT: show me C.R.K.S.V. Jong Holland events
+TIME: 2.88s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', '1t3atehw54xk0118wvpealgdg8', '52bcdleds7icg9x6oht2mltti', 'hsrgdth5q75y12nckl4rjl7yi', '1fuv8f0ucrt1m1gzubvujp70r2', '74zhq2e6o5jjivx5cc83tz9vs', 'y01r5ydwb2n415e88ublgvnrz', '1eol957nk6neu18dwjfdz5vzwa', 'o3e8fh4v91la1lxzryb5t04iv', '7nid08k9eoo4as15ztjqofagl', '1lqhhku3j45ft12hryw1ixesid', 'wvoaaeswru1h1fgvw7ivgjqiv', '15kgyxnzfpvmi0mrniacfbr8d', '8k3j0hzpc7l05zqabveb7yily', 'r7y5q0ozkulk1cyo1ws82fo29', 'e85dubqbp9t1dl35blsbf3qgx', '3ok0r6r6rv795rddbhu5djp4d', '10eab4u4r391h1pe0mybbzwbmt', '4yx4lmkw1gmnd2eh2dpkd93le', 'b130dwpaauf217rm2u6gsrjdd', 'eu9nfjdiyp96ml2xfx2yj2g6y', '3b62jp9xom74a8a30uqhx8mcb', '1hao3u63f4787mlfbwbaxtwqc', '6fh7l29cb96o174zv6j2woyt4', '1u4eontfwxnxz168fjculm9qry', 'cxybsrp5kpout3e24vrq0mmq6', '1il49b6hsj63z1ovfd16yu98rh', '1g5tdz810bqxi1ksh34s1dbfgw', '18ij3vqkcswb01kvokzcxbg6z0', '1b8j3hevyd4jf1crxfvm2epn6z', '1lf5hktm3ssxfzdf1kj6lhsoq', '17htcxodq86c313x9fcxghnnv5', '1ak85z0a6u0vf1lho9i007bpw5', 'lskvdzkycqpq11b9ba147f4hg', '1u266cinl5wfj1c78uyjet0pz8', 'eriwjsnc7qkg1i0ru92np1ofy', '1tcg3rluq29sq1vcdbubw63mwe', '9auu98eywgej0bdyr07x4youy', 'e4m9dn1obk2ggj9nlysqjmybg', '1wtr78k6p3lfcwcbakk17rt2h', '35gxxdv5ul84i147dgg7xa3jk', '7r9tyxwef9zz4umqxmaua26z3', 'p2i2km18bk871ozbj3qsual1o', 'kp6e2etalovz5jusq1nzkllr', '1mgoyxo54nld61qwqaf3g8x5fc', '1gww4os7r0oov1h8kkdvs15d8j', 'p58vqrq0ybg13cjo1xc6331f', '7agxt2szhf3y147rjrdm742n2', '16lhvj2k63yac1ph7we0vnqv0d', 'kg4m2qzzj8uz1w4j6rsvl0pfk']
+
+==============================
+ORIGINAL TITLE: Crystal Palace
+VARIATION: Crystal Palace
+PROMPT: show me Crystal Palace events
+TIME: 1.96s
+RETURNED COUNT: 35 events
+RETURNED EVENTS: ['cd3ji4anhx89zpn74z6ta70vj', '2cqlgrp9b4w4es3pf9pzlmq0q', 'cs5tmry2771prruonlw1smfze', '83y82b4c072jovdwoldrq3pal', '8mrxfi66y3474h6knwwk3wywx', 'au5tfduzruqr9id761b9sj8v2', '5y9cnj8u1e2jvehmg36pse6xn', '8vcra2v09vqkdn656qse1t0rw', '1xoh2fwpl35pb5vlvelrqganj', 'ctf3ktlpfg7zqpnmbh8e95gie', '76rm5k9g8e5rsjjd2wj6hhgb5', 'c14xr1htaawy2m2xarss1lae1', '872sa2olfmeln7n7v3ick7xz6', '41345o06a6zxf6ep7tesra4hr', 'f07xkbq0kh9ti5f3u4yjpfusk', '3vrf4wk7litwkd5r4udwli80o', '8kg0ypq8lja35ig5ojyr08lwe', 'bknq53eo4ccusalbe61ddyzgj', 'br6iqbstzw8zvwpf6vqjm026', '7x3jnk26w190lstki4dddlu77', 'qkdx2ticohqjt8sz2tkc44gc', '27hcmz3skkkijughjqvzie6hw', '6uew90vqnykwebq7lk6e12u80', '9zhp0gwvg47dtemzgqk9n3qgf', '3jcbh5rdjb5qdmwgc7yg1rzv0', '7gp36v687a02uqxfubazzjz7j', 'sngetduez4798k35tzoghi74', 'tz83xbdkh0blbcyxurazhdvd', 'ee0m2sep2adbnw5s1twq9z2ae', '7r9tyxwef9zz4umqxmaua26z3', '19qmlb9ow5vy1y5bakj4l8plk', 'emkyo3rcqzw5ag0cj9fnhdj8j', '5apmj7ofg7e52o7e47b1acn9r', '7kb0j3xwb1p1lkoiv4c4d7xwg', 'zknij8rm3izn85wz38cxf1i5']
+
+==============================
+ORIGINAL TITLE: Curaçao Promé Divishon
+VARIATION: Curaçao Promé Divishon
+PROMPT: show me Curaçao Promé Divishon events
+TIME: 2.54s
+RETURNED COUNT: 3 events
+RETURNED EVENTS: ['wvoaaeswru1h1fgvw7ivgjqiv', 'eriwjsnc7qkg1i0ru92np1ofy', 'p58vqrq0ybg13cjo1xc6331f']
+
+==============================
+ORIGINAL TITLE: DFA Premier League
+VARIATION: DFA Premier League
+PROMPT: show me DFA Premier League events
+TIME: 2.07s
+RETURNED COUNT: 2 events
+RETURNED EVENTS: ['18ij3vqkcswb01kvokzcxbg6z0', '1tcg3rluq29sq1vcdbubw63mwe']
+
+==============================
+ORIGINAL TITLE: Division 1
+VARIATION: Division 1
+PROMPT: show me Division 1 events
+TIME: 2.35s
+RETURNED COUNT: 2 events
+RETURNED EVENTS: ['1u266cinl5wfj1c78uyjet0pz8', 'b130dwpaauf217rm2u6gsrjdd']
+
+==============================
+ORIGINAL TITLE: EFL Championship
+VARIATION: EFL Championship
+PROMPT: show me EFL Championship events
+TIME: 2.19s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['7f5vbw9xkaleppl9leh53nuh9', 'em2u12sef3vmwwaqfbiek2wtg', 'e5fge90on4icxjaykzb3r5dqo', 'b1fssj6v8lluqpukob998zt3g', 'a7auxsblbqxzsh5sj2j3prcyy', 'y9qbyjewl3f6jooerbync8cx', 'b70g3mqueymg1ojv2kcwcs7id', 'irx4pvb8bodmvgs2ene3abnz', '9d229nr76mrab7nrxchazj2y1', '8iwtupf3f3ez8zbc5muiiiz6g', '866hm73l8zrnk0ziw2rlcz04r', 'eozbtwdmonf1bp5lvmza7vuom', 'cnsxbcpyvl1i0jpsbhd45t0j1', '12apfz6aduhcm699cffayfcch', 'be4fnwvsw0m4k5zxa9psxj4sp', 'eyjffvnnogow63w1nibu5ghal', '3b62jp9xom74a8a30uqhx8mcb', 'cyavedqr4rhmmeiwm96dhx6pn', 'dyb3wsvxammzy4la92ck1myhx', '5xf3e26ag8qkuhnrf6cpdciso', '4zxyu0e36q60ctuy5l4r9fm8b', '73nkr0pt0dwmua273cr597988', 'd2hthpt5sykgjuk0pov1sk8g8', 'e7k2kmdatpwo851r929mcxbin', 'ae9meoajds6fg1vchbsv1xc26', 'bjj8qr7w1xr4j58kxv6gh148c', '1gfohmbvwx2ucn4x4axrfqr9i', '3rim221n0qppolzus4uzibbp', '9dvd3xof74014hqqs69321g9o', 'bl0t071i39f0225p3swugs79i', '8az5tv0l0xb7oui87xxvfpymp', '6qarql75goe1ryu2bxw9xunbe', 'bvt5itpw7l92e38jot72iw87b', '8imhb02h3nwbo6j78yjzyvqcx', '8tqosl7y7j6rp1a5iq0yqebvw', '43e8a1awvca3ncpkgb438gr0e', '2fdwaa0ze6te1y74ozn2ub8ma', 'eo3x6w6tv40x9f5lzz9yhdo5f', '9weadpzifvxny9eb4dbmzif3o', '2y4gutgnuj4nwbqka6go1dmxm', '9h92nxhkzl2nzrvri3ed7qnhh', '2ui7n2c3zdvnyn37c8mus1ihd', 'kp6e2etalovz5jusq1nzkllr', 'deowued8gxye7i501prbkiswx', '7gitb7tgljruxac7avjpaqvte', 'cazggvc7ecqvyio8686wg20mn', 'bovapqq9qevov2f8f0b78k6xs', '6z5zszvryu8nyco7y9dw2de1a', '2o93x4w4clinhlo3xpiq93f6z', '1ct56boa9rzml7qm5u6jl0tsq']
+
+==============================
+ORIGINAL TITLE: FC Dinamo City
+VARIATION: FC Dinamo City
+PROMPT: show me FC Dinamo City events
+TIME: 1.58s
+RETURNED COUNT: 1 events
+RETURNED EVENTS: ['1lqhhku3j45ft12hryw1ixesid']
+
+==============================
+ORIGINAL TITLE: Fast Linear Channels
+VARIATION: Fast Linear Channels
+PROMPT: show me Fast Linear Channels events
+TIME: 2.67s
+RETURNED COUNT: 8 events
+RETURNED EVENTS: ['koji0x10wbwc1v6x98rs0frz0', '1v4cq36w0gdxr11aljb272bm9h', '1fg77otjhtlfz1co0jqg98sr61', '12jbhy06e2yjr13wqhc07iiri4', '9e8rjnwj0x3i1jyks7zmkdhcy', 'q83748thn66z1t4qsgjiiybdj', '1ji2ayvqlmhf41gujooiyyxwgd', 'dwf896ihjhh81svyxtcgc98zg']
+
+==============================
+ORIGINAL TITLE: First Division League
+VARIATION: First Division League
+PROMPT: show me First Division League events
+TIME: 2.96s
+RETURNED COUNT: 10 events
+RETURNED EVENTS: ['1r94m3p8mn2mz1lvk6tnafox9r', '1lq3clix1x5gt1s3purrevknxv', '12oyfxu5mkwf1b5il70wr3kol', '102e84x1x8tqp1iryrrp8iddmt', '1xbnjg5u3gbc1x2x9sf2a92lm', 'kt02rtory8jj1jthm9eatewkw', '1ipmf6o9docpf1fis4jn870pdx', '1s81b444s0egs1c8ewt6b3lmou', '1h4eqyt4f9sgt170sjj6b2bt68', '6sh20896jyzm1acs7afd8hx4v']
+
+==============================
+ORIGINAL TITLE: Football
+VARIATION: Football
+PROMPT: show me Football events
+TIME: 2.52s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', 'ao4ycrarmu58skzod0zdcvzvo', '1t3atehw54xk0118wvpealgdg8', '52bcdleds7icg9x6oht2mltti', 'hsrgdth5q75y12nckl4rjl7yi', '1fuv8f0ucrt1m1gzubvujp70r2', '5y9cnj8u1e2jvehmg36pse6xn', '3ccqc9yic68yl2gzofj0xeff4', 'o3e8fh4v91la1lxzryb5t04iv', '1lqhhku3j45ft12hryw1ixesid', '7nid08k9eoo4as15ztjqofagl', 'bd0733y3wy0a67uukwaz6n2zs', 'wvoaaeswru1h1fgvw7ivgjqiv', '15kgyxnzfpvmi0mrniacfbr8d', 'r7y5q0ozkulk1cyo1ws82fo29', 'eu9nfjdiyp96ml2xfx2yj2g6y', '10eab4u4r391h1pe0mybbzwbmt', 'htt7hlk79hpfi5y8jazkdcik', 'b130dwpaauf217rm2u6gsrjdd', 'amxppnhs099fxq4nojqp1m1z3', '3b62jp9xom74a8a30uqhx8mcb', '6fh7l29cb96o174zv6j2woyt4', '6s9wozphvcdqdberfep1n6hr5', '1u4eontfwxnxz168fjculm9qry', 'du8mszw2w6fj8nkc6qcmn2sjw', '1il49b6hsj63z1ovfd16yu98rh', '18ij3vqkcswb01kvokzcxbg6z0', '1b8j3hevyd4jf1crxfvm2epn6z', '1lf5hktm3ssxfzdf1kj6lhsoq', 'lskvdzkycqpq11b9ba147f4hg', '8u7i4u842z6r9wo9amkv2vq66', '1u266cinl5wfj1c78uyjet0pz8', '1nr35lkxeva6313fmwe9k4okje', 'eriwjsnc7qkg1i0ru92np1ofy', '1tcg3rluq29sq1vcdbubw63mwe', '1xii66ibns9qo1wq2rdkbwovlh', '7r9tyxwef9zz4umqxmaua26z3', 'p2i2km18bk871ozbj3qsual1o', 'kp6e2etalovz5jusq1nzkllr', 'dcmyp3a0hj89kt6usfs3974xb', '16lhvj2k63yac1ph7we0vnqv0d', '1mgoyxo54nld61qwqaf3g8x5fc', '1gww4os7r0oov1h8kkdvs15d8j', '4sdaz0si2zsuryucpz25razet', 'p58vqrq0ybg13cjo1xc6331f', 'bsqq362l27exocj7jlec0ml5k', '6kzfnpjddqgzxtxp72zookk0p', '7agxt2szhf3y147rjrdm742n2', 'd74i7kbvlvmrn4vahnsuhaqxm', 'kg4m2qzzj8uz1w4j6rsvl0pfk']
+
+==============================
+ORIGINAL TITLE: Frauen Bundesliga
+VARIATION: Frauen Bundesliga
+PROMPT: show me Frauen Bundesliga events
+TIME: 1.97s
+RETURNED COUNT: 5 events
+RETURNED EVENTS: ['93skipkgsa6y7i6znm0kkdtmj', '52bcdleds7icg9x6oht2mltti', '6s9wozphvcdqdberfep1n6hr5', '7guel1q7doj6awosr4j2ne50p', 'b88y3oiec0jxgl1w0g1h08x72']
+
+==============================
+ORIGINAL TITLE: Gulf United
+VARIATION: Gulf United
+PROMPT: show me Gulf United events
+TIME: 3.41s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', '1fuv8f0ucrt1m1gzubvujp70r2', 'jyvkh4cwb6fv1x1kvpwr3e75f', '2oeh43elri1cka33e5fwt9sqy', 'dynominwo8vvjj6r4heddzv72', '4mbgdmzxt6u4q7lzyxdvgv530', 'a8p5hpzqfli017x9axu7f0ocv', 'b70g3mqueymg1ojv2kcwcs7id', '1ika5upg8dxsv1ppnibov5do3q', '182hx6xul7gn31umz3dye1avu2', 'cl13h5olj3ds18xwgbw9p7815', '1e3oi6bi706r01liwerw73tuk3', '1nltb2ih3mxqh1ek201400l61t', '15f04wpu5d3n21ephxaowbcgpm', '1xoh2fwpl35pb5vlvelrqganj', 'cnvesb2hrb652a6r5q51p0xmq', 'b4u7ch5r1dtettcxguxah0af3', '1a509bu9ezuhl12gs68p5zd06v', '26sp1yimfd4w7g0urc3bkmkhy', 'dbmji1rfzog9rdxqymqv3bm3n', '1qpif85cqsuucat435kdorii0', '9yudgg2jz87vusr3tiegkrw9p', 'mzg8xi7i0sg1128ebt1q9h27s', 'cgw6soh9bi1ip37u9knkver7f', 'aeqa7zewj41sb6c3rymrxlobg', 'dz4jz1hi7osdnr27nq3jgo960', 'b2b64el0ouodw5upc2hgjv06h', 'cyavedqr4rhmmeiwm96dhx6pn', 'yqhdotedrqvc1nn8gic6ktoja', '4032poivapw61cipv1bo608pa', '6vw0cq1847vd1i66sich5okwd', 'bjj8qr7w1xr4j58kxv6gh148c', '1lf5hktm3ssxfzdf1kj6lhsoq', 's50qkjyj9kc61s9mc813gbe3n', 'v17xuf42hhez1talrnfqfmd5g', '9bn2o43ty0pa0kplycas93yu', '83qh28woglaud9u4haqaw1ov2', 'cl9u31ghagb2f1kxm1o52pi1v', '7gp36v687a02uqxfubazzjz7j', 'avz5wtj8nk8k82c4vzcrn2q42', 'e5cizq2vrux5rsaeipn7iac8q', 'e1nzs7mm5gj11gkl9ragzux4i', '4862cmu55n4vv7ptnpyitg0ii', '4yafq2pbu4x7cl26wswi5x5vm', 'oud8pum2lgbb1a5xo7colrs2i', 'x3iiscerqpr110igd3f97ca1a', '2d7causam0is18x495gzwhhbc', 'bz44gc611fcs0yh3a33qvwxzf', '2o93x4w4clinhlo3xpiq93f6z', 'v9ga753o0ajz190u5y409vuee']
+
+==============================
+ORIGINAL TITLE: Hull City
+VARIATION: Hull City
+PROMPT: show me Hull City events
+TIME: 2.11s
+RETURNED COUNT: 8 events
+RETURNED EVENTS: ['d2hthpt5sykgjuk0pov1sk8g8', '7f5vbw9xkaleppl9leh53nuh9', '9jesle0g73ex5l4yawg18n0ti', '7gitb7tgljruxac7avjpaqvte', '3b62jp9xom74a8a30uqhx8mcb', '6qarql75goe1ryu2bxw9xunbe', 'aqel88gza5afgcob03av7zyct', '37igqf6cn1ltbzs9st52x98ua']
+
+==============================
+ORIGINAL TITLE: Inter Willemstad
+VARIATION: Inter Willemstad
+PROMPT: show me Inter Willemstad events
+TIME: 2.27s
+RETURNED COUNT: 2 events
+RETURNED EVENTS: ['wvoaaeswru1h1fgvw7ivgjqiv', 'eriwjsnc7qkg1i0ru92np1ofy']
+
+==============================
+ORIGINAL TITLE: KF Egnatia
+VARIATION: KF Egnatia
+PROMPT: show me KF Egnatia events
+TIME: 2.43s
+RETURNED COUNT: 1 events
+RETURNED EVENTS: ['1lqhhku3j45ft12hryw1ixesid']
+
+==============================
+ORIGINAL TITLE: Kupa e Shqipërisë
+VARIATION: Kupa e Shqipërisë
+PROMPT: show me Kupa e Shqipërisë events
+TIME: 2.14s
+RETURNED COUNT: 1 events
+RETURNED EVENTS: ['1lqhhku3j45ft12hryw1ixesid']
+
+==============================
+ORIGINAL TITLE: Leeds United
+VARIATION: Leeds United
+PROMPT: show me Leeds United events
+TIME: 2.26s
+RETURNED COUNT: 36 events
+RETURNED EVENTS: ['citv5qqccse32ck2owk7gor6', '27n52u6grsm1bbrfnd8n4za1x', '7kox3i6n0eo6kt7ktb52nyuxq', '9ywy8jktl1qdk6t9vom5cmadp', 'b2awfpwokw8ijzhukx9626xx5', '7nid08k9eoo4as15ztjqofagl', 'cl42jcsovfc74w4nstna8txxa', 'ajmrrcrpspe6x1mo6au8u2gmf', '32h0h9inwuuob45r0rx8vzsuy', '25teaz8f0lvgieeyfq4tjqcgk', 'b5epm5zicfejli6oo1u6r7whz', 'qznnrbaahoay7jp5wbp9dpw7', '9gdar7jd4uaen7407ahs10125', '6z9wld6jc2etzhh1ll4idyojm', '9bgkt7i06gziwqnj6p9rhfjnb', 'aeqa7zewj41sb6c3rymrxlobg', 'dpwnv73wfc37bqck6qz52l5ke', 'b2b64el0ouodw5upc2hgjv06h', 'aet5syvdiz2e6zww9wr1vy50y', 'f07xkbq0kh9ti5f3u4yjpfusk', '2l5ejmaq9prqfh669y57ojji9', '6mnkkfresx6vczpzvj6yn9a49', 'bq2fgugmnq573844mg4v4z34b', '7x3jnk26w190lstki4dddlu77', '8vml3120y7hg6wz1ni3u0aoz8', '8n6nj58k0o61ff4bd76bps2jo', '1hi6i4e5qloi82g38f51x81tj', 'dlgtvsgvvucjg55cehyg3vpbt', 'cl9u31ghagb2f1kxm1o52pi1v', '769e39y8tydo2z4qcu851o6eo', 'btpob0oiotbcoldvajp04d78n', 'bi05tgzj9bn06y6o05mszkiot', 'bz44gc611fcs0yh3a33qvwxzf', 'a5dedxdjiiwl2nsuilbnm5qtr', '79ga3johgg5trfypls9f7t5em', 'd5eq9ud3yc3jnxjq49fhjljed']
+
+==============================
+ORIGINAL TITLE: Liga ACB
+VARIATION: Liga ACB
+PROMPT: show me Liga ACB events
+TIME: 2.53s
+RETURNED COUNT: 9 events
+RETURNED EVENTS: ['e4m9dn1obk2ggj9nlysqjmybg', '4nepdqtmbau8bn9x3h0t311cx', 'e7pf6d3vy2oujnqgthhgzz40j', '21jutnoi6hcon3fe2l510eibu', '6q6x5mmbf95o924l10ynhm5bo', '6hagxbnbfko8cpiy3kdxnqvx', '3b1z3lq2i1pjoghlcgo2t34kd', 'cxybsrp5kpout3e24vrq0mmq6', '86f7ykokvm91bu0t34mwzq6ez']
+
+==============================
+ORIGINAL TITLE: Live TV
+VARIATION: Live TV
+PROMPT: show me Live TV events
+TIME: 2.07s
+RETURNED COUNT: 24 events
+RETURNED EVENTS: ['1igu1g58tl5ai1kfht0sb88zd9', '1o7bjc4jgr1061fp86bbnwecsh', '1v4cq36w0gdxr11aljb272bm9h', '12jbhy06e2yjr13wqhc07iiri4', 'k2m0wnmutb1h1rvzv7oy7ztuo', '4qwxum4v4oiu1gmtcnb8qi989', '1hdujix6jmbr51p76azvuw43bt', 'dwf896ihjhh81svyxtcgc98zg', 'koji0x10wbwc1v6x98rs0frz0', '8s7lp9te3kqi12yrrof9g6967', 'jgkpaz643rkh1efwle6e47nht', '1p3h2mg4d038u10uzyhh5ziz4v', 'i48tppum0lzy1k4og8fq90c34', 'o5rzhf12mpyb1dk07c9pl9ulf', '19dmvk0ubquyc1r6eltfj0m6cb', '9e8rjnwj0x3i1jyks7zmkdhcy', '1o1v2002bqucp1njqqhxvqo8h3', '1fg77otjhtlfz1co0jqg98sr61', '1f78zf4sf2p741tcq86w5re53m', '1ptypj40bbpcl190j4lqu8inbn', 'q83748thn66z1t4qsgjiiybdj', '1r1e9jsj2zkru14rd0el06tilu', 'myhtc4bhd1wv13shvtb70nryf', '1ji2ayvqlmhf41gujooiyyxwgd']
+
+==============================
+ORIGINAL TITLE: MLB Network
+VARIATION: MLB Network
+PROMPT: show me MLB Network events
+TIME: 2.22s
+RETURNED COUNT: 2 events
+RETURNED EVENTS: ['189yhuq7d24xl1r503zshtcy76', '6wwi0y10ztxd12c2vg296aeho']
+
+==============================
+ORIGINAL TITLE: Manchester City
+VARIATION: Manchester City
+PROMPT: show me Manchester City events
+TIME: 2.4s
+RETURNED COUNT: 50 events
+RETURNED EVENTS: ['d4b6ysxbzkcg3tuzxwzl96juu', '8usc8450fangc7hrvkjy7ledw', '2z5aq3rwm7isl6bcfxg2kihu5', '4mbgdmzxt6u4q7lzyxdvgv530', 'c9d1rvj0h8cwcv23tmqpvliv5', 'maltbf3gkzwpbvrebd3c624q', 'et17b9qvy3pots5yfm23v0263', '60su8rkccg0mzby2s5tge2nfs', '2kvtpjyp8yvyncv52ztc1b493', '1ii79h80nmdv1vm8cwzypznb0', '3be9mkw4eord3q2g8ps9c37li', '7kgzvkq6sp65z7wjzzxdfrk52', '16symfhcvzdajbw1x6eert16a', '88xyuwykgyve8oujhb6qvjd6b', 'dbmg7cjcagnggpyq0i5p3gops', '6ugnj9wzun7jnluaf9g00c9ra', '6vwolv5qacq4fsnr8qlzm2ivd', 'a9n44m7vqtw78f0w2y23zvy7u', '6z9wld6jc2etzhh1ll4idyojm', 'bp1r8qaukash81lgmlwrxn5kc', '9bgkt7i06gziwqnj6p9rhfjnb', 'dxezboom1wzm4i0nhwmbrispt', 'cqzsgu17z8spq1qu1sms5zmh', 'bozzjl34gm0tkwfpc6lf31ao9', '9nrcxd8emdx2ajtax5z8dtcf8', '3vrf4wk7litwkd5r4udwli80o', '7jamg2wzmdaq5gdt9wsgqfki7', 'iwfv92n0mwlpjtw6gd3qnh11', '8u7i4u842z6r9wo9amkv2vq66', '4figomlg8hx7qbneca9lb40g5', '44s1faw4fh6fzd2tg17bwm69w', '13ox84f6jk1ts13jxldy8yf74', '9c0oflj2wlg88h17gd9mfucin', '6p0g8778y3q1tr66v5ac3tj1n', 'fwmuyk9hgc9wbhom3n55ctfo', '2vzrhks4a4dwbc83u5skrvxxj', 'cymseu70juchud81uuuzrhplo', 'ebe1jtzrwlpcp8txn44oakrif', '6ftho2c99sq3vxoe2n994853p', 'dskzqxv2ld5gvl11qw1xim4cs', '7r9tyxwef9zz4umqxmaua26z3', '5lyg7zkgp2r9r9ibw9h8gwmao', '36klzyfqracmi66gd7klc8pqi', 'c7gl02nvxdo5gpwr97vi2l0go', 'cey7dygkkkciec4bxqp30i8wy', 'bnipl7eiwg08m53xljvokr5t', 'bkgas08cx0f4d3yuj7b51bktg', '6po9u4m3cps44inv41hamot0l', '80zurrqnc5bmow16f51z3l5jp', '4o8bajmyacapihct81u63mtmj']
+
+==============================
+ORIGINAL TITLE: Middlesbrough
+VARIATION: Middlesbrough
+PROMPT: show me Middlesbrough events
+TIME: 1.83s
+RETURNED COUNT: 16 events
+RETURNED EVENTS: ['31nuk1o2jcuxhlcrdhwg3bie0', '9jesle0g73ex5l4yawg18n0ti', 'e5fge90on4icxjaykzb3r5dqo', '2fdwaa0ze6te1y74ozn2ub8ma', 'ae9meoajds6fg1vchbsv1xc26', '9h92nxhkzl2nzrvri3ed7qnhh', 'bjj8qr7w1xr4j58kxv6gh148c', '2ui7n2c3zdvnyn37c8mus1ihd', '1zbxbsllf12opyo63ssz51x4i', 'dsc585g7lxd9hn87p38s6f2wy', 'kp6e2etalovz5jusq1nzkllr', '1gfohmbvwx2ucn4x4axrfqr9i', '1kfjs5s0yq61znsxl419ujoez', 'cp9sovxjwtyp406xz9nqexqc', 'd5ynimirbmvcba8wc6i8mnm1o', 'f2bs060tlt4l2bqc01eabkv1r']

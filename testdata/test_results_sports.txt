@@ -1,36 +1,11 @@
-
-==============================
-SPORT: Basketball
-PROMPT: show me Basketball events
-TIME: 2.49s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['cxybsrp5kpout3e24vrq0mmq6']
-EXTRA: ['y1wnjahige7i1xwh40sfsr3ue', 'apn9urlfqxt91elkxymfpg697', '17y8bgdndzvik10czraukavro6', 'orec6w5zq3gg1u4s7w2l9fvmg', '1leiafaz47mp91m3qbeti5mgpc', 'k0w4qq6nh8qi1qhj57z417es8', '3uzibghyow9x15pwi0tz45t2e', 'osriq2jieatl1ed45mh83fo2h', 'j7dkfhlyc3b51567z8urzht7x', 'l4iph9pf3fbz1phqvq6drpwa7', '5w0g1le7hym21i70kckcuaan6', '1ggu9c28kvjff1r8qci08f2qpu', '82kr2x2tbij516kggqlnpjxgj', '11o7b9tax9y981r9sreav5wy8w', '1ffvla5a2i0ss1t6qtt6a9w747', '85r0qeh3jt2w1qqvkzwnea5r2', '1suzjznft8qyv15dwosvoo2ih3', '6b9qefnanmyp1ktdrbfcw5yaq', '89056q05klpo5gwfo85piz63p', '1ubyebr4a00ub19yxkdkiekux0', 'paxwip2467sk1b1wmlptp3nri', '10636kw9vvkes1kq2b3dwrddw4', 'yor2rupq2ffn1b4gernsogh5l', 'm3mcaymiwnjh1sppqbwzv0n6k', 'tjr5e670dwy5126nloo36feik', '16ro9h0l1ogoc1mhuswbos2cch', 'k1ohetj6vjx911p6hmkq0q1lp', '14g7uc0jsr7zeep6cal5sd9tj', 'gojtk09cp8ie1818uizsn2jba', 'f70968pzfcf1wt00su65uur7', 'lr82qt9lxool1fiyq06stdtzk', '1wowzolsr5ny71tur3jmvpgkkk', '9rztigdi26ou186089s5ppdov', 'x17j2t0oa9hw1x9ew3y4yomew', '1ptmub1sc2sdr1a6d2hgpe8n3z']
+SPORT TEST RESULTS
+==================
 
 ==============================
 SPORT: Soccer
 PROMPT: show me Soccer events
-TIME: 2.78s
+TIME: 2.89s
 RESULT: FAIL
-MISSING COUNT: 33 events
-MISSING EVENTS: ['b88y3oiec0jxgl1w0g1h08x72', 'c9mne2q85t2bx5kpdy4ikpnyh', '5loo0sr80kz224yrza6be4u8b', '9c0oflj2wlg88h17gd9mfucin', '6kzfnpjddqgzxtxp72zookk0p', 'bd0733y3wy0a67uukwaz6n2zs', 'c2alwaqvjyj59wnqhd4dhbp3d', 'du8mszw2w6fj8nkc6qcmn2sjw', '3ccqc9yic68yl2gzofj0xeff4', 'e5fge90on4icxjaykzb3r5dqo', 'atd6mtq5juql64se7f25drz5u', '93skipkgsa6y7i6znm0kkdtmj', 'akymtnsipy9qcgib3q63r2q4a', 'd2hthpt5sykgjuk0pov1sk8g8', '7guel1q7doj6awosr4j2ne50p', 'bt1dou71ytwmwu3paqkls3fm6', '2m3ljwe5mzkq951s43k6d8elj', '1nr35lkxeva6313fmwe9k4okje', '1a1fyk6w54bmgpjhyfsigvkrn', '36gc459p1381qprdgteyylawk', 'amxppnhs099fxq4nojqp1m1z3', '4032poivapw61cipv1bo608pa', '4sdaz0si2zsuryucpz25razet', 'dx2npphipztovw4xhe6r9apeb', '4kf4grgznuipe2cvajkbj2i7q', '9o730rs1r3g25mm1gwep9vwop', '8u7i4u842z6r9wo9amkv2vq66', '1sk48qflo2gtp1d5rlk4e0q1e5', '15hl73pk3owc21pyvxxqfl0rnf', '5y9cnj8u1e2jvehmg36pse6xn', 'htt7hlk79hpfi5y8jazkdcik', '5wfpepoc8wz6adb2tbjx7rq7d', 'd74i7kbvlvmrn4vahnsuhaqxm']
-EXTRA: ['e85dubqbp9t1dl35blsbf3qgx', '1b8j3hevyd4jf1crxfvm2epn6z', 'hsrgdth5q75y12nckl4rjl7yi', 'nzkqnr811huv1gs4ur9vmrrtp', 's8er750x5svz1nnkjn3shbvt', '1lgw7nf5sbixv1j1zs7ii2mfht', '1c60eots044ml19yxlofqndvr4', '7agxt2szhf3y147rjrdm742n2', '1vgwvhn2j14b91cas5vhmgbnxj', '1wtr78k6p3lfcwcbakk17rt2h', 'iws7am6hty0m1f7x91osnhwpd', '1hao3u63f4787mlfbwbaxtwqc', '1fuv8f0ucrt1m1gzubvujp70r2', '1mgoyxo54nld61qwqaf3g8x5fc', '1vodgi70q7mn81p3jxo8u0i3nb', '1lf5hktm3ssxfzdf1kj6lhsoq', 'fvo6isyy639011nps4vpk146j', '5r8lcj933ctjkqf1n61kz0dyb', '1u4eontfwxnxz168fjculm9qry', '1bj4jd6j0teex13g4ni5x002pl', 'p2i2km18bk871ozbj3qsual1o', '7vl69ept8a3f19ip4golprddt', '2nhttz43rv2q1c2mxvgns4uis', '1gww4os7r0oov1h8kkdvs15d8j', 'q89efcncojnr17dggk2t0pmzk', 'ebr7wi4h18uj1599fkkuyjftg', '287ciuzpto55o7z3lj5ck8bzu', '1lzu82pxn1gor1e6iewzi78g3u', '1vk4x9y7w7fse1xf7kq4w23xgz', '74zhq2e6o5jjivx5cc83tz9vs', '183xf7lfqc8xk1p72echjz1tj4', '1il49b6hsj63z1ovfd16yu98rh', '1t3atehw54xk0118wvpealgdg8']
-
-==============================
-SPORT: Basketball
-PROMPT: show me Basketball events
-TIME: 2.94s
-RESULT: FAIL
-MISSING COUNT: 1 events
-MISSING EVENTS: ['cxybsrp5kpout3e24vrq0mmq6']
-EXTRA: ['k1ohetj6vjx911p6hmkq0q1lp', 'y1wnjahige7i1xwh40sfsr3ue', '11o7b9tax9y981r9sreav5wy8w', 'osriq2jieatl1ed45mh83fo2h', '1ffvla5a2i0ss1t6qtt6a9w747', '5w0g1le7hym21i70kckcuaan6', '1ggu9c28kvjff1r8qci08f2qpu', '82kr2x2tbij516kggqlnpjxgj', '9rztigdi26ou186089s5ppdov', '6b9qefnanmyp1ktdrbfcw5yaq', 'f70968pzfcf1wt00su65uur7', 'j7dkfhlyc3b51567z8urzht7x', 'm3mcaymiwnjh1sppqbwzv0n6k', 'gojtk09cp8ie1818uizsn2jba', 'k0w4qq6nh8qi1qhj57z417es8', '3uzibghyow9x15pwi0tz45t2e', 'x17j2t0oa9hw1x9ew3y4yomew', '1leiafaz47mp91m3qbeti5mgpc', 'orec6w5zq3gg1u4s7w2l9fvmg', '10636kw9vvkes1kq2b3dwrddw4', 'apn9urlfqxt91elkxymfpg697', 'paxwip2467sk1b1wmlptp3nri', '1ubyebr4a00ub19yxkdkiekux0', '89056q05klpo5gwfo85piz63p', '1wowzolsr5ny71tur3jmvpgkkk', 'l4iph9pf3fbz1phqvq6drpwa7', 'gzgwps0jhbwd1qbq616118xiy', '1suzjznft8qyv15dwosvoo2ih3', 'tjr5e670dwy5126nloo36feik', '1ptmub1sc2sdr1a6d2hgpe8n3z', 'yor2rupq2ffn1b4gernsogh5l', '85r0qeh3jt2w1qqvkzwnea5r2', '17y8bgdndzvik10czraukavro6', 'lr82qt9lxool1fiyq06stdtzk', '14g7uc0jsr7zeep6cal5sd9tj']
-
-==============================
-SPORT: Soccer
-PROMPT: show me Soccer events
-TIME: 3.23s
-RESULT: FAIL
-MISSING COUNT: 33 events
-MISSING EVENTS: ['d74i7kbvlvmrn4vahnsuhaqxm', 'amxppnhs099fxq4nojqp1m1z3', '7guel1q7doj6awosr4j2ne50p', 'dx2npphipztovw4xhe6r9apeb', 'htt7hlk79hpfi5y8jazkdcik', '5wfpepoc8wz6adb2tbjx7rq7d', 'c2alwaqvjyj59wnqhd4dhbp3d', '1a1fyk6w54bmgpjhyfsigvkrn', '5loo0sr80kz224yrza6be4u8b', 'b88y3oiec0jxgl1w0g1h08x72', 'c9mne2q85t2bx5kpdy4ikpnyh', '5y9cnj8u1e2jvehmg36pse6xn', 'akymtnsipy9qcgib3q63r2q4a', '1xii66ibns9qo1wq2rdkbwovlh', '2m3ljwe5mzkq951s43k6d8elj', '93skipkgsa6y7i6znm0kkdtmj', '8u7i4u842z6r9wo9amkv2vq66', 'e5fge90on4icxjaykzb3r5dqo', 'd2hthpt5sykgjuk0pov1sk8g8', '6kzfnpjddqgzxtxp72zookk0p', '4sdaz0si2zsuryucpz25razet', 'bt1dou71ytwmwu3paqkls3fm6', '15hl73pk3owc21pyvxxqfl0rnf', '3ccqc9yic68yl2gzofj0xeff4', 'bd0733y3wy0a67uukwaz6n2zs', '4kf4grgznuipe2cvajkbj2i7q', '1sk48qflo2gtp1d5rlk4e0q1e5', '9o730rs1r3g25mm1gwep9vwop', '36gc459p1381qprdgteyylawk', 'atd6mtq5juql64se7f25drz5u', '4032poivapw61cipv1bo608pa', '9c0oflj2wlg88h17gd9mfucin', 'du8mszw2w6fj8nkc6qcmn2sjw']
-EXTRA: ['1mgoyxo54nld61qwqaf3g8x5fc', '183xf7lfqc8xk1p72echjz1tj4', '74zhq2e6o5jjivx5cc83tz9vs', 'p2i2km18bk871ozbj3qsual1o', 'q89efcncojnr17dggk2t0pmzk', '1u4eontfwxnxz168fjculm9qry', '1gww4os7r0oov1h8kkdvs15d8j', '1t3atehw54xk0118wvpealgdg8', '1vk4x9y7w7fse1xf7kq4w23xgz', '1lzu82pxn1gor1e6iewzi78g3u', '1lgw7nf5sbixv1j1zs7ii2mfht', 'ebr7wi4h18uj1599fkkuyjftg', '9auu98eywgej0bdyr07x4youy', '1fuv8f0ucrt1m1gzubvujp70r2', 's8er750x5svz1nnkjn3shbvt', '1c60eots044ml19yxlofqndvr4', '1hao3u63f4787mlfbwbaxtwqc', 'e85dubqbp9t1dl35blsbf3qgx', '1bj4jd6j0teex13g4ni5x002pl', '1wtr78k6p3lfcwcbakk17rt2h', '1il49b6hsj63z1ovfd16yu98rh', '1lf5hktm3ssxfzdf1kj6lhsoq', '1b8j3hevyd4jf1crxfvm2epn6z', '1vgwvhn2j14b91cas5vhmgbnxj', '7agxt2szhf3y147rjrdm742n2', 'hsrgdth5q75y12nckl4rjl7yi', 'iws7am6hty0m1f7x91osnhwpd', 'fvo6isyy639011nps4vpk146j', '2nhttz43rv2q1c2mxvgns4uis', 'nzkqnr811huv1gs4ur9vmrrtp', '1vodgi70q7mn81p3jxo8u0i3nb', '5r8lcj933ctjkqf1n61kz0dyb', '1f1lbvk3kv7tv1eeuzcki0o90q']
+MISSING COUNT: 13 events
+MISSING EVENTS: ['18q2bntnxx8ax1xufx1zaqesrs', 'wvoaaeswru1h1fgvw7ivgjqiv', '1lqhhku3j45ft12hryw1ixesid', '15kgyxnzfpvmi0mrniacfbr8d', '1mwm66cyrsfvo17sg85kjdhcgh', '52bcdleds7icg9x6oht2mltti', '7r9tyxwef9zz4umqxmaua26z3', 'kp6e2etalovz5jusq1nzkllr', 'eu9nfjdiyp96ml2xfx2yj2g6y', '3b62jp9xom74a8a30uqhx8mcb', 'p58vqrq0ybg13cjo1xc6331f', '7nid08k9eoo4as15ztjqofagl', '6sh20896jyzm1acs7afd8hx4v']
+EXTRA: ['uqelahv6i76j4e1c6he99b3k', 'c2alwaqvjyj59wnqhd4dhbp3d', 'b6qki6i91cg461x5y0wkwimhv', '1fuv8f0ucrt1m1gzubvujp70r2', '74zhq2e6o5jjivx5cc83tz9vs', 'o3e8fh4v91la1lxzryb5t04iv', 'bd0733y3wy0a67uukwaz6n2zs', '6qr4uhfgtvgufun5143jwqfnf', '1ljles1bswbzv17owv4ofjjjv8', 'koji0x10wbwc1v6x98rs0frz0', '3ivvxw3s1zlgm31l9kr21g2eb', '8k9wv4s2j1hgjw9kly8mb27ft', '4jm29gbz0novk0r5xd3m8u1ih', 'cq8leglzjx2jspr7o43fzo6p1', '8k3j0hzpc7l05zqabveb7yily', 'r7y5q0ozkulk1cyo1ws82fo29', 'e85dubqbp9t1dl35blsbf3qgx', '3ok0r6r6rv795rddbhu5djp4d', '10eab4u4r391h1pe0mybbzwbmt', '4yx4lmkw1gmnd2eh2dpkd93le', '1hkb3nz77i2yr106y5ffbecm9p', 'em16vp0q7ht52unb7sxqb3g6a', '12apfz6aduhcm699cffayfcch', '5f81e9bj5o1kerxqyeig15utq', '1hao3u63f4787mlfbwbaxtwqc', '1u4eontfwxnxz168fjculm9qry', 'f40ydhl9l7zay3h9r5udm810y', 'ealnl6yf22doltq44l32o31be', '600v33hqj9k1m28qrgo5hs83q', '1b8j3hevyd4jf1crxfvm2epn6z', '1lf5hktm3ssxfzdf1kj6lhsoq', 'lskvdzkycqpq11b9ba147f4hg', 'fs1h30zd8ctjkjav42mfq27f', '8jtk59tqx3knnjhynbxycxcsd', 'b8x1v4beojdtejh3qpf3hcrp9', '9auu98eywgej0bdyr07x4youy', 'cj7wxx2ehhph6tl6m2lpdjwdm', '1wtr78k6p3lfcwcbakk17rt2h', '35gxxdv5ul84i147dgg7xa3jk', '9weadpzifvxny9eb4dbmzif3o', '6dyepj3h5vsyoeve7axhtkn0o', 'p2i2km18bk871ozbj3qsual1o', '1mgoyxo54nld61qwqaf3g8x5fc', 'bsqq362l27exocj7jlec0ml5k', '7lpo677l3emmcyaqnzb0k7wgc', '7agxt2szhf3y147rjrdm742n2', 'd74i7kbvlvmrn4vahnsuhaqxm', 'kg4m2qzzj8uz1w4j6rsvl0pfk']

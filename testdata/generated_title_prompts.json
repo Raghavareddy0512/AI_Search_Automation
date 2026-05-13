@@ -1,0 +1,279 @@
+{
+    "prompts": [
+        {
+            "original_title": "AC Milan",
+            "variation": "AC Milan",
+            "prompt": "show me AC Milan events"
+        },
+        {
+            "original_title": "Al Arabi",
+            "variation": "Al Arabi",
+            "prompt": "show me Al Arabi events"
+        },
+        {
+            "original_title": "Atalanta",
+            "variation": "Atalanta",
+            "prompt": "show me Atalanta events"
+        },
+        {
+            "original_title": "Atomic Ngom\u00e9",
+            "variation": "Atomic Ngom\u00e9",
+            "prompt": "show me Atomic Ngom\u00e9 events"
+        },
+        {
+            "original_title": "BaseBall",
+            "variation": "BaseBall",
+            "prompt": "show me BaseBall events"
+        },
+        {
+            "original_title": "Basketball",
+            "variation": "Basketball",
+            "prompt": "show me Basketball events"
+        },
+        {
+            "original_title": "Bath Estate FC",
+            "variation": "Bath Estate FC",
+            "prompt": "show me Bath Estate FC events"
+        },
+        {
+            "original_title": "Bayer Leverkusen",
+            "variation": "Bayer Leverkusen",
+            "prompt": "show me Bayer Leverkusen events"
+        },
+        {
+            "original_title": "Bilbao",
+            "variation": "Bilbao",
+            "prompt": "show me Bilbao events"
+        },
+        {
+            "original_title": "Bologna",
+            "variation": "Bologna",
+            "prompt": "show me Bologna events"
+        },
+        {
+            "original_title": "Boulogne",
+            "variation": "Boulogne",
+            "prompt": "show me Boulogne events"
+        },
+        {
+            "original_title": "Bourg-P\u00e9ronnas",
+            "variation": "Bourg-P\u00e9ronnas",
+            "prompt": "show me Bourg-P\u00e9ronnas events"
+        },
+        {
+            "original_title": "C.R.K.S.V. Jong Colombia",
+            "variation": "C.R.K.S.V. Jong Colombia",
+            "prompt": "show me C.R.K.S.V. Jong Colombia events"
+        },
+        {
+            "original_title": "C.R.K.S.V. Jong Holland",
+            "variation": "C.R.K.S.V. Jong Holland",
+            "prompt": "show me C.R.K.S.V. Jong Holland events"
+        },
+        {
+            "original_title": "Crystal Palace",
+            "variation": "Crystal Palace",
+            "prompt": "show me Crystal Palace events"
+        },
+        {
+            "original_title": "Cura\u00e7ao Prom\u00e9 Divishon",
+            "variation": "Cura\u00e7ao Prom\u00e9 Divishon",
+            "prompt": "show me Cura\u00e7ao Prom\u00e9 Divishon events"
+        },
+        {
+            "original_title": "DFA Premier League",
+            "variation": "DFA Premier League",
+            "prompt": "show me DFA Premier League events"
+        },
+        {
+            "original_title": "Division 1",
+            "variation": "Division 1",
+            "prompt": "show me Division 1 events"
+        },
+        {
+            "original_title": "EFL Championship",
+            "variation": "EFL Championship",
+            "prompt": "show me EFL Championship events"
+        },
+        {
+            "original_title": "FC Dinamo City",
+            "variation": "FC Dinamo City",
+            "prompt": "show me FC Dinamo City events"
+        },
+        {
+            "original_title": "Fast Linear Channels",
+            "variation": "Fast Linear Channels",
+            "prompt": "show me Fast Linear Channels events"
+        },
+        {
+            "original_title": "First Division League",
+            "variation": "First Division League",
+            "prompt": "show me First Division League events"
+        },
+        {
+            "original_title": "Football",
+            "variation": "Football",
+            "prompt": "show me Football events"
+        },
+        {
+            "original_title": "Frauen Bundesliga",
+            "variation": "Frauen Bundesliga",
+            "prompt": "show me Frauen Bundesliga events"
+        },
+        {
+            "original_title": "Gulf United",
+            "variation": "Gulf United",
+            "prompt": "show me Gulf United events"
+        },
+        {
+            "original_title": "Hull City",
+            "variation": "Hull City",
+            "prompt": "show me Hull City events"
+        },
+        {
+            "original_title": "Inter Willemstad",
+            "variation": "Inter Willemstad",
+            "prompt": "show me Inter Willemstad events"
+        },
+        {
+            "original_title": "KF Egnatia",
+            "variation": "KF Egnatia",
+            "prompt": "show me KF Egnatia events"
+        },
+        {
+            "original_title": "Kupa e Shqip\u00ebris\u00eb",
+            "variation": "Kupa e Shqip\u00ebris\u00eb",
+            "prompt": "show me Kupa e Shqip\u00ebris\u00eb events"
+        },
+        {
+            "original_title": "Leeds United",
+            "variation": "Leeds United",
+            "prompt": "show me Leeds United events"
+        },
+        {
+            "original_title": "Liga ACB",
+            "variation": "Liga ACB",
+            "prompt": "show me Liga ACB events"
+        },
+        {
+            "original_title": "Live TV",
+            "variation": "Live TV",
+            "prompt": "show me Live TV events"
+        },
+        {
+            "original_title": "MLB Network",
+            "variation": "MLB Network",
+            "prompt": "show me MLB Network events"
+        },
+        {
+            "original_title": "Manchester City",
+            "variation": "Manchester City",
+            "prompt": "show me Manchester City events"
+        },
+        {
+            "original_title": "Middlesbrough",
+            "variation": "Middlesbrough",
+            "prompt": "show me Middlesbrough events"
+        },
+        {
+            "original_title": "Millwall",
+            "variation": "Millwall",
+            "prompt": "show me Millwall events"
+        },
+        {
+            "original_title": "NFL Game Pass",
+            "variation": "NFL Game Pass",
+            "prompt": "show me NFL Game Pass events"
+        },
+        {
+            "original_title": "Napoli",
+            "variation": "Napoli",
+            "prompt": "show me Napoli events"
+        },
+        {
+            "original_title": "National 1",
+            "variation": "National 1",
+            "prompt": "show me National 1 events"
+        },
+        {
+            "original_title": "Premier League",
+            "variation": "Premier League",
+            "prompt": "show me Premier League events"
+        },
+        {
+            "original_title": "R.K.S.V. Centro Dominguito",
+            "variation": "R.K.S.V. Centro Dominguito",
+            "prompt": "show me R.K.S.V. Centro Dominguito events"
+        },
+        {
+            "original_title": "RB Leipzig",
+            "variation": "RB Leipzig",
+            "prompt": "show me RB Leipzig events"
+        },
+        {
+            "original_title": "RKSV Scherpenheuvel",
+            "variation": "RKSV Scherpenheuvel",
+            "prompt": "show me RKSV Scherpenheuvel events"
+        },
+        {
+            "original_title": "Rally TV",
+            "variation": "Rally TV",
+            "prompt": "show me Rally TV events"
+        },
+        {
+            "original_title": "Real Madrid Baloncesto",
+            "variation": "Real Madrid Baloncesto",
+            "prompt": "show me Real Madrid Baloncesto events"
+        },
+        {
+            "original_title": "S.V. Victory Boys",
+            "variation": "S.V. Victory Boys",
+            "prompt": "show me S.V. Victory Boys events"
+        },
+        {
+            "original_title": "Serie A TIM",
+            "variation": "Serie A TIM",
+            "prompt": "show me Serie A TIM events"
+        },
+        {
+            "original_title": "Soccer",
+            "variation": "Soccer",
+            "prompt": "show me Soccer events"
+        },
+        {
+            "original_title": "Southampton",
+            "variation": "Southampton",
+            "prompt": "show me Southampton events"
+        },
+        {
+            "original_title": "Tottenham Hotspur",
+            "variation": "Tottenham Hotspur",
+            "prompt": "show me Tottenham Hotspur events"
+        },
+        {
+            "original_title": "US Zilimadjou",
+            "variation": "US Zilimadjou",
+            "prompt": "show me US Zilimadjou events"
+        },
+        {
+            "original_title": "Valencia",
+            "variation": "Valencia",
+            "prompt": "show me Valencia events"
+        },
+        {
+            "original_title": "We United FC",
+            "variation": "We United FC",
+            "prompt": "show me We United FC events"
+        },
+        {
+            "original_title": "Zaragoza",
+            "variation": "Zaragoza",
+            "prompt": "show me Zaragoza events"
+        },
+        {
+            "original_title": "beIN SPORTS",
+            "variation": "beIN SPORTS",
+            "prompt": "show me beIN SPORTS events"
+        }
+    ]
+}

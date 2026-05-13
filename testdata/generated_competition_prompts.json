@@ -1,293 +1,6 @@
 {
     "prompts": [
         {
-            "competition_id": "1r097lpxe0xn03ihb7wi98kao",
-            "competition_title": "Serie A TIM",
-            "prompt": "show me Serie A TIM events",
-            "expected_article_ids": [
-                "15kgyxnzfpvmi0mrniacfbr8d",
-                "eu9nfjdiyp96ml2xfx2yj2g6y",
-                "ao4ycrarmu58skzod0zdcvzvo",
-                "6kzfnpjddqgzxtxp72zookk0p",
-                "4sdaz0si2zsuryucpz25razet",
-                "3ccqc9yic68yl2gzofj0xeff4",
-                "amxppnhs099fxq4nojqp1m1z3",
-                "c9mne2q85t2bx5kpdy4ikpnyh",
-                "1a1fyk6w54bmgpjhyfsigvkrn",
-                "2m3ljwe5mzkq951s43k6d8elj",
-                "bt1dou71ytwmwu3paqkls3fm6",
-                "bsnup1euuzl1015kfls0gu19m",
-                "9yvovngn51xljmu73cnb9x12",
-                "blasd8u7lbreb1v2kpd2quk5h",
-                "eknx733tptjnp06ac05f8omgb",
-                "abzf95m3y4hnggbp5cpucerxw",
-                "tl8arezc2ie2uy3xi9jezdg"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "15kgyxnzfpvmi0mrniacfbr8d",
-                "eu9nfjdiyp96ml2xfx2yj2g6y",
-                "ao4ycrarmu58skzod0zdcvzvo",
-                "6kzfnpjddqgzxtxp72zookk0p",
-                "4sdaz0si2zsuryucpz25razet",
-                "3ccqc9yic68yl2gzofj0xeff4",
-                "amxppnhs099fxq4nojqp1m1z3",
-                "c9mne2q85t2bx5kpdy4ikpnyh",
-                "1a1fyk6w54bmgpjhyfsigvkrn",
-                "2m3ljwe5mzkq951s43k6d8elj"
-            ],
-            "expected_highlight": [
-                "bt1dou71ytwmwu3paqkls3fm6",
-                "bsnup1euuzl1015kfls0gu19m",
-                "9yvovngn51xljmu73cnb9x12",
-                "blasd8u7lbreb1v2kpd2quk5h",
-                "eknx733tptjnp06ac05f8omgb",
-                "abzf95m3y4hnggbp5cpucerxw",
-                "tl8arezc2ie2uy3xi9jezdg"
-            ]
-        },
-        {
-            "competition_id": "1lw93acanx4d91ei54hzebevq6",
-            "competition_title": "Benavidez v Zurdo",
-            "prompt": "show me Benavidez v Zurdo events",
-            "expected_article_ids": [
-                "bkcnu9th6x901lhwe1thsxgyq"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [],
-            "expected_highlight": [
-                "bkcnu9th6x901lhwe1thsxgyq"
-            ]
-        },
-        {
-            "competition_id": "b5udgm9vakjqz8dcmy5b2g0xt",
-            "competition_title": "National League",
-            "prompt": "show me National League events",
-            "expected_article_ids": [
-                "1xii66ibns9qo1wq2rdkbwovlh",
-                "1nr35lkxeva6313fmwe9k4okje",
-                "hn21i8emn3o81d065pigxuh0w",
-                "5kulmol9h32c1j5qkh2flr4cn"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "1xii66ibns9qo1wq2rdkbwovlh",
-                "1nr35lkxeva6313fmwe9k4okje"
-            ],
-            "expected_highlight": [
-                "hn21i8emn3o81d065pigxuh0w",
-                "5kulmol9h32c1j5qkh2flr4cn"
-            ]
-        },
-        {
-            "competition_id": "2kwbbcootiqqgmrzs6o5inle5",
-            "competition_title": "Premier League",
-            "prompt": "show me Premier League events",
-            "expected_article_ids": [
-                "7r9tyxwef9zz4umqxmaua26z3",
-                "7nid08k9eoo4as15ztjqofagl",
-                "dcmyp3a0hj89kt6usfs3974xb",
-                "5y9cnj8u1e2jvehmg36pse6xn",
-                "htt7hlk79hpfi5y8jazkdcik",
-                "du8mszw2w6fj8nkc6qcmn2sjw",
-                "8u7i4u842z6r9wo9amkv2vq66",
-                "dx2npphipztovw4xhe6r9apeb",
-                "4032poivapw61cipv1bo608pa",
-                "5wfpepoc8wz6adb2tbjx7rq7d",
-                "akymtnsipy9qcgib3q63r2q4a",
-                "9c0oflj2wlg88h17gd9mfucin",
-                "bn6dduokrajrimulhyndk6fe3",
-                "1ogq49bphhmdrckjv3sawdj3g",
-                "avz5wtj8nk8k82c4vzcrn2q42",
-                "27hcmz3skkkijughjqvzie6hw"
-            ],
-            "expected_upcoming": [
-                "7r9tyxwef9zz4umqxmaua26z3"
-            ],
-            "expected_catchup": [
-                "7nid08k9eoo4as15ztjqofagl",
-                "dcmyp3a0hj89kt6usfs3974xb",
-                "5y9cnj8u1e2jvehmg36pse6xn",
-                "htt7hlk79hpfi5y8jazkdcik",
-                "du8mszw2w6fj8nkc6qcmn2sjw",
-                "8u7i4u842z6r9wo9amkv2vq66",
-                "dx2npphipztovw4xhe6r9apeb",
-                "4032poivapw61cipv1bo608pa",
-                "5wfpepoc8wz6adb2tbjx7rq7d",
-                "akymtnsipy9qcgib3q63r2q4a"
-            ],
-            "expected_highlight": [
-                "9c0oflj2wlg88h17gd9mfucin",
-                "bn6dduokrajrimulhyndk6fe3",
-                "1ogq49bphhmdrckjv3sawdj3g",
-                "avz5wtj8nk8k82c4vzcrn2q42",
-                "27hcmz3skkkijughjqvzie6hw"
-            ]
-        },
-        {
-            "competition_id": "4cxogf67l5rq2a40gegqiwq38",
-            "competition_title": "Super League Basketball",
-            "prompt": "show me Super League Basketball events",
-            "expected_article_ids": [
-                "2b19sao6yz9lx11ysn7so2ibb",
-                "2kefm7nhw746yaipqk5dki3gf",
-                "evfiirvtbimoeebm7qkw9ev91",
-                "a75v03a2yxf4j2b39wiuyqt9",
-                "88kzaqc7499ss9flfwvty4ve",
-                "5enzogw1sb5z8p7xr0iimrsic",
-                "esuov6eohift40uvoijsuyl7p",
-                "3cn3adzbx8i2vrq96dal6um09"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "2b19sao6yz9lx11ysn7so2ibb",
-                "2kefm7nhw746yaipqk5dki3gf",
-                "evfiirvtbimoeebm7qkw9ev91",
-                "a75v03a2yxf4j2b39wiuyqt9"
-            ],
-            "expected_highlight": [
-                "88kzaqc7499ss9flfwvty4ve",
-                "5enzogw1sb5z8p7xr0iimrsic",
-                "esuov6eohift40uvoijsuyl7p",
-                "3cn3adzbx8i2vrq96dal6um09"
-            ]
-        },
-        {
-            "competition_id": "6j5h07ex45at2psbahsly28vc",
-            "competition_title": "Liga ACB",
-            "prompt": "show me Liga ACB events",
-            "expected_article_ids": [
-                "cxybsrp5kpout3e24vrq0mmq6",
-                "e4m9dn1obk2ggj9nlysqjmybg",
-                "21jutnoi6hcon3fe2l510eibu",
-                "e7pf6d3vy2oujnqgthhgzz40j",
-                "6q6x5mmbf95o924l10ynhm5bo"
-            ],
-            "expected_upcoming": [
-                "cxybsrp5kpout3e24vrq0mmq6",
-                "e4m9dn1obk2ggj9nlysqjmybg"
-            ],
-            "expected_catchup": [
-                "21jutnoi6hcon3fe2l510eibu",
-                "e7pf6d3vy2oujnqgthhgzz40j"
-            ],
-            "expected_highlight": [
-                "6q6x5mmbf95o924l10ynhm5bo"
-            ]
-        },
-        {
-            "competition_id": "9bjsqdvseago1twel9jezqyiy",
-            "competition_title": "Boxing Test",
-            "prompt": "show me Boxing Test events",
-            "expected_article_ids": [
-                "1o581kfry8lx71kgwfgb4wrvy0"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "1o581kfry8lx71kgwfgb4wrvy0"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "2z7257m7hj58zuxcjrsg4erzc",
-            "competition_title": "Frauen Bundesliga",
-            "prompt": "show me Frauen Bundesliga events",
-            "expected_article_ids": [
-                "52bcdleds7icg9x6oht2mltti",
-                "6s9wozphvcdqdberfep1n6hr5",
-                "7guel1q7doj6awosr4j2ne50p",
-                "93skipkgsa6y7i6znm0kkdtmj",
-                "b88y3oiec0jxgl1w0g1h08x72"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "52bcdleds7icg9x6oht2mltti",
-                "6s9wozphvcdqdberfep1n6hr5",
-                "7guel1q7doj6awosr4j2ne50p",
-                "93skipkgsa6y7i6znm0kkdtmj",
-                "b88y3oiec0jxgl1w0g1h08x72"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "4oogyu6o156iphvdvphwpck10",
-            "competition_title": "UEFA Champions League",
-            "prompt": "show me UEFA Champions League events",
-            "expected_article_ids": [
-                "atd6mtq5juql64se7f25drz5u"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "atd6mtq5juql64se7f25drz5u"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "4c1nfi2j1m731hcay25fcgndq",
-            "competition_title": "UEFA Europa League",
-            "prompt": "show me UEFA Europa League events",
-            "expected_article_ids": [
-                "36gc459p1381qprdgteyylawk",
-                "4kf4grgznuipe2cvajkbj2i7q"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "36gc459p1381qprdgteyylawk",
-                "4kf4grgznuipe2cvajkbj2i7q"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "722fdbecxzcq9788l6jqclzlw",
-            "competition_title": "2. Bundesliga",
-            "prompt": "show me 2. Bundesliga events",
-            "expected_article_ids": [
-                "9o730rs1r3g25mm1gwep9vwop",
-                "c2alwaqvjyj59wnqhd4dhbp3d"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "9o730rs1r3g25mm1gwep9vwop",
-                "c2alwaqvjyj59wnqhd4dhbp3d"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "7ntvbsyq31jnzoqoa8850b9b8",
-            "competition_title": "EFL Championship",
-            "prompt": "show me EFL Championship events",
-            "expected_article_ids": [
-                "6rk0ewnopcltxctjl5nqi9fne",
-                "3b62jp9xom74a8a30uqhx8mcb",
-                "e5fge90on4icxjaykzb3r5dqo",
-                "d2hthpt5sykgjuk0pov1sk8g8"
-            ],
-            "expected_upcoming": [
-                "6rk0ewnopcltxctjl5nqi9fne"
-            ],
-            "expected_catchup": [
-                "3b62jp9xom74a8a30uqhx8mcb",
-                "e5fge90on4icxjaykzb3r5dqo",
-                "d2hthpt5sykgjuk0pov1sk8g8"
-            ],
-            "expected_highlight": []
-        },
-        {
-            "competition_id": "bockl24qpr7ryjl8b6obukga",
-            "competition_title": "National League N / S",
-            "prompt": "show me National League N / S events",
-            "expected_article_ids": [
-                "1sk48qflo2gtp1d5rlk4e0q1e5",
-                "15hl73pk3owc21pyvxxqfl0rnf"
-            ],
-            "expected_upcoming": [],
-            "expected_catchup": [
-                "1sk48qflo2gtp1d5rlk4e0q1e5",
-                "15hl73pk3owc21pyvxxqfl0rnf"
-            ],
-            "expected_highlight": []
-        },
-        {
             "competition_id": "6rqw7bnjivfrz93gae0lboea4",
             "competition_title": "beIN SPORTS",
             "prompt": "show me beIN SPORTS events",
@@ -333,19 +46,61 @@
             "expected_highlight": []
         },
         {
-            "competition_id": "4zwgbb66rif2spcoeeol2motx",
-            "competition_title": "Belgian Pro League",
-            "prompt": "show me Belgian Pro League events",
+            "competition_id": "1r097lpxe0xn03ihb7wi98kao",
+            "competition_title": "Serie A TIM",
+            "prompt": "show me Serie A TIM events",
             "expected_article_ids": [
-                "bsqq362l27exocj7jlec0ml5k",
-                "d74i7kbvlvmrn4vahnsuhaqxm",
-                "bd0733y3wy0a67uukwaz6n2zs"
+                "15kgyxnzfpvmi0mrniacfbr8d",
+                "eu9nfjdiyp96ml2xfx2yj2g6y"
             ],
             "expected_upcoming": [],
             "expected_catchup": [
-                "bsqq362l27exocj7jlec0ml5k",
-                "d74i7kbvlvmrn4vahnsuhaqxm",
-                "bd0733y3wy0a67uukwaz6n2zs"
+                "15kgyxnzfpvmi0mrniacfbr8d",
+                "eu9nfjdiyp96ml2xfx2yj2g6y"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "competition_id": "2z7257m7hj58zuxcjrsg4erzc",
+            "competition_title": "Frauen Bundesliga",
+            "prompt": "show me Frauen Bundesliga events",
+            "expected_article_ids": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "52bcdleds7icg9x6oht2mltti"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "competition_id": "7ntvbsyq31jnzoqoa8850b9b8",
+            "competition_title": "EFL Championship",
+            "prompt": "show me EFL Championship events",
+            "expected_article_ids": [
+                "kp6e2etalovz5jusq1nzkllr",
+                "3b62jp9xom74a8a30uqhx8mcb"
+            ],
+            "expected_upcoming": [],
+            "expected_catchup": [
+                "kp6e2etalovz5jusq1nzkllr",
+                "3b62jp9xom74a8a30uqhx8mcb"
+            ],
+            "expected_highlight": []
+        },
+        {
+            "competition_id": "2kwbbcootiqqgmrzs6o5inle5",
+            "competition_title": "Premier League",
+            "prompt": "show me Premier League events",
+            "expected_article_ids": [
+                "7r9tyxwef9zz4umqxmaua26z3",
+                "7nid08k9eoo4as15ztjqofagl"
+            ],
+            "expected_upcoming": [
+                "7r9tyxwef9zz4umqxmaua26z3"
+            ],
+            "expected_catchup": [
+                "7nid08k9eoo4as15ztjqofagl"
             ],
             "expected_highlight": []
         },
@@ -388,6 +143,21 @@
             ],
             "expected_upcoming": [
                 "1lqhhku3j45ft12hryw1ixesid"
+            ],
+            "expected_catchup": [],
+            "expected_highlight": []
+        },
+        {
+            "competition_id": "6j5h07ex45at2psbahsly28vc",
+            "competition_title": "Liga ACB",
+            "prompt": "show me Liga ACB events",
+            "expected_article_ids": [
+                "cxybsrp5kpout3e24vrq0mmq6",
+                "e4m9dn1obk2ggj9nlysqjmybg"
+            ],
+            "expected_upcoming": [
+                "cxybsrp5kpout3e24vrq0mmq6",
+                "e4m9dn1obk2ggj9nlysqjmybg"
             ],
             "expected_catchup": [],
             "expected_highlight": []

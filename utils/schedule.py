@@ -172,7 +172,7 @@ def extract_schedule_two_days(
 # def fetch_full_schedule(
 #     country="ca",
 #     languageCode="en",
-#     days_back=10,
+#     days_back=2,
 #     days_forward=2,
 #     timeZoneOffset=-300,
 #     brand="dazn"
@@ -312,7 +312,7 @@ def schedule_api(
 def fetch_full_schedule(
     country="ca",
     languageCode="en",
-    days_back=10,
+    days_back=2,
     days_forward=2,
     timeZoneOffset=330,
     brand="dazn"

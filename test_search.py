@@ -6,23 +6,76 @@ import json
 from utils.api_client import search_api
 from utils.extractor import extract_search_event_ids
 from utils.schedule import fetch_full_schedule, process_epg_tiles, build_expected_events
-from utils.generator import generate_sport_prompts_with_expected, generate_competition_prompts_with_expected, generate_contestant_prompts_with_expected
+from utils.generator import generate_sport_prompts_with_expected, generate_competition_prompts_with_expected, generate_contestant_prompts_with_expected, generate_title_prompts
 
 
 SPORT_RESULTS_FILE = "testdata/test_results_sports.txt"
 COMPETITION_RESULTS_FILE = "testdata/test_results_competitions.txt"
 CONTESTANT_RESULTS_FILE = "testdata/test_results_contestants.txt"
+TITLE_RESULTS_FILE = "testdata/test_results_titles.txt"
 os.makedirs("testdata", exist_ok=True)
+
+# Initialize result files with headers
+with open(SPORT_RESULTS_FILE, "w") as f:
+    f.write("SPORT TEST RESULTS\n==================\n")
+
+with open(COMPETITION_RESULTS_FILE, "w") as f:
+    f.write("COMPETITION TEST RESULTS\n========================\n")
+
+with open(CONTESTANT_RESULTS_FILE, "w") as f:
+    f.write("CONTESTANT TEST RESULTS\n=======================\n")
+
+with open(TITLE_RESULTS_FILE, "w") as f:
+    f.write("TITLE TEST RESULTS\n==================\n")
+
+
+def generate_title_prompts_data(tiles):
+    """Generate title prompt variations from unique titles in the EPG data."""
+    unique_titles = set()
+
+    for tile in tiles:
+        sport = tile.get("Sport") or tile.get("sport") or {}
+        sport_title = sport.get("Title") or sport.get("Name")
+        if sport_title:
+            unique_titles.add(sport_title.strip())
+
+        competition = tile.get("Competition") or tile.get("competition") or {}
+        competition_title = competition.get("Title") or competition.get("Name")
+        if competition_title:
+            unique_titles.add(competition_title.strip())
+
+        contestants = tile.get("Contestants") or tile.get("contestants") or []
+        if isinstance(contestants, list):
+            for contestant in contestants:
+                if isinstance(contestant, dict):
+                    contestant_title = contestant.get("Title") or contestant.get("Name")
+                    if contestant_title:
+                        unique_titles.add(contestant_title.strip())
+
+    title_prompts = []
+    for title in sorted(unique_titles):
+        prompt_variations = generate_title_prompts(title)
+        for variation in prompt_variations:
+            title_prompts.append({
+                "original_title": title,
+                "variation": variation,
+                "prompt": f"show me {variation} events"
+            })
+
+    print(f"DEBUG → title prompts generated: {len(title_prompts)}")
+    return title_prompts
 
 
 # ---------------------------------------
 # 🔹 Fetch tiles ONCE (not fixture)
 # ---------------------------------------
-tiles = fetch_full_schedule(days_back=10, days_forward=2)
+tiles = fetch_full_schedule(days_back=2, days_forward=2)
 events = process_epg_tiles(tiles)
 sport_prompts = generate_sport_prompts_with_expected(tiles)
 competition_prompts = generate_competition_prompts_with_expected(tiles)
 contestant_prompts = generate_contestant_prompts_with_expected(tiles)
+
+title_prompts = generate_title_prompts_data(tiles)
 
 # Save prompts to JSON files
 os.makedirs("testdata", exist_ok=True)
@@ -37,6 +90,10 @@ print(f"Saved {len(competition_prompts)} competition prompts to testdata/generat
 with open("testdata/generated_contestant_prompts.json", "w") as f:
     json.dump({"prompts": contestant_prompts}, f, indent=4)
 print(f"Saved {len(contestant_prompts)} contestant prompts to testdata/generated_contestant_prompts.json")
+
+with open("testdata/generated_title_prompts.json", "w") as f:
+    json.dump({"prompts": title_prompts}, f, indent=4)
+print(f"Saved {len(title_prompts)} title prompts to testdata/generated_title_prompts.json")
 
 def load_schedule_sport_prompts(tiles):
 
@@ -157,7 +214,7 @@ def test_search_with_schedule_sport_prompts(data):
     #Logging
     # -----------------------------------
     if result == "FAIL":
-     with open(file_Path2, "a") as f:
+     with open(SPORT_RESULTS_FILE, "a") as f:
         f.write(
             f"\n==============================\n"
             f"SPORT: {sport_title}\n"
@@ -169,6 +226,41 @@ def test_search_with_schedule_sport_prompts(data):
             f"EXTRA: {list(extra)}\n"
         )
         pytest.fail(error_message)
+
+
+# =======================================
+# 🔹 TEST TITLE PROMPTS (parametrize)
+# =======================================
+@pytest.mark.parametrize("data", title_prompts)
+def test_search_with_title_prompts(data):
+    original_title = data["original_title"]
+    variation = data["variation"]
+    prompt = data["prompt"]
+
+    print(f"\n==============================")
+    print(f"Testing Title Variation: {variation} (from {original_title})")
+    print(f"Prompt: {prompt}")
+
+    start_time = time.time()
+    response = search_api(prompt)
+    response_time = round(time.time() - start_time, 2)
+
+    search_data = extract_search_event_ids(response)
+    search_article_ids = set(search_data["article_ids"])
+
+    print(f"Search returned: {len(search_article_ids)} events")
+
+    with open(TITLE_RESULTS_FILE, "a") as f:
+        f.write(
+            f"\n==============================\n"
+            f"ORIGINAL TITLE: {original_title}\n"
+            f"VARIATION: {variation}\n"
+            f"PROMPT: {prompt}\n"
+            f"TIME: {response_time}s\n"
+            f"RETURNED COUNT: {len(search_article_ids)} events\n"
+            f"RETURNED EVENTS: {list(search_article_ids)}\n"
+        )
+
 
 
 # =======================================
@@ -325,3 +417,37 @@ def test_search_with_schedule_contestant_prompts(data):
                 f"EXTRA: {list(extra)}\n"
             )
         pytest.fail(error_message)
+
+
+# =======================================
+# 🔹 TEST TITLE PROMPTS (parametrize)
+# =======================================
+@pytest.mark.parametrize("data", title_prompts)
+def test_search_with_title_prompts(data):
+    original_title = data["original_title"]
+    variation = data["variation"]
+    prompt = data["prompt"]
+
+    print(f"\n==============================")
+    print(f"Testing Title Variation: {variation} (from {original_title})")
+    print(f"Prompt: {prompt}")
+
+    start_time = time.time()
+    response = search_api(prompt)
+    response_time = round(time.time() - start_time, 2)
+
+    search_data = extract_search_event_ids(response)
+    search_article_ids = set(search_data["article_ids"])
+
+    print(f"Search returned: {len(search_article_ids)} events")
+
+    with open(TITLE_RESULTS_FILE, "a") as f:
+        f.write(
+            f"\n==============================\n"
+            f"ORIGINAL TITLE: {original_title}\n"
+            f"VARIATION: {variation}\n"
+            f"PROMPT: {prompt}\n"
+            f"TIME: {response_time}s\n"
+            f"RETURNED COUNT: {len(search_article_ids)} events\n"
+            f"RETURNED EVENTS: {list(search_article_ids)}\n"
+        )
